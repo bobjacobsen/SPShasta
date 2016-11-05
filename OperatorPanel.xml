@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://www.jmri.org/xml/XSLT/panelfile.xsl"?>
+<!DOCTYPE layout-config SYSTEM "layout-config-2-5-6.dtd">
+<layout-config>
+
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Operator Controls" x="332" y="7" height="216" width="390" editable="no" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="no">
+    <turnouticon turnout="TO Signal BB Westbound" x="36" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <toolTip>TO Signal BB Westbound (CT5022)</toolTip>
+      <icons>
+        <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/plate/levers/switch-mid.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="TO Signal BB Eastbound" x="76" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <toolTip>TO Signal BB Eastbound (CT5021)</toolTip>
+      <icons>
+        <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/plate/levers/switch-mid.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="TO Signal GL Westbound" x="150" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <toolTip>TO Signal GL Westbound (CT5019)</toolTip>
+      <icons>
+        <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/plate/levers/switch-mid.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="TO Signal GL Eastbound" x="190" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <toolTip>TO Signal GL Eastbound (CT5020)</toolTip>
+      <icons>
+        <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/plate/levers/switch-mid.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="TO Signal DR Westbound" x="258" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <toolTip>TO Signal Dorris Westbound (CT5023)</toolTip>
+      <icons>
+        <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/plate/levers/switch-mid.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="TO Signal DR Eastbound" x="298" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <toolTip>TO Signal Dorris Eastbound (CT5024)</toolTip>
+      <icons>
+        <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/plate/levers/switch-mid.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="45" y="28" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Black Butte" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <toolTip>Text Label</toolTip>
+    </positionablelabel>
+    <positionablelabel x="160" y="28" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Grass Lake" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <toolTip>Text Label</toolTip>
+    </positionablelabel>
+    <positionablelabel x="274" y="28" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Dorris" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <toolTip>Text Label</toolTip>
+    </positionablelabel>
+    <positionablelabel x="44" y="94" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="W" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <toolTip>Text Label</toolTip>
+    </positionablelabel>
+    <positionablelabel x="156" y="94" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="W" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <toolTip>Text Label</toolTip>
+    </positionablelabel>
+    <positionablelabel x="265" y="94" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="W" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <toolTip>Text Label</toolTip>
+    </positionablelabel>
+    <positionablelabel x="87" y="94" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="E" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <toolTip>Text Label</toolTip>
+    </positionablelabel>
+    <positionablelabel x="202" y="94" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="E" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <toolTip>Text Label</toolTip>
+    </positionablelabel>
+    <positionablelabel x="307" y="94" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="E" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <toolTip>Text Label</toolTip>
+    </positionablelabel>
+  </paneleditor>
+
+  <!--Written by JMRI version 2.5.6 on Tue Nov 17 22:32:48 PST 2009 $Id: XmlFile.java,v 1.42 2009/06/07 19:20:26 dan_boudreau Exp $-->
+</layout-config>
+

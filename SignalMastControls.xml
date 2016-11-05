@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>3</major>
+    <minor>11</minor>
+    <test>4</test>
+    <modifier>.4</modifier>
+  </jmriversion>
+  <turnouts class="jmri.managers.configurexml.InternalTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout systemName="ITSIGNALMASTAUTO" feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>ITSIGNALMASTAUTO</systemName>
+    </turnout>
+  </turnouts>
+  <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout systemName="CT9001" feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT9001</systemName>
+    </turnout>
+    <turnout systemName="CT9002" feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT9002</systemName>
+    </turnout>
+    <turnout systemName="CT9003" feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT9003</systemName>
+    </turnout>
+    <turnout systemName="CT9004" feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT9004</systemName>
+    </turnout>
+  </turnouts>
+  <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml" systemName="CH5009" userName="Mt Shasta West Upper">
+      <systemName>CH5009</systemName>
+      <userName>Mt Shasta West Upper</userName>
+      <comment>Mt Shasta end of BB/Mt Shasta</comment>
+      <turnoutname defines="green">BB/MtShasta Route Sig 1</turnoutname>
+      <turnoutname defines="red">BB/MtShasta Route Sig 3</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml" systemName="CH5010" userName="Mt Shasta West Lower">
+      <systemName>CH5010</systemName>
+      <userName>Mt Shasta West Lower</userName>
+      <comment>Mt Shasta end of BB/Mt Shasta</comment>
+      <turnoutname defines="green">BB/MtShasta Route Sig 4</turnoutname>
+      <turnoutname defines="red">BB/MtShasta Route Sig 2</turnoutname>
+    </signalhead>
+  </signalheads>
+
+  <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
+    <sensor systemName="CS9001" inverted="false">
+      <systemName>CS9001</systemName>
+      <comment>Force polling on node in shed</comment>
+    </sensor>
+  </sensors>  
+  
+  <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
+     <logix systemName="IX:AUTO:0005" userName="Drive Outside Upper Head" enabled="yes">
+       <systemName>IX:AUTO:0005</systemName>
+       <userName>Drive Outside Upper Head</userName>
+       <logixConditional systemName="IX:AUTO:0005C1" order="0" />
+       <logixConditional systemName="IX:AUTO:0005C2" order="1" />
+       <logixConditional systemName="IX:AUTO:0005C3" order="2" />
+     </logix>
+     <logix systemName="IX:AUTO:0006" userName="Drive Outside Lower Head" enabled="yes">
+       <systemName>IX:AUTO:0006</systemName>
+       <userName>Drive Outside Lower Head</userName>
+       <logixConditional systemName="IX:AUTO:0006C1" order="0" />
+       <logixConditional systemName="IX:AUTO:0006C2" order="1" />
+       <logixConditional systemName="IX:AUTO:0006C3" order="2" />
+     </logix>
+  </logixs>  
+  <conditionals class="jmri.managers.configurexml.DefaultConditionalManagerXml">
+     <conditional systemName="IX:AUTO:0005C1" userName="Outside Upper Head Green from CH5009" antecedent="R1 and R2" logicType="1" triggerOnChange="yes">
+       <systemName>IX:AUTO:0005C1</systemName>
+       <userName>Outside Upper Head Green from CH5009</userName>
+       <conditionalStateVariable operator="4" negated="no" type="13" systemName="CH5009" dataString="Green" num1="0" num2="0" triggersCalc="yes" />
+       <conditionalStateVariable operator="1" negated="no" type="3" systemName="ITSIGNALMASTAUTO" dataString="" num1="0" num2="0" triggersCalc="yes" />
+       <conditionalAction option="1" type="2" systemName="CT9001" data="4" delay="0" string="" />
+       <conditionalAction option="1" type="2" systemName="CT9002" data="4" delay="0" string="" />
+     </conditional>
+     <conditional systemName="IX:AUTO:0005C2" userName="Outside Upper Head Yellow from CH5009" antecedent="R1 and R2" logicType="1" triggerOnChange="yes">
+       <systemName>IX:AUTO:0005C2</systemName>
+       <userName>Outside Upper Head Yellow from CH5009</userName>
+       <conditionalStateVariable operator="4" negated="no" type="12" systemName="CH5009" dataString="Yellow" num1="0" num2="0" triggersCalc="yes" />
+       <conditionalStateVariable operator="1" negated="no" type="3" systemName="ITSIGNALMASTAUTO" dataString="" num1="0" num2="0" triggersCalc="yes" />
+       <conditionalAction option="1" type="2" systemName="CT9001" data="4" delay="0" string="" />
+       <conditionalAction option="1" type="2" systemName="CT9002" data="2" delay="0" string="" />
+     </conditional>
+     <conditional systemName="IX:AUTO:0005C3" userName="Outside Upper Head Red from CH5009" antecedent="R1 and R2" logicType="1" triggerOnChange="yes">
+       <systemName>IX:AUTO:0005C3</systemName>
+       <userName>Outside Upper Head Red from CH5009</userName>
+       <conditionalStateVariable operator="4" negated="no" type="11" systemName="CH5009" dataString="Red" num1="0" num2="0" triggersCalc="yes" />
+       <conditionalStateVariable operator="1" negated="no" type="3" systemName="ITSIGNALMASTAUTO" dataString="" num1="0" num2="0" triggersCalc="yes" />
+       <conditionalAction option="1" type="2" systemName="CT9001" data="2" delay="0" string="" />
+     </conditional>
+
+     <conditional systemName="IX:AUTO:0006C1" userName="Outside Lower Head Green from CH5010" antecedent="R1 and R2" logicType="1" triggerOnChange="yes">
+       <systemName>IX:AUTO:0006C1</systemName>
+       <userName>Outside Lower Head Green from CH5009</userName>
+       <conditionalStateVariable operator="4" negated="no" type="13" systemName="CH5010" dataString="Green" num1="0" num2="0" triggersCalc="yes" />
+       <conditionalStateVariable operator="1" negated="no" type="3" systemName="ITSIGNALMASTAUTO" dataString="" num1="0" num2="0" triggersCalc="yes" />
+       <conditionalAction option="1" type="2" systemName="CT9003" data="4" delay="0" string="" />
+       <conditionalAction option="1" type="2" systemName="CT9004" data="4" delay="0" string="" />
+     </conditional>
+     <conditional systemName="IX:AUTO:0006C2" userName="Outside Lower Head Yellow from CH5010" antecedent="R1 and R2" logicType="1" triggerOnChange="yes">
+       <systemName>IX:AUTO:0006C2</systemName>
+       <userName>Outside Lower Head Yellow from CH5009</userName>
+       <conditionalStateVariable operator="4" negated="no" type="12" systemName="CH5010" dataString="Yellow" num1="0" num2="0" triggersCalc="yes" />
+       <conditionalStateVariable operator="1" negated="no" type="3" systemName="ITSIGNALMASTAUTO" dataString="" num1="0" num2="0" triggersCalc="yes" />
+       <conditionalAction option="1" type="2" systemName="CT9003" data="4" delay="0" string="" />
+       <conditionalAction option="1" type="2" systemName="CT9004" data="2" delay="0" string="" />
+     </conditional>
+     <conditional systemName="IX:AUTO:0006C3" userName="Outside Lower Head Red from CH5010" antecedent="R1 and R2" logicType="1" triggerOnChange="yes">
+       <systemName>IX:AUTO:0006C3</systemName>
+       <userName>Outside Lower Head Red from CH5009</userName>
+       <conditionalStateVariable operator="4" negated="no" type="11" systemName="CH5010" dataString="Red" num1="0" num2="0" triggersCalc="yes" />
+       <conditionalStateVariable operator="1" negated="no" type="3" systemName="ITSIGNALMASTAUTO" dataString="" num1="0" num2="0" triggersCalc="yes" />
+       <conditionalAction option="1" type="2" systemName="CT9003" data="2" delay="0" string="" />
+     </conditional>
+  </conditionals>
+    
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Outside Signal Controls" x="439" y="610" height="209" width="458" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="both">
+    <turnouticon turnout="CT9001" x="154" y="90" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <tooltip>CT9001</tooltip>
+      <icons>
+        <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT9002" x="213" y="90" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <tooltip>CT9002</tooltip>
+      <icons>
+        <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT9003" x="303" y="90" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <tooltip>CT9003</tooltip>
+      <icons>
+        <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT9004" x="359" y="90" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <tooltip>CT9004</tooltip>
+      <icons>
+        <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="181" y="30" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Upper" size="13" style="0" red="0" green="0" blue="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="318" y="30" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Lower" size="13" style="0" red="0" green="0" blue="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="153" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Clear" size="13" style="0" red="0" green="0" blue="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="300" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Clear" size="13" style="0" red="0" green="0" blue="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="211" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Green" size="13" style="0" red="0" green="0" blue="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="354" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Yellow" size="13" style="0" red="0" green="0" blue="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <turnouticon turnout="ITSIGNALMASTAUTO" x="54" y="90" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <tooltip>ITSIGNALMASTAUTO</tooltip>
+      <icons>
+        <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <positionablelabel x="55" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Auto" size="13" style="0" red="0" green="0" blue="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="359" y="130" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Lunar" size="13" style="0" red="0" green="0" blue="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="138" y="130" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Stop/Red" size="13" style="0" red="0" green="0" blue="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="285" y="130" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Stop/Red" size="13" style="0" red="0" green="0" blue="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="209" y="130" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Yellow" size="13" style="0" red="0" green="0" blue="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+  </paneleditor>
+
+  <!--Written by JMRI version 20150228-1930-jake on Sat Feb 28 11:41:04 PST 2015 $Id: XmlFile.java 28771 2015-02-22 16:58:13Z rhwood $-->
+</layout-config>
