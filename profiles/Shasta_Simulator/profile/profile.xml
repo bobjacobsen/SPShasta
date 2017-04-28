@@ -3,8 +3,6 @@
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
         <connection xmlns="" class="jmri.jmrix.cmri.serial.sim.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="(none selected)" speed="9,600 baud" systemPrefix="C" userName="C/MRI">
             <options/>
-        <connection xmlns="" class="jmri.jmrix.cmri.serial.sim.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="(none selected)" speed="9,600 baud" systemPrefix="C" userName="C/MRI">
-            <options/>
             <node name="0">
                 <parameter name="nodetype">2</parameter>
                 <parameter name="bitspercard">32</parameter>
@@ -88,5 +86,7 @@
             </node>
         </connection>
     </connections>
-    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd"/>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
+        <perform xmlns="" class="apps.configurexml.PerformScriptModelXml" name="preference:shasta_common_startup.py" type="ScriptFile"/>
+    </startup>
 </auxiliary-configuration>
