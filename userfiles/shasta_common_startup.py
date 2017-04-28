@@ -5,9 +5,9 @@
 #
 
 import jmri
-
 cm = jmri.InstanceManager.getDefault(jmri.ConfigureManager)
 
+# allow substitutions from internal DTD
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/TurnOffXmlValidation.py"))
 
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:FullConfig.xml")))
@@ -24,6 +24,7 @@ cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:MidPanel
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:OperatorPanel.xml")))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:TurntableControls.xml")))
 
+# start signal followers
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/SignalFollower.py"))
 SignalFollowerListener().set("CH2001","CH2001R")
 SignalFollowerListener().set("CH2002","CH2002R")
@@ -34,5 +35,8 @@ execfile(jmri.util.FileUtil.getExternalFilename("preference:Turntable.py"))
 
 execfile(jmri.util.FileUtil.getExternalFilename("preference:CtcDebugInit.py"))
 execfile(jmri.util.FileUtil.getExternalFilename("preference:SetCtcIndicators.py"))
+
+# start web server
+jmri.web.server.WebServerAction().actionPerformed(None)
 
 print "shasta_common_startup done"
