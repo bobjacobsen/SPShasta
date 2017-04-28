@@ -1,5 +1,6 @@
 # edit files
 ~*
+*.bak
 
 # Mac files
 .DS_Store
