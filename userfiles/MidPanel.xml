@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/panelfile.xsl" type="text/xsl"?>
-<!DOCTYPE layout-config SYSTEM "layout-config-2-3-2.dtd">
-
-<layout-config>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
   <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Middle Panel" x="20" y="22" height="507" width="1202" editable="yes" positionable="yes" showcoordinates="no" controlling="yes" hide="yes" panelmenu="yes">
 
 

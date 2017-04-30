@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/xml/XSLT/panelfile-2-9-6.xsl"?>
-<!DOCTYPE layout-config [
+<!DOCTYPE layout-config SYSTEM "http://jmri.org//xml/DTD/layout-config-2-9-4.dtd" [
   <!ENTITY MOVETIMEOUT "3">
 ]>
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
@@ -135,33 +135,27 @@
       <systemName>CT102</systemName>
       <userName>Helix P0 L2 C1</userName>
     </turnout>
-    <turnout systemName="CT1025" userName="40R UP G" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout systemName="CT1025" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1025</systemName>
-      <userName>40R UP G</userName>
     </turnout>
-    <turnout systemName="CT1026" userName="40R UP R" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout systemName="CT1026" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1026</systemName>
-      <userName>40R UP R</userName>
     </turnout>
-    <turnout systemName="CT1027" userName="40R MID G" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout systemName="CT1027" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1027</systemName>
-      <userName>40R MID G</userName>
     </turnout>
-    <turnout systemName="CT1028" userName="40R MID R" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout systemName="CT1028" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1028</systemName>
-      <userName>40R MID R</userName>
     </turnout>
-    <turnout systemName="CT1029" userName="40R LOW G" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout systemName="CT1029" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1029</systemName>
-      <userName>40R LOW G</userName>
+    </turnout>
+    <turnout systemName="CT1030" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT1030</systemName>
     </turnout>
     <turnout systemName="CT103" userName="Helix P0 L3 T2" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT103</systemName>
       <userName>Helix P0 L3 T2</userName>
-    </turnout>
-    <turnout systemName="CT1030" userName="40R LOW R" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT1030</systemName>
-      <userName>40R LOW R</userName>
     </turnout>
     <turnout systemName="CT1031" userName="32 Upper G" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1031</systemName>
@@ -209,15 +203,37 @@
       <userName>TO 39A</userName>
       <comment>Black Butte Lower Main (was 40-0, original)</comment>
     </turnout>
-    <turnout systemName="CT1041" userName="TO 39A" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout systemName="CT1041" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1041</systemName>
-      <userName>CH5012 G</userName>
-      <comment>Black Butte from Weed dwarf green</comment>
+      <userName>40R UP G</userName>
     </turnout>
-    <turnout systemName="CT1042" userName="TO 39A" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout systemName="CT1042" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1042</systemName>
-      <userName>CH5012 R</userName>
-      <comment>Black Butte 40 from Weed dwarf red</comment>
+      <userName>40R UP R</userName>
+    </turnout>
+    <turnout systemName="CT1043" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT1043</systemName>
+      <userName>40R MID G</userName>
+    </turnout>
+    <turnout systemName="CT1044" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT1044</systemName>
+      <userName>40R MID R</userName>
+    </turnout>
+    <turnout systemName="CT1045" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT1045</systemName>
+      <userName>40R LOW G</userName>
+    </turnout>
+    <turnout systemName="CT1046" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT1046</systemName>
+      <userName>40R LOW R</userName>
+    </turnout>
+    <turnout systemName="CT1047" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT1047</systemName>
+      <userName>40R L1</userName>
+    </turnout>
+    <turnout systemName="CT1048" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT1048</systemName>
+      <userName>40R L2</userName>
     </turnout>
     <turnout systemName="CT105" userName="Helix P0 D side 1" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT105</systemName>
@@ -1123,6 +1139,16 @@
       <systemName>CT5044</systemName>
       <userName>BB/Mt Shasta TO</userName>
       <comment>Crossover under tunnel</comment>
+    </turnout>
+    <turnout systemName="CT5045" feedback="DIRECT" inverted="true" automate="Default">
+      <systemName>CT5045</systemName>
+      <userName>CH5012 G</userName>
+      <comment>Black Butte from Weed dwarf green</comment>
+    </turnout>
+    <turnout systemName="CT5046" feedback="DIRECT" inverted="true" automate="Default">
+      <systemName>CT5046</systemName>
+      <userName>CH5012 R</userName>
+      <comment>Black Butte 40 from Weed dwarf red</comment>
     </turnout>
     <turnout systemName="CT51" userName="CH51 R" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT51</systemName>
@@ -3549,11 +3575,15 @@
     <sensor systemName="CS6106" inverted="false">
       <systemName>CS6106</systemName>
     </sensor>
-    <sensor systemName="CS6107" inverted="false">
+    <sensor systemName="CS6107" inverted="false" userName="CTC Mode">
       <systemName>CS6107</systemName>
+      <userName>CTC Mode</userName>
+      <comment>Field Stations Disconnect switch; in/active for CTC, out/inactive for ABS</comment>
     </sensor>
-    <sensor systemName="CS6108" inverted="false">
+    <sensor systemName="CS6108" inverted="true" userName="CTC Bell Cutout">
       <systemName>CS6108</systemName>
+      <userName>CTC Bell Cutout</userName>
+      <comment>OS bell cutout switch; out for active</comment>
     </sensor>
     <sensor systemName="CS6109" inverted="false" userName="CTC 41 R">
       <systemName>CS6109</systemName>
@@ -3733,16 +3763,6 @@
       <systemName>CS6161</systemName>
       <userName>CTC Reset</userName>
       <comment>Reset momentary button, push active</comment>
-    </sensor>
-    <sensor systemName="CS6107" inverted="false" userName="CTC Mode">
-      <systemName>CS6107</systemName>
-      <userName>CTC Mode</userName>
-      <comment>Field Stations Disconnect switch; in/active for CTC, out/inactive for ABS</comment>
-    </sensor>
-    <sensor systemName="CS6108" inverted="true" userName="CTC Bell Cutout">
-      <systemName>CS6108</systemName>
-      <userName>CTC Bell Cutout</userName>
-      <comment>OS bell cutout switch; out for active</comment>
     </sensor>
     <sensor systemName="CS6164" inverted="false" userName="CTC Recall">
       <systemName>CS6164</systemName>
@@ -5010,6 +5030,14 @@
       <routeOutputTurnout systemName="CT1001" state="CLOSED" />
       <routeOutputTurnout systemName="CT1002" state="CLOSED" />
       <routeOutputTurnout systemName="CT1007" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_2_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_3_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_4_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_5_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_6_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_7_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_8_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_1_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1001" mode="onActive" />
     </route>
     <route systemName="IR WEED 02" userName="Weed Staging Trk 2">
@@ -5018,6 +5046,14 @@
       <routeOutputTurnout systemName="CT1001" state="CLOSED" />
       <routeOutputTurnout systemName="CT1002" state="CLOSED" />
       <routeOutputTurnout systemName="CT1007" state="THROWN" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_1_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_3_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_4_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_5_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_6_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_7_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_8_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_2_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1002" mode="onActive" />
     </route>
     <route systemName="IR WEED 03" userName="Weed Staging Trk 3">
@@ -5026,6 +5062,14 @@
       <routeOutputTurnout systemName="CT1001" state="CLOSED" />
       <routeOutputTurnout systemName="CT1002" state="THROWN" />
       <routeOutputTurnout systemName="CT1006" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_1_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_2_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_4_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_5_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_6_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_7_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_8_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_3_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1003" mode="onActive" />
     </route>
     <route systemName="IR WEED 04" userName="Weed Staging Trk 4">
@@ -5034,6 +5078,14 @@
       <routeOutputTurnout systemName="CT1001" state="CLOSED" />
       <routeOutputTurnout systemName="CT1002" state="THROWN" />
       <routeOutputTurnout systemName="CT1006" state="THROWN" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_1_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_2_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_3_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_5_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_6_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_7_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_8_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_4_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1004" mode="onActive" />
     </route>
     <route systemName="IR WEED 05" userName="Weed Staging Trk 5">
@@ -5042,6 +5094,14 @@
       <routeOutputTurnout systemName="CT1001" state="THROWN" />
       <routeOutputTurnout systemName="CT1003" state="CLOSED" />
       <routeOutputTurnout systemName="CT1005" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_1_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_2_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_3_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_4_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_6_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_7_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_8_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_5_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1005" mode="onActive" />
     </route>
     <route systemName="IR WEED 06" userName="Weed Staging Trk 6">
@@ -5050,6 +5110,14 @@
       <routeOutputTurnout systemName="CT1001" state="THROWN" />
       <routeOutputTurnout systemName="CT1003" state="CLOSED" />
       <routeOutputTurnout systemName="CT1005" state="THROWN" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_1_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_2_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_3_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_4_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_5_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_7_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_8_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_6_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1006" mode="onActive" />
     </route>
     <route systemName="IR WEED 07" userName="Weed Staging Trk 7">
@@ -5058,6 +5126,14 @@
       <routeOutputTurnout systemName="CT1001" state="THROWN" />
       <routeOutputTurnout systemName="CT1003" state="THROWN" />
       <routeOutputTurnout systemName="CT1004" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_1_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_2_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_3_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_4_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_5_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_6_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_8_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_7_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1007" mode="onActive" />
     </route>
     <route systemName="IR WEED 08" userName="Weed Staging Trk 8">
@@ -5066,6 +5142,14 @@
       <routeOutputTurnout systemName="CT1001" state="THROWN" />
       <routeOutputTurnout systemName="CT1003" state="THROWN" />
       <routeOutputTurnout systemName="CT1004" state="THROWN" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_1_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_2_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_3_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_4_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_5_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_6_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_7_ALIGNED" state="CLOSED" />
+      <routeOutputTurnout systemName="IT_WEED_TRK_8_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1008" mode="onActive" />
     </route>
     <route systemName="IR100" userName="Mott-Azalea Crossover (TO 33, 35) Thrown">

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="http://www.jmri.org/xml/XSLT/panelfile.xsl"?>
-<!DOCTYPE layout-config SYSTEM "layout-config-2-5-6.dtd">
-<layout-config>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
 
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Operator Controls" x="332" y="7" height="216" width="390" editable="no" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="no">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Operator Controls" x="332" y="7" height="216" width="390" editable="no" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none">
     <turnouticon turnout="TO Signal BB Westbound" x="36" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <toolTip>TO Signal BB Westbound (CT5022)</toolTip>
       <icons>

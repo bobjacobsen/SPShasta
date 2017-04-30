@@ -15,117 +15,133 @@ import jmri
 import java
 import javax
 
+def moveZeroCCW(offset) :
+    for name in TrackPositions.keys() :
+        val = int(TrackPositions[name]) + offset
+        if (val < 0) : val = val + 13200
+        if (val >= 13200) : val = val - 13200
+        TrackPositions[name] = str( val )
+    for name in TrackPositions.keys() :
+        memories.provideMemory(name).value = TrackPositions[name]
+
+TrackPositions = dict()
+
+TrackPositions["IMTRKWESTLEADH1"]  = "13189"
+TrackPositions["IMTRKWESTLEADH2"]  = "13189"
+TrackPositions["IMTRKWESTLEADT1"]  = "6591"
+TrackPositions["IMTRKWESTLEADT2"]  = "6591"
+
+TrackPositions["IMTRKMALLET1H1"]  = "12769"
+TrackPositions["IMTRKMALLET1H2"]  = "12769"
+TrackPositions["IMTRKMALLET1T1"]  = "6182"
+TrackPositions["IMTRKMALLET1T2"]  = "6182"
+
+TrackPositions["IMTRKMALLET2H1"]  = "12409"
+TrackPositions["IMTRKMALLET2H2"]  = "12409"
+TrackPositions["IMTRKMALLET2T1"]  = "5812"
+TrackPositions["IMTRKMALLET2T2"]  = "5812"
+
+TrackPositions["IMTRKSANDH1"]  = "12099"
+TrackPositions["IMTRKSANDH2"]  = "12099"
+TrackPositions["IMTRKSANDT1"]  = "5505"
+TrackPositions["IMTRKSANDT2"]  = "5505"
+
+TrackPositions["IMTRK1H1"]  = "11763"
+TrackPositions["IMTRK1H2"]  = "11763"
+TrackPositions["IMTRK1T1"]  = "5169"
+TrackPositions["IMTRK1T2"]  = "5169"
+
+TrackPositions["IMTRK2H1"]  = "11499"
+TrackPositions["IMTRK2H2"]  = "11499"
+TrackPositions["IMTRK2T1"]  = "4916"
+TrackPositions["IMTRK2T2"]  = "4916"
+
+TrackPositions["IMTRK3H1"]  = "11236"
+TrackPositions["IMTRK3H2"]  = "11236"
+TrackPositions["IMTRK3T1"]  = "4657"
+TrackPositions["IMTRK3T2"]  = "4657"
+
+TrackPositions["IMTRK4H1"]  = "10981"
+TrackPositions["IMTRK4H2"]  = "10981"
+TrackPositions["IMTRK4T1"]  = "4402"
+TrackPositions["IMTRK4T2"]  = "4402"
+
+TrackPositions["IMTRK5H1"]  = "10727"
+TrackPositions["IMTRK5H2"]  = "10727"
+TrackPositions["IMTRK5T1"]  = "4146"
+TrackPositions["IMTRK5T2"]  = "4146"
+
+TrackPositions["IMTRK6H1"]  = "10463"
+TrackPositions["IMTRK6H2"]  = "10463"
+TrackPositions["IMTRK6T1"]  = "3882"
+TrackPositions["IMTRK6T2"]  = "3882"
+
+TrackPositions["IMTRK7H1"]  = "10141"
+TrackPositions["IMTRK7H2"]  = "10141"
+TrackPositions["IMTRK7T1"]  = "3553"
+TrackPositions["IMTRK7T2"]  = "3553"
+
+TrackPositions["IMTRK8H1"]  = "9883"
+TrackPositions["IMTRK8H2"]  = "9883"
+TrackPositions["IMTRK8T1"]  = "3289"
+TrackPositions["IMTRK8T2"]  = "3289"
+
+TrackPositions["IMTRK9H1"]  = "9620"
+TrackPositions["IMTRK9H2"]  = "9620"
+TrackPositions["IMTRK9T1"]  = "3021"
+TrackPositions["IMTRK9T2"]  = "3021"
+
+TrackPositions["IMTRK10H1"]  = "9343"
+TrackPositions["IMTRK10H2"]  = "9343"
+TrackPositions["IMTRK10T1"]  = "2753"
+TrackPositions["IMTRK10T2"]  = "2753"
+
+TrackPositions["IMTRK11H1"]  = "9075"
+TrackPositions["IMTRK11H2"]  = "9075"
+TrackPositions["IMTRK11T1"]  = "2490"
+TrackPositions["IMTRK11T2"]  = "2490"
+
+TrackPositions["IMTRK12H1"]  = "8808"
+TrackPositions["IMTRK12H2"]  = "8808"
+TrackPositions["IMTRK12T1"]  = "2229"
+TrackPositions["IMTRK12T2"]  = "2229"
+
+TrackPositions["IMTRK13H1"]  = "8542"
+TrackPositions["IMTRK13H2"]  = "8542"
+TrackPositions["IMTRK13T1"]  = "1961"
+TrackPositions["IMTRK13T2"]  = "1961"
+
+TrackPositions["IMTRK14H1"]  = "8278"
+TrackPositions["IMTRK14H2"]  = "8278"
+TrackPositions["IMTRK14T1"]  = "1697"
+TrackPositions["IMTRK14T2"]  = "1697"
+
+TrackPositions["IMTRK15H1"]  = "8021"
+TrackPositions["IMTRK15H2"]  = "8021"
+TrackPositions["IMTRK15T1"]  = "1436"
+TrackPositions["IMTRK15T2"]  = "1436"
+
+TrackPositions["IMTRKMACHINE2H1"]  = "6186"
+TrackPositions["IMTRKMACHINE2H2"]  = "6186"
+TrackPositions["IMTRKMACHINE2T1"]  = "12795"
+TrackPositions["IMTRKMACHINE2T2"]  = "12795"
+
+TrackPositions["IMTRKMACHINE1H1"]  = "5936"
+TrackPositions["IMTRKMACHINE1H2"]  = "5936"
+TrackPositions["IMTRKMACHINE1T1"]  = "12545"
+TrackPositions["IMTRKMACHINE1T2"]  = "12545"
+
+TrackPositions["IMTRKEASTLEADH1"]  = "5027"
+TrackPositions["IMTRKEASTLEADH2"]  = "5027"
+TrackPositions["IMTRKEASTLEADT1"]  = "11619"
+TrackPositions["IMTRKEASTLEADT2"]  = "11619"
+
+
+
 # load position memories
-memories.provideMemory("IMTRKWESTLEADH1").value  = "13189"
-memories.provideMemory("IMTRKWESTLEADH2").value  = "13189"
-memories.provideMemory("IMTRKWESTLEADT1").value  = "6591"
-memories.provideMemory("IMTRKWESTLEADT2").value  = "6591"
-
-memories.provideMemory("IMTRKMALLET1H1").value  = "12769"
-memories.provideMemory("IMTRKMALLET1H2").value  = "12769"
-memories.provideMemory("IMTRKMALLET1T1").value  = "6182"
-memories.provideMemory("IMTRKMALLET1T2").value  = "6182"
-
-memories.provideMemory("IMTRKMALLET2H1").value  = "12409"
-memories.provideMemory("IMTRKMALLET2H2").value  = "12409"
-memories.provideMemory("IMTRKMALLET2T1").value  = "5812"
-memories.provideMemory("IMTRKMALLET2T2").value  = "5812"
-
-memories.provideMemory("IMTRKSANDH1").value  = "12099"
-memories.provideMemory("IMTRKSANDH2").value  = "12099"
-memories.provideMemory("IMTRKSANDT1").value  = "5505"
-memories.provideMemory("IMTRKSANDT2").value  = "5505"
-
-memories.provideMemory("IMTRK1H1").value  = "11763"
-memories.provideMemory("IMTRK1H2").value  = "11763"
-memories.provideMemory("IMTRK1T1").value  = "5169"
-memories.provideMemory("IMTRK1T2").value  = "5169"
-
-memories.provideMemory("IMTRK2H1").value  = "11499"
-memories.provideMemory("IMTRK2H2").value  = "11499"
-memories.provideMemory("IMTRK2T1").value  = "4916"
-memories.provideMemory("IMTRK2T2").value  = "4916"
-
-memories.provideMemory("IMTRK3H1").value  = "11236"
-memories.provideMemory("IMTRK3H2").value  = "11236"
-memories.provideMemory("IMTRK3T1").value  = "4657"
-memories.provideMemory("IMTRK3T2").value  = "4657"
-
-memories.provideMemory("IMTRK4H1").value  = "10981"
-memories.provideMemory("IMTRK4H2").value  = "10981"
-memories.provideMemory("IMTRK4T1").value  = "4402"
-memories.provideMemory("IMTRK4T2").value  = "4402"
-
-memories.provideMemory("IMTRK5H1").value  = "10727"
-memories.provideMemory("IMTRK5H2").value  = "10727"
-memories.provideMemory("IMTRK5T1").value  = "4146"
-memories.provideMemory("IMTRK5T2").value  = "4146"
-
-memories.provideMemory("IMTRK6H1").value  = "10463"
-memories.provideMemory("IMTRK6H2").value  = "10463"
-memories.provideMemory("IMTRK6T1").value  = "3882"
-memories.provideMemory("IMTRK6T2").value  = "3882"
-
-memories.provideMemory("IMTRK7H1").value  = "10141"
-memories.provideMemory("IMTRK7H2").value  = "10141"
-memories.provideMemory("IMTRK7T1").value  = "3553"
-memories.provideMemory("IMTRK7T2").value  = "3553"
-
-memories.provideMemory("IMTRK8H1").value  = "9883"
-memories.provideMemory("IMTRK8H2").value  = "9883"
-memories.provideMemory("IMTRK8T1").value  = "3289"
-memories.provideMemory("IMTRK8T2").value  = "3289"
-
-memories.provideMemory("IMTRK9H1").value  = "9620"
-memories.provideMemory("IMTRK9H2").value  = "9620"
-memories.provideMemory("IMTRK9T1").value  = "3021"
-memories.provideMemory("IMTRK9T2").value  = "3021"
-
-memories.provideMemory("IMTRK10H1").value  = "9343"
-memories.provideMemory("IMTRK10H2").value  = "9343"
-memories.provideMemory("IMTRK10T1").value  = "2753"
-memories.provideMemory("IMTRK10T2").value  = "2753"
-
-memories.provideMemory("IMTRK11H1").value  = "9075"
-memories.provideMemory("IMTRK11H2").value  = "9075"
-memories.provideMemory("IMTRK11T1").value  = "2490"
-memories.provideMemory("IMTRK11T2").value  = "2490"
-
-memories.provideMemory("IMTRK12H1").value  = "8808"
-memories.provideMemory("IMTRK12H2").value  = "8808"
-memories.provideMemory("IMTRK12T1").value  = "2229"
-memories.provideMemory("IMTRK12T2").value  = "2229"
-
-memories.provideMemory("IMTRK13H1").value  = "8542"
-memories.provideMemory("IMTRK13H2").value  = "8542"
-memories.provideMemory("IMTRK13T1").value  = "1961"
-memories.provideMemory("IMTRK13T2").value  = "1961"
-
-memories.provideMemory("IMTRK14H1").value  = "8278"
-memories.provideMemory("IMTRK14H2").value  = "8278"
-memories.provideMemory("IMTRK14T1").value  = "1697"
-memories.provideMemory("IMTRK14T2").value  = "1697"
-
-memories.provideMemory("IMTRK15H1").value  = "8021"
-memories.provideMemory("IMTRK15H2").value  = "8021"
-memories.provideMemory("IMTRK15T1").value  = "1436"
-memories.provideMemory("IMTRK15T2").value  = "1436"
-
-memories.provideMemory("IMTRKMACHINE2H1").value  = "6186"
-memories.provideMemory("IMTRKMACHINE2H2").value  = "6186"
-memories.provideMemory("IMTRKMACHINE2T1").value  = "12795"
-memories.provideMemory("IMTRKMACHINE2T2").value  = "12795"
-
-memories.provideMemory("IMTRKMACHINE1H1").value  = "5936"
-memories.provideMemory("IMTRKMACHINE1H2").value  = "5936"
-memories.provideMemory("IMTRKMACHINE1T1").value  = "12545"
-memories.provideMemory("IMTRKMACHINE1T2").value  = "12545"
-
-memories.provideMemory("IMTRKEASTLEADH1").value  = "5027"
-memories.provideMemory("IMTRKEASTLEADH2").value  = "5027"
-memories.provideMemory("IMTRKEASTLEADT1").value  = "11619"
-memories.provideMemory("IMTRKEASTLEADT2").value  = "11619"
-
+for name in TrackPositions.keys() :
+    memories.provideMemory(name).value = TrackPositions[name]
+    
 memories.provideMemory("IMTRKPOSITION").value = "0"
 
 class TurntableDriver(jmri.jmrit.automat.AbstractAutomaton) :
@@ -367,33 +383,43 @@ frame.setLayout(java.awt.FlowLayout())
 turnTableLabel = javax.swing.JLabel("no memory yet")
 frame.getContentPane().add(turnTableLabel)
 spinner = javax.swing.JSpinner()
-spinnermodel = javax.swing.SpinnerNumberModel(0, 0, 2*13200, 1)
+spinnermodel = javax.swing.SpinnerNumberModel(0, -500, 2*13200, 1)
 spinner.setModel(spinnermodel)
 frame.getContentPane().add(spinner)
 b = javax.swing.JButton("+20")
+b.setToolTipText("Just increments spinner")
+
 frame.getContentPane().add(b)
 def TurnTableAdd20(event) :
     spinnermodel.value = spinnermodel.value+20
     return
 b.actionPerformed = TurnTableAdd20
+b.setToolTipText("Just increments spinner")
+
 b = javax.swing.JButton("+5")
 frame.getContentPane().add(b)
 def TurnTableAdd5(event) :
     spinnermodel.value = spinnermodel.value+5
     return
 b.actionPerformed = TurnTableAdd5
+b.setToolTipText("Just decrements spinner")
+
 b = javax.swing.JButton("-5")
 frame.getContentPane().add(b)
 def TurnTableSub5(event) :
     spinnermodel.value = spinnermodel.value-5
     return
 b.actionPerformed = TurnTableSub5
+b.setToolTipText("Just decrements spinner")
+
 b = javax.swing.JButton("-20")
 frame.getContentPane().add(b)
 def TurnTableSub20(event) :
     spinnermodel.value = spinnermodel.value-20
     return
 b.actionPerformed = TurnTableSub20
+b.setToolTipText("Just decrements spinner")
+
 b = javax.swing.JButton("Backoff")
 frame.getContentPane().add(b)
 def TurnTableBackoff(event) :
@@ -404,6 +430,8 @@ def TurnTableBackoff(event) :
     controller.doMove(str(spot))
     return
 b.actionPerformed = TurnTableBackoff
+b.setToolTipText("Move to spinner-200 then to spinner")
+
 b = javax.swing.JButton("Set")
 frame.getContentPane().add(b)
 def TurnTableSet(event) :
@@ -412,6 +440,18 @@ def TurnTableSet(event) :
     controller.doMove(str(spinnermodel.value))
     return
 b.actionPerformed = TurnTableSet
+b.setToolTipText("Set value into last memory and move")
+
+b = javax.swing.JButton("Increment All")
+frame.getContentPane().add(b)
+def AddToAll(event) :
+    print "Increment All by", spinnermodel.value
+    moveZeroCCW(int(spinnermodel.value))
+    # not setting position, as memory might not be set; just command move
+    # controller.doMove(str(memories.provideMemory(memories.provideMemory("IMTRKLASTMEM").value).value))
+    return
+b.actionPerformed = AddToAll
+
 b = javax.swing.JButton("Save")
 frame.getContentPane().add(b)
 def TurnTableSave(event) :
@@ -433,6 +473,8 @@ def TurnTableSaveOne(name, file) :
     file.writelines("memories.provideMemory(\""+name+"\").value  = \""+memories.provideMemory(name).value+"\"\n")
     return
 b.actionPerformed = TurnTableSave
+
+
 class TurnTableMemoryListener(java.beans.PropertyChangeListener):
   def propertyChange(self, event):
     if (event.propertyName == "value") :

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="http://www.jmri.org/xml/XSLT/panelfile.xsl"?>
-<!DOCTYPE layout-config SYSTEM "layout-config-2-5-6.dtd">
-<layout-config>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
   <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="CTC Panel Image" x="20" y="20" height="720" width="1024" editable="yes" positionable="no" showcoordinates="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="none">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" fixed="true" showtooltip="false" size="13" style="0" icon="preference:resources/InitialCTConThreeRows.gif" rotate="0" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/InitialCTConThreeRows.gif" rotate="0" degrees="0" scale="1.0" />
