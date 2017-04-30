@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <warrantPreferences>
-  <!--Written by JMRI version 4.7.4ish+jake+20170427T2347Z+R0a385c81c6 on Thu Apr 27 16:48:22 PDT 2017 $Id$-->
+  <!--Written by JMRI version 4.7.4ish+jake+20170428T0030Z+R0a385c81c6 on Thu Apr 27 17:31:55 PDT 2017 $Id$-->
   <layoutParams layoutScale="87.1" searchDepth="20" />
   <speedMapParams>
     <stepIncrements timeIncrement="750" rampIncrement="0.04" throttleScale="0.5" />
