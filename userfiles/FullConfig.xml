@@ -1144,13 +1144,13 @@
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5045</systemName>
-      <userName>CH5012 R</userName>
-      <comment>Black Butte from Weed dwarf red</comment>
+      <userName>CH5012 G</userName>
+      <comment>Black Butte from Weed dwarf green</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5046</systemName>
-      <userName>CH5012 G</userName>
-      <comment>Black Butte 40 from Weed dwarf green</comment>
+      <userName>CH5012 R</userName>
+      <comment>Black Butte 40 from Weed dwarf red</comment>
     </turnout>
     <turnout systemName="CT51" userName="CH51 R" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT51</systemName>
