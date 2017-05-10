@@ -205,18 +205,28 @@
     </turnout>
     <turnout systemName="CT1041" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1041</systemName>
-      <userName>40R UP G</userName>
+      <userName>40R L1</userName>
+      <comment>lunar left</comment>
     </turnout>
     <turnout systemName="CT1042" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1042</systemName>
-      <userName>40R UP R</userName>
+      <userName>40R L2</userName>
+      <comment>lunar right</comment>
     </turnout>
     <turnout systemName="CT1043" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1043</systemName>
-      <userName>40R MID G</userName>
+      <userName>40R UP G</userName>
     </turnout>
     <turnout systemName="CT1044" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1044</systemName>
+      <userName>40R UP R</userName>
+    </turnout>
+    <turnout systemName="CT1047" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT1047</systemName>
+      <userName>40R MID G</userName>
+    </turnout>
+    <turnout systemName="CT1048" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT1048</systemName>
       <userName>40R MID R</userName>
     </turnout>
     <turnout systemName="CT1045" feedback="DIRECT" inverted="false" automate="Default">
@@ -226,14 +236,6 @@
     <turnout systemName="CT1046" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1046</systemName>
       <userName>40R LOW R</userName>
-    </turnout>
-    <turnout systemName="CT1047" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT1047</systemName>
-      <userName>40R L1</userName>
-    </turnout>
-    <turnout systemName="CT1048" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT1048</systemName>
-      <userName>40R L2</userName>
     </turnout>
     <turnout systemName="CT105" userName="Helix P0 D side 1" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT105</systemName>
