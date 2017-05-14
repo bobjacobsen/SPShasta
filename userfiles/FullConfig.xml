@@ -7156,9 +7156,23 @@
       <systemName>IX CTC LINE DRIVER</systemName>
       <logixConditional systemName="IX CTC LINE DRIVERC1" order="0" />
     </logix>
+    <logix enabled="yes">
+      <systemName>IX:AUTO:0007</systemName>
+      <userName>Control Lunars</userName>
+      <logixConditional systemName="IX:AUTO:0007C1" order="0" />
+    </logix>
   </logixs>
 
   <conditionals class="jmri.managers.configurexml.DefaultConditionalManagerXml">
+    <conditional systemName="IX:AUTO:0007C1" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0007C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="3" systemName="TO 41" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="3" systemName="40 R BB Lunar Left" data="64" delay="0" string="Lunar" />
+      <conditionalAction option="2" type="3" systemName="40 R BB Lunar Left" data="0" delay="0" string="Dark" />
+      <conditionalAction option="2" type="3" systemName="40 R BB Lunar Right" data="64" delay="0" string="Lunar" />
+      <conditionalAction option="1" type="3" systemName="40 R BB Lunar Right" data="0" delay="0" string="Dark" />
+    </conditional>
+
     <conditional systemName="IX CTC LINE DRIVERC1" userName="On Active" antecedent="R1 and (R2 or R3 or R4 or R5 or R6 or R7 or R8 or R9 or R10 or R11 or R12 or R13 or R14 or R15)" logicType="3" triggerOnChange="yes">
       <systemName>IX CTC LINE DRIVERC1</systemName>
       <userName>On Active</userName>
