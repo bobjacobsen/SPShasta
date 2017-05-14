@@ -2430,7 +2430,34 @@
       <userName>temp IT</userName>
       <comment>Temporary IT placeholder, copy when needed</comment>
     </turnout>
-    <turnout systemName="IT1038" userName="Call On Mode 38" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1001</systemName>
+      <comment>SignalHead:CH5021:Green</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1002</systemName>
+      <comment>SignalHead:CH5021:Yellow</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1003</systemName>
+      <comment>SignalHead:CH5021:Red</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1004</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1011</systemName>
+      <comment>SignalHead:CH5022:Green</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1012</systemName>
+      <comment>SignalHead:CH5022:Yellow</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1013</systemName>
+      <comment>SignalHead:CH5022:Red</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>IT1038</systemName>
       <userName>Call On Mode 38</userName>
       <comment>Holds internal state</comment>
@@ -4432,6 +4459,27 @@
       <turnoutname defines="green">CT5017</turnoutname>
       <turnoutname defines="red">CT5016</turnoutname>
     </signalhead>
+
+    <signalhead class="jmri.implementation.configurexml.QuadOutputSignalHeadXml">
+      <systemName>CH5021</systemName>
+      <userName>40 R BB Lunar Left</userName>
+      <comment>Black Butte West</comment>
+      <turnoutname defines="green">IT1001</turnoutname>
+      <turnoutname defines="yellow">IT1002</turnoutname>
+      <turnoutname defines="red">IT1003</turnoutname>
+      <turnoutname defines="lunar">40R L1</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.QuadOutputSignalHeadXml">
+      <systemName>CH5022</systemName>
+      <userName>40 R BB Lunar Right</userName>
+      <comment>Black Butte West</comment>
+      <turnoutname defines="green">IT1011</turnoutname>
+      <turnoutname defines="yellow">IT1012</turnoutname>
+      <turnoutname defines="red">IT1013</turnoutname>
+      <turnoutname defines="lunar">40R L2</turnoutname>
+    </signalhead>
+
+
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml" systemName="CH51" userName="10 L Main">
       <systemName>CH51</systemName>
       <userName>10 L Main</userName>
