@@ -6219,7 +6219,7 @@
       <sensorname>CS1009</sensorname>
       <comment>TC 24, 25 needs updating</comment>
     </signalelement>
-    <signalelement signal="CH2008" mode="3" watchedturnout="TO 21" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="CH2008" mode="3" watchedturnout="TO 21" limitspeed1="true" limitspeed2="true" useflashyellow="false" distantsignal="false">
       <sensorname>TC 23</sensorname>
       <sensorname>TC 21</sensorname>
       <sensorname>TC 20</sensorname>
@@ -6241,7 +6241,7 @@
       <sensorname>TC 22</sensorname>
       <comment>Not part of CTC; TC 24 needs updating</comment>
     </signalelement>
-    <signalelement signal="CH49" mode="3" watchedturnout="CT15" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="CH49" mode="3" watchedturnout="CT15" limitspeed1="true" limitspeed2="true" useflashyellow="false" distantsignal="false">
       <sensorname>CS11</sensorname>
       <sensorname>TC 13</sensorname>
       <comment />
@@ -6265,7 +6265,7 @@
       <sensorname>CS9</sensorname>
       <comment />
     </signalelement>
-    <signalelement signal="CH2001" mode="4" watchedturnout="TO 13" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false" />
+    <signalelement signal="CH2001" mode="4" watchedturnout="TO 13" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false" />
     <signalelement signal="CH43" mode="3" watchedturnout="CT14" watchedsignal1="CH35" watchedsignal1alt="CH37" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>CS9</sensorname>
       <sensorname>CS8</sensorname>
