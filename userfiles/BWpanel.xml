@@ -395,7 +395,7 @@
       <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-marker.gif" rotate="2" degrees="0" scale="1.0" />
       <flashlunar url="program:resources/icons/smallschematics/searchlights/left-flashlunar-marker.gif" rotate="2" degrees="0" scale="1.0" />
     </signalheadicon>
-    <signalheadicon signalhead="40 R BB Lunar Left" x="658" y="380" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="40 R BB Lunar Left" x="658" y="380" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="true" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>40 R BB Lunar Left</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="0" scale="1.0">
@@ -431,7 +431,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="40 R BB Lunar Right" x="658" y="395" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="40 R BB Lunar Right" x="658" y="395" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="true" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>40 R BB Lunar Right</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="0" scale="1.0">
