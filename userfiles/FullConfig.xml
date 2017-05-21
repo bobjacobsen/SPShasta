@@ -6500,7 +6500,6 @@
       <logixConditional systemName="IX CTC 40 Call OnC1" order="0" />
       <logixConditional systemName="IX CTC 40 Call OnC2" order="1" />
       <logixConditional systemName="IX CTC 40 Call OnC3" order="2" />
-      <logixConditional systemName="IX CTC 40 Call OnC4" order="3" />
       <logixConditional systemName="IX CTC 40 Call OnC5" order="4" />
       <logixConditional systemName="IX CTC 40 Call OnC6" order="5" />
     </logix>
@@ -7791,19 +7790,14 @@
     </conditional>
     <conditional systemName="IX CTC 40 Call OnC3" userName="Force 40 R Middle to Flashing Red" antecedent="R1 and R2 and R3" logicType="3">
       <systemName>IX CTC 40 Call OnC3</systemName>
-      <userName>Force 40 R Middle to Flashing Red</userName>
+      <userName>Lunars lit/dark</userName>
       <conditionalStateVariable operator="4" negated="no" type="3" systemName="IT1040" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalStateVariable operator="1" negated="no" type="1" systemName="CTC Mode" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalStateVariable operator="1" negated="no" type="11" systemName="40 R Middle" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalAction option="1" type="3" systemName="40 R Middle" data="2" delay="0" string="" />
-    </conditional>
-    <conditional systemName="IX CTC 40 Call OnC4" userName="Force 40 R Lower to Flashing Red" antecedent="R1 and R2 and R3" logicType="3">
-      <systemName>IX CTC 40 Call OnC4</systemName>
-      <userName>Force 40 R Lower to Flashing Red</userName>
-      <conditionalStateVariable operator="4" negated="no" type="3" systemName="IT1040" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalStateVariable operator="1" negated="no" type="1" systemName="CTC Mode" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalStateVariable operator="1" negated="no" type="11" systemName="40 R Lower" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalAction option="1" type="3" systemName="40 R Lower" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="7" systemName="40 R BB Lunar Left" data="2" delay="0" string="" />
+      <conditionalAction option="1" type="7" systemName="40 R BB Lunar Right" data="-1" delay="0" string="" />
+      <conditionalAction option="2" type="6" systemName="40 R BB Lunar Left" data="-1" delay="0" string="" />
+      <conditionalAction option="2" type="6" systemName="40 R BB Lunar Right" data="-1" delay="0" string="" />
     </conditional>
     <conditional systemName="IX CTC 40 Call OnC5" userName="Force 40 L Siding to Flashing Red" antecedent="R1 and R2 and R3" logicType="3">
       <systemName>IX CTC 40 Call OnC5</systemName>
