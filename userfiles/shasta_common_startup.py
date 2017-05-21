@@ -33,7 +33,6 @@ execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CmriNodeMonitor.
 
 execfile(jmri.util.FileUtil.getExternalFilename("preference:Turntable.py"))
 
-execfile(jmri.util.FileUtil.getExternalFilename("preference:CtcDebugInit.py"))
 execfile(jmri.util.FileUtil.getExternalFilename("preference:SetCtcIndicators.py"))
 
 # start web server
