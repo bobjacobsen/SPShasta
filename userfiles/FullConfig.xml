@@ -5917,38 +5917,20 @@
     
   </routes>
   <sensors class="jmri.managers.configurexml.InternalSensorManagerXml">
-    <sensor systemName="IS CTC 01 C" inverted="false">
-      <systemName>IS CTC 01 C</systemName>
-    </sensor>
     <sensor systemName="IS CTC 02 C" inverted="false">
       <systemName>IS CTC 02 C</systemName>
-    </sensor>
-    <sensor systemName="IS CTC 03 C" inverted="false">
-      <systemName>IS CTC 03 C</systemName>
     </sensor>
     <sensor systemName="IS CTC 04 C" inverted="false">
       <systemName>IS CTC 04 C</systemName>
     </sensor>
-    <sensor systemName="IS CTC 05 C" inverted="false">
-      <systemName>IS CTC 05 C</systemName>
-    </sensor>
     <sensor systemName="IS CTC 06 C" inverted="false">
       <systemName>IS CTC 06 C</systemName>
-    </sensor>
-    <sensor systemName="IS CTC 07 C" inverted="false">
-      <systemName>IS CTC 07 C</systemName>
     </sensor>
     <sensor systemName="IS CTC 08 C" inverted="false">
       <systemName>IS CTC 08 C</systemName>
     </sensor>
-    <sensor systemName="IS CTC 09 C" inverted="false">
-      <systemName>IS CTC 09 C</systemName>
-    </sensor>
     <sensor systemName="IS CTC 10 C" inverted="false">
       <systemName>IS CTC 10 C</systemName>
-    </sensor>
-    <sensor systemName="IS CTC 13 C" inverted="false">
-      <systemName>IS CTC 13 C</systemName>
     </sensor>
     <sensor systemName="IS CTC 14 C" inverted="false">
       <systemName>IS CTC 14 C</systemName>
@@ -5956,41 +5938,23 @@
     <sensor systemName="IS CTC 16 C" inverted="false">
       <systemName>IS CTC 16 C</systemName>
     </sensor>
-    <sensor systemName="IS CTC 17 C" inverted="false">
-      <systemName>IS CTC 17 C</systemName>
-    </sensor>
     <sensor systemName="IS CTC 18 C" inverted="false">
       <systemName>IS CTC 18 C</systemName>
     </sensor>
     <sensor systemName="IS CTC 20 C" inverted="false">
       <systemName>IS CTC 20 C</systemName>
     </sensor>
-    <sensor systemName="IS CTC 21 C" inverted="false">
-      <systemName>IS CTC 21 C</systemName>
-    </sensor>
     <sensor systemName="IS CTC 22 C" inverted="false">
       <systemName>IS CTC 22 C</systemName>
-    </sensor>
-    <sensor systemName="IS CTC 25 C" inverted="false">
-      <systemName>IS CTC 25 C</systemName>
     </sensor>
     <sensor systemName="IS CTC 26 C" inverted="false">
       <systemName>IS CTC 26 C</systemName>
     </sensor>
-    <sensor systemName="IS CTC 27 C" inverted="false">
-      <systemName>IS CTC 27 C</systemName>
-    </sensor>
     <sensor systemName="IS CTC 28 C" inverted="false">
       <systemName>IS CTC 28 C</systemName>
     </sensor>
-    <sensor systemName="IS CTC 29 C" inverted="false">
-      <systemName>IS CTC 29 C</systemName>
-    </sensor>
     <sensor systemName="IS CTC 30 C" inverted="false">
       <systemName>IS CTC 30 C</systemName>
-    </sensor>
-    <sensor systemName="IS CTC 31 C" inverted="false">
-      <systemName>IS CTC 31 C</systemName>
     </sensor>
     <sensor systemName="IS CTC 32 C" inverted="false">
       <systemName>IS CTC 32 C</systemName>
@@ -5998,23 +5962,14 @@
     <sensor systemName="IS CTC 34 C" inverted="false">
       <systemName>IS CTC 34 C</systemName>
     </sensor>
-    <sensor systemName="IS CTC 35 C" inverted="false">
-      <systemName>IS CTC 35 C</systemName>
-    </sensor>
     <sensor systemName="IS CTC 36 C" inverted="false">
       <systemName>IS CTC 36 C</systemName>
     </sensor>
     <sensor systemName="IS CTC 38 C" inverted="false">
       <systemName>IS CTC 38 C</systemName>
     </sensor>
-    <sensor systemName="IS CTC 39 C" inverted="false">
-      <systemName>IS CTC 39 C</systemName>
-    </sensor>
     <sensor systemName="IS CTC 40 C" inverted="false">
       <systemName>IS CTC 40 C</systemName>
-    </sensor>
-    <sensor systemName="IS CTC 41 C" inverted="false">
-      <systemName>IS CTC 41 C</systemName>
     </sensor>
     <sensor systemName="IS CTC 42 C" inverted="false">
       <systemName>IS CTC 42 C</systemName>

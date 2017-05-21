@@ -8,7 +8,6 @@
     <positionablelabel text="1" x="43" y="52" forcecontroloff="false" fixed="false" showtooltip="true" class="jmri.jmrit.display.configurexml.PositionableLabelXml" level="5" size="12" style="1" red="51" green="51" blue="51" />
     <multisensoricon x="62" y="36" level="10" inactive="resources/icons/USS/plate/levers/l-inconsistent.gif" unknown="resources/icons/USS/plate/levers/l-inactive.gif" inconsistent="resources/icons/USS/plate/levers/l-unknown.gif" rotate="0" updown="false" forcecontroloff="false" class="jmri.jmrit.display.configurexml.MultiSensorIconXml">
       <multisensoriconentry sensor="CTC 01 N" icon="resources/icons/USS/plate/levers/l-left.gif" />
-      <multisensoriconentry sensor="IS CTC 01 C" icon="resources/icons/USS/plate/levers/l-vertical.gif" />
       <multisensoriconentry sensor="CTC 01 R" icon="resources/icons/USS/plate/levers/l-right.gif" />
     </multisensoricon>
 
@@ -32,7 +31,6 @@
     <positionablelabel text="3" x="143" y="52" forcecontroloff="false" fixed="false" showtooltip="true" class="jmri.jmrit.display.configurexml.PositionableLabelXml" level="5" size="12" style="1" red="51" green="51" blue="51" />
     <multisensoricon x="162" y="36" level="10" inactive="resources/icons/USS/plate/levers/l-inconsistent.gif" unknown="resources/icons/USS/plate/levers/l-inactive.gif" inconsistent="resources/icons/USS/plate/levers/l-unknown.gif" rotate="0" updown="false" forcecontroloff="false" class="jmri.jmrit.display.configurexml.MultiSensorIconXml">
       <multisensoriconentry sensor="CTC 03 N" icon="resources/icons/USS/plate/levers/l-left.gif" />
-      <multisensoriconentry sensor="IS CTC 03 C" icon="resources/icons/USS/plate/levers/l-vertical.gif" />
       <multisensoriconentry sensor="CTC 03 R" icon="resources/icons/USS/plate/levers/l-right.gif" />
     </multisensoricon>
 
@@ -56,7 +54,6 @@
     <positionablelabel text="5" x="243" y="52" forcecontroloff="false" fixed="false" showtooltip="true" class="jmri.jmrit.display.configurexml.PositionableLabelXml" level="5" size="12" style="1" red="51" green="51" blue="51" />
     <multisensoricon x="262" y="36" level="10" inactive="resources/icons/USS/plate/levers/l-inconsistent.gif" unknown="resources/icons/USS/plate/levers/l-inactive.gif" inconsistent="resources/icons/USS/plate/levers/l-unknown.gif" rotate="0" updown="false" forcecontroloff="false" class="jmri.jmrit.display.configurexml.MultiSensorIconXml">
       <multisensoriconentry sensor="CTC 05 N" icon="resources/icons/USS/plate/levers/l-left.gif" />
-      <multisensoriconentry sensor="IS CTC 05 C" icon="resources/icons/USS/plate/levers/l-vertical.gif" />
       <multisensoriconentry sensor="CTC 05 R" icon="resources/icons/USS/plate/levers/l-right.gif" />
     </multisensoricon>
 
@@ -80,7 +77,6 @@
     <positionablelabel text="7" x="343" y="52" forcecontroloff="false" fixed="false" showtooltip="true" class="jmri.jmrit.display.configurexml.PositionableLabelXml" level="5" size="12" style="1" red="51" green="51" blue="51" />
     <multisensoricon x="362" y="36" level="10" inactive="resources/icons/USS/plate/levers/l-inconsistent.gif" unknown="resources/icons/USS/plate/levers/l-inactive.gif" inconsistent="resources/icons/USS/plate/levers/l-unknown.gif" rotate="0" updown="false" forcecontroloff="false" class="jmri.jmrit.display.configurexml.MultiSensorIconXml">
       <multisensoriconentry sensor="CTC 07 N" icon="resources/icons/USS/plate/levers/l-left.gif" />
-      <multisensoriconentry sensor="IS CTC 07 C" icon="resources/icons/USS/plate/levers/l-vertical.gif" />
       <multisensoriconentry sensor="CTC 07 R" icon="resources/icons/USS/plate/levers/l-right.gif" />
     </multisensoricon>
 
@@ -104,7 +100,6 @@
     <positionablelabel text="9" x="443" y="52" forcecontroloff="false" fixed="false" showtooltip="true" class="jmri.jmrit.display.configurexml.PositionableLabelXml" level="5" size="12" style="1" red="51" green="51" blue="51" />
     <multisensoricon x="462" y="36" level="10" inactive="resources/icons/USS/plate/levers/l-inconsistent.gif" unknown="resources/icons/USS/plate/levers/l-inactive.gif" inconsistent="resources/icons/USS/plate/levers/l-unknown.gif" rotate="0" updown="false" forcecontroloff="false" class="jmri.jmrit.display.configurexml.MultiSensorIconXml">
       <multisensoriconentry sensor="CTC 09 N" icon="resources/icons/USS/plate/levers/l-left.gif" />
-      <multisensoriconentry sensor="IS CTC 09 C" icon="resources/icons/USS/plate/levers/l-vertical.gif" />
       <multisensoriconentry sensor="CTC 09 R" icon="resources/icons/USS/plate/levers/l-right.gif" />
     </multisensoricon>
 
@@ -134,7 +129,6 @@
     <positionablelabel text="13" x="643" y="52" forcecontroloff="false" fixed="false" showtooltip="true" class="jmri.jmrit.display.configurexml.PositionableLabelXml" level="5" size="12" style="1" red="51" green="51" blue="51" />
     <multisensoricon x="662" y="36" level="10" inactive="resources/icons/USS/plate/levers/l-inconsistent.gif" unknown="resources/icons/USS/plate/levers/l-inactive.gif" inconsistent="resources/icons/USS/plate/levers/l-unknown.gif" rotate="0" updown="false" forcecontroloff="false" class="jmri.jmrit.display.configurexml.MultiSensorIconXml">
       <multisensoriconentry sensor="CTC 13 N" icon="resources/icons/USS/plate/levers/l-left.gif" />
-      <multisensoriconentry sensor="IS CTC 13 C" icon="resources/icons/USS/plate/levers/l-vertical.gif" />
       <multisensoriconentry sensor="CTC 13 R" icon="resources/icons/USS/plate/levers/l-right.gif" />
     </multisensoricon>
 
@@ -172,7 +166,6 @@
     <positionablelabel text="17" x="843" y="52" forcecontroloff="false" fixed="false" showtooltip="true" class="jmri.jmrit.display.configurexml.PositionableLabelXml" level="5" size="12" style="1" red="51" green="51" blue="51" />
     <multisensoricon x="862" y="36" level="10" inactive="resources/icons/USS/plate/levers/l-inconsistent.gif" unknown="resources/icons/USS/plate/levers/l-inactive.gif" inconsistent="resources/icons/USS/plate/levers/l-unknown.gif" rotate="0" updown="false" forcecontroloff="false" class="jmri.jmrit.display.configurexml.MultiSensorIconXml">
       <multisensoriconentry sensor="CTC 17 N" icon="resources/icons/USS/plate/levers/l-left.gif" />
-      <multisensoriconentry sensor="IS CTC 17 C" icon="resources/icons/USS/plate/levers/l-vertical.gif" />
       <multisensoriconentry sensor="CTC 17 R" icon="resources/icons/USS/plate/levers/l-right.gif" />
     </multisensoricon>
 
@@ -212,7 +205,6 @@
     <positionablelabel text="21" x="1043" y="52" forcecontroloff="false" fixed="false" showtooltip="true" class="jmri.jmrit.display.configurexml.PositionableLabelXml" level="5" size="12" style="1" red="51" green="51" blue="51" />
     <multisensoricon x="1062" y="36" level="10" inactive="resources/icons/USS/plate/levers/l-inconsistent.gif" unknown="resources/icons/USS/plate/levers/l-inactive.gif" inconsistent="resources/icons/USS/plate/levers/l-unknown.gif" rotate="0" updown="false" forcecontroloff="false" class="jmri.jmrit.display.configurexml.MultiSensorIconXml">
       <multisensoriconentry sensor="CTC 21 N" icon="resources/icons/USS/plate/levers/l-left.gif" />
-      <multisensoriconentry sensor="IS CTC 21 C" icon="resources/icons/USS/plate/levers/l-vertical.gif" />
       <multisensoriconentry sensor="CTC 21 R" icon="resources/icons/USS/plate/levers/l-right.gif" />
     </multisensoricon>
 
