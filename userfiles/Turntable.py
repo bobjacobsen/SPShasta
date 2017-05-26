@@ -224,7 +224,7 @@ class TurntableDriver(jmri.jmrit.automat.AbstractAutomaton) :
         # send as C/MRI packet
         t = "000000"+position
         
-        # node 10 (A) is now the signal mast; no connection to turntable controller
+        # node 9 is now the signal mast; no connection to turntable controller
         
         m = jmri.jmrix.cmri.serial.SerialMessage(7)
         m.setElement(0, 0x30+10)
