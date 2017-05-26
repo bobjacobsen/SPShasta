@@ -32,7 +32,7 @@ void setLine(int val, int time) {
 }
 
 void loop() {
-     // if (digitalRead(startpin) == 0) {
+    if (digitalRead(startpin) == 0) {
 
     setLine(1, longTime); 
     
