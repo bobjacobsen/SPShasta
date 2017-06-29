@@ -1,6 +1,6 @@
 // UDrive the SP Shasta code line
 
-int startpin = 10;  // 0 but / 0v makes sound
+int startpin = 8;  // 0 bit / 0v makes sound
 int buzzerpin = 13; // 1 bit / 5V makes sound
 
 // Shield uses a 4N25 isolator with input to pin and gnd,
@@ -15,8 +15,7 @@ int buzzerpin = 13; // 1 bit / 5V makes sound
 // last is always long
 
 void setup() {
-    pinMode(startpin, INPUT);
-    digitalWrite(startpin, 1);
+    pinMode(startpin, INPUT_PULLUP);
     pinMode(buzzerpin, OUTPUT);
     
     digitalWrite(buzzerpin, 0); // ensure off
@@ -34,26 +33,28 @@ void setLine(int val, int time) {
 void loop() {
     if (digitalRead(startpin) == 0) {
 
-    setLine(1, longTime); 
+      setLine(1, longTime); 
     
-    setLine(0, shortTime);
-    setLine(1, longTime);
-    setLine(0, shortTime);
-    setLine(1, longTime);
-    setLine(0, shortTime);
-    setLine(1, longTime);
-    setLine(0, shortTime);
+      setLine(0, shortTime);
+      setLine(1, longTime);
+      setLine(0, shortTime);
+      setLine(1, longTime);
+      setLine(0, shortTime);
+      setLine(1, longTime);
+      setLine(0, shortTime);
     
-    setLine(1, longTime);
-    setLine(0, shortTime);
-    setLine(1, longTime);
-    setLine(0, shortTime);
-    setLine(1, longTime);
-    setLine(0, shortTime);
-    setLine(1, shortTime);
+      //setLine(1, longTime);
+      //setLine(0, shortTime);
+      //setLine(1, longTime);
+      //setLine(0, shortTime);
+      //setLine(1, longTime);
+      //setLine(0, shortTime);
+      //setLine(1, shortTime);
     
-    setLine(0, longTime); // clears the line
+      setLine(0, longTime); // clears the line
 
-      // and cycle wait before checking again
-      delay(2000);
+      // and cycle wait before checking again to avoid overheat
+      delay(200);
+
+    }
 }
