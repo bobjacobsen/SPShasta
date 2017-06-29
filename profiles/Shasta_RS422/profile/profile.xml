@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.cmri.serial.serialdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="/dev/tty.lpss-serial2" speed="19,200 baud" systemPrefix="C" userName="C/MRI">
+        <connection xmlns="" class="jmri.jmrix.cmri.serial.serialdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="cu.USA19H143P1.1" speed="19,200 baud" systemPrefix="C" userName="C/MRI">
             <options/>
             <node name="0">
                 <parameter name="nodetype">2</parameter>
@@ -88,5 +88,8 @@
     </connections>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
         <perform xmlns="" class="apps.configurexml.PerformScriptModelXml" name="preference:shasta_common_startup.py" type="ScriptFile"/>
+        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.web.server.WebServerAction" type="Action">
+            <property name="systemPrefix" value=""/>
+        </perform>
     </startup>
 </auxiliary-configuration>
