@@ -10,8 +10,16 @@ cm = jmri.InstanceManager.getDefault(jmri.ConfigureManager)
 # allow substitutions from internal DTD
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/TurnOffXmlValidation.py"))
 
-cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:FullConfig.xml")))
+# Original composite file, replaced by refactored files
+#cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:FullConfig.xml")))
 
+cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:BasicConfig.xml")))
+#cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CtcLogix.xml")))
+
+# new CTC controls
+execfile(jmri.util.FileUtil.getExternalFilename("preference:CtcConfigureUssCtc.py"))
+
+# start with special controls
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:TurntableControls.xml")))
 execfile(jmri.util.FileUtil.getExternalFilename("preference:Turntable.py"))
 
@@ -39,5 +47,8 @@ execfile(jmri.util.FileUtil.getExternalFilename("preference:SetCtcIndicators.py"
 
 # start web server
 jmri.web.server.WebServerAction().actionPerformed(None)
+
+# new CTC controls, done last so that turnouts are in final state
+execfile(jmri.util.FileUtil.getExternalFilename("preference:CtcConfigureUssCtc.py"))
 
 print "shasta_common_startup done"
