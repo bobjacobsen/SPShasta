@@ -16,8 +16,9 @@ execfile(jmri.util.FileUtil.getExternalFilename("program:jython/TurnOffXmlValida
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:BasicConfig.xml")))
 #cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CtcLogix.xml")))
 
-# new CTC controls
-execfile(jmri.util.FileUtil.getExternalFilename("preference:CtcConfigureUssCtc.py"))
+# load scripts needed by CTC controls
+execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CombineSensors.py"))
+execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CombineTurnouts.py"))
 
 # start with special controls
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:TurntableControls.xml")))
