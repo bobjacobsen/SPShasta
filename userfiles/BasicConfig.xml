@@ -2454,6 +2454,11 @@
       <comment>SignalHead:CH5022:Yellow</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1031</systemName>
+      <userName>TO 31</userName>
+      <comment>Combines TO 31A and TO 31B</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT1013</systemName>
       <comment>SignalHead:CH5022:Red</comment>
     </turnout>
@@ -2461,6 +2466,11 @@
       <systemName>IT1038</systemName>
       <userName>Call On Mode 38</userName>
       <comment>Holds internal state</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1039</systemName>
+      <userName>TO 39</userName>
+      <comment>Combines TO 39A and TO39B</comment>
     </turnout>
     <turnout systemName="IT1040" userName="Call On Mode 40" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>IT1040</systemName>
@@ -5973,6 +5983,12 @@
     </sensor>
     <sensor systemName="IS CTC 42 C" inverted="false">
       <systemName>IS CTC 42 C</systemName>
+    </sensor>
+
+    <sensor inverted="false">
+      <systemName>IS-TC-25</systemName>
+      <userName>TC 25</userName>
+      <comment>Combines "TC 25 Lower (bridge)","TC 25 Upper (shasta)"</comment>
     </sensor>
 
     <sensor inverted="false">
