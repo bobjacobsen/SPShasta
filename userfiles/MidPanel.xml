@@ -242,8 +242,14 @@
       <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" rotate="0" degrees="0" scale="1.0" />
     </sensoricon>
 
+    <!-- **************************************** -->
 
-
+    <memoryInputIcon colWidth="20" memory="IMUSS CTC:SIGNALHEADSECTION:1:LOG" x="50" y="360" level="5" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" size="14" style="0" red="51" green="51" blue="51" redBack="255" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.MemoryInputIconXml">
+        <tooltip>Message log</tooltip>
+    </memoryInputIcon>
+    <memoryInputIcon colWidth="20" memory="IMUSS CTC:CODELINE:1:LOG" x="50" y="385" level="5" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" size="14" style="0" red="51" green="51" blue="51" redBack="255" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.MemoryInputIconXml">
+        <tooltip>Message log</tooltip>
+    </memoryInputIcon>
 
   </paneleditor>
   <!--Written by JMRI version 2.3.6 on Tue Nov 18 22:48:40 PST 2008 $Id: XmlFile.java,v 1.38 2008/11/17 04:03:12 jacobsen Exp $-->
