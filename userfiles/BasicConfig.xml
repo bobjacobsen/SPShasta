@@ -4824,6 +4824,12 @@
     <memory systemName="IMTRKSETT2" value="19800">
       <systemName>IMTRKSETT2</systemName>
     </memory>
+    <memory>
+        <systemName>IMUSS CTC:SIGNALHEADSECTION:1:LOG</systemName>
+    </memory>
+    <memory>
+        <systemName>IMUSS CTC:CODELINE:1:LOG</systemName>
+    </memory>
   </memories>
   <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
     <route systemName="IR HELIX LEVEL 1 C" userName="Helix Level 1 Closed">
@@ -6335,11 +6341,6 @@
       <logixConditional systemName="IX:AUTO:0004C3" order="2" />
     </logix>
 
-    <logix systemName="IX Mode Control" enabled="yes">
-      <systemName>IX Mode Control</systemName>
-      <logixConditional systemName="IX Mode Control CTC" order="0" />
-      <logixConditional systemName="IX Mode Control ABS" order="1" />
-    </logix>
     <logix systemName="IX Train Order Operator Panel" enabled="yes">
       <systemName>IX Train Order Operator Panel</systemName>
       <logixConditional systemName="IX Train Order BB W 19" order="0" />
@@ -6614,132 +6615,6 @@
       <conditionalAction option="1" type="17" systemName="GLY LED Lower Left Wye" data="4" delay="&MOVETIMEOUT;" string="&MOVETIMEOUT;" />
       <conditionalAction option="1" type="17" systemName="GLY LED Upper Right Wye" data="2" delay="&MOVETIMEOUT;" string="&MOVETIMEOUT;" />
     </conditional>
-
-    <conditional systemName="IX Mode Control ABS" userName="Set ABS Mode" antecedent="R1" logicType="3">
-      <systemName>IX Mode Control ABS</systemName>
-      <userName>Set ABS Mode</userName>
-      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CTC Mode" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalAction option="1" type="2" systemName="CTC 02 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 02 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 02 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 04 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 04 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 04 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 06 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 06 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 06 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 08 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 08 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 08 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 10 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 10 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 10 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 14 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 14 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 14 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 16 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 16 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 16 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 18 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 18 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 18 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 20 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 20 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 20 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 22 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 22 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 22 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 26 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 26 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 26 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 28 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 28 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 28 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 30 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 30 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 30 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 32 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 32 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 32 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 34 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 34 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 34 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 36 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 36 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 36 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 38 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 38 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 38 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 40 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 40 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 40 L" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 42 R" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 42 C" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 42 L" data="4" delay="0" string="0" />
-    </conditional>
-    <conditional systemName="IX Mode Control CTC" userName="Set CTC Mode" antecedent="R1" logicType="3">
-      <systemName>IX Mode Control CTC</systemName>
-      <userName>Set CTC Mode</userName>
-      <conditionalStateVariable operator="4" negated="no" type="1" systemName="CTC Mode" dataString="" num1="0" num2="0" triggersCalc="yes" />
-      <conditionalAction option="1" type="2" systemName="CTC 02 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 02 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 02 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 04 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 04 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 04 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 06 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 06 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 06 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 08 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 08 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 08 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 10 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 10 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 10 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 14 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 14 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 14 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 16 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 16 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 16 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 18 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 18 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 18 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 20 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 20 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 20 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 22 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 22 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 22 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 26 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 26 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 26 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 28 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 28 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 28 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 30 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 30 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 30 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 32 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 32 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 32 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 34 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 34 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 34 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 36 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 36 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 36 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 38 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 38 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 38 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 40 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 40 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 40 L" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 42 R" data="2" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 42 C" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CTC 42 L" data="2" delay="0" string="0" />
-    </conditional>
-
 
     <conditional systemName="IX Train Order BB E 19" userName="Train Order BB E 19" antecedent="R1" logicType="2" triggerOnChange="yes">
       <systemName>IX Train Order BB E 19</systemName>
