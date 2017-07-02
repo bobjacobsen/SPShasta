@@ -55,7 +55,7 @@
       <systemName>CT1007</systemName>
       <userName>Weed Staging TO 7</userName>
     </turnout>
-    <turnout systemName="CT1008" userName="TO 41" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout systemName="CT1008" userName="TO 41" feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT1008</systemName>
       <userName>TO 41</userName>
       <comment>Black Butte Lower Secondary, 40L</comment>
@@ -189,7 +189,7 @@
       <systemName>CT1038</systemName>
       <userName>32 Siding R</userName>
     </turnout>
-    <turnout systemName="CT1039" userName="TO 35A" feedback="DIRECT" inverted="true" automate="Default">
+    <turnout systemName="CT1039" userName="TO 35A" feedback="DELAYED" inverted="true" automate="Default">
       <systemName>CT1039</systemName>
       <userName>TO 35A</userName>
       <comment>Azalea Upper OS (was TO 37; includes both)</comment>
@@ -198,7 +198,7 @@
       <systemName>CT104</systemName>
       <userName>Helix P0 L3 C2</userName>
     </turnout>
-    <turnout systemName="CT1040" userName="TO 39A" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout systemName="CT1040" userName="TO 39A" feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT1040</systemName>
       <userName>TO 39A</userName>
       <comment>Black Butte Lower Main (was 40-0, original)</comment>
@@ -430,7 +430,7 @@
       <systemName>CT149</systemName>
       <userName>Helix P1 L4 T1</userName>
     </turnout>
-    <turnout systemName="CT15" userName="TO 09" feedback="DIRECT" inverted="true" automate="Default">
+    <turnout systemName="CT15" userName="TO 09" feedback="DELAYED" inverted="true" automate="Default">
       <systemName>CT15</systemName>
       <userName>TO 09</userName>
       <comment>Dunsmuir West (Lower) End</comment>
@@ -779,42 +779,42 @@
       <userName>TO 92</userName>
       <comment>Shasta Spring</comment>
     </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT2099</systemName>
       <userName>TO 25</userName>
       <comment>West Small</comment>
     </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT2100</systemName>
       <userName>TO 27</userName>
       <comment>East Small</comment>
     </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT2101</systemName>
       <userName>TO 29</userName>
-      <comment>West Mott (was TO 31)</comment>
+      <comment>West Mott</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2102</systemName>
       <userName>DD TO</userName>
       <comment>DD TO Yard entrance by upper XO</comment>
     </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT2103</systemName>
       <userName>TO 88</userName>
       <comment>Upper XO TO</comment>
     </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT2104</systemName>
       <userName>TO 21</userName>
       <comment>Dunsmuir East TO</comment>
     </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT2105</systemName>
       <userName>TO 31A</userName>
-      <comment>West Azalea ("crossover", was TO 33)</comment>
+      <comment>West Azalea "crossover"</comment>
     </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT2106</systemName>
       <userName>TO 13</userName>
       <comment>Dunsmuir Lower XO</comment>
@@ -834,7 +834,7 @@
       <userName>Lock 86</userName>
       <comment>Lock Team Track when Closed</comment>
     </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT2110</systemName>
       <userName>TO 17</userName>
       <comment>Team XO both sides</comment>
@@ -986,7 +986,7 @@
       <systemName>CT5004</systemName>
       <userName>BB East Lower Green</userName>
     </turnout>
-    <turnout systemName="CT5005" userName="TO 39B" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout systemName="CT5005" userName="TO 39B" feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT5005</systemName>
       <userName>TO 39B</userName>
       <comment>New Black Butte bypass TO</comment>
@@ -1102,10 +1102,10 @@
       <systemName>CT5036</systemName>
       <userName>40 Siding R</userName>
     </turnout>
-    <turnout systemName="CT5037" userName="TO 31B" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout systemName="CT5037" userName="TO 31B" feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT5037</systemName>
       <userName>TO 31B</userName>
-      <comment>East end Mott (was TO 35)</comment>
+      <comment>East end Mott</comment>
     </turnout>
     <turnout systemName="CT5038" userName="BB/MtShasta Route Sig 1" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5038</systemName>
