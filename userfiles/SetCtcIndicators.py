@@ -66,16 +66,6 @@ class setStartup(jmri.jmrit.automat.AbstractAutomaton) :
     turnouts.getTurnout("CT9003").setState(THROWN)
     turnouts.getTurnout("CT9004").setState(THROWN)
     turnouts.getTurnout("ITSIGNALMASTAUTO").setState(CLOSED)
-
-    # force mode transition to get a stable set of states
-    if sensors.getSensor("CTC Mode").state == ACTIVE :
-        sensors.getSensor("CTC Mode").setState(INACTIVE)
-        self.waitMsec(250)
-        sensors.getSensor("CTC Mode").setState(ACTIVE)
-    else :
-        sensors.getSensor("CTC Mode").setState(ACTIVE)
-        self.waitMsec(250)
-        sensors.getSensor("CTC Mode").setState(INACTIVE)
     
     print "SetCtcIndicators done"
     
