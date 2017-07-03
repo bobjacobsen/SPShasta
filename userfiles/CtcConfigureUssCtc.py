@@ -83,7 +83,7 @@ turnout = TurnoutSection("TO 09", "CTC 09 N", "CTC 09 R", "CTC 09 N", "CTC 09 R"
 station.add(turnout)
 
 rightward = arrayList(["10 R Upper", "10 R Lower"])
-leftward  = arrayList(["10 L Main", "10 L Main"])
+leftward  = arrayList(["10 L Main", "10 L Siding"])
 signal = SignalHeadSection(rightward, leftward, "CTC 10 L", "CTC 10 C", "CTC 10 R", "CTC 10 L", "CTC 10 R", station);
 station.add(signal)
 
