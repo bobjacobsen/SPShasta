@@ -6229,26 +6229,33 @@
       <sensorname>TC 13</sensorname>
       <comment />
     </signalelement>
-    <signalelement signal="CH2004" mode="4" watchedturnout="TO 13" watchedsignal1="CH53" watchedsignal2="CH51" watchedsensor1="TC 13" watchedsensor2="TC 16" watchedsensor2alt="TC 14" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="16 L Siding" mode="4" watchedturnout="TO 13" watchedsignal1="CH53" watchedsignal2="CH51" watchedsensor1="TC 13" watchedsensor2="TC 16" watchedsensor2alt="TC 14" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false">
       <sensorname>TC 15</sensorname>
       <comment />
     </signalelement>
-    <signalelement signal="CH2003" mode="2" watchedturnout="TO 13" watchedsignal1="CH51" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="14 L Main" mode="2" watchedturnout="TO 13" watchedsignal1="CH51" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>TC 14</sensorname>
       <sensorname>TC 16</sensorname>
-      <comment>Missing sensor entries</comment>
+      <comment />
     </signalelement>
     <signalelement signal="CH47" mode="2" watchedturnout="CT15" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>CS11</sensorname>
       <sensorname>TC 14</sensorname>
       <comment>Had CS12 before, why?</comment>
     </signalelement>
-    <signalelement signal="CH2002" mode="2" watchedturnout="TO 13" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false" />
+    <signalelement signal="16 R Siding" mode="2" watchedturnout="TO 13" watchedsignal1="20 R Lower" watchedsignal1alt="20 R Upper" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>TC 15</sensorname>
+      <sensorname>TC 18</sensorname>
+      <comment />
+    </signalelement>
     <signalelement signal="CH45" mode="2" watchedturnout="CT14" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>CS9</sensorname>
       <comment />
     </signalelement>
-    <signalelement signal="CH2001" mode="4" watchedturnout="TO 13" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false" />
+    <signalelement signal="14 R Main" mode="4" watchedturnout="TO 13" watchedsignal1="18 R" watchedsignal2="20 R Lower" watchedsignal2alt="20 R Upper" watchedsensor1="TC 17" watchedsensor2="TC 18" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false">
+      <sensorname>TC 16</sensorname>
+      <comment />
+    </signalelement>
     <signalelement signal="CH43" mode="3" watchedturnout="CT14" watchedsignal1="CH35" watchedsignal1alt="CH37" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>CS9</sensorname>
       <sensorname>CS8</sensorname>
