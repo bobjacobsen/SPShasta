@@ -188,6 +188,7 @@
       <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" rotate="0" degrees="0" scale="1.0" />
       <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" rotate="0" degrees="0" scale="1.0" />
     </sensoricon>
+    <turnouticon turnout="Call On Mode 38" x="687" y="226" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
 
     <!-- **************************************** -->
 
@@ -216,6 +217,7 @@
       <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" rotate="0" degrees="0" scale="1.0" />
       <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" rotate="0" degrees="0" scale="1.0" />
     </sensoricon>
+    <turnouticon turnout="Call On Mode 40" x="787" y="226" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
 
     <sensoricon sensor="CTC 40 Code A" x="762" y="255" level="10" active="resources/icons/USSpanels/Lamps/lamp-dy.gif" inactive="resources/icons/USSpanels/Plates/code-button.gif" unknown="resources/icons/USSpanels/Plates/code-button.gif" inconsistent="resources/icons/USSpanels/Plates/code-button.gif" rotate="0" forcecontroloff="false" momentary="true" class="jmri.jmrit.display.configurexml.SensorIconXml" />
     <turnouticon turnout="CTC 40 Code" x="765" y="290" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
