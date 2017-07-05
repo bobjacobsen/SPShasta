@@ -28,6 +28,7 @@
       <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" rotate="0" degrees="0" scale="1.0" />
       <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" rotate="0" degrees="0" scale="1.0" />
     </sensoricon>
+    <turnouticon turnout="MC 26/28" x="87" y="226" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
 
     <sensoricon sensor="CTC 26 Code A" x="62" y="255" level="10" active="resources/icons/USSpanels/Lamps/lamp-dy.gif" inactive="resources/icons/USSpanels/Plates/code-button.gif" unknown="resources/icons/USSpanels/Plates/code-button.gif" inconsistent="resources/icons/USSpanels/Plates/code-button.gif" rotate="0" forcecontroloff="false" momentary="true" class="jmri.jmrit.display.configurexml.SensorIconXml" />
     <turnouticon turnout="CTC 26 Code" x="65" y="290" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
@@ -58,6 +59,7 @@
       <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" rotate="0" degrees="0" scale="1.0" />
       <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" rotate="0" degrees="0" scale="1.0" />
     </sensoricon>
+    <turnouticon turnout="MC 26/28" x="187" y="226" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
 
     <sensoricon sensor="CTC 28 Code A" x="162" y="255" level="10" active="resources/icons/USSpanels/Lamps/lamp-dy.gif" inactive="resources/icons/USSpanels/Plates/code-button.gif" unknown="resources/icons/USSpanels/Plates/code-button.gif" inconsistent="resources/icons/USSpanels/Plates/code-button.gif" rotate="0" forcecontroloff="false" momentary="true" class="jmri.jmrit.display.configurexml.SensorIconXml" />
     <turnouticon turnout="CTC 28 Code" x="165" y="290" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
@@ -88,6 +90,7 @@
       <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" rotate="0" degrees="0" scale="1.0" />
       <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" rotate="0" degrees="0" scale="1.0" />
     </sensoricon>
+    <turnouticon turnout="MC 30" x="287" y="226" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
 
     <sensoricon sensor="CTC 30 Code A" x="262" y="255" level="10" active="resources/icons/USSpanels/Lamps/lamp-dy.gif" inactive="resources/icons/USSpanels/Plates/code-button.gif" unknown="resources/icons/USSpanels/Plates/code-button.gif" inconsistent="resources/icons/USSpanels/Plates/code-button.gif" rotate="0" forcecontroloff="false" momentary="true" class="jmri.jmrit.display.configurexml.SensorIconXml" />
     <turnouticon turnout="CTC 30 Code" x="265" y="290" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
@@ -118,6 +121,7 @@
       <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" rotate="0" degrees="0" scale="1.0" />
       <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" rotate="0" degrees="0" scale="1.0" />
     </sensoricon>
+    <turnouticon turnout="MC 32" x="387" y="226" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
 
     <sensoricon sensor="CTC 32 Code A" x="362" y="255" level="10" active="resources/icons/USSpanels/Lamps/lamp-dy.gif" inactive="resources/icons/USSpanels/Plates/code-button.gif" unknown="resources/icons/USSpanels/Plates/code-button.gif" inconsistent="resources/icons/USSpanels/Plates/code-button.gif" rotate="0" forcecontroloff="false" momentary="true" class="jmri.jmrit.display.configurexml.SensorIconXml" />
     <turnouticon turnout="CTC 32 Code" x="365" y="290" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
@@ -160,6 +164,7 @@
       <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" rotate="0" degrees="0" scale="1.0" />
       <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" rotate="0" degrees="0" scale="1.0" />
     </sensoricon>
+    <turnouticon turnout="MC 36" x="587" y="226" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
 
     <sensoricon sensor="CTC 36 Code A" x="562" y="255" level="10" active="resources/icons/USSpanels/Lamps/lamp-dy.gif" inactive="resources/icons/USSpanels/Plates/code-button.gif" unknown="resources/icons/USSpanels/Plates/code-button.gif" inconsistent="resources/icons/USSpanels/Plates/code-button.gif" rotate="0" forcecontroloff="false" momentary="true" class="jmri.jmrit.display.configurexml.SensorIconXml" />
     <turnouticon turnout="CTC 36 Code" x="565" y="290" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
@@ -241,6 +246,7 @@
       <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" rotate="0" degrees="0" scale="1.0" />
       <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" rotate="0" degrees="0" scale="1.0" />
     </sensoricon>
+    <turnouticon turnout="MC 42" x="887" y="226" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
 
     <!-- **************************************** -->
 
