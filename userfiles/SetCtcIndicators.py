@@ -6,7 +6,7 @@
 
 import jmri
 
-class setStartup(jmri.jmrit.automat.AbstractAutomaton) :      
+class SetCtcIndicators(jmri.jmrit.automat.AbstractAutomaton) :      
   def init(self):
     return
   def handle(self):
@@ -71,4 +71,4 @@ class setStartup(jmri.jmrit.automat.AbstractAutomaton) :
     
     return False              # all done, don't repeat again
 
-setStartup().start()          # create one of these, and start it running
+SetCtcIndicators().start()          # create one of these, and start it running
