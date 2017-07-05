@@ -16,6 +16,8 @@ def arrayList(contents) :
         retval.add(item)
     return retval
 
+print "CtcConfigureUssCtc starts"
+
 # The code line is shared by all Stations
 
 codeline = CodeLine("CTC Code Line Driver", "IT CODE MOD 1", "IT CODE MOD 2", "IT CODE MOD 3", "IT CODE MOD 4")
@@ -27,6 +29,13 @@ vbell = VetoedBell("CTC Bell Cutout", bell)
 button = CodeButton("CTC 02 Code A", "CTC 02 Code")
 station = Station("1/2", codeline, button)
 
+CombineTurnouts().set("CTC TC 01", ["CTC TC 01A"])  # right-side repeater
+CombineTurnouts().set("CTC TC 02", ["CTC TC 02A"])  # right-side repeater
+
+station.add(TrackCircuitSection("TC 01","CTC TC 01", station)) # -1 main
+station.add(TrackCircuitSection("TC 02","CTC TC 02", station)) # -3 siding
+station.add(TrackCircuitSection("TC 03","CTC TC 03", station)) # 1 OS
+
 turnout = TurnoutSection("Helix Level 2 B", "CTC 01 N", "CTC 01 R", "CTC 01 N", "CTC 01 R", station)
 station.add(turnout)
 
@@ -34,6 +43,8 @@ station.add(turnout)
 
 button = CodeButton("CTC 04 Code A", "CTC 04 Code")
 station = Station("3/4", codeline, button)
+
+station.add(TrackCircuitSection("TC 04","CTC TC 04", station)) # 3 OS
 
 turnout = TurnoutSection("Helix Level 2 A", "CTC 03 N", "CTC 03 R", "CTC 03 N", "CTC 03 R", station)
 station.add(turnout)
@@ -43,6 +54,8 @@ station.add(turnout)
 button = CodeButton("CTC 06 Code A", "CTC 06 Code")
 station = Station("5/6", codeline, button)
 
+station.add(TrackCircuitSection("TC 05","CTC TC 05", station)) # 1-5 siding
+station.add(TrackCircuitSection("TC 06","CTC TC 06", station)) # 3-5 main
 station.add(TrackCircuitSection("TC 07","CTC TC 07", station)) # 5 OS
 
 turnout = TurnoutSection("Helix Level 1", "CTC 05 N", "CTC 05 R", "CTC 05 N", "CTC 05 R", station)
@@ -338,3 +351,4 @@ routeLock = RouteLock(["40 L Weed", "40 L Siding"]);
 routeLock2 = RouteLock(["40 R Upper", "40 R Middle", "40 R Lower"], [jmri.BeanSetting(turnouts.getTurnout("TO 39"), THROWN)]);
 turnout2.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, routeLock2, TimeLock(signal1), TimeLock(signal2)]));
 
+print "CtcConfigureUssCtc done"
