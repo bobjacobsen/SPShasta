@@ -1,8 +1,11 @@
 // UDrive the SP Shasta code line
 
-int startpin = 8;  // 0 bit / 0v makes sound
+int startpin = 7;  // 0 bit / 0v makes sound
+int button = 8;  // pressed / 0v makes sound
 int buzzerpin = 13; // 1 bit / 5V makes sound
 
+// inputs 6 - 0 are available 
+//
 // Shield uses a 4N25 isolator with input to pin and gnd,
 // load to + and to output emitter
 
@@ -16,6 +19,7 @@ int buzzerpin = 13; // 1 bit / 5V makes sound
 
 void setup() {
     pinMode(startpin, INPUT_PULLUP);
+    pinMode(button, INPUT_PULLUP);
     pinMode(buzzerpin, OUTPUT);
     
     digitalWrite(buzzerpin, 0); // ensure off
@@ -30,31 +34,35 @@ void setLine(int val, int time) {
       delay(time);
 }
 
-void loop() {
-    if (digitalRead(startpin) == 0) {
+int counter = 0;
 
+void loop() {
+    
+    // wait for start
+    if (digitalRead(startpin) == 0  || digitalRead(button) == 0) {
+      // check for real input
+      delay(50);
+      if (digitalRead(startpin) != 0  && digitalRead(button) != 0) return;
+     
+      counter++;
+      
+      // proceed to send
       setLine(1, longTime); 
     
-      setLine(0, shortTime);
-      setLine(1, longTime);
-      setLine(0, shortTime);
-      setLine(1, longTime);
-      setLine(0, shortTime);
-      setLine(1, longTime);
-      setLine(0, shortTime);
-    
-      //setLine(1, longTime);
-      //setLine(0, shortTime);
-      //setLine(1, longTime);
-      //setLine(0, shortTime);
-      //setLine(1, longTime);
-      //setLine(0, shortTime);
-      //setLine(1, shortTime);
-    
+      setLine(0, (  counter & 1) ? shortTime : longTime);
+      setLine(1, (! counter & 1) ? shortTime : longTime);
+      setLine(0, (  counter & 2) ? shortTime : longTime);
+      setLine(1, (! counter & 2) ? shortTime : longTime);
+      setLine(0, (  counter & 4) ? shortTime : longTime);
+      setLine(1, (! counter & 4) ? shortTime : longTime);
+      setLine(0, (  counter & 8) ? shortTime : longTime);
+      setLine(1, (! counter & 8) ? shortTime : longTime);
+        
       setLine(0, longTime); // clears the line
 
-      // and cycle wait before checking again to avoid overheat
-      delay(200);
-
+      // wait for idle input, to keep from repeating if something gets stuck
+      while (digitalRead(startpin) == 0  || digitalRead(button) == 0) {
+        delay(10);
+      }
     }
 }
