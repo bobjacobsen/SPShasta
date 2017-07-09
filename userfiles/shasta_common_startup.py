@@ -23,6 +23,8 @@ cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:BasicCon
 # load scripts needed by CTC controls
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CombineSensors.py"))
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CombineTurnouts.py"))
+execfile(jmri.util.FileUtil.getExternalFilename("program:jython/SensorGroupAutoItem.py"))
+execfile(jmri.util.FileUtil.getExternalFilename("program:jython/SignalFollower.py"))
 
 # start with special controls
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:TurntableControls.xml")))
@@ -41,11 +43,10 @@ cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:BWpanel.
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CtcModeControl.xml")))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CmriNodeStatus.xml")))
 
-# start signal followers
-execfile(jmri.util.FileUtil.getExternalFilename("program:jython/SignalFollower.py"))
-SignalFollowerListener().set("CH2001","CH2001R")
-SignalFollowerListener().set("CH2002","CH2002R")
+# Show configuration not complete in status memory on panels
+memories.getMemory("IMUSS CTC:CODELINE:1:LOG").setValue('Configuration still running')
 
+# start driving sensors from C/MRI status
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CmriNodeMonitor.py"))
 
 execfile(jmri.util.FileUtil.getExternalFilename("preference:SetCtcIndicators.py"))

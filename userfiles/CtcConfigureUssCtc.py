@@ -383,7 +383,7 @@ class CtcConfigureUssCtc(jmri.jmrit.automat.AbstractAutomaton) :
     memories.getMemory("IMUSS CTC:SIGNALHEADSECTION:1:TIME").setValue(jmri.jmrit.ussctc.SignalHeadSection.DEFAULT_RUN_TIME_LENGTH)
     print "Running time for", jmri.jmrit.ussctc.SignalHeadSection.DEFAULT_RUN_TIME_LENGTH/1000, "seconds"
     
-    memories.getMemory("IMUSS CTC:SIGNALHEADSECTION:1:LOG").setValue('Configuration Done')
+    memories.getMemory("IMUSS CTC:CODELINE:1:LOG").setValue('Configuration Done')
     print "CtcConfigureUssCtc done"
 
 CtcConfigureUssCtc().start()          # create one of these, and start it running
