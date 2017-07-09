@@ -16,6 +16,31 @@ def arrayList(contents) :
         retval.add(item)
     return retval
 
+# When the call-on turnout is set THROWN, show restricting on signals
+class ForceFlashing(java.beans.PropertyChangeListener):
+  def set(self, callOnName, groupList) :
+    self.default = turnouts.getTurnout(callOnName)
+    self.groupNames = groupList
+    # process fake event to set the initial state
+    self.propertyChange(java.beans.PropertyChangeEvent(self.default, "KnownState", 0, 0))
+    # set up listeners
+    self.default.addPropertyChangeListener(self)
+    for name in self.groupNames : 
+        signals.getSignalHead(name).addPropertyChangeListener(self)
+    return
+  def propertyChange(self, event):
+    state = False
+    if (self.default.state == THROWN) : 
+        for name in self.groupNames : 
+            if (signals.getSignalHead(name).appearance == RED) :
+                signals.getSignalHead(name).setAppearance(FLASHRED)
+    elif (self.default.state == CLOSED) : 
+        for name in self.groupNames : 
+            if (signals.getSignalHead(name).appearance == FLASHRED) :
+                signals.getSignalHead(name).setAppearance(RED)
+    return
+
+
 class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :      
   def init(self):
     return
@@ -301,6 +326,8 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     turnout = TurnoutSection("TO 35A", "CTC 35 N", "CTC 35 R", "CTC 35 N", "CTC 35 R", station)
     station.add(turnout)
 
+    callOnLock = TurnoutLock("Call On Mode 38", CLOSED)
+
     rightward = arrayList(["36 R Azalea Main Upper", "36 R Azalea Main Lower"])
     leftward  = arrayList(["36 L Azalea Bypass"])
     signal1 = SignalHeadSection(rightward, leftward, "CTC 36 L", "CTC 36 C", "CTC 36 R", "CTC 36 L", "CTC 36 R", station);
@@ -317,7 +344,7 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     occupancyLock = CombinedLock([OccupancyLock("TC 38"), OccupancyLock("TC 101")])
     routeLock = RouteLock(["36 R Azalea Main Upper", "36 R Azalea Main Lower", "38 R Siding", "38 L Lower", "38 L Upper", "36 L Azalea Bypass"]);
-    turnout.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2)]));
+    turnout.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2), callOnLock]));
 
     # ===== Set up Station 39/40/41/42 =====
 
@@ -340,6 +367,8 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     turnout2 = TurnoutSection("TO 41", "CTC 41 N", "CTC 41 R", "CTC 41 N", "CTC 41 R", station)
     station.add(turnout2)
 
+    callOnLock = TurnoutLock("Call On Mode 40", CLOSED)
+
     # "40 R 2nd on main" is an ABS signal protecting engineers from running over the back-set turnout at end of bypass
     rightward = arrayList(["40 R Upper", "40 R Middle", "40 R Lower"])
     leftward  = arrayList(["40 L Weed", "40 L Siding", "42 L Black Butte Main Upper"])  # bit of a hack with 42 L Upper, allows traffic over 39
@@ -357,12 +386,17 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     occupancyLock = CombinedLock([OccupancyLock("TC 40"), OccupancyLock("TC 103")])
     routeLock = RouteLock(["40 R Upper", "40 R Middle", "40 R Lower", "40 L Weed", "40 L Siding", "42 R Bypass", "42 L Black Butte Main Upper", "42 L Black Butte Main Lower"]);
-    turnout1.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2)]));
+    turnout1.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2), callOnLock]));
 
     occupancyLock = OccupancyLock("TC 40")
     routeLock = RouteLock(["40 L Weed", "40 L Siding"]);
     routeLock2 = RouteLock(["40 R Upper", "40 R Middle", "40 R Lower"], [jmri.BeanSetting(turnouts.getTurnout("TO 39"), THROWN)]);
-    turnout2.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, routeLock2, TimeLock(signal1), TimeLock(signal2)]));
+    turnout2.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, routeLock2, TimeLock(signal1), TimeLock(signal2), callOnLock]));
+
+    # ===== Handle Call Ons =====
+    # See the ForceFlashing class at top
+    ForceFlashing().set("Call On Mode 38",["38 R Siding","38 L Lower"])
+    ForceFlashing().set("Call On Mode 40",["40 L Weed","40 L Siding"])
 
     # ===== Final Items =====
     

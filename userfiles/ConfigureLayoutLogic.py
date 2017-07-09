@@ -44,10 +44,8 @@ class ConfigureLayoutLogic(jmri.jmrit.automat.AbstractAutomaton) :
     turnouts.getTurnout("Call On Mode 40").setState(CLOSED)
 
     # Black Butte lunars on but dark
-    signals.getSignalHead("40 R BB Lunar Left").setAppearance(LUNAR)
-    signals.getSignalHead("40 R BB Lunar Left").setLit(False)
-    signals.getSignalHead("40 R BB Lunar Right").setAppearance(LUNAR)
-    signals.getSignalHead("40 R BB Lunar Right").setLit(False)
+    signals.getSignalHead("40 R BB Lunar Left").setAppearance(DARK)
+    signals.getSignalHead("40 R BB Lunar Right").setAppearance(DARK)
 
     # set the default state of turnout locks to unlocked
     turnouts.getTurnout("Lock 86").setState(THROWN)
