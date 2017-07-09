@@ -5,14 +5,14 @@
 
 import jmri
 
-class SetCtcIndicators(jmri.jmrit.automat.AbstractAutomaton) :      
+class ConfigureLayoutLogic(jmri.jmrit.automat.AbstractAutomaton) :      
   def init(self):
     return
   def handle(self):
     # delay long enough for debug init to run if present and polling to start if not
     self.waitMsec(8000)         # time is in milliseconds
     
-    print "SetCtcIndicators starts"
+    print "ConfigureLayoutLogic starts"
 
     # start signal followers
     SignalFollowerListener().set("CH2001","CH2001R")
@@ -85,8 +85,8 @@ class SetCtcIndicators(jmri.jmrit.automat.AbstractAutomaton) :
     turnouts.getTurnout("CT9004").setState(THROWN)
     turnouts.getTurnout("ITSIGNALMASTAUTO").setState(CLOSED)
     
-    print "SetCtcIndicators done"
+    print "ConfigureLayoutLogic done"
     
     return False              # all done, don't repeat again
 
-SetCtcIndicators().start()          # create one of these, and start it running
+ConfigureLayoutLogic().start()          # create one of these, and start it running

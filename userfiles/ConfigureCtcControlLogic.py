@@ -16,14 +16,14 @@ def arrayList(contents) :
         retval.add(item)
     return retval
 
-class CtcConfigureUssCtc(jmri.jmrit.automat.AbstractAutomaton) :      
+class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :      
   def init(self):
     return
   def handle(self):
     # delay long enough for debug init to run if present, polling to start, turnouts to be in place, plus a bit more
     self.waitMsec(1000+8000+2000+500)         # time is in milliseconds
     
-    print "CtcConfigureUssCtc starts"
+    print "ConfigureCtcControlLogic starts"
 
     # The code line is shared by all Stations
 
@@ -384,6 +384,6 @@ class CtcConfigureUssCtc(jmri.jmrit.automat.AbstractAutomaton) :
     print "Running time for", jmri.jmrit.ussctc.SignalHeadSection.DEFAULT_RUN_TIME_LENGTH/1000, "seconds"
     
     memories.getMemory("IMUSS CTC:CODELINE:1:LOG").setValue('Configuration Done')
-    print "CtcConfigureUssCtc done"
+    print "ConfigureCtcControlLogic done"
 
-CtcConfigureUssCtc().start()          # create one of these, and start it running
+ConfigureCtcControlLogic().start()          # create one of these, and start it running

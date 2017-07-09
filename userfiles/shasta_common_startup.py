@@ -49,12 +49,12 @@ memories.getMemory("IMUSS CTC:CODELINE:1:LOG").setValue('Configuration still run
 # start driving sensors from C/MRI status
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CmriNodeMonitor.py"))
 
-execfile(jmri.util.FileUtil.getExternalFilename("preference:SetCtcIndicators.py"))
+execfile(jmri.util.FileUtil.getExternalFilename("preference:ConfigureLayoutLogic.py"))
 
 # start web server
 jmri.web.server.WebServerAction().actionPerformed(None)
 
 # new CTC controls, done last so that turnouts are in final state
-execfile(jmri.util.FileUtil.getExternalFilename("preference:CtcConfigureUssCtc.py"))
+execfile(jmri.util.FileUtil.getExternalFilename("preference:ConfigureCtcControlLogic.py"))
 
 print "shasta_common_startup done"
