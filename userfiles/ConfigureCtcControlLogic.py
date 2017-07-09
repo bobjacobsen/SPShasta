@@ -68,8 +68,8 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(TrackCircuitSection("TC 02","CTC TC 02", station)) # -3 siding
     station.add(TrackCircuitSection("TC 03","CTC TC 03", station)) # 1 OS
 
-    turnout = TurnoutSection("Helix Level 2 B", "CTC 01 N", "CTC 01 R", "CTC 01 N", "CTC 01 R", station)
-    station.add(turnout)
+    turnout1 = TurnoutSection("Helix Level 2 B", "CTC 01 N", "CTC 01 R", "CTC 01 N", "CTC 01 R", station)
+    station.add(turnout1)
 
     # ===== Set up Station 3/4 ===== (TODO: NOT FULLY CONFIGURED)
 
@@ -78,8 +78,8 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     station.add(TrackCircuitSection("TC 04","CTC TC 04", station)) # 3 OS
 
-    turnout = TurnoutSection("Helix Level 2 A", "CTC 03 N", "CTC 03 R", "CTC 03 N", "CTC 03 R", station)
-    station.add(turnout)
+    turnout3 = TurnoutSection("Helix Level 2 A", "CTC 03 N", "CTC 03 R", "CTC 03 N", "CTC 03 R", station)
+    station.add(turnout3)
 
     # ===== Set up Station 5/6 ===== (TODO: NOT FULLY CONFIGURED)
 
@@ -90,8 +90,8 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(TrackCircuitSection("TC 06","CTC TC 06", station)) # 3-5 main
     station.add(TrackCircuitSection("TC 07","CTC TC 07", station, bell)) # 5 OS
 
-    turnout = TurnoutSection("Helix Level 1", "CTC 05 N", "CTC 05 R", "CTC 05 N", "CTC 05 R", station)
-    station.add(turnout)
+    turnout5 = TurnoutSection("Helix Level 1", "CTC 05 N", "CTC 05 R", "CTC 05 N", "CTC 05 R", station)
+    station.add(turnout5)
 
     station.add(MaintainerCallSection("CTC 06 Call","MC 6", station))
 
@@ -104,8 +104,8 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(TrackCircuitSection("TC 09","CTC TC 09", station, bell)) # Redding approach
     station.add(TrackCircuitSection("TC 10","CTC TC 10", station, vbell)) # OS 7
 
-    turnout = TurnoutSection("TO 07", "CTC 07 N", "CTC 07 R", "CTC 07 N", "CTC 07 R", station)
-    station.add(turnout)
+    turnout7 = TurnoutSection("TO 07", "CTC 07 N", "CTC 07 R", "CTC 07 N", "CTC 07 R", station)
+    station.add(turnout7)
 
     rightward = arrayList(["08 R from Helix", "08 R from Staging"])
     leftward  = arrayList(["08 L Upper", "08 L Lower"])
@@ -114,7 +114,7 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     occupancyLock = OccupancyLock("TC 10")
     routeLock = RouteLock(["08 R from Helix", "08 R from Staging", "08 L Upper", "08 L Lower"]);
-    turnout.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal)]));
+    turnout7.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal)]));
 
     # ===== Set up Station 9/10 =====
 
@@ -124,8 +124,8 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(TrackCircuitSection("TC 11","CTC TC 11", station)) # 7-9
     station.add(TrackCircuitSection("TC 12","CTC TC 12", station, vbell)) # OS 9
 
-    turnout = TurnoutSection("TO 09", "CTC 09 N", "CTC 09 R", "CTC 09 N", "CTC 09 R", station)
-    station.add(turnout)
+    turnout9 = TurnoutSection("TO 09", "CTC 09 N", "CTC 09 R", "CTC 09 N", "CTC 09 R", station)
+    station.add(turnout9)
 
     rightward = arrayList(["10 R Upper", "10 R Lower"])
     leftward  = arrayList(["10 L Main", "10 L Siding"])
@@ -134,7 +134,7 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     occupancyLock = OccupancyLock("TC 12")
     routeLock = RouteLock(["10 R Upper", "10 R Lower", "10 L Main", "10 L Siding"]);
-    turnout.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal)]));
+    turnout9.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal)]));
 
     # ===== Set up Station 13/14/16 =====
 
@@ -146,8 +146,8 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(TrackCircuitSection("TC 15","CTC TC 15", station, vbell)) # OS 13 siding
     station.add(TrackCircuitSection("TC 16","CTC TC 16", station, vbell)) # OS 13 main
 
-    turnout = TurnoutSection("TO 13", "CTC 13 N", "CTC 13 R", "CTC 13 N", "CTC 13 R", station)
-    station.add(turnout)
+    turnout13 = TurnoutSection("TO 13", "CTC 13 N", "CTC 13 R", "CTC 13 N", "CTC 13 R", station)
+    station.add(turnout13)
 
     rightward = arrayList(["14 R Main"])
     leftward  = arrayList(["14 L Main"])
@@ -161,7 +161,7 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     occupancyLock = CombinedLock([OccupancyLock("TC 15"), OccupancyLock("TC 16")])
     routeLock = RouteLock(["14 R Main", "16 R Siding", "14 L Main", "16 L Siding"]);
-    turnout.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2)]));
+    turnout13.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2)]));
 
     # ===== Set up Station 17/18/20 =====
 
@@ -173,8 +173,8 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(TrackCircuitSection("TC 19","CTC TC 19", station, vbell)) # OS 17 main
     station.add(TrackCircuitSection("TC 20","CTC TC 20", station, vbell)) # OS 17 siding
 
-    turnout = TurnoutSection("TO 17", "CTC 17 N", "CTC 17 R", "CTC 17 N", "CTC 17 R", station)
-    station.add(turnout)
+    turnout17 = TurnoutSection("TO 17", "CTC 17 N", "CTC 17 R", "CTC 17 N", "CTC 17 R", station)
+    station.add(turnout17)
 
     rightward = arrayList(["18 R"])
     leftward  = arrayList([])
@@ -190,7 +190,7 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     occupancyLock = CombinedLock([OccupancyLock("TC 19"), OccupancyLock("TC 20")])
     routeLock = RouteLock(["20 R Upper", "20 R Lower", "18 R"]);
-    turnout.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2)]));
+    turnout17.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2)]));
 
     # ===== Set up Station 21/22 =====
 
@@ -202,8 +202,8 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(TrackCircuitSection("TC 23","CTC TC 23", station)) # xover - 21 siding
     station.add(TrackCircuitSection("TC 24","CTC TC 24", station, vbell)) # OS 21
 
-    turnout = TurnoutSection("TO 21", "CTC 21 N", "CTC 21 R", "CTC 21 N", "CTC 21 R", station)
-    station.add(turnout)
+    turnout21 = TurnoutSection("TO 21", "CTC 21 N", "CTC 21 R", "CTC 21 N", "CTC 21 R", station)
+    station.add(turnout21)
 
     rightward = arrayList(["22 R Main", "22 R Siding"])
     leftward  = arrayList(["22 L Upper", "22 L Lower"])
@@ -212,7 +212,7 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     occupancyLock = OccupancyLock("TC 24")
     routeLock = RouteLock(["22 R Main", "22 R Siding", "22 L Upper", "22 L Lower"]);
-    turnout.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal)]));
+    turnout21.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal)]));
 
     # ===== Set up Station 25/26 =====
 
@@ -223,19 +223,19 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(TrackCircuitSection("TC 25","CTC TC 25", station)) # 21-25
     station.add(TrackCircuitSection("TC 26","CTC TC 26", station, vbell)) # OS 25
 
-    turnout = TurnoutSection("TO 25", "CTC 25 N", "CTC 25 R", "CTC 25 N", "CTC 25 R", station)
-    station.add(turnout)
+    turnout25 = TurnoutSection("TO 25", "CTC 25 N", "CTC 25 R", "CTC 25 N", "CTC 25 R", station)
+    station.add(turnout25)
 
     rightward = arrayList(["26 R Upper", "26 R Lower"])
     leftward  = arrayList(["26 L Main", "26 L Siding"])
-    signal = SignalHeadSection(rightward, leftward, "CTC 26 L", "CTC 26 C", "CTC 26 R", "CTC 26 L", "CTC 26 R", station);
-    station.add(signal)
+    signal26 = SignalHeadSection(rightward, leftward, "CTC 26 L", "CTC 26 C", "CTC 26 R", "CTC 26 L", "CTC 26 R", station);
+    station.add(signal26)
 
     station.add(MaintainerCallSection("CTC 26 Call","MC 26/28", station))
 
     occupancyLock = OccupancyLock("TC 26")
     routeLock = RouteLock(["26 R Upper", "26 R Lower", "26 L Main", "26 L Siding"]);
-    turnout.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal)]));
+    turnout25.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal26)]));
 
     # ===== Set up Station 27/28 =====
 
@@ -246,20 +246,28 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(TrackCircuitSection("TC 28","CTC TC 28", station)) # 25-27 siding
     station.add(TrackCircuitSection("TC 29","CTC TC 29", station, vbell)) # OS 27
 
-    turnout = TurnoutSection("TO 27", "CTC 27 N", "CTC 27 R", "CTC 27 N", "CTC 27 R", station)
-    station.add(turnout)
+    turnout27 = TurnoutSection("TO 27", "CTC 27 N", "CTC 27 R", "CTC 27 N", "CTC 27 R", station)
+    station.add(turnout27)
 
     rightward = arrayList(["28 R Main", "28 R Siding"])
     leftward  = arrayList(["28 L Upper", "28 L Lower"])
-    signal = SignalHeadSection(rightward, leftward, "CTC 28 L", "CTC 28 C", "CTC 28 R", "CTC 28 L", "CTC 28 R", station);
-    station.add(signal)
+    signal28 = SignalHeadSection(rightward, leftward, "CTC 28 L", "CTC 28 C", "CTC 28 R", "CTC 28 L", "CTC 28 R", station);
+    station.add(signal28)
 
     station.add(MaintainerCallSection("CTC 28 Call","MC 26/28", station))
 
     occupancyLock = OccupancyLock("TC 29")
     routeLock = RouteLock(["28 R Main", "28 R Siding", "28 L Upper", "28 L Lower"]);
-    turnout.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal)]));
-
+    turnout27.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal28)]));
+    
+    viaMain = TrafficLock(signal28, SignalHeadSection.CODE_LEFT, [jmri.BeanSetting(turnouts.getTurnout("TO 25"), THROWN), jmri.BeanSetting(turnouts.getTurnout("TO 27"), THROWN)])
+    viaSiding = TrafficLock(signal28, SignalHeadSection.CODE_LEFT, [jmri.BeanSetting(turnouts.getTurnout("TO 25"), CLOSED), jmri.BeanSetting(turnouts.getTurnout("TO 27"), CLOSED)])
+    signal26.addRightwardLocks([viaMain,viaSiding])
+    
+    viaMain = TrafficLock(signal26, SignalHeadSection.CODE_RIGHT, [jmri.BeanSetting(turnouts.getTurnout("TO 25"), THROWN), jmri.BeanSetting(turnouts.getTurnout("TO 27"), THROWN)])
+    viaSiding = TrafficLock(signal26, SignalHeadSection.CODE_RIGHT, [jmri.BeanSetting(turnouts.getTurnout("TO 25"), CLOSED), jmri.BeanSetting(turnouts.getTurnout("TO 27"), CLOSED)])
+    signal28.addLeftwardLocks([viaMain,viaSiding])
+    
     # ===== Set up Station 29/30 =====
 
     button = CodeButton("CTC 30 Code A", "CTC 30 Code")
@@ -268,19 +276,22 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(TrackCircuitSection("TC 30","CTC TC 30", station)) # 27-29
     station.add(TrackCircuitSection("TC 31","CTC TC 31", station, vbell)) # OS 29
 
-    turnout = TurnoutSection("TO 29", "CTC 29 N", "CTC 29 R", "CTC 29 N", "CTC 29 R", station)
-    station.add(turnout)
+    turnout29 = TurnoutSection("TO 29", "CTC 29 N", "CTC 29 R", "CTC 29 N", "CTC 29 R", station)
+    station.add(turnout29)
 
     rightward = arrayList(["30 R Upper", "30 R Lower"])
     leftward  = arrayList(["30 L Main", "30 L Siding"])
-    signal = SignalHeadSection(rightward, leftward, "CTC 30 L", "CTC 30 C", "CTC 30 R", "CTC 30 L", "CTC 30 R", station);
-    station.add(signal)
+    signal30 = SignalHeadSection(rightward, leftward, "CTC 30 L", "CTC 30 C", "CTC 30 R", "CTC 30 L", "CTC 30 R", station);
+    station.add(signal30)
 
     station.add(MaintainerCallSection("CTC 30 Call","MC 30", station))
 
     occupancyLock = OccupancyLock("TC 31")
     routeLock = RouteLock(["30 R Upper", "30 R Lower", "30 L Main", "30 L Siding"]);
-    turnout.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal)]));
+    turnout29.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal30)]));
+
+    signal28.addRightwardLocks(java.util.Arrays.asList([TrafficLock(signal30, SignalHeadSection.CODE_LEFT)]))
+    signal30.addLeftwardLocks(java.util.Arrays.asList([TrafficLock(signal28, SignalHeadSection.CODE_RIGHT)]))
 
     # ===== Set up Station 31/32/34 =====
 
@@ -294,8 +305,8 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     turnouts.getTurnout("TO 31").setCommandedState(CLOSED)
     CombineTurnouts().set("TO 31", ["TO 31A","TO 31B"])
-    turnout = TurnoutSection("TO 31", "CTC 31 N", "CTC 31 R", "CTC 31 N", "CTC 31 R", station)
-    station.add(turnout)
+    turnout31 = TurnoutSection("TO 31", "CTC 31 N", "CTC 31 R", "CTC 31 N", "CTC 31 R", station)
+    station.add(turnout31)
 
     rightward = arrayList(["32 R Lower", "32 R Upper"])
     leftward  = arrayList(["32 L Siding"])
@@ -311,7 +322,7 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     occupancyLock = CombinedLock([OccupancyLock("TC 34"), OccupancyLock("TC 35")])
     routeLock = RouteLock(["32 R Lower", "32 R Upper", "34 R Siding", "34 L Lower", "34 L Upper", "32 L Siding"]);
-    turnout.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2)]));
+    turnout31.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2)]));
 
     # ===== Set up Station 35/36/38 =====
 
@@ -323,8 +334,8 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(TrackCircuitSection("TC 38","CTC TC 38", station, vbell)) # OS 35 east
     station.add(TrackCircuitSection("TC 101","CTC TC 101", station, vbell)) # OS 35 west
 
-    turnout = TurnoutSection("TO 35A", "CTC 35 N", "CTC 35 R", "CTC 35 N", "CTC 35 R", station)
-    station.add(turnout)
+    turnout35 = TurnoutSection("TO 35A", "CTC 35 N", "CTC 35 R", "CTC 35 N", "CTC 35 R", station)
+    station.add(turnout35)
 
     callOnLock = TurnoutLock("Call On Mode 38", CLOSED)
 
@@ -344,7 +355,7 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     occupancyLock = CombinedLock([OccupancyLock("TC 38"), OccupancyLock("TC 101")])
     routeLock = RouteLock(["36 R Azalea Main Upper", "36 R Azalea Main Lower", "38 R Siding", "38 L Lower", "38 L Upper", "36 L Azalea Bypass"]);
-    turnout.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2), callOnLock]));
+    turnout35.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2), callOnLock]));
 
     # ===== Set up Station 39/40/41/42 =====
 
@@ -361,11 +372,11 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     turnouts.getTurnout("TO 39").setCommandedState(CLOSED)
     CombineTurnouts().set("TO 39", ["TO 39A","TO 39B"])
-    turnout1 = TurnoutSection("TO 39", "CTC 39 N", "CTC 39 R", "CTC 39 N", "CTC 39 R", station)
-    station.add(turnout1)
+    turnout39 = TurnoutSection("TO 39", "CTC 39 N", "CTC 39 R", "CTC 39 N", "CTC 39 R", station)
+    station.add(turnout39)
 
-    turnout2 = TurnoutSection("TO 41", "CTC 41 N", "CTC 41 R", "CTC 41 N", "CTC 41 R", station)
-    station.add(turnout2)
+    turnout41 = TurnoutSection("TO 41", "CTC 41 N", "CTC 41 R", "CTC 41 N", "CTC 41 R", station)
+    station.add(turnout41)
 
     callOnLock = TurnoutLock("Call On Mode 40", CLOSED)
 
@@ -386,12 +397,12 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     occupancyLock = CombinedLock([OccupancyLock("TC 40"), OccupancyLock("TC 103")])
     routeLock = RouteLock(["40 R Upper", "40 R Middle", "40 R Lower", "40 L Weed", "40 L Siding", "42 R Bypass", "42 L Black Butte Main Upper", "42 L Black Butte Main Lower"]);
-    turnout1.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2), callOnLock]));
+    turnout39.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2), callOnLock]));
 
     occupancyLock = OccupancyLock("TC 40")
     routeLock = RouteLock(["40 L Weed", "40 L Siding"]);
     routeLock2 = RouteLock(["40 R Upper", "40 R Middle", "40 R Lower"], [jmri.BeanSetting(turnouts.getTurnout("TO 39"), THROWN)]);
-    turnout2.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, routeLock2, TimeLock(signal1), TimeLock(signal2), callOnLock]));
+    turnout41.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, routeLock2, TimeLock(signal1), TimeLock(signal2), callOnLock]));
 
     # ===== Handle Call Ons =====
     # See the ForceFlashing class at top
