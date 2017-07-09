@@ -1234,10 +1234,13 @@
     </sensoricon>
 
     <memoryInputIcon colWidth="25" memory="IMUSS CTC:SIGNALHEADSECTION:1:LOG" x="50" y="560" level="5" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" size="14" style="0" red="51" green="51" blue="51" redBack="255" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.MemoryInputIconXml">
-        <tooltip>Message log</tooltip>
+        <tooltip>SignalHead log</tooltip>
     </memoryInputIcon>
     <memoryInputIcon colWidth="25" memory="IMUSS CTC:CODELINE:1:LOG" x="50" y="585" level="5" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" size="14" style="0" red="51" green="51" blue="51" redBack="255" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.MemoryInputIconXml">
-        <tooltip>Message log</tooltip>
+        <tooltip>CodeLine log</tooltip>
+    </memoryInputIcon>
+    <memoryInputIcon colWidth="25" memory="IMUSS CTC:LOCK:1:LOG" x="50" y="610" level="5" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" size="14" style="0" red="51" green="51" blue="51" redBack="255" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.MemoryInputIconXml">
+        <tooltip>Lock log</tooltip>
     </memoryInputIcon>
     
     <turnouticon turnout="CTC Bell" x="443" y="530" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
