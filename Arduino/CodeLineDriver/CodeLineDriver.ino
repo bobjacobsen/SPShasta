@@ -59,6 +59,8 @@ void loop() {
       setLine(1, (! counter & 8) ? shortTime : longTime);
         
       setLine(0, longTime); // clears the line
+      
+      # total time should be 50+6*longTime+4*shortTime = 2430
 
       // wait for idle input, to keep from repeating if something gets stuck
       while (digitalRead(startpin) == 0  || digitalRead(button) == 0) {
