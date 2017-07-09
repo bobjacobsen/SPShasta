@@ -4836,6 +4836,9 @@
     <memory>
         <systemName>IMUSS CTC:CODELINE:1:LOG</systemName>
     </memory>
+    <memory>
+        <systemName>IMUSS CTC:LOCK:1:LOG</systemName>
+    </memory>
   </memories>
   <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
     <route systemName="IR HELIX LEVEL 1 C" userName="Helix Level 1 Closed">
