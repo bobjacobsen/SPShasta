@@ -10,10 +10,14 @@ cm = jmri.InstanceManager.getDefault(jmri.ConfigureManager)
 # allow substitutions from internal DTD
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/TurnOffXmlValidation.py"))
 
+# set DELAYED Turnouts to operate faster at start
+jmri.implementation.AbstractTurnout.DELAYED_FEEDBACK_INTERVAL = 100
+
 # Original composite file, replaced by refactored files
 #cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:FullConfig.xml")))
 
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:BasicConfig.xml")))
+# Logix for CTC, replaced by ussctc package in CtcConfigureUssCtc.py
 #cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CtcLogix.xml")))
 
 # load scripts needed by CTC controls
