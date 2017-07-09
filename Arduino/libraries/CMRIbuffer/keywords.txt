@@ -1,0 +1,3 @@
+CMRIbuffer  KEYWORD1
+setup  KEYWORD2
+loop   KEYWORD2

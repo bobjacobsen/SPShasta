@@ -1,8 +1,6 @@
 #include "CMRIbuffer.h"
 #include "AFMotor.h"
 
-long encoderposition = 0;
-
 // You can only use the "cmri" or "debugger" calls, not both
 boolean debugSerial = false;  // true means no CMRI
 
@@ -14,6 +12,9 @@ boolean debugSerial = false;  // true means no CMRI
 PositioningMotor motor;
 MotorButtonDriver buttons(motor);
 MotorSerialDriver debugger(motor);
+
+long lastmove = 0;
+long encoderposition = 0;
 
 class MyCMRIbuffer : public CMRIbuffer {
   public:
@@ -32,6 +33,7 @@ class MyCMRIbuffer : public CMRIbuffer {
        if (cmd == 'm') {
            Serial.print("start move to");
            Serial.println(argument);
+           lastmove = argument;
            motor.moveTo(argument);
        } else {
            Serial.print("motor cmd ");
@@ -85,11 +87,21 @@ void encoder_setup() {
   digitalWrite(5, 1);
   pinMode(6, INPUT);
   digitalWrite(6, 1);
-  // read initial value
+  // set zero initial value
+  encoder_zero();
+}
+
+// set turntable's idea of position to the last commanded position to correct alignment
+void set_last_position() {
+  encoderposition = lastmove;
+  motor.position = lastmove;
+}
+
+void encoder_zero() {
+  encoderposition = 0;
   encodernow = 0;
   if (digitalRead(5) == 1) encodernow |= 1; // A
   if (digitalRead(6) == 1) encodernow |= 2; // B
-
 }
 
 void encoder_loop() {
