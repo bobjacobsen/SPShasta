@@ -20,8 +20,8 @@ class CtcConfigureUssCtc(jmri.jmrit.automat.AbstractAutomaton) :
   def init(self):
     return
   def handle(self):
-    # delay long enough for debug init to run if present, polling to start, and turnouts to be in place
-    self.waitMsec(1000+8000+10000+500)         # time is in milliseconds
+    # delay long enough for debug init to run if present, polling to start, turnouts to be in place, plus a bit more
+    self.waitMsec(1000+8000+2000+500)         # time is in milliseconds
     
     print "CtcConfigureUssCtc starts"
 
@@ -63,7 +63,7 @@ class CtcConfigureUssCtc(jmri.jmrit.automat.AbstractAutomaton) :
 
     station.add(TrackCircuitSection("TC 05","CTC TC 05", station)) # 1-5 siding
     station.add(TrackCircuitSection("TC 06","CTC TC 06", station)) # 3-5 main
-    station.add(TrackCircuitSection("TC 07","CTC TC 07", station)) # 5 OS
+    station.add(TrackCircuitSection("TC 07","CTC TC 07", station, bell)) # 5 OS
 
     turnout = TurnoutSection("Helix Level 1", "CTC 05 N", "CTC 05 R", "CTC 05 N", "CTC 05 R", station)
     station.add(turnout)
@@ -241,7 +241,7 @@ class CtcConfigureUssCtc(jmri.jmrit.automat.AbstractAutomaton) :
     station = Station("29/30", codeline, button)
 
     station.add(TrackCircuitSection("TC 30","CTC TC 30", station)) # 27-29
-    station.add(TrackCircuitSection("TC 31","CTC TC 31", station)) # OS 29
+    station.add(TrackCircuitSection("TC 31","CTC TC 31", station, vbell)) # OS 29
 
     turnout = TurnoutSection("TO 29", "CTC 29 N", "CTC 29 R", "CTC 29 N", "CTC 29 R", station)
     station.add(turnout)
@@ -267,6 +267,7 @@ class CtcConfigureUssCtc(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(TrackCircuitSection("TC 34","CTC TC 34", station, vbell)) # OS 31 west
     station.add(TrackCircuitSection("TC 35","CTC TC 35", station, vbell)) # OS 31 west
 
+    turnouts.getTurnout("TO 31").setCommandedState(CLOSED)
     CombineTurnouts().set("TO 31", ["TO 31A","TO 31B"])
     turnout = TurnoutSection("TO 31", "CTC 31 N", "CTC 31 R", "CTC 31 N", "CTC 31 R", station)
     station.add(turnout)
@@ -331,6 +332,7 @@ class CtcConfigureUssCtc(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(TrackCircuitSection("TC 43","CTC TC 43", station, bell)) # 41 to Weed
     station.add(TrackCircuitSection("TC 103","CTC TC 103", station, vbell)) # OS 39 east
 
+    turnouts.getTurnout("TO 39").setCommandedState(CLOSED)
     CombineTurnouts().set("TO 39", ["TO 39A","TO 39B"])
     turnout1 = TurnoutSection("TO 39", "CTC 39 N", "CTC 39 R", "CTC 39 N", "CTC 39 R", station)
     station.add(turnout1)
@@ -362,6 +364,26 @@ class CtcConfigureUssCtc(jmri.jmrit.automat.AbstractAutomaton) :
     routeLock2 = RouteLock(["40 R Upper", "40 R Middle", "40 R Lower"], [jmri.BeanSetting(turnouts.getTurnout("TO 39"), THROWN)]);
     turnout2.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, routeLock2, TimeLock(signal1), TimeLock(signal2)]));
 
+    # ===== Final Items =====
+    
+    # set timings, done last so earlier parts can go faster
+    jmri.implementation.AbstractTurnout.DELAYED_FEEDBACK_INTERVAL = 10000  # turnout throw time
+    print "Turnout throw delay: ", jmri.implementation.AbstractTurnout.DELAYED_FEEDBACK_INTERVAL
+    
+    jmri.jmrit.ussctc.CodeLine.CODE_SEND_DELAY = 3000
+    print "Code send delay: ", jmri.jmrit.ussctc.CodeLine.CODE_SEND_DELAY
+    
+    # jmri.jmrit.ussctc.CodeLine.START_PULSE_LENGTH left alone at 500 msec
+    # jmri.jmrit.ussctc.CodeLine.INTER_INDICATION_DELAY left alone at 500 msec
+    
+    jmri.jmrit.ussctc.SignalHeadSection.MOVEMENT_DELAY = 5000 
+    print"Signal movement delay: ", jmri.jmrit.ussctc.SignalHeadSection.MOVEMENT_DELAY
+
+    jmri.jmrit.ussctc.SignalHeadSection.DEFAULT_RUN_TIME_LENGTH = 30000
+    memories.getMemory("IMUSS CTC:SIGNALHEADSECTION:1:TIME").setValue(jmri.jmrit.ussctc.SignalHeadSection.DEFAULT_RUN_TIME_LENGTH)
+    print "Running time for", jmri.jmrit.ussctc.SignalHeadSection.DEFAULT_RUN_TIME_LENGTH/1000, "seconds"
+    
+    memories.getMemory("IMUSS CTC:SIGNALHEADSECTION:1:LOG").setValue('Configuration Done')
     print "CtcConfigureUssCtc done"
 
 CtcConfigureUssCtc().start()          # create one of these, and start it running
