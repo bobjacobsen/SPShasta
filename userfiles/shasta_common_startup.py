@@ -26,10 +26,14 @@ execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CombineTurnouts.
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/SensorGroupAutoItem.py"))
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/SignalFollower.py"))
 
-# start with special controls
+# load scripts needed by CTC controls
+execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CombineSensors.py"))
+
+# start with Turntable controls
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:TurntableControls.xml")))
 execfile(jmri.util.FileUtil.getExternalFilename("preference:Turntable.py"))
 
+# add layout controls
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:SignalMastControls.xml")))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:MtShastaCrossingPanel.xml")))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:GLWpanel.xml")))
@@ -41,6 +45,9 @@ cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:Operator
 
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:BWpanel.xml")))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CtcModeControl.xml")))
+
+# C/MRI controls
+execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CmriNodeTool.py"))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CmriNodeStatus.xml")))
 
 # Show configuration not complete in status memory on panels
