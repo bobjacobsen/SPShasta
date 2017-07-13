@@ -235,7 +235,7 @@ class TurntableDriver(jmri.jmrit.automat.AbstractAutomaton) :
         m.setElement(5, 0x30+int(t[len(t)-2]))
         m.setElement(6, 0x30+int(t[len(t)-1]))
         m.setTimeout(5)
-        jmri.jmrix.cmri.serial.SerialTrafficController.instance().sendSerialMessage(m,None)
+        jmri.InstanceManager.getDefault(jmri.jmrix.cmri.CMRISystemConnectionMemo).getTrafficController().sendSerialMessage(m,None)
         return
             
     def handle(self):
