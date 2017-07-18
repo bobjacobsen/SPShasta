@@ -26,9 +26,6 @@ execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CombineTurnouts.
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/SensorGroupAutoItem.py"))
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/SignalFollower.py"))
 
-# load scripts needed by CTC controls
-execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CombineSensors.py"))
-
 # start with Turntable controls
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:TurntableControls.xml")))
 execfile(jmri.util.FileUtil.getExternalFilename("preference:Turntable.py"))
@@ -39,29 +36,32 @@ cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:MtShasta
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:GLWpanel.xml")))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:GLYpanel.xml")))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:GLEpanel.xml")))
+
+# CTC displays
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:LeftPanel.xml")))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:MidPanel.xml")))
-cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:OperatorPanel.xml")))
-
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:BWpanel.xml")))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CtcModeControl.xml")))
-
-# C/MRI controls
-execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CmriNodeTool.py"))
-cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CmriNodeStatus.xml")))
 
 # Show configuration not complete in status memory on panels
 memories.getMemory("IMUSS CTC:CODELINE:1:LOG").setValue('Configuration still running')
 
+# BBop display
+cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:OperatorPanel.xml")))
+
+# C/MRI controls
+execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CmriNodeTool.py"))
+cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CmriNodeStatus.xml")))
 # start driving sensors from C/MRI status
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CmriNodeMonitor.py"))
 
+# bring up rest of layout controls - this delays before operating
 execfile(jmri.util.FileUtil.getExternalFilename("preference:ConfigureLayoutLogic.py"))
 
 # start web server
 jmri.web.server.WebServerAction().actionPerformed(None)
 
-# new CTC controls, done last so that turnouts are in final state
+# new CTC controls, done last so that turnouts are in final state  - this delays before operating
 execfile(jmri.util.FileUtil.getExternalFilename("preference:ConfigureCtcControlLogic.py"))
 
 print "shasta_common_startup done"
