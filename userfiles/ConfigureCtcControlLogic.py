@@ -352,6 +352,7 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(MaintainerCallSection("CTC 36 Call","MC 36", station))
 
     station.add(MaintainerCallSection("CTC 38 Call","Call On Mode 38", station))  # Internal turnout to hold state: Call On Mode 38
+    # call-on implementation is via Logix
 
     occupancyLock = CombinedLock([OccupancyLock("TC 38"), OccupancyLock("TC 101")])
     routeLock = RouteLock(["36 R Azalea Main Upper", "36 R Azalea Main Lower", "38 R Siding", "38 L Lower", "38 L Upper", "36 L Azalea Bypass"]);
@@ -392,6 +393,7 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(signal)
 
     station.add(MaintainerCallSection("CTC 40 Call","Call On Mode 40", station))  # Internal turnout to hold state: Call On Mode 40
+    # call-on implementation is via Logix
 
     station.add(MaintainerCallSection("CTC 42 Call","MC 42", station))
 
