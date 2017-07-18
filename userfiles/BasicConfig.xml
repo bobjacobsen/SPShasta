@@ -4841,162 +4841,6 @@
     </memory>
   </memories>
   <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
-    <route systemName="IR HELIX LEVEL 1 C" userName="Helix Level 1 Closed">
-      <systemName>IR HELIX LEVEL 1 C</systemName>
-      <userName>Helix Level 1 Closed</userName>
-      <routeOutputTurnout systemName="CT57" state="CLOSED" />
-      <routeOutputTurnout systemName="CT117" state="THROWN" />
-      <routeOutputTurnout systemName="CT119" state="CLOSED" />
-      <routeOutputTurnout systemName="CT148" state="THROWN" />
-      <routeOutputTurnout systemName="CT153" state="CLOSED" />
-      <routeSensor systemName="CS23" mode="onInactive" /> <!-- old panel -->
-      <routeSensor systemName="CS73" mode="onActive" />
-      <routeSensor systemName="CS93" mode="onActive" />
-    </route>
-    <route systemName="IR HELIX LEVEL 1 T" userName="Helix Level 1 Thrown">
-      <systemName>IR HELIX LEVEL 1 T</systemName>
-      <userName>Helix Level 1 Thrown</userName>
-      <routeOutputTurnout systemName="CT57" state="THROWN" />
-      <routeOutputTurnout systemName="CT117" state="CLOSED" />
-      <routeOutputTurnout systemName="CT119" state="THROWN" />
-      <routeOutputTurnout systemName="CT148" state="CLOSED" />
-      <routeOutputTurnout systemName="CT153" state="THROWN" />
-      <routeSensor systemName="CS23" mode="onActive" /> <!-- old panel -->
-      <routeSensor systemName="CS74" mode="onActive" />
-      <routeSensor systemName="CS92" mode="onActive" />
-    </route>
-    <route systemName="IR HELIX LEVEL 2 C" userName="Helix Level 2 Closed">
-      <systemName>IR HELIX LEVEL 2 C</systemName>
-      <userName>Helix Level 2 Closed</userName>
-      <routeOutputTurnout systemName="CT58" state="CLOSED" />
-      <routeOutputTurnout systemName="CT59" state="CLOSED" />
-      <routeOutputTurnout systemName="CT102" state="THROWN" />
-      <routeOutputTurnout systemName="CT101" state="THROWN" />
-      <routeOutputTurnout systemName="CT97" state="CLOSED" />
-      <routeOutputTurnout systemName="CT113" state="CLOSED" />
-      <routeOutputTurnout systemName="CT151" state="THROWN" />
-      <routeOutputTurnout systemName="CT158" state="THROWN" />
-      <routeOutputTurnout systemName="CT160" state="CLOSED" />
-      <routeOutputTurnout systemName="CT159" state="CLOSED" />
-      <routeSensor systemName="CS24" mode="onInactive" /> <!-- old panel -->
-      <routeSensor systemName="CS75" mode="onActive" />
-      <routeSensor systemName="CS90" mode="onActive" />
-    </route>
-    <route systemName="IR HELIX LEVEL 2 T" userName="Helix Level 2 Thrown">
-      <systemName>IR HELIX LEVEL 2 T</systemName>
-      <userName>Helix Level 2 Thrown</userName>
-      <routeOutputTurnout systemName="CT58" state="THROWN" />
-      <routeOutputTurnout systemName="CT59" state="THROWN" />
-      <routeOutputTurnout systemName="CT102" state="CLOSED" />
-      <routeOutputTurnout systemName="CT101" state="CLOSED" />
-      <routeOutputTurnout systemName="CT97" state="THROWN" />
-      <routeOutputTurnout systemName="CT113" state="THROWN" />
-      <routeOutputTurnout systemName="CT151" state="CLOSED" />
-      <routeOutputTurnout systemName="CT158" state="CLOSED" />
-      <routeOutputTurnout systemName="CT160" state="THROWN" />
-      <routeOutputTurnout systemName="CT159" state="THROWN" />
-      <routeSensor systemName="CS24" mode="onActive" /> <!-- old panel -->
-      <routeSensor systemName="CS76" mode="onActive" />
-      <routeSensor systemName="CS82" mode="onActive" />
-      <routeSensor systemName="CS78" mode="onActive" />
-      <routeSensor systemName="CS87" mode="onActive" />
-    </route>
-    <route systemName="IR HELIX LEVEL 3 C" userName="Helix Level 3 Closed">
-      <systemName>IR HELIX LEVEL 3 C</systemName>
-      <userName>Helix Level 3 Closed</userName>
-      <routeOutputTurnout systemName="CT60" state="CLOSED" />
-      <routeOutputTurnout systemName="CT61" state="CLOSED" />
-      <routeOutputTurnout systemName="CT122" state="THROWN" />
-      <routeOutputTurnout systemName="CT104" state="THROWN" />
-      <routeOutputTurnout systemName="CT121" state="CLOSED" />
-      <routeOutputTurnout systemName="CT103" state="CLOSED" />
-      <routeOutputTurnout systemName="CT150" state="THROWN" />
-      <routeOutputTurnout systemName="CT154" state="THROWN" />
-      <routeOutputTurnout systemName="CT145" state="CLOSED" />
-      <routeOutputTurnout systemName="CT146" state="CLOSED" />
-      <routeSensor systemName="CS25" mode="onInactive" /> <!-- old panel -->
-      <routeSensor systemName="CS68" mode="onActive" />
-      <routeSensor systemName="CS88" mode="onActive" />
-    </route>
-    <route systemName="IR HELIX LEVEL 3 T" userName="Helix Level 3 Thrown">
-      <systemName>IR HELIX LEVEL 3 T</systemName>
-      <userName>Helix Level 3 Thrown</userName>
-      <routeOutputTurnout systemName="CT60" state="THROWN" />
-      <routeOutputTurnout systemName="CT61" state="THROWN" />
-      <routeOutputTurnout systemName="CT122" state="CLOSED" />
-      <routeOutputTurnout systemName="CT104" state="CLOSED" />
-      <routeOutputTurnout systemName="CT121" state="THROWN" />
-      <routeOutputTurnout systemName="CT103" state="THROWN" />
-      <routeOutputTurnout systemName="CT150" state="CLOSED" />
-      <routeOutputTurnout systemName="CT154" state="CLOSED" />
-      <routeOutputTurnout systemName="CT145" state="THROWN" />
-      <routeOutputTurnout systemName="CT146" state="THROWN" />
-      <routeSensor systemName="CS25" mode="onActive" /> <!-- old panel -->
-      <routeSensor systemName="CS70" mode="onActive" />
-      <routeSensor systemName="CS84" mode="onActive" />
-      <routeSensor systemName="CS65" mode="onActive" />
-      <routeSensor systemName="CS83" mode="onActive" />
-    </route>
-    <route systemName="IR HELIX LEVEL 4 C" userName="Helix Level 4 Closed">
-      <systemName>IR HELIX LEVEL 4 C</systemName>
-      <userName>Helix Level 4 Closed</userName>
-      <routeOutputTurnout systemName="CT62" state="CLOSED" />
-      <routeOutputTurnout systemName="CT63" state="CLOSED" />
-      <routeOutputTurnout systemName="CT124" state="THROWN" />
-      <routeOutputTurnout systemName="CT123" state="THROWN" />
-      <routeOutputTurnout systemName="CT106" state="CLOSED" />
-      <routeOutputTurnout systemName="CT127" state="CLOSED" />
-      <routeOutputTurnout systemName="CT155" state="THROWN" />
-      <routeOutputTurnout systemName="CT156" state="THROWN" />
-      <routeOutputTurnout systemName="CT149" state="CLOSED" />
-      <routeOutputTurnout systemName="CT157" state="CLOSED" />
-      <routeSensor systemName="CS26" mode="onInactive" /> <!-- old panel -->
-      <routeSensor systemName="CS71" mode="onActive" />
-      <routeSensor systemName="CS81" mode="onActive" />
-    </route>
-    <route systemName="IR HELIX LEVEL 4 T" userName="Helix Level 4 Thrown">
-      <systemName>IR HELIX LEVEL 4 T</systemName>
-      <userName>Helix Level 4 Thrown</userName>
-      <routeOutputTurnout systemName="CT62" state="THROWN" />
-      <routeOutputTurnout systemName="CT63" state="THROWN" />
-      <routeOutputTurnout systemName="CT124" state="CLOSED" />
-      <routeOutputTurnout systemName="CT123" state="CLOSED" />
-      <routeOutputTurnout systemName="CT106" state="THROWN" />
-      <routeOutputTurnout systemName="CT127" state="THROWN" />
-      <routeOutputTurnout systemName="CT155" state="CLOSED" />
-      <routeOutputTurnout systemName="CT156" state="CLOSED" />
-      <routeOutputTurnout systemName="CT149" state="THROWN" />
-      <routeOutputTurnout systemName="CT157" state="THROWN" />
-      <routeSensor systemName="CS26" mode="onActive" /> <!-- old panel -->
-      <routeSensor systemName="CS72" mode="onActive" />
-      <routeSensor systemName="CS91" mode="onActive" />
-      <routeSensor systemName="CS66" mode="onActive" />
-      <routeSensor systemName="CS86" mode="onActive" />
-    </route>
-    <route systemName="IR HELIX LEVEL 5 C" userName="Helix Level 5 Closed">
-      <systemName>IR HELIX LEVEL 5 C</systemName>
-      <userName>Helix Level 5 Closed</userName>
-      <routeOutputTurnout systemName="CT64" state="CLOSED" />
-      <routeOutputTurnout systemName="CT112" state="THROWN" />
-      <routeOutputTurnout systemName="CT111" state="CLOSED" />
-      <routeOutputTurnout systemName="CT152" state="THROWN" />
-      <routeOutputTurnout systemName="CT147" state="CLOSED" />
-      <routeSensor systemName="CS27" mode="onActive" /> <!-- old panel -->
-      <routeSensor systemName="CS79" mode="onActive" />
-      <routeSensor systemName="CS85" mode="onActive" />
-    </route>
-    <route systemName="IR HELIX LEVEL 5 T" userName="Helix Level 5 Thrown">
-      <systemName>IR HELIX LEVEL 5 T</systemName>
-      <userName>Helix Level 5 Thrown</userName>
-      <routeOutputTurnout systemName="CT64" state="THROWN" />
-      <routeOutputTurnout systemName="CT112" state="CLOSED" />
-      <routeOutputTurnout systemName="CT111" state="THROWN" />
-      <routeOutputTurnout systemName="CT152" state="CLOSED" />
-      <routeOutputTurnout systemName="CT147" state="THROWN" />
-      <routeSensor systemName="CS27" mode="onInactive" /> <!-- old panel -->
-      <routeSensor systemName="CS67" mode="onActive" />
-      <routeSensor systemName="CS94" mode="onActive" />
-    </route>
     <route systemName="IR REDDING 01" userName="Redding Staging Trk 1">
       <systemName>IR REDDING 01</systemName>
       <userName>Redding Staging Trk 1</userName>
@@ -5939,8 +5783,8 @@
       <routeSensor systemName="CS64" mode="onInactive" />
       <routeSoundFile name="program:resources/sounds/bell_stroke.wav" />
     </route>
-    
   </routes>
+
   <sensors class="jmri.managers.configurexml.InternalSensorManagerXml">
     <sensor systemName="IS CTC 02 C" inverted="false">
       <systemName>IS CTC 02 C</systemName>
@@ -6024,6 +5868,7 @@
       <comment>Used to sent ad-hoc position to turntable</comment>
     </sensor>
   </sensors>
+
   <signalelements class="jmri.jmrit.blockboss.configurexml.BlockBossLogicXml">
     <signalelement signal="CH3003" mode="3" watchedturnout="TO 17" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <comment>No occupancy, next blocks yet</comment>
