@@ -52,6 +52,9 @@ cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:Operator
 # C/MRI controls
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CmriNodeTool.py"))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CmriNodeStatus.xml")))
+# turn off node 9
+memo = jmri.InstanceManager.getList(jmri.jmrix.cmri.CMRISystemConnectionMemo).get(0)
+memo.getNodeFromSystemName("CS9001", memo.getTrafficController()).setSensorsActive(False)
 # start driving sensors from C/MRI status
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CmriNodeMonitor.py"))
 
