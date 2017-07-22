@@ -50,7 +50,8 @@ memories.getMemory("IMUSS CTC:CODELINE:1:LOG").setValue('Configuration still run
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:OperatorPanel.xml")))
 
 # Helix panel controls
-cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:HelixPanels.xml")))
+cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:HelixPanelLogic.xml")))
+cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:HelixOuterPanel.xml")))
 
 # C/MRI controls
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CmriNodeTool.py"))
