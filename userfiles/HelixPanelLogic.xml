@@ -14,9 +14,8 @@
       <routeOutputTurnout systemName="CT119" state="CLOSED" />
       <routeOutputTurnout systemName="CT148" state="THROWN" />
       <routeOutputTurnout systemName="CT153" state="CLOSED" />
-      <routeSensor systemName="CS23" mode="onInactive" /> <!-- old panel -->
-      <routeSensor systemName="CS73" mode="onActive" />
-      <routeSensor systemName="CS93" mode="onActive" />
+      <routeSensor systemName="PB helix panel 1 level 1 closed" mode="onActive" />
+      <routeSensor systemName="PB helix panel 2 level 1 closed" mode="onActive" />
     </route>
     <route systemName="IR HELIX LEVEL 1 T" userName="Helix Level 1 Thrown">
       <systemName>IR HELIX LEVEL 1 T</systemName>
