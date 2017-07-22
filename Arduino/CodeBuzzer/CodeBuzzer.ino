@@ -12,7 +12,7 @@ int slice = 75; // basic time slice, length of a dot
 // Redding RD .-.. -..
 
 void setup() {
-    pinMode(startpin, INPUT);
+    pinMode(startpin, INPUT_PULLUP);
     digitalWrite(startpin, 1);
     pinMode(buzzerpin, OUTPUT);
     
@@ -26,9 +26,9 @@ void loop() {
       delay(50);
       if (digitalRead(startpin) != 0) return;
         
-        letterR();
+        letterD();
         interCharDelay();
-        letterD();    
+        letterR();    
 
       // and and wait for rest of cycle length
       delay(5000);
