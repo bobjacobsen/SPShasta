@@ -17,27 +17,33 @@ def arrayList(contents) :
     return retval
 
 # When the call-on turnout is set THROWN, show restricting on signals
-class ForceFlashing(java.beans.PropertyChangeListener):
+class ForceRestrictingWhenCallOn(java.beans.PropertyChangeListener):
   def set(self, callOnName, groupList) :
-    self.default = turnouts.getTurnout(callOnName)
+    self.callon = turnouts.getTurnout(callOnName)
     self.groupNames = groupList
-    # process fake event to set the initial state
-    self.propertyChange(java.beans.PropertyChangeEvent(self.default, "KnownState", 0, 0))
     # set up listeners
-    self.default.addPropertyChangeListener(self)
+    self.callon.addPropertyChangeListener(self)
     for name in self.groupNames : 
-        signals.getSignalHead(name).addPropertyChangeListener(self)
+        signals.getSignalHead(name).addPropertyChangeListener(self) # need to fix it if held
     return
   def propertyChange(self, event):
-    state = False
-    if (self.default.state == THROWN) : 
-        for name in self.groupNames : 
-            if (signals.getSignalHead(name).appearance == RED) :
-                signals.getSignalHead(name).setAppearance(FLASHRED)
-    elif (self.default.state == CLOSED) : 
-        for name in self.groupNames : 
-            if (signals.getSignalHead(name).appearance == FLASHRED) :
-                signals.getSignalHead(name).setAppearance(RED)
+    if (event.source == self.callon) :
+        if (self.callon.state == THROWN) : 
+            for name in self.groupNames : 
+                logic = jmri.jmrit.blockboss.BlockBossLogic.getExisting(signals.getSignalHead(name))
+                print "Setting logic", logic
+                logic.setRestrictingSpeed1(True)
+                logic.setRestrictingSpeed2(True)
+                signals.getSignalHead(name).setHeld(False) # sets output too
+        else : 
+            for name in self.groupNames : 
+                logic = jmri.jmrit.blockboss.BlockBossLogic.getExisting(signals.getSignalHead(name))
+                logic.setRestrictingSpeed1(False)
+                logic.setRestrictingSpeed2(False)
+                signals.getSignalHead(name).setHeld(True) # sets output too
+    else :
+        if (event.propertyName == "Held") :
+            if (self.callon.state == THROWN and event.source.held != False) : event.source.setHeld(False)
     return
 
 
@@ -408,8 +414,8 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     # ===== Handle Call Ons =====
     # See the ForceFlashing class at top
-    ForceFlashing().set("Call On Mode 38",["38 R Siding","38 L Lower"])
-    ForceFlashing().set("Call On Mode 40",["40 L Weed","40 L Siding"])
+    ForceRestrictingWhenCallOn().set("Call On Mode 38",["38 R Siding","38 L Lower"])
+    ForceRestrictingWhenCallOn().set("Call On Mode 40",["40 L Weed","40 L Siding"])
 
     # ===== Final Items =====
     
