@@ -5914,10 +5914,6 @@
       <sensorname>CS1015</sensorname>
       <comment>Linked to non-existant lower Mott signal</comment>
     </signalelement>
-    <signalelement signal="IH021" mode="2" watchedturnout="CT5037" watchedsignal1="CH5014" watchedsignal1alt="CH5015" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="true">
-      <sensorname>CS5009</sensorname>
-      <comment>Virtual signal before right half of "crossover"</comment>
-    </signalelement>
     <signalelement signal="CH1005" mode="2" watchedturnout="TO 29" watchedsignal1="CH010" watchedsignal1alt="CH011" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>CS1015</sensorname>
       <sensorname>CS1016</sensorname>
@@ -5933,14 +5929,6 @@
       <sensorname>CS1016</sensorname>
       <comment>Linked to non-existant Small upper signal</comment>
     </signalelement>
-    <signalelement signal="CH1003" mode="3" watchedturnout="CT1040" watchedsignal1="IH002" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="true">
-      <sensorname>CS5006</sensorname>
-      <comment>Part of 39/41 triple</comment>
-    </signalelement>
-    <signalelement signal="CH1002" mode="3" watchedturnout="CT1040" watchedsignal1="IH001" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="true">
-      <sensorname>CS5006</sensorname>
-      <comment>Part of 39/41 triple</comment>
-    </signalelement>
     <signalelement signal="CH2019" mode="3" watchedturnout="TO 21" watchedsignal1="CH2011" watchedsignal1alt="CH2012" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>CS1009</sensorname>
       <sensorname>CS1010</sensorname>
@@ -5950,10 +5938,6 @@
     <signalelement signal="CH1001" mode="2" watchedturnout="CT1040" watchedsignal1="40 R 2nd on main" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>CS5006</sensorname>
       <comment>Part of 39/41 triple</comment>
-    </signalelement>
-    <signalelement signal="CH2018" mode="2" watchedturnout="CT5037" watchedsignal1="IH020" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="true">
-      <sensorname>CS5009</sensorname>
-      <comment>Azalea main at crossover, note 33/34/35</comment>
     </signalelement>
     <signalelement signal="CH2017" mode="3" watchedturnout="CT5037" watchedsignal1="CH1004" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>CS1018</sensorname>
@@ -6037,9 +6021,6 @@
       <sensorname>5021</sensorname>
       <sensorname>1024</sensorname>
       <comment />
-    </signalelement>
-    <signalelement signal="CH5012" mode="3" watchedturnout="CT1008" watchedsignal1="IH004" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="true">
-      <comment>From Weed westbound through double turnout</comment>
     </signalelement>
     <signalelement signal="CH5010" mode="3" watchedturnout="CT5044" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false">
       <comment />
@@ -6128,9 +6109,6 @@
     <signalelement signal="CH5007" mode="2" watchedturnout="CT5044" limitspeed1="true" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <comment />
     </signalelement>
-    <signalelement signal="IH003" mode="1" watchedturnout="CT1039" watchedsignal1="CH1002" watchedsignal1alt="CH1003" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="true">
-      <comment>Part of 39/41 three head, this mirrors bottom two eastbound</comment>
-    </signalelement>
     <signalelement signal="42 R Bypass" mode="3" watchedturnout="CT5005" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false">
       <sensorname>CS5021</sensorname>
       <sensorname>CS1024</sensorname>
@@ -6139,9 +6117,6 @@
     <signalelement signal="IH002" mode="3" watchedturnout="CT1008" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>CS5019</sensorname>
       <comment>Part of 39/41 triple, virtual for Weed track eastbound</comment>
-    </signalelement>
-    <signalelement signal="CH5005" mode="2" watchedturnout="CT1008" watchedsignal1="IH004" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="true">
-      <comment>Dwarf leaving siding westbound through double turnout</comment>
     </signalelement>
     <signalelement signal="IH001" mode="2" watchedturnout="CT1008" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>CS5004</sensorname>
@@ -6174,6 +6149,32 @@
     <signalelement signal="CH33" mode="2" watchedturnout="CT13" watchedsignal1="CH39" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>CS8</sensorname>
       <comment>Not in CTC</comment>
+    </signalelement>
+    <!-- distant signals at the end -->
+    <signalelement signal="IH021" mode="2" watchedturnout="CT5037" watchedsignal1="CH5014" watchedsignal1alt="CH5015" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="true">
+      <sensorname>CS5009</sensorname>
+      <comment>Virtual signal before right half of "crossover"</comment>
+    </signalelement>
+    <signalelement signal="IH003" mode="1" watchedturnout="CT1039" watchedsignal1="CH1002" watchedsignal1alt="CH1003" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="true">
+      <comment>Part of 39/41 three head, this mirrors bottom two eastbound</comment>
+    </signalelement>
+    <signalelement signal="CH1003" mode="3" watchedturnout="CT1040" watchedsignal1="IH002" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="true">
+      <sensorname>CS5006</sensorname>
+      <comment>Part of 39/41 triple</comment>
+    </signalelement>
+    <signalelement signal="CH1002" mode="3" watchedturnout="CT1040" watchedsignal1="IH001" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="true">
+      <sensorname>CS5006</sensorname>
+      <comment>Part of 39/41 triple</comment>
+    </signalelement>
+    <signalelement signal="CH2018" mode="2" watchedturnout="CT5037" watchedsignal1="IH020" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="true">
+      <sensorname>CS5009</sensorname>
+      <comment>Azalea main at crossover, note 33/34/35</comment>
+    </signalelement>
+    <signalelement signal="CH5012" mode="3" watchedturnout="CT1008" watchedsignal1="IH004" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="true">
+      <comment>From Weed westbound through double turnout</comment>
+    </signalelement>
+    <signalelement signal="CH5005" mode="2" watchedturnout="CT1008" watchedsignal1="IH004" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="true">
+      <comment>Dwarf leaving siding westbound through double turnout</comment>
     </signalelement>
   </signalelements>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
