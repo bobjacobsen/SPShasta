@@ -2760,22 +2760,27 @@
     <sensor systemName="CS23" inverted="false" userName="Helix Level 1 Fascia">
       <systemName>CS23</systemName>
       <userName>Helix Level 1 Fascia</userName>
+      <comment>Old helix fascia panel, obsolete</comment>
     </sensor>
     <sensor systemName="CS24" inverted="false" userName="Helix Level 2 Fascia">
       <systemName>CS24</systemName>
       <userName>Helix Level 2 Fascia</userName>
+      <comment>Old helix fascia panel, obsolete</comment>
     </sensor>
     <sensor systemName="CS25" inverted="false" userName="Helix Level 3 Fascia">
       <systemName>CS25</systemName>
       <userName>Helix Level 3 Fascia</userName>
+      <comment>Old helix fascia panel, obsolete</comment>
     </sensor>
     <sensor systemName="CS26" inverted="false" userName="Helix Level 4 Fascia">
       <systemName>CS26</systemName>
       <userName>Helix Level 4 Fascia</userName>
+      <comment>Old helix fascia panel, obsolete</comment>
     </sensor>
     <sensor systemName="CS27" inverted="false" userName="Helix Level 5 Fascia">
       <systemName>CS27</systemName>
       <userName>Helix Level 5 Fascia</userName>
+      <comment>Old helix fascia panel, obsolete</comment>
     </sensor>
     <sensor systemName="CS28" inverted="true" userName="Dorris West fascia">
       <systemName>CS28</systemName>
