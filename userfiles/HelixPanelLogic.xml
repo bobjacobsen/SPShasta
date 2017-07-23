@@ -9,31 +9,30 @@
     <route systemName="IR HELIX LEVEL 1 C" userName="Helix Level 1 Closed">
       <systemName>IR HELIX LEVEL 1 C</systemName>
       <userName>Helix Level 1 Closed</userName>
-      <routeOutputTurnout systemName="CT57" state="CLOSED" />
-      <routeOutputTurnout systemName="CT117" state="THROWN" />
-      <routeOutputTurnout systemName="CT119" state="CLOSED" />
-      <routeOutputTurnout systemName="CT148" state="THROWN" />
-      <routeOutputTurnout systemName="CT153" state="CLOSED" />
+      <routeOutputTurnout systemName="Helix Level 1" state="CLOSED" />
+      <routeOutputTurnout systemName="Helix P0 L1 C" state="THROWN" />
+      <routeOutputTurnout systemName="Helix P0 L1 T" state="CLOSED" />
+      <routeOutputTurnout systemName="Helix P1 L1 C" state="THROWN" />
+      <routeOutputTurnout systemName="Helix P1 L1 T" state="CLOSED" />
       <routeSensor systemName="PB helix panel 1 level 1 closed" mode="onActive" />
       <routeSensor systemName="PB helix panel 2 level 1 closed" mode="onActive" />
     </route>
     <route systemName="IR HELIX LEVEL 1 T" userName="Helix Level 1 Thrown">
       <systemName>IR HELIX LEVEL 1 T</systemName>
       <userName>Helix Level 1 Thrown</userName>
-      <routeOutputTurnout systemName="CT57" state="THROWN" />
-      <routeOutputTurnout systemName="CT117" state="CLOSED" />
-      <routeOutputTurnout systemName="CT119" state="THROWN" />
-      <routeOutputTurnout systemName="CT148" state="CLOSED" />
-      <routeOutputTurnout systemName="CT153" state="THROWN" />
-      <routeSensor systemName="CS23" mode="onActive" /> <!-- old panel -->
-      <routeSensor systemName="CS74" mode="onActive" />
-      <routeSensor systemName="CS92" mode="onActive" />
+      <routeOutputTurnout systemName="Helix Level 1" state="THROWN" />
+      <routeOutputTurnout systemName="Helix P0 L1 C" state="CLOSED" />
+      <routeOutputTurnout systemName="Helix P0 L1 T" state="THROWN" />
+      <routeOutputTurnout systemName="Helix P1 L1 C" state="CLOSED" />
+      <routeOutputTurnout systemName="Helix P1 L1 T" state="THROWN" />
+      <routeSensor systemName="PB helix panel 1 level 1 thrown" mode="onActive" />
+      <routeSensor systemName="PB helix panel 2 level 1 thrown" mode="onActive" />
     </route>
     <route systemName="IR HELIX LEVEL 2 C" userName="Helix Level 2 Closed">
       <systemName>IR HELIX LEVEL 2 C</systemName>
       <userName>Helix Level 2 Closed</userName>
-      <routeOutputTurnout systemName="CT58" state="CLOSED" />
-      <routeOutputTurnout systemName="CT59" state="CLOSED" />
+      <routeOutputTurnout systemName="Helix Level 2 A" state="CLOSED" />
+      <routeOutputTurnout systemName="Helix Level 2 B" state="CLOSED" />
       <routeOutputTurnout systemName="CT102" state="THROWN" />
       <routeOutputTurnout systemName="CT101" state="THROWN" />
       <routeOutputTurnout systemName="CT97" state="CLOSED" />
@@ -49,8 +48,8 @@
     <route systemName="IR HELIX LEVEL 2 T" userName="Helix Level 2 Thrown">
       <systemName>IR HELIX LEVEL 2 T</systemName>
       <userName>Helix Level 2 Thrown</userName>
-      <routeOutputTurnout systemName="CT58" state="THROWN" />
-      <routeOutputTurnout systemName="CT59" state="THROWN" />
+      <routeOutputTurnout systemName="Helix Level 2 A" state="THROWN" />
+      <routeOutputTurnout systemName="Helix Level 2 B" state="THROWN" />
       <routeOutputTurnout systemName="CT102" state="CLOSED" />
       <routeOutputTurnout systemName="CT101" state="CLOSED" />
       <routeOutputTurnout systemName="CT97" state="THROWN" />
@@ -68,8 +67,8 @@
     <route systemName="IR HELIX LEVEL 3 C" userName="Helix Level 3 Closed">
       <systemName>IR HELIX LEVEL 3 C</systemName>
       <userName>Helix Level 3 Closed</userName>
-      <routeOutputTurnout systemName="CT60" state="CLOSED" />
-      <routeOutputTurnout systemName="CT61" state="CLOSED" />
+      <routeOutputTurnout systemName="Helix Level 3 A" state="CLOSED" />
+      <routeOutputTurnout systemName="Helix Level 3 B" state="CLOSED" />
       <routeOutputTurnout systemName="CT122" state="THROWN" />
       <routeOutputTurnout systemName="CT104" state="THROWN" />
       <routeOutputTurnout systemName="CT121" state="CLOSED" />
@@ -85,8 +84,8 @@
     <route systemName="IR HELIX LEVEL 3 T" userName="Helix Level 3 Thrown">
       <systemName>IR HELIX LEVEL 3 T</systemName>
       <userName>Helix Level 3 Thrown</userName>
-      <routeOutputTurnout systemName="CT60" state="THROWN" />
-      <routeOutputTurnout systemName="CT61" state="THROWN" />
+      <routeOutputTurnout systemName="Helix Level 3 A" state="THROWN" />
+      <routeOutputTurnout systemName="Helix Level 3 B" state="THROWN" />
       <routeOutputTurnout systemName="CT122" state="CLOSED" />
       <routeOutputTurnout systemName="CT104" state="CLOSED" />
       <routeOutputTurnout systemName="CT121" state="THROWN" />
@@ -104,8 +103,8 @@
     <route systemName="IR HELIX LEVEL 4 C" userName="Helix Level 4 Closed">
       <systemName>IR HELIX LEVEL 4 C</systemName>
       <userName>Helix Level 4 Closed</userName>
-      <routeOutputTurnout systemName="CT62" state="CLOSED" />
-      <routeOutputTurnout systemName="CT63" state="CLOSED" />
+      <routeOutputTurnout systemName="Helix Level 4 A" state="CLOSED" />
+      <routeOutputTurnout systemName="Helix Level 4 B" state="CLOSED" />
       <routeOutputTurnout systemName="CT124" state="THROWN" />
       <routeOutputTurnout systemName="CT123" state="THROWN" />
       <routeOutputTurnout systemName="CT106" state="CLOSED" />
@@ -114,15 +113,15 @@
       <routeOutputTurnout systemName="CT156" state="THROWN" />
       <routeOutputTurnout systemName="CT149" state="CLOSED" />
       <routeOutputTurnout systemName="CT157" state="CLOSED" />
-      <routeSensor systemName="CS26" mode="onInactive" /> <!-- old panel -->
-      <routeSensor systemName="CS71" mode="onActive" />
-      <routeSensor systemName="CS81" mode="onActive" />
+      <routeSensor systemName="Helix Level 4 Fascia" mode="onInactive" /> <!-- old panel -->
+      <routeSensor systemName="PB helix panel 1 level 4 closed" mode="onActive" />
+      <routeSensor systemName="PB helix panel 2 level 4 closed" mode="onActive" />
     </route>
     <route systemName="IR HELIX LEVEL 4 T" userName="Helix Level 4 Thrown">
       <systemName>IR HELIX LEVEL 4 T</systemName>
       <userName>Helix Level 4 Thrown</userName>
-      <routeOutputTurnout systemName="CT62" state="THROWN" />
-      <routeOutputTurnout systemName="CT63" state="THROWN" />
+      <routeOutputTurnout systemName="Helix Level 4 A" state="THROWN" />
+      <routeOutputTurnout systemName="Helix Level 4 B" state="THROWN" />
       <routeOutputTurnout systemName="CT124" state="CLOSED" />
       <routeOutputTurnout systemName="CT123" state="CLOSED" />
       <routeOutputTurnout systemName="CT106" state="THROWN" />
@@ -131,35 +130,35 @@
       <routeOutputTurnout systemName="CT156" state="CLOSED" />
       <routeOutputTurnout systemName="CT149" state="THROWN" />
       <routeOutputTurnout systemName="CT157" state="THROWN" />
-      <routeSensor systemName="CS26" mode="onActive" /> <!-- old panel -->
-      <routeSensor systemName="CS72" mode="onActive" />
-      <routeSensor systemName="CS91" mode="onActive" />
-      <routeSensor systemName="CS66" mode="onActive" />
-      <routeSensor systemName="CS86" mode="onActive" />
+      <routeSensor systemName="Helix Level 4 Fascia" mode="onActive" /> <!-- old panel -->
+      <routeSensor systemName="PB helix panel 1 level 4 thrown 1" mode="onActive" />
+      <routeSensor systemName="PB helix panel 2 level 4 thrown 1" mode="onActive" />
+      <routeSensor systemName="PB helix panel 1 level 4 thrown 2" mode="onActive" />
+      <routeSensor systemName="PB helix panel 2 level 4 thrown 2" mode="onActive" />
     </route>
     <route systemName="IR HELIX LEVEL 5 C" userName="Helix Level 5 Closed">
       <systemName>IR HELIX LEVEL 5 C</systemName>
       <userName>Helix Level 5 Closed</userName>
-      <routeOutputTurnout systemName="CT64" state="CLOSED" />
+      <routeOutputTurnout systemName="Helix Level 5" state="CLOSED" />
       <routeOutputTurnout systemName="CT112" state="THROWN" />
       <routeOutputTurnout systemName="CT111" state="CLOSED" />
       <routeOutputTurnout systemName="CT152" state="THROWN" />
       <routeOutputTurnout systemName="CT147" state="CLOSED" />
-      <routeSensor systemName="CS27" mode="onActive" /> <!-- old panel -->
-      <routeSensor systemName="CS79" mode="onActive" />
-      <routeSensor systemName="CS85" mode="onActive" />
+      <routeSensor systemName="Helix Level 5 Fascia" mode="onActive" /> <!-- old panel -->
+      <routeSensor systemName="PB helix panel 1 level 5 closed" mode="onActive" />
+      <routeSensor systemName="PB helix panel 2 level 5 closed" mode="onActive" />
     </route>
     <route systemName="IR HELIX LEVEL 5 T" userName="Helix Level 5 Thrown">
       <systemName>IR HELIX LEVEL 5 T</systemName>
       <userName>Helix Level 5 Thrown</userName>
-      <routeOutputTurnout systemName="CT64" state="THROWN" />
+      <routeOutputTurnout systemName="Helix Level 5" state="THROWN" />
       <routeOutputTurnout systemName="CT112" state="CLOSED" />
       <routeOutputTurnout systemName="CT111" state="THROWN" />
       <routeOutputTurnout systemName="CT152" state="CLOSED" />
       <routeOutputTurnout systemName="CT147" state="THROWN" />
-      <routeSensor systemName="CS27" mode="onInactive" /> <!-- old panel -->
-      <routeSensor systemName="CS67" mode="onActive" />
-      <routeSensor systemName="CS94" mode="onActive" />
+      <routeSensor systemName="Helix Level 5 Fascia" mode="onInactive" /> <!-- old panel -->
+      <routeSensor systemName="PB helix panel 1 level 5 thrown" mode="onActive" />
+      <routeSensor systemName="PB helix panel 2 level 5 thrown" mode="onActive" />
     </route>
   </routes>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
@@ -198,20 +197,20 @@
       <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS16" dataString="N/A" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="2" systemName="CTC TC 01" data="2" delay="0" string="0" />
       <conditionalAction option="2" type="2" systemName="CTC TC 01" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CT98" data="2" delay="0" string="0" />
-      <conditionalAction option="2" type="2" systemName="CT98" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CT129" data="2" delay="0" string="0" />
-      <conditionalAction option="2" type="2" systemName="CT129" data="4" delay="0" string="0" />
+      <conditionalAction option="1" type="2" systemName="Helix P0 B main" data="2" delay="0" string="0" />
+      <conditionalAction option="2" type="2" systemName="Helix P0 B main" data="4" delay="0" string="0" />
+      <conditionalAction option="1" type="2" systemName="Helix P1 B main" data="2" delay="0" string="0" />
+      <conditionalAction option="2" type="2" systemName="Helix P1 B main" data="4" delay="0" string="0" />
     </conditional>
     <conditional systemName="USS CTC:OSINDICATOR:1:CTC TC 02C1" antecedent="" logicType="1">
       <systemName>USS CTC:OSINDICATOR:1:CTC TC 02C1</systemName>
       <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS15" dataString="N/A" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="2" systemName="CTC TC 02A" data="2" delay="0" string="0" />
       <conditionalAction option="2" type="2" systemName="CTC TC 02A" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CT99" data="2" delay="0" string="0" />
-      <conditionalAction option="2" type="2" systemName="CT99" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CT143" data="2" delay="0" string="0" />
-      <conditionalAction option="2" type="2" systemName="CT143" data="4" delay="0" string="0" />
+      <conditionalAction option="1" type="2" systemName="Helix P0 B side 1" data="2" delay="0" string="0" />
+      <conditionalAction option="2" type="2" systemName="Helix P0 B side 1" data="4" delay="0" string="0" />
+      <conditionalAction option="1" type="2" systemName="Helix P1 B side 1" data="2" delay="0" string="0" />
+      <conditionalAction option="2" type="2" systemName="Helix P1 B side 1" data="4" delay="0" string="0" />
     </conditional>
     <conditional systemName="USS CTC:OSINDICATOR:1:CTC TC 03C1" antecedent="" logicType="1">
       <systemName>USS CTC:OSINDICATOR:1:CTC TC 03C1</systemName>
@@ -230,20 +229,20 @@
       <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS14" dataString="N/A" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="2" systemName="CTC TC 05" data="2" delay="0" string="0" />
       <conditionalAction option="2" type="2" systemName="CTC TC 05" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CT116" data="2" delay="0" string="0" />
-      <conditionalAction option="2" type="2" systemName="CT116" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CT141" data="2" delay="0" string="0" />
-      <conditionalAction option="2" type="2" systemName="CT141" data="4" delay="0" string="0" />
+      <conditionalAction option="1" type="2" systemName="Helix P0 A side 1" data="2" delay="0" string="0" />
+      <conditionalAction option="2" type="2" systemName="Helix P0 A side 1" data="4" delay="0" string="0" />
+      <conditionalAction option="1" type="2" systemName="Helix P1 A side 1" data="2" delay="0" string="0" />
+      <conditionalAction option="2" type="2" systemName="Helix P1 A side 1" data="4" delay="0" string="0" />
     </conditional>
     <conditional systemName="USS CTC:OSINDICATOR:1:CTC TC 06C1" antecedent="" logicType="1">
       <systemName>USS CTC:OSINDICATOR:1:CTC TC 06C1</systemName>
       <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS13" dataString="N/A" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="2" systemName="CTC TC 06" data="2" delay="0" string="0" />
       <conditionalAction option="2" type="2" systemName="CTC TC 06" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CT115" data="2" delay="0" string="0" />
-      <conditionalAction option="2" type="2" systemName="CT115" data="4" delay="0" string="0" />
-      <conditionalAction option="1" type="2" systemName="CT139" data="2" delay="0" string="0" />
-      <conditionalAction option="2" type="2" systemName="CT139" data="4" delay="0" string="0" />
+      <conditionalAction option="1" type="2" systemName="Helix P0 A main" data="2" delay="0" string="0" />
+      <conditionalAction option="2" type="2" systemName="Helix P0 A main" data="4" delay="0" string="0" />
+      <conditionalAction option="1" type="2" systemName="Helix P1 A main" data="2" delay="0" string="0" />
+      <conditionalAction option="2" type="2" systemName="Helix P1 A main" data="4" delay="0" string="0" />
     </conditional>
   </conditionals>
 </layout-config>
