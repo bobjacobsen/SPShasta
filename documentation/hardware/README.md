@@ -1,2 +1,2 @@
-Contains documents for various hardware (and associated software) on the SP Shasta.
+Contains documents for various hardware (and associated software) used on the SP Shasta.
 
