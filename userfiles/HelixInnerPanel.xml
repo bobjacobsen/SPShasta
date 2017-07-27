@@ -7,22 +7,6 @@
         <rotation>0</rotation>
       </icon>
     </positionablelabel>
-    <sensoricon sensor="PB helix panel 2 level 1 closed" x="871" y="289" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>PB helix panel 2 level 1 closed (CS93)</tooltip>
-      <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/mediumschematics/LEDs/REDLED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
     <sensoricon sensor="PB helix panel 1 level 1 closed" x="871" y="254" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 1 closed (CS73)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
@@ -71,8 +55,8 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 2 thrown 1" x="750" y="158" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>PB helix panel 1 level 2 thrown 1 (CS76)</tooltip>
+    <sensoricon sensor="PB helix panel 1 level 2 thrown 2" x="750" y="158" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>PB helix panel 1 level 2 thrown 2 (CS78)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -87,8 +71,8 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 2 thrown 2" x="665" y="253" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>PB helix panel 1 level 2 thrown 2 (CS78)</tooltip>
+    <sensoricon sensor="PB helix panel 1 level 2 thrown 1" x="665" y="253" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>PB helix panel 1 level 2 thrown 1 (CS76)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -119,8 +103,8 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 3 thrown 1" x="454" y="151" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>PB helix panel 1 level 3 thrown 1 (CS70)</tooltip>
+    <sensoricon sensor="PB helix panel 1 level 3 thrown 2" x="454" y="151" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>PB helix panel 1 level 3 thrown 2 (CS65)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -135,8 +119,8 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 3 thrown 2" x="536" y="249" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>PB helix panel 1 level 3 thrown 2 (CS65)</tooltip>
+    <sensoricon sensor="PB helix panel 1 level 3 thrown 1" x="536" y="249" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>PB helix panel 1 level 3 thrown 1 (CS70)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -167,8 +151,8 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 4 thrown 1" x="323" y="153" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>PB helix panel 1 level 4 thrown 1 (CS72)</tooltip>
+    <sensoricon sensor="PB helix panel 1 level 4 thrown 2" x="323" y="153" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>PB helix panel 1 level 4 thrown 2 (CS66)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -183,8 +167,8 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 4 thrown 2" x="234" y="248" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>PB helix panel 1 level 4 thrown 2 (CS66)</tooltip>
+    <sensoricon sensor="PB helix panel 1 level 4 thrown 1" x="234" y="248" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>PB helix panel 1 level 4 thrown 1 (CS72)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -431,24 +415,6 @@
     </turnouticon>
     <turnouticon turnout="Helix P0 D side 2" x="152" y="256" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 D side 2 (CT109)</tooltip>
-      <icons>
-        <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </closed>
-        <thrown url="program:resources/icons/smallschematics/LEDs/green.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </thrown>
-        <unknown url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </unknown>
-        <inconsistent url="program:resources/icons/smallschematics/LEDs/red.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </inconsistent>
-      </icons>
-      <iconmaps />
-    </turnouticon>
-    <turnouticon turnout="Helix P1 A main" x="809" y="298" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
-      <tooltip>Helix P1 A main (CT139)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
