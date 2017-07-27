@@ -51,7 +51,7 @@ cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:Operator
 
 # Helix panel controls
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:HelixPanelLogic.xml")))
-cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:HelixOuterPanel.xml")))
+cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:HelixInnerPanel.xml")))
 
 # C/MRI controls
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CmriNodeTool.py"))
