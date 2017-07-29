@@ -389,14 +389,14 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     # "40 R 2nd on main" is an ABS signal protecting engineers from running over the back-set turnout at end of bypass
     rightward = arrayList(["40 R Upper", "40 R Middle", "40 R Lower"])
-    leftward  = arrayList(["40 L Weed", "40 L Siding", "42 L Black Butte Main Upper"])  # bit of a hack with 42 L Upper, allows traffic over 39
+    leftward  = arrayList(["40 L Weed", "40 L Siding"])  # bit of a hack with 42 L Upper, allows traffic over 39
     signal = SignalHeadSection(rightward, leftward, "CTC 40 L", "CTC 40 C", "CTC 40 R", "CTC 40 L", "CTC 40 R", station);
     station.add(signal)
 
     rightward = arrayList(["42 R Bypass"])
-    leftward  = arrayList(["42 L Black Butte Main Lower"])  # no 42 L Upper as that's traffic over 39 in 40
-    signal = SignalHeadSection(rightward, leftward, "CTC 42 L", "CTC 42 C", "CTC 42 R", "CTC 42 L", "CTC 42 R", station);
-    station.add(signal)
+    leftward  = arrayList(["42 L Black Butte Main Upper", "42 L Black Butte Main Lower"])  # no 42 L Upper as that's traffic over 39 in 40
+    signal2 = SignalHeadSection(rightward, leftward, "CTC 42 L", "CTC 42 C", "CTC 42 R", "CTC 42 L", "CTC 42 R", station);
+    station.add(signal2)
 
     station.add(MaintainerCallSection("CTC 40 Call","Call On Mode 40", station))  # Internal turnout to hold state: Call On Mode 40
     # call-on implementation is via Logix
