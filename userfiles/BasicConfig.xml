@@ -55,7 +55,7 @@
       <systemName>CT1007</systemName>
       <userName>Weed Staging TO 7</userName>
     </turnout>
-    <turnout systemName="CT1008" userName="TO 41" feedback="DELAYED" inverted="false" automate="Default">
+    <turnout systemName="CT1008" userName="TO 41" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1008</systemName>
       <userName>TO 41</userName>
       <comment>Black Butte Lower Secondary, 40L</comment>
