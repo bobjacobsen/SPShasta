@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Helix Outer Panel" x="961" y="695" height="478" width="1285" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="both">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Helix Outer Panel" x="960" y="791" height="247" width="675" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/HelixOuterPanel.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </icon>
     </positionablelabel>
-    <sensoricon sensor="PB helix panel 1 level 1 closed" x="1096" y="169" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="PB helix panel 1 level 1 closed" x="546" y="82" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 1 closed (CS73)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -23,7 +23,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 1 thrown" x="1126" y="255" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="PB helix panel 1 level 1 thrown" x="557" y="125" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 1 thrown (CS74)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -39,7 +39,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 2 closed" x="881" y="233" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="PB helix panel 1 level 2 closed" x="439" y="110" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 2 closed (CS75)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -55,7 +55,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 2 thrown 2" x="936" y="290" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="PB helix panel 1 level 2 thrown 2" x="463" y="140" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 2 thrown 2 (CS78)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -71,7 +71,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 2 thrown 1" x="836" y="170" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="PB helix panel 1 level 2 thrown 1" x="413" y="83" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 2 thrown 1 (CS76)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -87,7 +87,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 3 closed" x="638" y="229" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="PB helix panel 1 level 3 closed" x="314" y="111" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 3 closed (CS68)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -103,7 +103,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 3 thrown 2" x="590" y="289" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="PB helix panel 1 level 3 thrown 2" x="290" y="139" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 3 thrown 2 (CS65)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -119,7 +119,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 3 thrown 1" x="685" y="171" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="PB helix panel 1 level 3 thrown 1" x="338" y="83" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 3 thrown 1 (CS70)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -135,7 +135,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 4 closed" x="389" y="230" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="PB helix panel 1 level 4 closed" x="191" y="111" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 4 closed (CS71)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -151,7 +151,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 4 thrown 2" x="436" y="288" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="PB helix panel 1 level 4 thrown 2" x="215" y="139" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 4 thrown 2 (CS66)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -167,7 +167,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 4 thrown 1" x="341" y="174" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="PB helix panel 1 level 4 thrown 1" x="167" y="83" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 4 thrown 1 (CS72)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -183,7 +183,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 5 closed" x="194" y="289" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="PB helix panel 1 level 5 closed" x="92" y="139" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 5 closed (CS79)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -199,7 +199,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="PB helix panel 1 level 5 thrown" x="160" y="205" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="PB helix panel 1 level 5 thrown" x="79" y="98" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>PB helix panel 1 level 5 thrown (CS67)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -215,7 +215,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="Helix P0 A main" x="1015" y="176" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 A main" x="506" y="86" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 A main (CT115)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -233,7 +233,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 A side 1" x="1039" y="294" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 A side 1" x="518" y="144" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 A side 1 (CT116)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -251,7 +251,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 A side 2" x="983" y="295" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 A side 2" x="490" y="144" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 A side 2 (CT114)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -269,7 +269,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 B main" x="763" y="293" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 B main" x="380" y="144" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 B main (CT98)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -287,7 +287,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 B side 1" x="791" y="179" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 B side 1" x="393" y="86" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 B side 1 (CT99)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -305,7 +305,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 B side 2" x="738" y="180" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 B side 2" x="365" y="86" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 B side 2 (CT100)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -323,7 +323,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 C main" x="515" y="180" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 C main" x="255" y="87" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 C main (CT126)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -341,7 +341,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 C side 1" x="544" y="293" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 C side 1" x="269" y="144" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 C side 1 (CT125)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -359,7 +359,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 C side 2" x="488" y="294" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 C side 2" x="243" y="143" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 C side 2 (CT128)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -377,7 +377,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 D main" x="273" y="295" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 D main" x="135" y="145" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 D main (CT107)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -395,7 +395,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 D side 1" x="301" y="180" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 D side 1" x="121" y="86" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 D side 1 (CT105)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -413,7 +413,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 D side 2" x="245" y="176" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 D side 2" x="194" y="86" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 D side 2 (CT109)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -431,7 +431,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L1 C" x="1146" y="175" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L1 C" x="574" y="86" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L1 C (CT117)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -449,7 +449,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L1 T" x="1156" y="219" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L1 T" x="575" y="106" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L1 T (CT119)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -467,7 +467,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L2 C1" x="865" y="272" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L2 C1" x="432" y="133" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L2 C1 (CT102)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -485,7 +485,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L2 C2" x="906" y="203" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L2 C2" x="451" y="100" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L2 C2 (CT101)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -503,7 +503,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L2 T1" x="888" y="294" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L2 T1" x="442" y="144" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L2 T1 (CT97)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -521,7 +521,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L2 T2" x="884" y="175" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L2 T2" x="442" y="86" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L2 T2 (CT113)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -539,7 +539,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L3 C1" x="661" y="273" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L3 C1" x="327" y="132" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L3 C1 (CT122)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -557,7 +557,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L3 C2" x="621" y="205" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L3 C2" x="308" y="99" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L3 C2 (CT104)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -575,7 +575,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L3 T1" x="637" y="291" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L3 T1" x="319" y="144" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L3 T1 (CT121)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -593,7 +593,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L3 T2" x="640" y="177" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L3 T2" x="318" y="86" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L3 T2 (CT103)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -611,7 +611,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L4 C1" x="413" y="200" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L4 C1" x="204" y="99" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L4 C1 (CT124)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -629,7 +629,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L4 C2" x="375" y="272" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L4 C2" x="186" y="132" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L4 C2 (CT123)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -647,7 +647,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L4 T1" x="396" y="293" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L4 T1" x="197" y="143" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L4 T1 (CT106)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -665,7 +665,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L4 T2" x="390" y="179" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L4 T2" x="150" y="86" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L4 T2 (CT127)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -683,7 +683,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L5 T" x="140" y="254" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L5 T" x="68" y="124" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L5 T (CT111)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
@@ -701,7 +701,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Helix P0 L5 C" x="154" y="292" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Helix P0 L5 C" x="75" y="144" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>Helix P0 L5 C (CT112)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
