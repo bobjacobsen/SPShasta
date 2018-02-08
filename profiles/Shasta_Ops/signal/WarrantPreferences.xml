@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <warrantPreferences>
-  <!--Written by JMRI version 4.7.3+R202c9ee on Tue May 02 20:27:09 PDT 2017 $Id$-->
-  <layoutParams layoutScale="87.1" searchDepth="20" />
+  <!--Written by JMRI version 4.9.2ish+jenkins+20170810T2343Z+R5fa7ed5 on Wed Feb 07 20:14:50 PST 2018-->
+  <layoutParams layoutScale="87.1" searchDepth="20">
+    <shutdown>PROMPT</shutdown>
+  </layoutParams>
   <speedMapParams>
     <stepIncrements timeIncrement="750" rampIncrement="0.04" throttleScale="0.5" />
     <speedNames interpretation="1">
