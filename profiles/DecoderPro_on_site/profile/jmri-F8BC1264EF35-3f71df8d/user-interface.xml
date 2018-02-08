@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
+        <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
+    </classPreferences>
+    <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
+        <comboBox xmlns="" lastSelected="Serial" name="NCE"/>
+    </comboBoxLastValue>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
+        <setting xmlns="">apps.gui3.dp3.DecoderPro3Window.hideGroups</setting>
+    </settings>
+    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
+        <table xmlns="" name="apps.gui3.dp3.DecoderPro3Window:DecoderPro:roster">
+            <columns>
+                <column hidden="false" name="Owner" order="8" width="60"/>
+                <column hidden="false" name="Manufacturer" order="6" width="85"/>
+                <column hidden="false" name="Model" order="7" width="48"/>
+                <column hidden="false" name="ID" order="0" width="151"/>
+                <column hidden="false" name="Icon" order="2" width="41"/>
+                <column hidden="false" name="Road Number" order="5" width="85"/>
+                <column hidden="false" name="Date Modified" order="9" width="86"/>
+                <column hidden="false" name="Decoder Model" order="3" width="111"/>
+                <column hidden="false" name="Road Name" order="4" width="75"/>
+                <column hidden="false" name="DCC Address" order="1" width="83"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+    </tableDetails>
+    <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="600.0" locX="168.0" locY="26.0" width="1024.0">
+            <properties>
+                <property>
+                    <key>selectedRosterGroup</key>
+                </property>
+                <property>
+                    <key>selectedProgrammer</key>
+                    <value class="java.lang.String">ops</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Alco PA 6005:1" height="1045.0" locX="0.0" locY="0.0" width="1223.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Alco PA 6005" height="1045.0" locX="31.0" locY="0.0" width="1223.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Alco PB 5912" height="1045.0" locX="290.0" locY="0.0" width="1223.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:Alco PA" height="1045.0" locX="31.0" locY="0.0" width="1223.0"/>
+        <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="439.0" locX="0.0" locY="0.0" width="997.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:Alco PA 6016" height="1045.0" locX="0.0" locY="0.0" width="1223.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:Alco PA 6014" height="1045.0" locX="0.0" locY="0.0" width="1223.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:Alco PA 6013" height="1045.0" locX="31.0" locY="0.0" width="1223.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster">
+            <properties>
+                <property>
+                    <key>defaultRosterGroup</key>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="Local JMRI throttles" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro:1" height="600.0" locX="0.0" locY="0.0" width="1024.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:Alco PB 5912" height="1045.0" locX="597.0" locY="3.0" width="1223.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program &lt;new loco&gt; in Service Mode (Programming Track)" height="1045.0" locX="521.0" locY="0.0" width="1223.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program 2-8-2 in Service Mode (Programming Track)" height="654.0" locX="0.0" locY="0.0" width="809.0"/>
+        <window xmlns="" class="jmri.jmrit.mailreport.ReportFrame" locX="31.0" locY="31.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Alco PA 6016" height="1045.0" locX="0.0" locY="0.0" width="1223.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Alco PA 6013" height="1045.0" locX="0.0" locY="0.0" width="1223.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Alco PA 6014" height="1045.0" locX="0.0" locY="0.0" width="1223.0"/>
+        <window xmlns="" class="Create New Loco" height="508.0" locX="1217.0" locY="0.0" width="584.0"/>
+        <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program Alco PB 5912 in Service Mode (Programming Track)" height="1045.0" locX="31.0" locY="0.0" width="1223.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:Alco PA 6005" height="1045.0" locX="31.0" locY="0.0" width="1223.0"/>
+        <window xmlns="" class="jmri.jmrit.simpleprog.SimpleProgFrame" height="399.0" locX="175.0" locY="152.0" width="338.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:4291 Cab Forward" height="766.0" locX="31.0" locY="31.0" width="958.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:2-8-2 MK-10" height="766.0" locX="0.0" locY="0.0" width="958.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:2-8-2 MK-11" height="654.0" locX="0.0" locY="0.0" width="809.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:2-8-2" height="654.0" locX="0.0" locY="0.0" width="809.0"/>
+    </windowDetails>
+</auxiliary-configuration>
