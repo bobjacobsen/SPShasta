@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.9.2ish+jenkins+20170810T2343Z+R5fa7ed5 on Wed Feb 07 20:34:14 PST 2018-->
+  <!--Written by JMRI version 4.9.2ish+jenkins+20170810T2343Z+R5fa7ed5 on Wed Feb 07 20:53:39 PST 2018-->
   <roster>
     <locomotive id="2-8-2 MK-10" fileName="2_8_2_MK_10.xml" roadNumber="3295" roadName="SP" mfg="WMC" owner="omcge_000" model="" dccAddress="3295" comment="Minbarets &amp; Western; Massied March 2006" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2017-11-27T00:16:25Z</dateUpdated>
@@ -137,7 +137,7 @@
       </functionlabels>
     </locomotive>
     <locomotive id="Alco PA 6014" fileName="Alco_PA_6014.xml" roadNumber="6014" roadName="SP" mfg="Union Terminals" owner="omcge_000" model="" dccAddress="6014" comment="Purchased from Train Shop, November 2017" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2018-02-08T04:15:19Z</dateUpdated>
+      <dateUpdated>2018-02-08T04:53:33Z</dateUpdated>
       <decoder model="TSU-2200 Alco Diesels" family="Tsunami2 Diesel" comment="" />
       <locoaddress>
         <dcclocoaddress number="6014" longaddress="yes" />
@@ -145,33 +145,33 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels>
-        <functionlabel num="0" lockable="true">Headlight</functionlabel>
-        <functionlabel num="1" lockable="true">Bell</functionlabel>
-        <functionlabel num="2" lockable="false">Horn</functionlabel>
-        <functionlabel num="3" lockable="true">Short Horn</functionlabel>
-        <functionlabel num="4" lockable="true">Dynamic Brake</functionlabel>
-        <functionlabel num="5" lockable="true">RPM+</functionlabel>
-        <functionlabel num="6" lockable="true">RPM-</functionlabel>
-        <functionlabel num="7" lockable="true">Dimmer</functionlabel>
-        <functionlabel num="8" lockable="true">Mute</functionlabel>
-        <functionlabel num="9" lockable="true">Xing Signal</functionlabel>
-        <functionlabel num="10" lockable="true">Straight to Eight</functionlabel>
-        <functionlabel num="11" lockable="true">Ind/Train Brake</functionlabel>
-        <functionlabel num="12" lockable="true">Brake Select</functionlabel>
-        <functionlabel num="13" lockable="true">Coupler</functionlabel>
-        <functionlabel num="14" lockable="true">Half Speed</functionlabel>
-        <functionlabel num="15" lockable="true">Handbrake</functionlabel>
-        <functionlabel num="16" lockable="true">HEP Mode</functionlabel>
-        <functionlabel num="17" lockable="true">Fuel Loading</functionlabel>
-        <functionlabel num="18" lockable="true">General Service</functionlabel>
-        <functionlabel num="20" lockable="true">Steam Generator</functionlabel>
-        <functionlabel num="21" lockable="true">Sander Valve</functionlabel>
-        <functionlabel num="22" lockable="true">Cab Chatter</functionlabel>
-        <functionlabel num="23" lockable="true">All Aboard</functionlabel>
-        <functionlabel num="24" lockable="true">FX3 Output</functionlabel>
-        <functionlabel num="25" lockable="true">FX4 Output</functionlabel>
-        <functionlabel num="26" lockable="true">FX5 Output</functionlabel>
-        <functionlabel num="27" lockable="true">FX6 Output</functionlabel>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Xing Signal</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Straight to Eight</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Ind/Train Brake</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Select</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Handbrake</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">HEP Mode</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Fuel Loading</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">General Service</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Steam Generator</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Sander Valve</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Cab Chatter</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">All Aboard</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">FX3 Output</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">FX4 Output</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">FX5 Output</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">FX6 Output</functionlabel>
       </functionlabels>
     </locomotive>
     <locomotive id="Alco PA 6016" fileName="Alco_PA_6016.xml" roadNumber="6016" roadName="SP" mfg="Union Terminals" owner="omcge_000" model="" dccAddress="6016" comment="Purchased from Train Shop, November, 2017" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">

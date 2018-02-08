@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.9.2ish+jenkins+20170810T2343Z+R5fa7ed5 on Wed Feb 07 20:15:19 PST 2018-->
+  <!--Written by JMRI version 4.9.2ish+jenkins+20170810T2343Z+R5fa7ed5 on Wed Feb 07 20:53:33 PST 2018-->
   <locomotive id="Alco PA 6014" fileName="Alco_PA_6014.xml" roadNumber="6014" roadName="SP" mfg="Union Terminals" owner="omcge_000" model="" dccAddress="6014" comment="Purchased from Train Shop, November 2017" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-02-08T04:15:19Z</dateUpdated>
+    <dateUpdated>2018-02-08T04:53:33Z</dateUpdated>
     <decoder model="TSU-2200 Alco Diesels" family="Tsunami2 Diesel" comment="" />
     <locoaddress>
       <dcclocoaddress number="6014" longaddress="yes" />
@@ -625,7 +625,7 @@
         <varValue item="Sander Valve Volume" value="10" />
         <varValue item="Fuel Loading Volume" value="50" />
         <varValue item="Wrenches Volume" value="50" />
-        <varValue item="Cab Chatter Volume" value="60" />
+        <varValue item="Cab Chatter Volume" value="41" />
         <varValue item="Bell Reverb Level" value="0" />
         <varValue item="Coupler Reverb Level" value="0" />
         <varValue item="Train Brake Apply/Release Reverb Level" value="0" />
@@ -940,7 +940,7 @@
       <CVvalue name="154" value="10" />
       <CVvalue name="155" value="50" />
       <CVvalue name="157" value="50" />
-      <CVvalue name="160" value="60" />
+      <CVvalue name="160" value="41" />
       <CVvalue name="162" value="0" />
       <CVvalue name="169" value="0" />
       <CVvalue name="170" value="0" />
