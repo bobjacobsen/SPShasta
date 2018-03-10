@@ -45,9 +45,6 @@
         <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="600.0" locX="168.0" locY="26.0" width="1024.0">
             <properties>
                 <property>
-                    <key>selectedRosterGroup</key>
-                </property>
-                <property>
                     <key>selectedProgrammer</key>
                     <value class="java.lang.String">ops</value>
                 </property>
@@ -61,13 +58,7 @@
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:Alco PA 6016" height="1045.0" locX="0.0" locY="0.0" width="1223.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:Alco PA 6014" height="1045.0" locX="0.0" locY="0.0" width="1223.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:Alco PA 6013" height="1045.0" locX="31.0" locY="0.0" width="1223.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.Roster">
-            <properties>
-                <property>
-                    <key>defaultRosterGroup</key>
-                </property>
-            </properties>
-        </window>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="Local JMRI throttles" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
         <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro:1" height="600.0" locX="0.0" locY="0.0" width="1024.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$5:Alco PB 5912" height="1045.0" locX="597.0" locY="3.0" width="1223.0"/>

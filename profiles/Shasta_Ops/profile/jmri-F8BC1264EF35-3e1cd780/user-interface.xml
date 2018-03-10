@@ -17,6 +17,7 @@
         <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
     </classPreferences>
     <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
+        <comboBox xmlns="" lastSelected="Serial" name="NCE"/>
         <comboBox xmlns="" lastSelected="19,200 baud" name="jmri.jmrix.cmri.serial.serialdriver.SerialDriverAdapter.baud"/>
         <comboBox xmlns="" lastSelected="Serial" name="C/MRI"/>
     </comboBoxLastValue>
@@ -76,13 +77,7 @@
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard 4" locX="570.0" locY="20.0"/>
         <window xmlns="" class="Middle Panel" height="507.0" locX="20.0" locY="22.0" width="1202.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.serialmon.SerialMonFrame" height="378.0" locX="1052.0" locY="8.0" width="753.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.Roster">
-            <properties>
-                <property>
-                    <key>defaultRosterGroup</key>
-                </property>
-            </properties>
-        </window>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="Local JMRI throttles" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
         <window xmlns="" class="Turntable Control" height="580.0" locX="20.0" locY="22.0" width="420.0"/>
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard 2" locX="570.0" locY="20.0"/>
@@ -93,12 +88,10 @@
         <window xmlns="" class="Outside Signal Controls" height="209.0" locX="439.0" locY="610.0" width="458.0"/>
         <window xmlns="" class="Grass Lake West panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
         <window xmlns="" class="Grass Lake East panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
+        <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="498.0" locX="0.0" locY="0.0" width="491.0"/>
         <window xmlns="" class="Switchboard" height="330.0" locX="506.0" locY="556.0" width="550.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="0.0" locY="0.0" width="1024.0">
             <properties>
-                <property>
-                    <key>selectedRosterGroup</key>
-                </property>
                 <property>
                     <key>selectedProgrammer</key>
                     <value class="java.lang.String">service</value>

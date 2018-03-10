@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.9.2ish+jenkins+20170810T2343Z+R5fa7ed5 on Fri Mar 09 19:56:18 PST 2018-->
+  <!--Written by JMRI version 4.11.3+R80b3ab3 on Fri Mar 09 20:27:30 PST 2018-->
   <roster>
     <locomotive id="2-8-2 MK-10" fileName="2_8_2_MK_10.xml" roadNumber="3295" roadName="SP" mfg="WMC" owner="omcge_000" model="" dccAddress="3295" comment="Minbarets &amp; Western; Massied March 2006" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2017-11-27T00:16:25Z</dateUpdated>
