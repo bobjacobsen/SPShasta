@@ -1,3 +1,6 @@
+# we're not using Warrants, so reduce the noise
+WarrantPreferences.xml
+
 # edit files
 ~*
 *.bak
