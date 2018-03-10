@@ -104,5 +104,13 @@
                 <parameter name="cmrinodedesc"/>
             </node>
         </connection>
+        <connection xmlns="" class="jmri.jmrix.nce.serialdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="NCE" port="COM5" speed="9,600 baud" systemPrefix="N" userName="NCE">
+            <options>
+                <option>
+                    <name>Eprom</name>
+                    <value>2006 or later</value>
+                </option>
+            </options>
+        </connection>
     </connections>
 </auxiliary-configuration>
