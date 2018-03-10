@@ -38,9 +38,6 @@
                 <sortKey column="0" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
-        <table xmlns="" name="apps.gui3.dp3.DecoderPro3Window:DecoderPro:roster">
-            <columns/>
-        </table>
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:All">
             <columns>
                 <column hidden="false" name="" order="4" width="62"/>
@@ -91,7 +88,7 @@
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard 2" locX="570.0" locY="20.0"/>
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard 3" locX="570.0" locY="20.0"/>
         <window xmlns="" class="Mount Shasta Crossing Control" height="176.0" locX="300.0" locY="500.0" width="325.0"/>
-        <window xmlns="" class="CTC Panel Image" height="720.0" locX="880.0" locY="93.0" width="1024.0"/>
+        <window xmlns="" class="CTC Panel Image" height="720.0" locX="20.0" locY="20.0" width="1024.0"/>
         <window xmlns="" class="JMRI System console" height="1080.0" locX="493.0" locY="0.0" width="1198.0"/>
         <window xmlns="" class="Outside Signal Controls" height="209.0" locX="439.0" locY="610.0" width="458.0"/>
         <window xmlns="" class="Grass Lake West panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
@@ -99,6 +96,9 @@
         <window xmlns="" class="Switchboard" height="330.0" locX="506.0" locY="556.0" width="550.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="0.0" locY="0.0" width="1024.0">
             <properties>
+                <property>
+                    <key>selectedRosterGroup</key>
+                </property>
                 <property>
                     <key>selectedProgrammer</key>
                     <value class="java.lang.String">service</value>
