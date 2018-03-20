@@ -6,7 +6,6 @@ Corrections needed:
 [ ] Corrections
     [ ] 42L on Bypass should be 42R
     [ ] 40L Triple Head should be 40R
-[ ] Label right end of TO 39 crossover
-[ ] "Freight Only" on Mott siding
-[ ] Small is below main on board, is that right on layout?
+    [ ] Label right end of TO 39 crossover
+    [ ] "Freight Only" on Mott siding
 [ ] "CTC / TT&TO”: label transition point
