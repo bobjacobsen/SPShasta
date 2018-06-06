@@ -3,6 +3,7 @@
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
         <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
@@ -75,6 +76,7 @@
         <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfig.NodeConfigFrame" height="414.0" locX="100.0" locY="30.0" width="351.0"/>
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="760.0" locX="918.0" locY="44.0" width="853.0"/>
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard 4" locX="570.0" locY="20.0"/>
+        <window xmlns="" class="jmri.jmrit.simpleclock.SimpleClockFrame" height="476.0" locX="384.0" locY="342.0" width="297.0"/>
         <window xmlns="" class="Middle Panel" height="507.0" locX="20.0" locY="22.0" width="1202.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.serialmon.SerialMonFrame" height="378.0" locX="1052.0" locY="8.0" width="753.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
@@ -98,6 +100,7 @@
                 </property>
             </properties>
         </window>
+        <window xmlns="" class="jmri.jmrit.analogclock.AnalogClockFrame:Analog Clock" height="308.0" locX="1114.0" locY="0.0" width="327.0"/>
         <window xmlns="" class="apps.gui3.TabbedPreferencesAction$1:Preferences" height="416.0" locX="0.0" locY="0.0" width="853.0"/>
         <window xmlns="" class="Helix Outer Panel" height="247.0" locX="960.0" locY="791.0" width="675.0"/>
         <window xmlns="" class="PanelPro" height="263.0" locX="667.0" locY="408.0" width="586.0"/>
