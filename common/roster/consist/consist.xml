@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/consistRoster.xsl" type="text/xsl"?>
+<!DOCTYPE consist-roster-config SYSTEM "/xml/DTD/consist-roster-config.dtd">
+<consist-roster-config>
+  <!--Written by JMRI version 4.11.8+R0997631 on Tue Jul 03 20:12:24 PDT 2018-->
+  <roster>
+    <consist id="86(S)" consistNumber="86" longAddress="no" type="DAC">
+      <loco dccLocoAddress="6186" longAddress="yes" locoDir="normal" locoName="lead" />
+      <loco dccLocoAddress="8290" longAddress="yes" locoDir="normal" locoName="rear" />
+    </consist>
+    <consist id="7(S)" consistNumber="7" longAddress="no" type="DAC">
+      <loco dccLocoAddress="6007" longAddress="yes" locoDir="normal" locoName="lead" />
+      <loco dccLocoAddress="5923" longAddress="yes" locoDir="normal" locoName="rear" />
+    </consist>
+    <consist id="40(S)" consistNumber="40" longAddress="no" type="DAC">
+      <loco dccLocoAddress="6440" longAddress="yes" locoDir="normal" locoName="lead" />
+    </consist>
+    <consist id="41(S)" consistNumber="41" longAddress="no" type="DAC">
+      <loco dccLocoAddress="6441" longAddress="yes" locoDir="normal" locoName="lead" />
+      <loco dccLocoAddress="6445" longAddress="yes" locoDir="normal" locoName="rear" />
+      <loco dccLocoAddress="8297" longAddress="yes" locoDir="normal" locoName="mid" locoMidNumber="2" />
+    </consist>
+    <consist id="26(S)" consistNumber="26" longAddress="no" type="DAC">
+      <loco dccLocoAddress="6327" longAddress="yes" locoDir="normal" locoName="lead" />
+      <loco dccLocoAddress="6326" longAddress="yes" locoDir="normal" locoName="rear" />
+      <loco dccLocoAddress="8226" longAddress="yes" locoDir="normal" locoName="mid" locoMidNumber="2" />
+    </consist>
+    <consist id="10(S)" consistNumber="10" longAddress="no" type="DAC">
+      <loco dccLocoAddress="6010" longAddress="yes" locoDir="normal" locoName="lead" />
+      <loco dccLocoAddress="6009" longAddress="yes" locoDir="normal" locoName="rear" />
+      <loco dccLocoAddress="591" longAddress="yes" locoDir="normal" locoName="mid" locoMidNumber="2" />
+      <loco dccLocoAddress="5912" longAddress="yes" locoDir="normal" locoName="mid" locoMidNumber="3" />
+    </consist>
+    <consist id="125(S)" consistNumber="125" longAddress="no" type="DAC">
+      <loco dccLocoAddress="15872" longAddress="yes" locoDir="normal" locoName="lead" />
+    </consist>
+    <consist id="126(S)" consistNumber="126" longAddress="no" type="DAC">
+      <loco dccLocoAddress="15872" longAddress="yes" locoDir="normal" locoName="lead" />
+    </consist>
+    <consist id="46(S)" consistNumber="46" longAddress="no" type="DAC">
+      <loco dccLocoAddress="6446" longAddress="yes" locoDir="normal" locoName="lead" />
+      <loco dccLocoAddress="8227" longAddress="yes" locoDir="normal" locoName="rear" />
+    </consist>
+    <consist id="127(S)" consistNumber="127" longAddress="no" type="DAC">
+      <loco dccLocoAddress="6005" longAddress="yes" locoDir="normal" locoName="lead" />
+      <loco dccLocoAddress="5912" longAddress="yes" locoDir="normal" locoName="rear" />
+      <loco dccLocoAddress="6013" longAddress="yes" locoDir="normal" locoName="mid" locoMidNumber="2" />
+    </consist>
+  </roster>
+</consist-roster-config>
