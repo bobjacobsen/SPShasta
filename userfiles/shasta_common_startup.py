@@ -66,6 +66,9 @@ execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CmriNodeMonitor.
 # bring up rest of layout controls - this delays before operating
 execfile(jmri.util.FileUtil.getExternalFilename("preference:ConfigureLayoutLogic.py"))
 
+# add the APB signals
+cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:APB.xml")))
+
 # start web server
 jmri.web.server.WebServerAction().actionPerformed(None)
 
