@@ -2347,37 +2347,91 @@
     </turnout>
 
     <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8028</systemName>
-      <userName>GLW LED House Track</userName>
+      <systemName>CT8017</systemName>
+      <userName>MP 333.8 - Mt Shasta E Eb Red</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8027</systemName>
-      <userName>GLW LED West Siding</userName>
+      <systemName>CT8018</systemName>
+      <userName>MP 333.8 - Mt Shasta E Eb Green</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8026</systemName>
-      <userName>GLW LED Main Track</userName>
+      <systemName>CT8019</systemName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8025</systemName>
-      <userName>GLW LED East Siding</userName>
+      <systemName>CT8020</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8021</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8022</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8023</systemName>
+      <userName>MP 335.3 - Grass Lake W Eb Green</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8024</systemName>
+      <userName>MP 335.3 - Grass Lake W Eb Red</userName>
     </turnout>
 
     <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8039</systemName>
-      <userName>GLE LED Main Track</userName>
+      <systemName>CT8025</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8026</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8027</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8028</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8029</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8030</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8031</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8032</systemName>
+    </turnout>
+
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8033</systemName>
+      <userName>GLW LED East Siding</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8034</systemName>
+      <userName>GLW LED Main Track</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8035</systemName>
+      <userName>GLW LED West Siding</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8036</systemName>
+      <userName>GLW LED House Track</userName>
+    </turnout>
+
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8037</systemName>
+      <userName>GLE LED House Track</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8038</systemName>
       <userName>GLE LED West Siding</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8040</systemName>
-      <userName>GLE LED East Siding</userName>
+      <systemName>CT8039</systemName>
+      <userName>GLE LED Main Track</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8037</systemName>
-      <userName>GLE LED House Track</userName>
+      <systemName>CT8040</systemName>
+      <userName>GLE LED East Siding</userName>
     </turnout>
 
     <turnout feedback="DIRECT" inverted="false" automate="Default">
@@ -2388,6 +2442,7 @@
       <systemName>CT8041</systemName>
       <userName>GLY LED Right Main Track</userName>
     </turnout>
+    
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8048</systemName>
       <userName>GLY LED Lower Left Wye</userName>
@@ -2396,6 +2451,7 @@
       <systemName>CT8045</systemName>
       <userName>GLY LED Upper Left Wye</userName>
     </turnout>
+    
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8042</systemName>
       <userName>GLY LED Lower Right Wye</userName>
