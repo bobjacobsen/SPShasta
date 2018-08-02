@@ -8,7 +8,7 @@ The railroad uses [JMRI](http://jmri.org) for controls, see their [SP Shasta pag
 PanelProConfig2.xml - The SP Shasta uses PanelPro extensively; this loads the full default configuration.
 (Note that there are Shasta XML start up files in preferences for debugging use)
 
-FullConfig.xml - configuration information, but not panels, for the entire control system
+BasicConfig.xml - configuration information, but not panels, for the control system
 
 BWpanel.xml - animated track schematic of layout
 LeftPanel.xml - Levers and lamps on left CTC panel
