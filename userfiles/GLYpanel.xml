@@ -111,7 +111,7 @@
       <iconmaps />
     </turnouticon>
     <turnouticon turnout="GLY LED Left Main Track" x="157" y="211" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
-      <tooltip>GLY LED Left Main Track (CT8025)</tooltip>
+      <tooltip>GLY LED Left Main Track (CT8033)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -129,7 +129,7 @@
       <iconmaps />
     </turnouticon>
     <turnouticon turnout="GLY LED Right Main Track" x="229" y="208" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
-      <tooltip>GLY LED Right Main Track (CT8026)</tooltip>
+      <tooltip>GLY LED Right Main Track (CT8034)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -147,7 +147,7 @@
       <iconmaps />
     </turnouticon>
     <turnouticon turnout="GLY LED Lower Left Wye" x="154" y="180" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
-      <tooltip>GLY LED Lower Left Wye (CT8027)</tooltip>
+      <tooltip>GLY LED Lower Left Wye (CT8035)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -165,7 +165,7 @@
       <iconmaps />
     </turnouticon>
     <turnouticon turnout="GLY LED Upper Left Wye" x="173" y="155" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
-      <tooltip>GLY LED Upper Left Wye (CT8028)</tooltip>
+      <tooltip>GLY LED Upper Left Wye (CT8036)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -183,7 +183,7 @@
       <iconmaps />
     </turnouticon>
     <turnouticon turnout="GLY LED Lower Right Wye" x="236" y="179" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
-      <tooltip>GLY LED Lower Right Wye (CT8029)</tooltip>
+      <tooltip>GLY LED Lower Right Wye (CT8042)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -201,7 +201,7 @@
       <iconmaps />
     </turnouticon>
     <turnouticon turnout="GLY LED Upper Right Wye" x="208" y="148" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
-      <tooltip>GLY LED Upper Right Wye (CT8030)</tooltip>
+      <tooltip>GLY LED Upper Right Wye (CT8046)</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
