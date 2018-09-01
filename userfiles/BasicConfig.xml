@@ -771,6 +771,23 @@
     </turnout>
 
     <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT2073</systemName>
+      <userName>Dunsmuir New Bridge Upper R</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT2074</systemName>
+      <userName>Dunsmuir New Bridge Upper G</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT2075</systemName>
+      <userName>Dunsmuir New Bridge Lower G</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT2076</systemName>
+      <userName>Dunsmuir New Bridge Lower R</userName>
+    </turnout>
+
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2097</systemName>
       <userName>Grass Lake West OS</userName>
     </turnout>
@@ -2534,16 +2551,396 @@
       <comment>Holds internal state</comment>
     </turnout>
   </turnouts>
+
   <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
     <sensor systemName="CS1" inverted="false" userName="FB Redding request trk 1">
       <systemName>CS1</systemName>
       <userName>FB Redding request trk 1</userName>
+    </sensor>
+    <sensor systemName="CS2" inverted="false" userName="FB Redding request trk 2">
+      <systemName>CS2</systemName>
+      <userName>FB Redding request trk 2</userName>
+    </sensor>
+    <sensor systemName="CS3" inverted="false" userName="FB Redding request trk 3">
+      <systemName>CS3</systemName>
+      <userName>FB Redding request trk 3</userName>
+    </sensor>
+    <sensor systemName="CS4" inverted="false" userName="FB Redding request trk 4">
+      <systemName>CS4</systemName>
+      <userName>FB Redding request trk 4</userName>
+    </sensor>
+    <sensor systemName="CS5" inverted="false" userName="FB Redding request trk 5">
+      <systemName>CS5</systemName>
+      <userName>FB Redding request trk 5</userName>
+    </sensor>
+    <sensor systemName="CS6" inverted="false" userName="FB Redding request trk 6">
+      <systemName>CS6</systemName>
+      <userName>FB Redding request trk 6</userName>
+    </sensor>
+    <sensor systemName="CS7" inverted="false" userName="FB Redding request trk 7">
+      <systemName>CS7</systemName>
+      <userName>FB Redding request trk 7</userName>
+    </sensor>
+    <sensor systemName="CS8" inverted="false" userName="TC 09">
+      <systemName>CS8</systemName>
+      <userName>TC 09</userName>
+      <comment>Block M1T (N0 )</comment>
+    </sensor>
+    <sensor systemName="CS9" inverted="false" userName="TC 10">
+      <systemName>CS9</systemName>
+      <userName>TC 10</userName>
+      <comment>Block M2T (N0 )</comment>
     </sensor>
     <sensor systemName="CS10" inverted="false" userName="TC 11">
       <systemName>CS10</systemName>
       <userName>TC 11</userName>
       <comment>Block M3T (N0 )</comment>
     </sensor>
+    <sensor systemName="CS11" inverted="false" userName="TC 12">
+      <systemName>CS11</systemName>
+      <userName>TC 12</userName>
+      <comment>Block M4T (N0 )</comment>
+    </sensor>
+    <sensor systemName="CS12" inverted="false" userName="Block M5T">
+      <systemName>CS12</systemName>
+      <userName>Block M5T</userName>
+      <comment />
+    </sensor>
+    <sensor systemName="CS13" inverted="false" userName="TC 06">
+      <systemName>CS13</systemName>
+      <userName>TC 06</userName>
+      <comment>Helix Turn 1 Inside (Red Bluff Main)</comment>
+    </sensor>
+    <sensor systemName="CS14" inverted="false" userName="TC 05">
+      <systemName>CS14</systemName>
+      <userName>TC 05</userName>
+      <comment>Helix Turn 1 Outside Lower  (Red Bluff Siding Lower)</comment>
+    </sensor>
+    <sensor systemName="CS15" inverted="false" userName="TC 02">
+      <systemName>CS15</systemName>
+      <userName>TC 02</userName>
+      <comment>Helix Turn 2 Inside Lower (Gerber Siding Lower)</comment>
+    </sensor>
+    <sensor systemName="CS16" inverted="false" userName="TC 01">
+      <systemName>CS16</systemName>
+      <userName>TC 01</userName>
+      <comment>Helix Turn 2 Outside (Gerber Main)</comment>
+    </sensor>
+    <sensor systemName="CS17" inverted="false" userName="Helix Turn 3 Inside">
+      <systemName>CS17</systemName>
+      <userName>Helix Turn 3 Inside</userName>
+      <comment>Helix Turn 3 Inside (Chiloquin Main)</comment>
+    </sensor>
+    <sensor systemName="CS18" inverted="false" userName="Helix Turn 3 Outside">
+      <systemName>CS18</systemName>
+      <userName>Helix Turn 3 Outside</userName>
+      <comment>Helix Turn 3 Outside Lower  (Chiloquin Siding Lower)</comment>
+    </sensor>
+    <sensor systemName="CS19" inverted="false" userName="TC 07">
+      <systemName>CS19</systemName>
+      <userName>TC 07</userName>
+      <comment>Gerber (lower helix) (N0 )</comment>
+    </sensor>
+    <sensor systemName="CS20" inverted="false" userName="Redding Entrance TO Fascia">
+      <systemName>CS20</systemName>
+      <userName>Redding Entrance TO Fascia</userName>
+    </sensor>
+    <sensor systemName="CS21" inverted="false" userName="Sims TO Fascia">
+      <systemName>CS21</systemName>
+      <userName>Sims TO Fascia</userName>
+    </sensor>
+    <sensor systemName="CS22" inverted="true" userName="Dunsmuir West TO Fascia">
+      <systemName>CS22</systemName>
+      <userName>Dunsmuir West TO Fascia</userName>
+    </sensor>
+    <sensor systemName="CS23" inverted="false" userName="Helix Level 1 Fascia">
+      <systemName>CS23</systemName>
+      <userName>Helix Level 1 Fascia</userName>
+      <comment>Old helix fascia panel, obsolete</comment>
+    </sensor>
+    <sensor systemName="CS24" inverted="false" userName="Helix Level 2 Fascia">
+      <systemName>CS24</systemName>
+      <userName>Helix Level 2 Fascia</userName>
+      <comment>Old helix fascia panel, obsolete</comment>
+    </sensor>
+    <sensor systemName="CS25" inverted="false" userName="Helix Level 3 Fascia">
+      <systemName>CS25</systemName>
+      <userName>Helix Level 3 Fascia</userName>
+      <comment>Old helix fascia panel, obsolete</comment>
+    </sensor>
+    <sensor systemName="CS26" inverted="false" userName="Helix Level 4 Fascia">
+      <systemName>CS26</systemName>
+      <userName>Helix Level 4 Fascia</userName>
+      <comment>Old helix fascia panel, obsolete</comment>
+    </sensor>
+    <sensor systemName="CS27" inverted="false" userName="Helix Level 5 Fascia">
+      <systemName>CS27</systemName>
+      <userName>Helix Level 5 Fascia</userName>
+      <comment>Old helix fascia panel, obsolete</comment>
+    </sensor>
+    <sensor systemName="CS28" inverted="true" userName="Dorris West fascia">
+      <systemName>CS28</systemName>
+      <userName>Dorris West fascia</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS32</systemName>
+      <userName>Dorris East Fascia</userName>
+    </sensor>
+    <sensor systemName="CS33" inverted="false" userName="KF Arrival request trk 1">
+      <systemName>CS33</systemName>
+      <userName>KF Arrival request trk 1</userName>
+    </sensor>
+    <sensor systemName="CS34" inverted="false" userName="KF Arrival request trk 2">
+      <systemName>CS34</systemName>
+      <userName>KF Arrival request trk 2</userName>
+    </sensor>
+    <sensor systemName="CS35" inverted="false" userName="KF Arrival request trk 3">
+      <systemName>CS35</systemName>
+      <userName>KF Arrival request trk 3</userName>
+    </sensor>
+    <sensor systemName="CS36" inverted="false" userName="KF Arrival request trk 4">
+      <systemName>CS36</systemName>
+      <userName>KF Arrival request trk 4</userName>
+    </sensor>
+    <sensor systemName="CS37" inverted="false" userName="KF Arrival request trk 5">
+      <systemName>CS37</systemName>
+      <userName>KF Arrival request trk 5</userName>
+    </sensor>
+    <sensor systemName="CS38" inverted="false" userName="KF Arrival request trk 6">
+      <systemName>CS38</systemName>
+      <userName>KF Arrival request trk 6</userName>
+    </sensor>
+    <sensor systemName="CS39" inverted="false" userName="KF Arrival request trk 7">
+      <systemName>CS39</systemName>
+      <userName>KF Arrival request trk 7</userName>
+    </sensor>
+    <sensor systemName="CS40" inverted="false" userName="KF Departure request trk 1">
+      <systemName>CS40</systemName>
+      <userName>KF Departure request trk 1</userName>
+    </sensor>
+    <sensor systemName="CS41" inverted="false">
+      <systemName>CS41</systemName>
+      <userName>KF Departure request trk 2</userName>
+    </sensor>
+    <sensor systemName="CS42" inverted="false">
+      <systemName>CS42</systemName>
+      <userName>KF Departure request trk 3</userName>
+    </sensor>
+    <sensor systemName="CS43" inverted="false">
+      <systemName>CS43</systemName>
+      <userName>KF Departure request trk 4</userName>
+    </sensor>
+    <sensor systemName="CS44" inverted="false">
+      <systemName>CS44</systemName>
+      <userName>KF Departure request trk 5</userName>
+    </sensor>
+    <sensor systemName="CS45" inverted="false">
+      <systemName>CS45</systemName>
+      <userName>KF Departure request trk 6</userName>
+    </sensor>
+    <sensor systemName="CS46" inverted="false">
+      <systemName>CS46</systemName>
+      <userName>KF Departure request trk 7</userName>
+    </sensor>
+    <sensor systemName="CS47" inverted="false">
+      <systemName>CS47</systemName>
+      <userName>K Falls Helix Y</userName>
+    </sensor>
+    <sensor systemName="CS48" inverted="false">
+      <systemName>CS48</systemName>
+      <userName>TC 08</userName>
+      <comment>Helix Occ 1  (N0 )</comment>
+    </sensor>
+    <sensor systemName="CS49" inverted="false">
+      <systemName>CS49</systemName>
+      <userName>TC 04</userName>
+      <comment>Helix Occ 2 (N0 )</comment>
+    </sensor>
+    <sensor systemName="CS50" inverted="false" userName="TC 03">
+      <systemName>CS50</systemName>
+      <userName>TC 03</userName>
+      <comment>Helix Occ 3 (N0 )</comment>
+    </sensor>
+    <sensor systemName="CS51" inverted="false" userName="Helix Occ 4">
+      <systemName>CS51</systemName>
+      <userName>Helix Occ 4</userName>
+      <comment>(N0 )</comment>
+    </sensor>
+    <sensor systemName="CS52" inverted="false" userName="Helix Occ 5">
+      <systemName>CS52</systemName>
+      <userName>Helix Occ 5</userName>
+      <comment>(N0 )</comment>
+    </sensor>
+    <sensor systemName="CS53" inverted="false" userName="Helix Occ 6">
+      <systemName>CS53</systemName>
+      <userName>Helix Occ 6</userName>
+      <comment>(N0 )</comment>
+    </sensor>
+    <sensor systemName="CS54" inverted="false" userName="Helix Occ 7">
+      <systemName>CS54</systemName>
+      <userName>Helix Occ 7</userName>
+      <comment>(N0 )</comment>
+    </sensor>
+    <sensor systemName="CS55" inverted="false" userName="Helix Occ 8">
+      <systemName>CS55</systemName>
+      <userName>Helix Occ 8</userName>
+      <comment>Helix Turn 4 Inside Lower (Modoc Siding Lower)</comment>
+    </sensor>
+    <sensor systemName="CS56" inverted="false" userName="Helix Occ 9">
+      <systemName>CS56</systemName>
+      <userName>Helix Occ 9</userName>
+      <comment>Helix Turn 4 Outside (Modoc Main)</comment>
+    </sensor>
+    <sensor systemName="CS57" inverted="false" userName="Helix Occ 11">
+      <systemName>CS57</systemName>
+      <userName>Helix Occ 11</userName>
+      <comment>(N0 )</comment>
+    </sensor>
+    <sensor systemName="CS58" inverted="false">
+      <systemName>CS58</systemName>
+      <comment>Helix Turn 2 Inside Upper (Gerber Siding Upper)</comment>
+    </sensor>
+    <sensor systemName="CS59" inverted="false">
+      <systemName>CS59</systemName>
+      <comment>Helix Turn 4 Inside Upper (Modoc Siding Upper)</comment>
+    </sensor>
+    <sensor systemName="CS60" inverted="false">
+      <systemName>CS60</systemName>
+      <comment>Helix Turn 1 Outside Upper (Red Bluff Siding Upper)</comment>
+    </sensor>
+    <sensor systemName="CS61" inverted="false">
+      <systemName>CS61</systemName>
+      <comment>Helix Turn 3 Outside Upper  (Chiloquin Siding Upper)</comment>
+    </sensor>
+    <sensor systemName="CS62" inverted="false" userName="Dorris West Occ">
+      <systemName>CS62</systemName>
+      <userName>Dorris West Occ</userName>
+    </sensor>
+    <sensor systemName="CS63" inverted="false" userName="Dorris East Occ">
+      <systemName>CS63</systemName>
+      <userName>Dorris East Occ</userName>
+    </sensor>
+    <sensor systemName="CS64" inverted="false" userName="K Falls Departure Occ">
+      <systemName>CS64</systemName>
+      <userName>K Falls Departure Occ</userName>
+    </sensor>
+    <sensor systemName="CS65" inverted="false" userName="PB helix panel 1 level 3 thrown 2">
+      <systemName>CS65</systemName>
+      <userName>PB helix panel 1 level 3 thrown 2</userName>
+    </sensor>
+    <sensor systemName="CS66" inverted="false" userName="PB helix panel 1 level 4 thrown 2">
+      <systemName>CS66</systemName>
+      <userName>PB helix panel 1 level 4 thrown 2</userName>
+    </sensor>
+    <sensor systemName="CS67" inverted="false" userName="PB helix panel 1 level 5 thrown">
+      <systemName>CS67</systemName>
+      <userName>PB helix panel 1 level 5 thrown</userName>
+    </sensor>
+    <sensor systemName="CS68" inverted="false" userName="PB helix panel 1 level 3 closed">
+      <systemName>CS68</systemName>
+      <userName>PB helix panel 1 level 3 closed</userName>
+    </sensor>
+    <sensor systemName="CS69" inverted="false">
+      <systemName>CS69</systemName>
+    </sensor>
+    <sensor systemName="CS70" inverted="false" userName="PB helix panel 1 level 3 thrown 1">
+      <systemName>CS70</systemName>
+      <userName>PB helix panel 1 level 3 thrown 1</userName>
+    </sensor>
+    <sensor systemName="CS71" inverted="false" userName="PB helix panel 1 level 4 closed">
+      <systemName>CS71</systemName>
+      <userName>PB helix panel 1 level 4 closed</userName>
+    </sensor>
+    <sensor systemName="CS72" inverted="false" userName="PB helix panel 1 level 4 thrown 1">
+      <systemName>CS72</systemName>
+      <userName>PB helix panel 1 level 4 thrown 1</userName>
+    </sensor>
+    <sensor systemName="CS73" inverted="false" userName="PB helix panel 1 level 1 closed">
+      <systemName>CS73</systemName>
+      <userName>PB helix panel 1 level 1 closed</userName>
+    </sensor>
+    <sensor systemName="CS74" inverted="false" userName="PB helix panel 1 level 1 thrown">
+      <systemName>CS74</systemName>
+      <userName>PB helix panel 1 level 1 thrown</userName>
+    </sensor>
+    <sensor systemName="CS75" inverted="false" userName="PB helix panel 1 level 2 closed">
+      <systemName>CS75</systemName>
+      <userName>PB helix panel 1 level 2 closed</userName>
+    </sensor>
+    <sensor systemName="CS76" inverted="false" userName="PB helix panel 1 level 2 thrown 1">
+      <systemName>CS76</systemName>
+      <userName>PB helix panel 1 level 2 thrown 1</userName>
+    </sensor>
+    <sensor systemName="CS77" inverted="false">
+      <systemName>CS77</systemName>
+    </sensor>
+    <sensor systemName="CS78" inverted="false" userName="PB helix panel 1 level 2 thrown 2">
+      <systemName>CS78</systemName>
+      <userName>PB helix panel 1 level 2 thrown 2</userName>
+    </sensor>
+    <sensor systemName="CS79" inverted="false" userName="PB helix panel 1 level 5 closed">
+      <systemName>CS79</systemName>
+      <userName>PB helix panel 1 level 5 closed</userName>
+    </sensor>
+    <sensor systemName="CS81" inverted="false" userName="PB helix panel 2 level 4 closed">
+      <systemName>CS81</systemName>
+      <userName>PB helix panel 2 level 4 closed</userName>
+    </sensor>
+    <sensor systemName="CS82" inverted="false" userName="PB helix panel 2 level 2 thrown 1">
+      <systemName>CS82</systemName>
+      <userName>PB helix panel 2 level 2 thrown 1</userName>
+    </sensor>
+    <sensor systemName="CS83" inverted="false" userName="PB helix panel 2 level 3 thrown 2">
+      <systemName>CS83</systemName>
+      <userName>PB helix panel 2 level 3 thrown 2</userName>
+    </sensor>
+    <sensor systemName="CS84" inverted="false" userName="PB helix panel 2 level 3 thrown 1">
+      <systemName>CS84</systemName>
+      <userName>PB helix panel 2 level 3 thrown 1</userName>
+    </sensor>
+    <sensor systemName="CS85" inverted="false" userName="PB helix panel 2 level 5 closed">
+      <systemName>CS85</systemName>
+      <userName>PB helix panel 2 level 5 closed</userName>
+    </sensor>
+    <sensor systemName="CS86" inverted="false" userName="PB helix panel 2 level 4 thrown 2">
+      <systemName>CS86</systemName>
+      <userName>PB helix panel 2 level 4 thrown 2</userName>
+    </sensor>
+    <sensor systemName="CS87" inverted="false" userName="PB helix panel 2 level 2 thrown 2">
+      <systemName>CS87</systemName>
+      <userName>PB helix panel 2 level 2 thrown 2</userName>
+    </sensor>
+    <sensor systemName="CS88" inverted="false" userName="PB helix panel 2 level 3 closed">
+      <systemName>CS88</systemName>
+      <userName>PB helix panel 2 level 3 closed</userName>
+    </sensor>
+    <sensor systemName="CS89" inverted="false">
+      <systemName>CS89</systemName>
+    </sensor>
+    <sensor systemName="CS90" inverted="false" userName="PB helix panel 2 level 2 closed">
+      <systemName>CS90</systemName>
+      <userName>PB helix panel 2 level 2 closed</userName>
+    </sensor>
+    <sensor systemName="CS91" inverted="false" userName="PB helix panel 2 level 4 thrown 1">
+      <systemName>CS91</systemName>
+      <userName>PB helix panel 2 level 4 thrown 1</userName>
+    </sensor>
+    <sensor systemName="CS92" inverted="false" userName="PB helix panel 2 level 1 thrown">
+      <systemName>CS92</systemName>
+      <userName>PB helix panel 2 level 1 thrown</userName>
+    </sensor>
+    <sensor systemName="CS93" inverted="false" userName="PB helix panel 2 level 1 closed">
+      <systemName>CS93</systemName>
+      <userName>PB helix panel 2 level 1 closed</userName>
+    </sensor>
+    <sensor systemName="CS94" inverted="false" userName="PB helix panel 2 level 5 thrown">
+      <systemName>CS94</systemName>
+      <userName>PB helix panel 2 level 5 thrown</userName>
+    </sensor>
+    <sensor systemName="CS95" inverted="false">
+      <systemName>CS95</systemName>
+    </sensor>
+
     <sensor systemName="CS1001" inverted="false" userName="FB Weed request trk 1">
       <systemName>CS1001</systemName>
       <userName>FB Weed request trk 1</userName>
@@ -2656,59 +3053,7 @@
       <userName>TC 41</userName>
       <comment>BB18 Black Butte Main</comment>
     </sensor>
-    <sensor systemName="CS11" inverted="false" userName="TC 12">
-      <systemName>CS11</systemName>
-      <userName>TC 12</userName>
-      <comment>Block M4T (N0 )</comment>
-    </sensor>
-    <sensor systemName="CS12" inverted="false" userName="Block M5T">
-      <systemName>CS12</systemName>
-      <userName>Block M5T</userName>
-      <comment />
-    </sensor>
-    <sensor systemName="CS13" inverted="false" userName="TC 06">
-      <systemName>CS13</systemName>
-      <userName>TC 06</userName>
-      <comment>Helix Turn 1 Inside (Red Bluff Main)</comment>
-    </sensor>
-    <sensor systemName="CS14" inverted="false" userName="TC 05">
-      <systemName>CS14</systemName>
-      <userName>TC 05</userName>
-      <comment>Helix Turn 1 Outside Lower  (Red Bluff Siding Lower)</comment>
-    </sensor>
-    <sensor systemName="CS15" inverted="false" userName="TC 02">
-      <systemName>CS15</systemName>
-      <userName>TC 02</userName>
-      <comment>Helix Turn 2 Inside Lower (Gerber Siding Lower)</comment>
-    </sensor>
-    <sensor systemName="CS16" inverted="false" userName="TC 01">
-      <systemName>CS16</systemName>
-      <userName>TC 01</userName>
-      <comment>Helix Turn 2 Outside (Gerber Main)</comment>
-    </sensor>
-    <sensor systemName="CS17" inverted="false" userName="Helix Turn 3 Inside">
-      <systemName>CS17</systemName>
-      <userName>Helix Turn 3 Inside</userName>
-      <comment>Helix Turn 3 Inside (Chiloquin Main)</comment>
-    </sensor>
-    <sensor systemName="CS18" inverted="false" userName="Helix Turn 3 Outside">
-      <systemName>CS18</systemName>
-      <userName>Helix Turn 3 Outside</userName>
-      <comment>Helix Turn 3 Outside Lower  (Chiloquin Siding Lower)</comment>
-    </sensor>
-    <sensor systemName="CS19" inverted="false" userName="TC 07">
-      <systemName>CS19</systemName>
-      <userName>TC 07</userName>
-      <comment>Gerber (lower helix) (N0 )</comment>
-    </sensor>
-    <sensor systemName="CS2" inverted="false" userName="FB Redding request trk 2">
-      <systemName>CS2</systemName>
-      <userName>FB Redding request trk 2</userName>
-    </sensor>
-    <sensor systemName="CS20" inverted="false" userName="Redding Entrance TO Fascia">
-      <systemName>CS20</systemName>
-      <userName>Redding Entrance TO Fascia</userName>
-    </sensor>
+
     <sensor systemName="CS2001" inverted="false" userName="Duns TT Track 1">
       <systemName>CS2001</systemName>
       <userName>Duns TT Track 1</userName>
@@ -2805,47 +3150,7 @@
       <systemName>CS2024</systemName>
       <userName>Duns TT Cab switch set</userName>
     </sensor>
-    <sensor systemName="CS21" inverted="false" userName="Sims TO Fascia">
-      <systemName>CS21</systemName>
-      <userName>Sims TO Fascia</userName>
-    </sensor>
-    <sensor systemName="CS22" inverted="true" userName="Dunsmuir West TO Fascia">
-      <systemName>CS22</systemName>
-      <userName>Dunsmuir West TO Fascia</userName>
-    </sensor>
-    <sensor systemName="CS23" inverted="false" userName="Helix Level 1 Fascia">
-      <systemName>CS23</systemName>
-      <userName>Helix Level 1 Fascia</userName>
-      <comment>Old helix fascia panel, obsolete</comment>
-    </sensor>
-    <sensor systemName="CS24" inverted="false" userName="Helix Level 2 Fascia">
-      <systemName>CS24</systemName>
-      <userName>Helix Level 2 Fascia</userName>
-      <comment>Old helix fascia panel, obsolete</comment>
-    </sensor>
-    <sensor systemName="CS25" inverted="false" userName="Helix Level 3 Fascia">
-      <systemName>CS25</systemName>
-      <userName>Helix Level 3 Fascia</userName>
-      <comment>Old helix fascia panel, obsolete</comment>
-    </sensor>
-    <sensor systemName="CS26" inverted="false" userName="Helix Level 4 Fascia">
-      <systemName>CS26</systemName>
-      <userName>Helix Level 4 Fascia</userName>
-      <comment>Old helix fascia panel, obsolete</comment>
-    </sensor>
-    <sensor systemName="CS27" inverted="false" userName="Helix Level 5 Fascia">
-      <systemName>CS27</systemName>
-      <userName>Helix Level 5 Fascia</userName>
-      <comment>Old helix fascia panel, obsolete</comment>
-    </sensor>
-    <sensor systemName="CS28" inverted="true" userName="Dorris West fascia">
-      <systemName>CS28</systemName>
-      <userName>Dorris West fascia</userName>
-    </sensor>
-    <sensor systemName="CS3" inverted="false" userName="FB Redding request trk 3">
-      <systemName>CS3</systemName>
-      <userName>FB Redding request trk 3</userName>
-    </sensor>
+
     <sensor inverted="true" userName="Grass Lake OS West Fascia">
       <systemName>CS2033</systemName>
       <userName>Grass Lake OS West Fascia</userName>
@@ -2995,117 +3300,40 @@
       <systemName>CS2064</systemName>
       <comment>Spare in Mt Shasta DCCOD cable</comment>
     </sensor>
-    <sensor inverted="false">
-      <systemName>CS32</systemName>
-      <userName>Dorris East Fascia</userName>
-    </sensor>
-    <sensor systemName="CS33" inverted="false" userName="KF Arrival request trk 1">
-      <systemName>CS33</systemName>
-      <userName>KF Arrival request trk 1</userName>
-    </sensor>
-    <sensor systemName="CS34" inverted="false" userName="KF Arrival request trk 2">
-      <systemName>CS34</systemName>
-      <userName>KF Arrival request trk 2</userName>
-    </sensor>
-    <sensor systemName="CS35" inverted="false" userName="KF Arrival request trk 3">
-      <systemName>CS35</systemName>
-      <userName>KF Arrival request trk 3</userName>
-    </sensor>
-    <sensor systemName="CS36" inverted="false" userName="KF Arrival request trk 4">
-      <systemName>CS36</systemName>
-      <userName>KF Arrival request trk 4</userName>
-    </sensor>
-    <sensor systemName="CS37" inverted="false" userName="KF Arrival request trk 5">
-      <systemName>CS37</systemName>
-      <userName>KF Arrival request trk 5</userName>
-    </sensor>
-    <sensor systemName="CS38" inverted="false" userName="KF Arrival request trk 6">
-      <systemName>CS38</systemName>
-      <userName>KF Arrival request trk 6</userName>
-    </sensor>
-    <sensor systemName="CS39" inverted="false" userName="KF Arrival request trk 7">
-      <systemName>CS39</systemName>
-      <userName>KF Arrival request trk 7</userName>
-    </sensor>
-    <sensor systemName="CS4" inverted="false" userName="FB Redding request trk 4">
-      <systemName>CS4</systemName>
-      <userName>FB Redding request trk 4</userName>
-    </sensor>
-    <sensor systemName="CS40" inverted="false" userName="KF Departure request trk 1">
-      <systemName>CS40</systemName>
-      <userName>KF Departure request trk 1</userName>
-    </sensor>
-    <sensor systemName="CS4001" inverted="true" userName="Leaf East OS Fascia">
+    
+    <sensor inverted="true">
       <systemName>CS4001</systemName>
       <userName>Leaf East OS Fascia</userName>
     </sensor>
-    <sensor systemName="CS4002" inverted="true" userName="Leaf East Industry Fascia">
+    <sensor inverted="true">
       <systemName>CS4002</systemName>
       <userName>Leaf East Industry Fascia</userName>
     </sensor>
-    <sensor systemName="CS4003" inverted="true" userName="Leaf West Industry Fascia">
+    <sensor inverted="true">
       <systemName>CS4003</systemName>
       <userName>Leaf West Industry Fascia</userName>
     </sensor>
-    <sensor systemName="CS4004" inverted="true" userName="Leaf West OS Fascia">
+    <sensor inverted="true">
       <systemName>CS4004</systemName>
       <userName>Leaf West OS Fascia</userName>
     </sensor>
-    <sensor systemName="CS4005" inverted="false" userName="Grass Lake Occ OS East">
+    <sensor inverted="false">
       <systemName>CS4005</systemName>
       <userName>Grass Lake Occ OS East</userName>
     </sensor>
-    <sensor systemName="CS4006" inverted="false" userName="Grass Lake Occ OS West">
+    <sensor inverted="false">
       <systemName>CS4006</systemName>
       <userName>Grass Lake Occ OS West</userName>
     </sensor>
-    <sensor systemName="CS41" inverted="false" userName="KF Departure request trk 2">
-      <systemName>CS41</systemName>
-      <userName>KF Departure request trk 2</userName>
+    <sensor inverted="false">
+      <systemName>CS4007</systemName>
+      <userName>Shasta - Grass Lake Main</userName>
     </sensor>
-    <sensor systemName="CS42" inverted="false" userName="KF Departure request trk 3">
-      <systemName>CS42</systemName>
-      <userName>KF Departure request trk 3</userName>
+    <sensor inverted="false">
+      <systemName>CS4008</systemName>
+      <userName>Grass Lake Main</userName>
     </sensor>
-    <sensor systemName="CS43" inverted="false" userName="KF Departure request trk 4">
-      <systemName>CS43</systemName>
-      <userName>KF Departure request trk 4</userName>
-    </sensor>
-    <sensor systemName="CS44" inverted="false" userName="KF Departure request trk 5">
-      <systemName>CS44</systemName>
-      <userName>KF Departure request trk 5</userName>
-    </sensor>
-    <sensor systemName="CS45" inverted="false" userName="KF Departure request trk 6">
-      <systemName>CS45</systemName>
-      <userName>KF Departure request trk 6</userName>
-    </sensor>
-    <sensor systemName="CS46" inverted="false" userName="KF Departure request trk 7">
-      <systemName>CS46</systemName>
-      <userName>KF Departure request trk 7</userName>
-    </sensor>
-    <sensor systemName="CS47" inverted="false" userName="K Falls Helix Y">
-      <systemName>CS47</systemName>
-      <userName>K Falls Helix Y</userName>
-    </sensor>
-    <sensor systemName="CS48" inverted="false" userName="TC 08">
-      <systemName>CS48</systemName>
-      <userName>TC 08</userName>
-      <comment>Helix Occ 1  (N0 )</comment>
-    </sensor>
-    <sensor systemName="CS49" inverted="false" userName="TC 04">
-      <systemName>CS49</systemName>
-      <userName>TC 04</userName>
-      <comment>Helix Occ 2 (N0 )</comment>
-    </sensor>
-    <sensor systemName="CS5" inverted="false" userName="FB Redding request trk 5">
-      <systemName>CS5</systemName>
-      <userName>FB Redding request trk 5</userName>
-    </sensor>
-    <sensor systemName="CS50" inverted="false" userName="TC 03">
-      <systemName>CS50</systemName>
-      <userName>TC 03</userName>
-      <comment>Helix Occ 3 (N0 )</comment>
-    </sensor>
+    
     <sensor systemName="CS5001" inverted="true" userName="37 Azalea East Fascia">
       <systemName>CS5001</systemName>
       <userName>37 Azalea East Fascia</userName>
@@ -3208,57 +3436,7 @@
       <userName>TC 103</userName>
       <comment>BB Bypass TO</comment>
     </sensor>
-    <sensor systemName="CS51" inverted="false" userName="Helix Occ 4">
-      <systemName>CS51</systemName>
-      <userName>Helix Occ 4</userName>
-      <comment>(N0 )</comment>
-    </sensor>
-    <sensor systemName="CS52" inverted="false" userName="Helix Occ 5">
-      <systemName>CS52</systemName>
-      <userName>Helix Occ 5</userName>
-      <comment>(N0 )</comment>
-    </sensor>
-    <sensor systemName="CS53" inverted="false" userName="Helix Occ 6">
-      <systemName>CS53</systemName>
-      <userName>Helix Occ 6</userName>
-      <comment>(N0 )</comment>
-    </sensor>
-    <sensor systemName="CS54" inverted="false" userName="Helix Occ 7">
-      <systemName>CS54</systemName>
-      <userName>Helix Occ 7</userName>
-      <comment>(N0 )</comment>
-    </sensor>
-    <sensor systemName="CS55" inverted="false" userName="Helix Occ 8">
-      <systemName>CS55</systemName>
-      <userName>Helix Occ 8</userName>
-      <comment>Helix Turn 4 Inside Lower (Modoc Siding Lower)</comment>
-    </sensor>
-    <sensor systemName="CS56" inverted="false" userName="Helix Occ 9">
-      <systemName>CS56</systemName>
-      <userName>Helix Occ 9</userName>
-      <comment>Helix Turn 4 Outside (Modoc Main)</comment>
-    </sensor>
-    <sensor systemName="CS57" inverted="false" userName="Helix Occ 11">
-      <systemName>CS57</systemName>
-      <userName>Helix Occ 11</userName>
-      <comment>(N0 )</comment>
-    </sensor>
-    <sensor systemName="CS58" inverted="false">
-      <systemName>CS58</systemName>
-      <comment>Helix Turn 2 Inside Upper (Gerber Siding Upper)</comment>
-    </sensor>
-    <sensor systemName="CS59" inverted="false">
-      <systemName>CS59</systemName>
-      <comment>Helix Turn 4 Inside Upper (Modoc Siding Upper)</comment>
-    </sensor>
-    <sensor systemName="CS6" inverted="false" userName="FB Redding request trk 6">
-      <systemName>CS6</systemName>
-      <userName>FB Redding request trk 6</userName>
-    </sensor>
-    <sensor systemName="CS60" inverted="false">
-      <systemName>CS60</systemName>
-      <comment>Helix Turn 1 Outside Upper (Red Bluff Siding Upper)</comment>
-    </sensor>
+
     <sensor systemName="CS6001" inverted="false" userName="CTC 10 Call">
       <systemName>CS6001</systemName>
       <userName>CTC 10 Call</userName>
@@ -3650,10 +3828,6 @@
     <sensor systemName="CS6099" inverted="false">
       <systemName>CS6099</systemName>
     </sensor>
-    <sensor systemName="CS61" inverted="false">
-      <systemName>CS61</systemName>
-      <comment>Helix Turn 3 Outside Upper  (Chiloquin Siding Upper)</comment>
-    </sensor>
     <sensor systemName="CS6100" inverted="false">
       <systemName>CS6100</systemName>
     </sensor>
@@ -3875,45 +4049,7 @@
       <userName>CTC Recall</userName>
       <comment>Recall momentary button, push active</comment>
     </sensor>
-    <sensor systemName="CS62" inverted="false" userName="Dorris West Occ">
-      <systemName>CS62</systemName>
-      <userName>Dorris West Occ</userName>
-    </sensor>
-    <sensor systemName="CS63" inverted="false" userName="Dorris East Occ">
-      <systemName>CS63</systemName>
-      <userName>Dorris East Occ</userName>
-    </sensor>
-    <sensor systemName="CS64" inverted="false" userName="K Falls Departure Occ">
-      <systemName>CS64</systemName>
-      <userName>K Falls Departure Occ</userName>
-    </sensor>
-    <sensor systemName="CS65" inverted="false" userName="PB helix panel 1 level 3 thrown 2">
-      <systemName>CS65</systemName>
-      <userName>PB helix panel 1 level 3 thrown 2</userName>
-    </sensor>
-    <sensor systemName="CS66" inverted="false" userName="PB helix panel 1 level 4 thrown 2">
-      <systemName>CS66</systemName>
-      <userName>PB helix panel 1 level 4 thrown 2</userName>
-    </sensor>
-    <sensor systemName="CS67" inverted="false" userName="PB helix panel 1 level 5 thrown">
-      <systemName>CS67</systemName>
-      <userName>PB helix panel 1 level 5 thrown</userName>
-    </sensor>
-    <sensor systemName="CS68" inverted="false" userName="PB helix panel 1 level 3 closed">
-      <systemName>CS68</systemName>
-      <userName>PB helix panel 1 level 3 closed</userName>
-    </sensor>
-    <sensor systemName="CS69" inverted="false">
-      <systemName>CS69</systemName>
-    </sensor>
-    <sensor systemName="CS7" inverted="false" userName="FB Redding request trk 7">
-      <systemName>CS7</systemName>
-      <userName>FB Redding request trk 7</userName>
-    </sensor>
-    <sensor systemName="CS70" inverted="false" userName="PB helix panel 1 level 3 thrown 1">
-      <systemName>CS70</systemName>
-      <userName>PB helix panel 1 level 3 thrown 1</userName>
-    </sensor>
+
     <sensor systemName="CS7001" inverted="false" userName="TO BB E 31">
       <systemName>CS7001</systemName>
       <userName>TO BB E 31</userName>
@@ -3962,110 +4098,19 @@
       <systemName>CS7012</systemName>
       <userName>TO GL E 19</userName>
     </sensor>
-    <sensor systemName="CS71" inverted="false" userName="PB helix panel 1 level 4 closed">
-      <systemName>CS71</systemName>
-      <userName>PB helix panel 1 level 4 closed</userName>
-    </sensor>
-    <sensor systemName="CS72" inverted="false" userName="PB helix panel 1 level 4 thrown 1">
-      <systemName>CS72</systemName>
-      <userName>PB helix panel 1 level 4 thrown 1</userName>
-    </sensor>
-    <sensor systemName="CS73" inverted="false" userName="PB helix panel 1 level 1 closed">
-      <systemName>CS73</systemName>
-      <userName>PB helix panel 1 level 1 closed</userName>
-    </sensor>
-    <sensor systemName="CS74" inverted="false" userName="PB helix panel 1 level 1 thrown">
-      <systemName>CS74</systemName>
-      <userName>PB helix panel 1 level 1 thrown</userName>
-    </sensor>
-    <sensor systemName="CS75" inverted="false" userName="PB helix panel 1 level 2 closed">
-      <systemName>CS75</systemName>
-      <userName>PB helix panel 1 level 2 closed</userName>
-    </sensor>
-    <sensor systemName="CS76" inverted="false" userName="PB helix panel 1 level 2 thrown 1">
-      <systemName>CS76</systemName>
-      <userName>PB helix panel 1 level 2 thrown 1</userName>
-    </sensor>
-    <sensor systemName="CS77" inverted="false">
-      <systemName>CS77</systemName>
-    </sensor>
-    <sensor systemName="CS78" inverted="false" userName="PB helix panel 1 level 2 thrown 2">
-      <systemName>CS78</systemName>
-      <userName>PB helix panel 1 level 2 thrown 2</userName>
-    </sensor>
-    <sensor systemName="CS79" inverted="false" userName="PB helix panel 1 level 5 closed">
-      <systemName>CS79</systemName>
-      <userName>PB helix panel 1 level 5 closed</userName>
-    </sensor>
-    <sensor systemName="CS8" inverted="false" userName="TC 09">
-      <systemName>CS8</systemName>
-      <userName>TC 09</userName>
-      <comment>Block M1T (N0 )</comment>
-    </sensor>
-    <sensor systemName="CS81" inverted="false" userName="PB helix panel 2 level 4 closed">
-      <systemName>CS81</systemName>
-      <userName>PB helix panel 2 level 4 closed</userName>
-    </sensor>
-    <sensor systemName="CS82" inverted="false" userName="PB helix panel 2 level 2 thrown 1">
-      <systemName>CS82</systemName>
-      <userName>PB helix panel 2 level 2 thrown 1</userName>
-    </sensor>
-    <sensor systemName="CS83" inverted="false" userName="PB helix panel 2 level 3 thrown 2">
-      <systemName>CS83</systemName>
-      <userName>PB helix panel 2 level 3 thrown 2</userName>
-    </sensor>
-    <sensor systemName="CS84" inverted="false" userName="PB helix panel 2 level 3 thrown 1">
-      <systemName>CS84</systemName>
-      <userName>PB helix panel 2 level 3 thrown 1</userName>
-    </sensor>
-    <sensor systemName="CS85" inverted="false" userName="PB helix panel 2 level 5 closed">
-      <systemName>CS85</systemName>
-      <userName>PB helix panel 2 level 5 closed</userName>
-    </sensor>
-    <sensor systemName="CS86" inverted="false" userName="PB helix panel 2 level 4 thrown 2">
-      <systemName>CS86</systemName>
-      <userName>PB helix panel 2 level 4 thrown 2</userName>
-    </sensor>
-    <sensor systemName="CS87" inverted="false" userName="PB helix panel 2 level 2 thrown 2">
-      <systemName>CS87</systemName>
-      <userName>PB helix panel 2 level 2 thrown 2</userName>
-    </sensor>
-    <sensor systemName="CS88" inverted="false" userName="PB helix panel 2 level 3 closed">
-      <systemName>CS88</systemName>
-      <userName>PB helix panel 2 level 3 closed</userName>
-    </sensor>
-    <sensor systemName="CS89" inverted="false">
-      <systemName>CS89</systemName>
-    </sensor>
-    <sensor systemName="CS9" inverted="false" userName="TC 10">
-      <systemName>CS9</systemName>
-      <userName>TC 10</userName>
-      <comment>Block M2T (N0 )</comment>
-    </sensor>
-    <sensor systemName="CS90" inverted="false" userName="PB helix panel 2 level 2 closed">
-      <systemName>CS90</systemName>
-      <userName>PB helix panel 2 level 2 closed</userName>
-    </sensor>
-    <sensor systemName="CS91" inverted="false" userName="PB helix panel 2 level 4 thrown 1">
-      <systemName>CS91</systemName>
-      <userName>PB helix panel 2 level 4 thrown 1</userName>
-    </sensor>
-    <sensor systemName="CS92" inverted="false" userName="PB helix panel 2 level 1 thrown">
-      <systemName>CS92</systemName>
-      <userName>PB helix panel 2 level 1 thrown</userName>
-    </sensor>
-    <sensor systemName="CS93" inverted="false" userName="PB helix panel 2 level 1 closed">
-      <systemName>CS93</systemName>
-      <userName>PB helix panel 2 level 1 closed</userName>
-    </sensor>
-    <sensor systemName="CS94" inverted="false" userName="PB helix panel 2 level 5 thrown">
-      <systemName>CS94</systemName>
-      <userName>PB helix panel 2 level 5 thrown</userName>
-    </sensor>
-    <sensor systemName="CS95" inverted="false">
-      <systemName>CS95</systemName>
-    </sensor>
 
+    <sensor inverted="false">
+      <systemName>CS8004</systemName>
+      <userName>GLY PB Left</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS8007</systemName>
+      <userName>GLY PB Right</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS8008</systemName>
+      <userName>GLY PB Main</userName>
+    </sensor>
 
     <sensor inverted="false">
       <systemName>CS8023</systemName>
@@ -4100,20 +4145,6 @@
       <systemName>CS8011</systemName>
       <userName>GLE PB House Track</userName>
     </sensor>
-
-    <sensor inverted="false">
-      <systemName>CS8004</systemName>
-      <userName>GLY PB Left</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS8007</systemName>
-      <userName>GLY PB Right</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>CS8008</systemName>
-      <userName>GLY PB Main</userName>
-    </sensor>
-
 
   </sensors>
 
