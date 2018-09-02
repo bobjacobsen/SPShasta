@@ -1,19 +1,20 @@
 // Use a DC buzzer to send Morse for SP Shasta
+//              Bob Jacobsen  2014
 
-// Dunsmuir (Arduini Duemillo)
-//int startpin = 10;  // 0 but / 0v makes sound
-//int buzzerpin = 13; // 1 bit / 5V makes sound
+// Dunsmuir (Arduino Duemillo)
+//int startpin = 10;  // input: 0 bit / 0v makes sound
+//int buzzerpin = 13; // output: 1 bit / 5V makes sound
 
 // Redding (LEDuino)
-int startpin = 4;  // 0 but / 0v makes sound
-int buzzerpin = 13; // 1 bit / 5V makes sound
+int startpin =  4;  // input: 0 bit / 0v makes sound
+int buzzerpin = 13; // output: 1 bit / 5V makes sound
 
 int slice = 75; // basic time slice, length of a dot
 
-// Shield uses a 4N25 isolator with input to pin and gnd,
+// Shield uses a 4N25 isolator with drive between buzzerpin and gnd,
 // load to + and to output emitter
 
-// for continental code, see http://w1tp.com/percode.htm
+// For Continental (Railroad) Code, see http://w1tp.com/percode.htm
 // Dunsmuir DR -.. .-..
 // Redding RD .-.. -..
 
@@ -28,10 +29,11 @@ void setup() {
 void loop() {
     // wait for start
     if (digitalRead(startpin) == 0) {
-      // check for real input
+      // avoid noise spikes
       delay(50);
       if (digitalRead(startpin) != 0) return;
         
+        // sound code
         letterR();
         interCharDelay();
         letterD();    
@@ -39,6 +41,7 @@ void loop() {
       // and and wait for rest of cycle length
       delay(5000);
     }
+    // can sound continuously; do _not_ wait for input to go inactive then active again
 }
 
 void dot() {
@@ -59,6 +62,7 @@ void dash() {
 }
 
 void interCharDelay() {
+    // three dot times
     delay(slice);
     delay(slice);
     delay(slice);
