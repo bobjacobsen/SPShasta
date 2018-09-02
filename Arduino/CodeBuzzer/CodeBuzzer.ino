@@ -1,10 +1,16 @@
 // Use a DC buzzer to send Morse for SP Shasta
 
-int startpin = 10;  // 0 but / 0v makes sound
+// Dunsmuir (Arduini Duemillo)
+//int startpin = 10;  // 0 but / 0v makes sound
+//int buzzerpin = 13; // 1 bit / 5V makes sound
+
+// Redding (LEDuino)
+int startpin = 4;  // 0 but / 0v makes sound
 int buzzerpin = 13; // 1 bit / 5V makes sound
+
 int slice = 75; // basic time slice, length of a dot
 
-// Shasta shield uses a 4N25 isolator with input to pin and gnd,
+// Shield uses a 4N25 isolator with input to pin and gnd,
 // load to + and to output emitter
 
 // for continental code, see http://w1tp.com/percode.htm
@@ -26,9 +32,9 @@ void loop() {
       delay(50);
       if (digitalRead(startpin) != 0) return;
         
-        letterD();
+        letterR();
         interCharDelay();
-        letterR();    
+        letterD();    
 
       // and and wait for rest of cycle length
       delay(5000);
