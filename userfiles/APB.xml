@@ -96,45 +96,30 @@
     </signalhead>
   </signalheads>
   
-  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml">
-     <matrixsignalmast class="jmri.implementation.configurexml.MatrixSignalMastXml">
-       <systemName>IF$xsm:SPTCO-1930:SL-1-head($0001)-2t</systemName>
-       <userName>MP 333.8 - Mt Shasta E Eb</userName>
-       <unlit allowed="yes">
-         <bitString>00</bitString>
-       </unlit>
-       <outputs>
-         <output matrixCol="output1">MP 333.8 - Mt Shasta E Eb Green</output>
-         <output matrixCol="output2">MP 333.8 - Mt Shasta E Eb Red</output>
-       </outputs>
-       <bitStrings>
-         <bitString aspect="Clear">10</bitString>
-         <bitString aspect="Approach">11</bitString>
-         <bitString aspect="Stop">01</bitString>
-         <bitString aspect="Dark">00</bitString>
-       </bitStrings>
-     </matrixsignalmast>
-     <matrixsignalmast class="jmri.implementation.configurexml.MatrixSignalMastXml">
-       <systemName>IF$xsm:SPTCO-1930:SL-1-head($0002)-2t</systemName>
-       <userName>MP 335.3 - Grass Lake W Eb</userName>
-       <unlit allowed="yes">
-         <bitString>00</bitString>
-       </unlit>
-       <outputs>
-         <output matrixCol="output1">MP 335.3 - Grass Lake W Eb Green</output>
-         <output matrixCol="output2">MP 335.3 - Grass Lake W Eb Red</output>
-       </outputs>
-       <bitStrings>
-         <bitString aspect="Clear">10</bitString>
-         <bitString aspect="Approach">11</bitString>
-         <bitString aspect="Stop">01</bitString>
-         <bitString aspect="Dark">00</bitString>
-       </bitStrings>
-     </matrixsignalmast>
-   </signalmasts>
+  <signalelements class="jmri.jmrit.blockboss.configurexml.BlockBossLogicXml">
+    <signalelement signal="APB 335.3 E" mode="1" watchedsignal1="APB 333.8 E" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>Shasta - Grass Lake Main</sensorname>
+      <comment>APB</comment>
+    </signalelement>
+    <signalelement signal="APB 333.8 E" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>Shasta TC Main Left Approach</sensorname>
+      <sensorname>Shasta TC Main Island</sensorname>
+      <sensorname>Shasta TC Main Right Approach</sensorname>
+      <comment>APB - just the main so far</comment>
+    </signalelement>
+    <signalelement signal="APB 333.8 W" mode="1" watchedsignal1="APB 335.3 W" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>Shasta - Grass Lake Main</sensorname>
+      <comment />
+    </signalelement>
+    <signalelement signal="APB 335.3 W" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>Grass Lake Occ OS West</sensorname>
+      <sensorname>Grass Lake Main</sensorname>
+      <comment />
+    </signalelement>
+  </signalelements>
 
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="APB Panel " x="489" y="575" height="341" width="419" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
-    <signalheadicon signalhead="APB 333.8 E" x="268" y="144" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="APB Panel " x="489" y="575" height="279" width="456" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+    <signalheadicon signalhead="APB 333.8 E" x="221" y="91" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>APB 333.8 E</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
@@ -164,7 +149,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="APB 333.8 W" x="268" y="116" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="APB 333.8 W" x="221" y="51" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>APB 333.8 W</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
@@ -194,7 +179,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="APB 335.3 E" x="144" y="144" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="APB 335.3 E" x="146" y="91" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>APB 335.3 E</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
@@ -224,7 +209,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="APB 335.3 W" x="143" y="115" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="APB 335.3 W" x="146" y="51" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>APB 335.3 W</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
@@ -254,15 +239,163 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-
-
-    <signalmasticon signalmast="MP 333.8 - Mt Shasta E Eb" x="261" y="93" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
-      <tooltip>MP 333.8 - Mt Shasta E Eb (IF$xsm:SPTCO-1930:SL-1-head($0001)-2t)</tooltip>
-    </signalmasticon>
-    <signalmasticon signalmast="MP 335.3 - Grass Lake W Eb" x="134" y="94" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
-      <tooltip>MP 335.3 - Grass Lake W Eb (IF$xsm:SPTCO-1930:SL-1-head($0002)-2t)</tooltip>
-    </signalmasticon>
-
+    <sensoricon sensor="Grass Lake Main" x="73" y="69" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>Grass Lake Main (CS4008)</tooltip>
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Grass Lake Occ OS West" x="124" y="69" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>Grass Lake Occ OS West (CS4006)</tooltip>
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Shasta TC Main Island" x="328" y="69" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>Shasta TC Main Island (CS2058)</tooltip>
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Shasta TC Main Left Approach" x="297" y="69" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>Shasta TC Main Left Approach (CS2060)</tooltip>
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Shasta TC Main Right Approach" x="358" y="69" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>Shasta TC Main Right Approach (CS2062)</tooltip>
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Shasta - Grass Lake Main" x="196" y="69" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>Shasta - Grass Lake Main (CS4007)</tooltip>
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <positionablelabel x="121" y="54" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="264" y="54" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <sensoricon sensor="Shasta TC Siding Island" x="328" y="43" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>Shasta TC Siding Island (CS2057)</tooltip>
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Shasta TC Siding Right Approach" x="358" y="43" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>Shasta TC Siding Right Approach (CS2061)</tooltip>
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Shasta TC Siding Left Approach" x="297" y="43" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <tooltip>Shasta TC Siding Left Approach (CS2059)</tooltip>
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <positionablelabel x="46" y="18" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Grass Lake" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
+    <positionablelabel x="303" y="18" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Mt Shasta" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <tooltip>Text Label</tooltip>
+    </positionablelabel>
   </paneleditor>
+  
   <!--Written by JMRI version 4.13.1ish+jake+20180717T1348Z+R66375f2b98 on Tue Jul 17 08:22:40 PDT 2018-->
 </layout-config>
