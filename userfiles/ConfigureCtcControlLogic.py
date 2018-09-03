@@ -161,12 +161,12 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     station.add(signal1)
 
     rightward = arrayList(["16 R Siding"])
-    leftward  = arrayList(["16 L Siding"])
+    leftward  = arrayList(["16 L Bridge Upper", "16 L Bridge Lower", "16 L Siding"]) 
     signal2 = SignalHeadSection(rightward, leftward, "CTC 16 L", "CTC 16 C", "CTC 16 R", "CTC 16 L", "CTC 16 R", station);
     station.add(signal2)
 
     occupancyLock = CombinedLock([OccupancyLock("TC 15"), OccupancyLock("TC 16")])
-    routeLock = RouteLock(["14 R Main", "16 R Siding", "14 L Main", "16 L Siding"]);
+    routeLock = RouteLock(["14 R Main", "16 R Siding", "14 L Main", "16 L Bridge Upper", "16 L Bridge Lower", "16 L Siding"]);
     turnout13.addLocks(java.util.Arrays.asList([occupancyLock, routeLock, TimeLock(signal1), TimeLock(signal2)]));
 
     # ===== Set up Station 17/18/20 =====

@@ -608,7 +608,8 @@
       <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-marker.gif" rotate="0" degrees="0" scale="1.0" />
       <flashlunar url="program:resources/icons/smallschematics/searchlights/left-flashlunar-marker.gif" rotate="0" degrees="0" scale="1.0" />
     </signalheadicon>
-    <signalheadicon signalhead="CH2004" x="610" y="165" level="9" forcecontroloff="false" held="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" dark="program:resources/icons/smallschematics/searchlights/left-dark-marker.gif" red="program:resources/icons/smallschematics/searchlights/left-red-marker.gif" yellow="program:resources/icons/smallschematics/searchlights/left-yellow-marker.gif" flashyellow="program:resources/icons/smallschematics/searchlights/left-flashyellow-marker.gif" green="program:resources/icons/smallschematics/searchlights/left-green-marker.gif" lunar="program:resources/icons/smallschematics/searchlights/left-lunar-marker.gif" flashred="program:resources/icons/smallschematics/searchlights/left-flashred-marker.gif" flashgreen="program:resources/icons/smallschematics/searchlights/left-flashgreen-marker.gif" flashlunar="program:resources/icons/smallschematics/searchlights/left-flashlunar-marker.gif" rotate="0" clickmode="0" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    
+    <signalheadicon signalhead="CH2004" x="637" y="165" level="9" forcecontroloff="false" held="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" dark="program:resources/icons/smallschematics/searchlights/left-dark-marker.gif" red="program:resources/icons/smallschematics/searchlights/left-red-marker.gif" yellow="program:resources/icons/smallschematics/searchlights/left-yellow-marker.gif" flashyellow="program:resources/icons/smallschematics/searchlights/left-flashyellow-marker.gif" green="program:resources/icons/smallschematics/searchlights/left-green-marker.gif" lunar="program:resources/icons/smallschematics/searchlights/left-lunar-marker.gif" flashred="program:resources/icons/smallschematics/searchlights/left-flashred-marker.gif" flashgreen="program:resources/icons/smallschematics/searchlights/left-flashgreen-marker.gif" flashlunar="program:resources/icons/smallschematics/searchlights/left-flashlunar-marker.gif" rotate="0" clickmode="0" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" rotate="0" degrees="0" scale="1.0" />
       <dark url="program:resources/icons/smallschematics/searchlights/left-dark-marker.gif" rotate="0" degrees="0" scale="1.0" />
       <red url="program:resources/icons/smallschematics/searchlights/left-red-marker.gif" rotate="0" degrees="0" scale="1.0" />
@@ -620,6 +621,67 @@
       <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-marker.gif" rotate="0" degrees="0" scale="1.0" />
       <flashlunar url="program:resources/icons/smallschematics/searchlights/left-flashlunar-marker.gif" rotate="0" degrees="0" scale="1.0" />
     </signalheadicon>
+    <signalheadicon signalhead="CH2025" x="601" y="165" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <tooltip>16 L Bridge Upper</tooltip>
+      <icons>
+        <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </held>
+        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-short-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </dark>
+        <red url="program:resources/icons/smallschematics/searchlights/left-red-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </red>
+        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </yellow>
+        <green url="program:resources/icons/smallschematics/searchlights/left-green-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </green>
+        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-short-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashred>
+        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashyellow>
+        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashgreen>
+      </icons>
+      <iconmaps />
+    </signalheadicon>
+    <signalheadicon signalhead="CH2026" x="614" y="165" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <tooltip>16 L Bridge Lower</tooltip>
+      <icons>
+        <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </held>
+        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-short-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </dark>
+        <red url="program:resources/icons/smallschematics/searchlights/left-red-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </red>
+        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </yellow>
+        <green url="program:resources/icons/smallschematics/searchlights/left-green-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </green>
+        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-short-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashred>
+        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashyellow>
+        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashgreen>
+      </icons>
+      <iconmaps />
+    </signalheadicon>
+
     <positionablelabel x="534" y="208" level="5" forcecontroloff="false" fixed="false" showtooltip="true" text="Note missing 2nd heads" size="10" style="1" red="51" green="51" blue="51" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="670" y="207" level="5" forcecontroloff="false" fixed="false" showtooltip="true" text="18,20 heads not in logic" size="10" style="1" red="51" green="51" blue="51" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <signalheadicon signalhead="CH2005" x="866" y="132" level="9" forcecontroloff="false" held="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" dark="program:resources/icons/smallschematics/searchlights/left-dark-marker.gif" red="program:resources/icons/smallschematics/searchlights/left-red-marker.gif" yellow="program:resources/icons/smallschematics/searchlights/left-yellow-marker.gif" flashyellow="program:resources/icons/smallschematics/searchlights/left-flashyellow-marker.gif" green="program:resources/icons/smallschematics/searchlights/left-green-marker.gif" lunar="program:resources/icons/smallschematics/searchlights/left-lunar-marker.gif" flashred="program:resources/icons/smallschematics/searchlights/left-flashred-marker.gif" flashgreen="program:resources/icons/smallschematics/searchlights/left-flashgreen-marker.gif" flashlunar="program:resources/icons/smallschematics/searchlights/left-flashlunar-marker.gif" rotate="0" clickmode="0" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">

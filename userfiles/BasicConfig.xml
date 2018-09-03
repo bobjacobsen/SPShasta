@@ -1013,18 +1013,22 @@
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2073</systemName>
       <userName>Dunsmuir New Bridge Upper R</userName>
+      <comment>SignalHead:CH2025:Red</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2074</systemName>
       <userName>Dunsmuir New Bridge Upper G</userName>
+      <comment>SignalHead:CH2025:Green</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2075</systemName>
       <userName>Dunsmuir New Bridge Lower G</userName>
+      <comment>SignalHead:CH2026:Green</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2076</systemName>
       <userName>Dunsmuir New Bridge Lower R</userName>
+      <comment>SignalHead:CH2026:Red</comment>
     </turnout>
 
     <turnout feedback="DIRECT" inverted="false" automate="Default">
@@ -4614,6 +4618,22 @@
       <userName>Virtual 35 entry</userName>
       <comment>Mott/Azalea Crossover Eastbound</comment>
     </signalhead>
+
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH2025</systemName>
+      <userName>16 L Bridge Upper</userName>
+      <comment>Signal Bridge</comment>
+      <turnoutname defines="green">Dunsmuir New Bridge Upper G</turnoutname>
+      <turnoutname defines="red">Dunsmuir New Bridge Upper R</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH2026</systemName>
+      <userName>16 L Bridge Lower</userName>
+      <comment>Signal Bridge</comment>
+      <turnoutname defines="green">Dunsmuir New Bridge Lower G</turnoutname>
+      <turnoutname defines="red">Dunsmuir New Bridge Lower R</turnoutname>
+    </signalhead>
+
   </signalheads>
 
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
@@ -6132,10 +6152,22 @@
       <sensorname>TC 13</sensorname>
       <comment />
     </signalelement>
-    <signalelement signal="16 L Siding" mode="4" watchedturnout="TO 13" watchedsignal1="CH53" watchedsignal2="CH51" watchedsensor1="TC 13" watchedsensor2="TC 16" watchedsensor2alt="TC 14" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false">
+
+    <signalelement signal="16 L Bridge Upper" mode="2" watchedturnout="TO 13" watchedsignal1="10 L Siding" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>TC 13</sensorname>
       <sensorname>TC 15</sensorname>
       <comment />
+      <comment>Signal Bridge Upper</comment>
     </signalelement>
+    <signalelement signal="16 L Bridge Lower" mode="3" watchedturnout="TO 13" watchedsignal1="10 L Main" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false">
+      <sensorname>TC 14</sensorname>
+      <sensorname>TC 16</sensorname>
+      <comment>Signal Bridge Lower</comment>
+    </signalelement>
+    <signalelement signal="16 L Siding" mode="1" watchedturnout="TO 13" watchedsignal1="16 L Bridge Upper" watchedsignal1alt="16 L Bridge Lower" watchedsignal2="CH51" watchedsensor1="TC 13" watchedsensor2="TC 16" watchedsensor2alt="TC 14" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="true">
+      <comment />
+    </signalelement>
+
     <signalelement signal="14 L Main" mode="2" watchedturnout="TO 13" watchedsignal1="CH51" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>TC 14</sensorname>
       <sensorname>TC 16</sensorname>
