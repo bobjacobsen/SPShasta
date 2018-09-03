@@ -19,14 +19,575 @@
       <systemName>CT1</systemName>
       <userName>Redding Staging TO 1</userName>
     </turnout>
+    <turnout systemName="CT2" userName="Redding Staging TO 2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT2</systemName>
+      <userName>Redding Staging TO 2</userName>
+    </turnout>
+    <turnout systemName="CT3" userName="Redding Staging TO 3" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT3</systemName>
+      <userName>Redding Staging TO 3</userName>
+    </turnout>
+    <turnout systemName="CT4" userName="Redding Staging TO 4" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT4</systemName>
+      <userName>Redding Staging TO 4</userName>
+    </turnout>
+    <turnout systemName="CT5" userName="Redding Staging TO 5" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT5</systemName>
+      <userName>Redding Staging TO 5</userName>
+    </turnout>
+    <turnout systemName="CT6" userName="Redding Staging TO 6" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT6</systemName>
+      <userName>Redding Staging TO 6</userName>
+    </turnout>
+    <turnout systemName="CT7" userName="Redding Staging TO 7" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT7</systemName>
+      <userName>Redding Staging TO 7</userName>
+    </turnout>
+    <turnout systemName="CT8" userName="Redding Staging TO 8" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8</systemName>
+      <userName>Redding Staging TO 8</userName>
+    </turnout>
+    <turnout systemName="CT9" userName="Redding Staging TO 9" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT9</systemName>
+      <userName>Redding Staging TO 9</userName>
+    </turnout>
     <turnout systemName="CT10" userName="Redding Staging TO 10" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT10</systemName>
       <userName>Redding Staging TO 10</userName>
+    </turnout>
+    <turnout systemName="CT11" userName="Redding Staging TO 11" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT11</systemName>
+      <userName>Redding Staging TO 11</userName>
+    </turnout>
+    <turnout systemName="CT12" userName="Redding Staging TO 12" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT12</systemName>
+      <userName>Redding Staging TO 12</userName>
+    </turnout>
+    <turnout systemName="CT13" userName="Redding Entrance Turnout" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT13</systemName>
+      <userName>Redding Entrance Turnout</userName>
+      <comment>Redding Entrance Turnout (A/D select)</comment>
+    </turnout>
+    <turnout systemName="CT14" userName="TO 07" feedback="DELAYED" inverted="false" automate="Default">
+      <systemName>CT14</systemName>
+      <userName>TO 07</userName>
+      <comment>Sims, Jn with helix and Redding Staging</comment>
+    </turnout>
+    <turnout systemName="CT15" userName="TO 09" feedback="DELAYED" inverted="true" automate="Default">
+      <systemName>CT15</systemName>
+      <userName>TO 09</userName>
+      <comment>Dunsmuir West (Lower) End</comment>
+    </turnout>
+    <turnout systemName="CT16" userName="Dorris West" feedback="DIRECT" inverted="true" automate="Default">
+      <systemName>CT16</systemName>
+      <userName>Dorris West</userName>
+    </turnout>
+    <turnout systemName="CT17" userName="Dorris East" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT17</systemName>
+      <userName>Dorris East</userName>
+    </turnout>
+    <turnout systemName="CT18" userName="K Falls Helix Y" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT18</systemName>
+      <userName>K Falls Helix Y</userName>
+    </turnout>
+    <turnout systemName="CT19" userName="K Falls Arrive/Depart" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT19</systemName>
+      <userName>K Falls Arrive/Depart</userName>
+    </turnout>
+    <turnout systemName="CT20" userName="K Falls Arrival 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT20</systemName>
+      <userName>K Falls Arrival 1</userName>
+    </turnout>
+    <turnout systemName="CT21" userName="K Falls Arrival 2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT21</systemName>
+      <userName>K Falls Arrival 2</userName>
+    </turnout>
+    <turnout systemName="CT22" userName="K Falls Arrival 3" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT22</systemName>
+      <userName>K Falls Arrival 3</userName>
+    </turnout>
+    <turnout systemName="CT23" userName="K Falls Arrival 4" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT23</systemName>
+      <userName>K Falls Arrival 4</userName>
+    </turnout>
+    <turnout systemName="CT24" userName="K Falls Arrival 5" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT24</systemName>
+      <userName>K Falls Arrival 5</userName>
+    </turnout>
+    <turnout systemName="CT25" userName="K Falls Arrival 6" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT25</systemName>
+      <userName>K Falls Arrival 6</userName>
+    </turnout>
+    <turnout systemName="CT26" userName="K Falls Depart 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT26</systemName>
+      <userName>K Falls Depart 1</userName>
+    </turnout>
+    <turnout systemName="CT27" userName="K Falls Depart 2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT27</systemName>
+      <userName>K Falls Depart 2</userName>
+    </turnout>
+    <turnout systemName="CT28" userName="K Falls Depart 3" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT28</systemName>
+      <userName>K Falls Depart 3</userName>
+    </turnout>
+    <turnout systemName="CT29" userName="K Falls Depart 4" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT29</systemName>
+      <userName>K Falls Depart 4</userName>
+    </turnout>
+    <turnout systemName="CT30" userName="K Falls Depart 5" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT30</systemName>
+      <userName>K Falls Depart 5</userName>
+    </turnout>
+    <turnout systemName="CT31" userName="K Falls Depart 6" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT31</systemName>
+      <userName>K Falls Depart 6</userName>
+    </turnout>
+    <turnout systemName="CT32" userName="MC 6" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT32</systemName>
+      <userName>MC 6</userName>
+      <comment>Redding Operator buzzer</comment>
+    </turnout>
+    <turnout systemName="CT33" userName="CH33 R" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT33</systemName>
+      <userName>CH33 R</userName>
+    </turnout>
+    <turnout systemName="CT34" userName="CH33 G" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT34</systemName>
+      <userName>CH33 G</userName>
+    </turnout>
+    <turnout systemName="CT35" userName="CH35 R" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT35</systemName>
+      <userName>CH35 R</userName>
+    </turnout>
+    <turnout systemName="CT36" userName="CH35 G" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT36</systemName>
+      <userName>CH35 G</userName>
+    </turnout>
+    <turnout systemName="CT37" userName="CH37 R" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT37</systemName>
+      <userName>CH37 R</userName>
+    </turnout>
+    <turnout systemName="CT38" userName="CH37 G" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT38</systemName>
+      <userName>CH37 G</userName>
+    </turnout>
+    <turnout systemName="CT39" userName="CH39 R" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT39</systemName>
+      <userName>CH39 R</userName>
+    </turnout>
+    <turnout systemName="CT40" userName="CH39 G" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT40</systemName>
+      <userName>CH39 G</userName>
+    </turnout>
+    <turnout systemName="CT41" userName="CH41 R" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT41</systemName>
+      <userName>CH41 R</userName>
+    </turnout>
+    <turnout systemName="CT42" userName="CH41 G" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT42</systemName>
+      <userName>CH41 G</userName>
+    </turnout>
+    <turnout systemName="CT43" userName="CH43 R" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT43</systemName>
+      <userName>CH43 R</userName>
+    </turnout>
+    <turnout systemName="CT44" userName="CH43 G" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT44</systemName>
+      <userName>CH43 G</userName>
+    </turnout>
+    <turnout systemName="CT45" userName="CH45 R" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT45</systemName>
+      <userName>CH45 R</userName>
+    </turnout>
+    <turnout systemName="CT46" userName="CH45 G" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT46</systemName>
+      <userName>CH45 G</userName>
+    </turnout>
+    <turnout systemName="CT47" userName="CH47 R" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT47</systemName>
+      <userName>CH47 R</userName>
+    </turnout>
+    <turnout systemName="CT48" userName="CH47 G" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT48</systemName>
+      <userName>CH47 G</userName>
+    </turnout>
+    <turnout systemName="CT49" userName="CH49 R" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT49</systemName>
+      <userName>CH49 R</userName>
+    </turnout>
+    <turnout systemName="CT50" userName="CH49 G" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT50</systemName>
+      <userName>CH49 G</userName>
+    </turnout>
+    <turnout systemName="CT51" userName="CH51 R" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT51</systemName>
+      <userName>CH51 R</userName>
+    </turnout>
+    <turnout systemName="CT52" userName="CH51 G" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT52</systemName>
+      <userName>CH51 G</userName>
+    </turnout>
+    <turnout systemName="CT53" userName="CH53 R" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT53</systemName>
+      <userName>CH53 R</userName>
+    </turnout>
+    <turnout systemName="CT54" userName="CH53 G" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT54</systemName>
+      <userName>CH53 G</userName>
+    </turnout>
+    <turnout systemName="CT55" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT55</systemName>
+      <comment>Not used, not wired</comment>
+    </turnout>
+    <turnout systemName="CT56" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT56</systemName>
+      <comment>Not used, not wired</comment>
+    </turnout>
+    <turnout systemName="CT57" userName="Helix Level 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT57</systemName>
+      <userName>Helix Level 1</userName>
+    </turnout>
+    <turnout systemName="CT58" userName="Helix Level 2 A" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT58</systemName>
+      <userName>Helix Level 2 A</userName>
+    </turnout>
+    <turnout systemName="CT59" userName="Helix Level 2 B" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT59</systemName>
+      <userName>Helix Level 2 B</userName>
+    </turnout>
+    <turnout systemName="CT60" userName="Helix Level 3 A" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT60</systemName>
+      <userName>Helix Level 3 A</userName>
+    </turnout>
+    <turnout systemName="CT61" userName="Helix Level 3 B" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT61</systemName>
+      <userName>Helix Level 3 B</userName>
+    </turnout>
+    <turnout systemName="CT62" userName="Helix Level 4 A" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT62</systemName>
+      <userName>Helix Level 4 A</userName>
+    </turnout>
+    <turnout systemName="CT63" userName="Helix Level 4 B" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT63</systemName>
+      <userName>Helix Level 4 B</userName>
+    </turnout>
+    <turnout systemName="CT64" userName="Helix Level 5" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT64</systemName>
+      <userName>Helix Level 5</userName>
+    </turnout>
+    <turnout systemName="CT65" userName="LED KFalls Depart 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT65</systemName>
+      <userName>LED KFalls Depart 1</userName>
+    </turnout>
+    <turnout systemName="CT66" userName="LED KFalls Depart 2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT66</systemName>
+      <userName>LED KFalls Depart 2</userName>
+    </turnout>
+    <turnout systemName="CT67" userName="LED KFalls Depart 3" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT67</systemName>
+      <userName>LED KFalls Depart 3</userName>
+    </turnout>
+    <turnout systemName="CT68" userName="LED KFalls Depart 4" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT68</systemName>
+      <userName>LED KFalls Depart 4</userName>
+    </turnout>
+    <turnout systemName="CT69" userName="LED KFalls Depart 5" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT69</systemName>
+      <userName>LED KFalls Depart 5</userName>
+    </turnout>
+    <turnout systemName="CT70" userName="LED KFalls Depart 6" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT70</systemName>
+      <userName>LED KFalls Depart 6</userName>
+    </turnout>
+    <turnout systemName="CT71" userName="LED KFalls Depart 7" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT71</systemName>
+      <userName>LED KFalls Depart 7</userName>
+    </turnout>
+    <turnout systemName="CT72" userName="LED KFalls Arrival 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT72</systemName>
+      <userName>LED KFalls Arrival 1</userName>
+    </turnout>
+    <turnout systemName="CT73" userName="LED KFalls Arrival 2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT73</systemName>
+      <userName>LED KFalls Arrival 2</userName>
+    </turnout>
+    <turnout systemName="CT74" userName="LED KFalls Arrival 3" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT74</systemName>
+      <userName>LED KFalls Arrival 3</userName>
+    </turnout>
+    <turnout systemName="CT75" userName="LED KFalls Arrival 4" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT75</systemName>
+      <userName>LED KFalls Arrival 4</userName>
+    </turnout>
+    <turnout systemName="CT76" userName="LED KFalls Arrival 5" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT76</systemName>
+      <userName>LED KFalls Arrival 5</userName>
+    </turnout>
+    <turnout systemName="CT77" userName="LED KFalls Arrival 6" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT77</systemName>
+      <userName>LED KFalls Arrival 6</userName>
+    </turnout>
+    <turnout systemName="CT78" userName="LED KFalls Arrival 7" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT78</systemName>
+      <userName>LED KFalls Arrival 7</userName>
+    </turnout>
+    <turnout systemName="CT79" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT79</systemName>
+    </turnout>
+
+    <turnout systemName="CT97" userName="Helix P0 L2 T1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT97</systemName>
+      <userName>Helix P0 L2 T1</userName>
+    </turnout>
+    <turnout systemName="CT98" userName="Helix P0 B main" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT98</systemName>
+      <userName>Helix P0 B main</userName>
+    </turnout>
+    <turnout systemName="CT99" userName="Helix P0 B side 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT99</systemName>
+      <userName>Helix P0 B side 1</userName>
     </turnout>
     <turnout systemName="CT100" userName="Helix P0 B side 2" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT100</systemName>
       <userName>Helix P0 B side 2</userName>
     </turnout>
+    <turnout systemName="CT101" userName="Helix P0 L2 C2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT101</systemName>
+      <userName>Helix P0 L2 C2</userName>
+    </turnout>
+    <turnout systemName="CT102" userName="Helix P0 L2 C1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT102</systemName>
+      <userName>Helix P0 L2 C1</userName>
+    </turnout>
+    <turnout systemName="CT103" userName="Helix P0 L3 T2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT103</systemName>
+      <userName>Helix P0 L3 T2</userName>
+    </turnout>
+    <turnout systemName="CT104" userName="Helix P0 L3 C2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT104</systemName>
+      <userName>Helix P0 L3 C2</userName>
+    </turnout>
+    <turnout systemName="CT105" userName="Helix P0 D side 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT105</systemName>
+      <userName>Helix P0 D side 1</userName>
+      <comment>May be CT110, not opp</comment>
+    </turnout>
+    <turnout systemName="CT106" userName="Helix P0 L4 T1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT106</systemName>
+      <userName>Helix P0 L4 T1</userName>
+    </turnout>
+    <turnout systemName="CT107" userName="Helix P0 D main" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT107</systemName>
+      <userName>Helix P0 D main</userName>
+    </turnout>
+    <turnout systemName="CT109" userName="Helix P0 D side 2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT109</systemName>
+      <userName>Helix P0 D side 2</userName>
+    </turnout>
+    <turnout systemName="CT110" userName="Helix P0 extra 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT110</systemName>
+      <userName>Helix P0 extra 1</userName>
+      <comment>May be CT108, not opp</comment>
+    </turnout>
+    <turnout systemName="CT111" userName="Helix P0 L5 T" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT111</systemName>
+      <userName>Helix P0 L5 T</userName>
+    </turnout>
+    <turnout systemName="CT112" userName="Helix P0 L5 C" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT112</systemName>
+      <userName>Helix P0 L5 C</userName>
+    </turnout>
+    <turnout systemName="CT113" userName="Helix P0 L2 T2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT113</systemName>
+      <userName>Helix P0 L2 T2</userName>
+    </turnout>
+    <turnout systemName="CT114" userName="Helix P0 A side 2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT114</systemName>
+      <userName>Helix P0 A side 2</userName>
+    </turnout>
+    <turnout systemName="CT115" userName="Helix P0 A main" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT115</systemName>
+      <userName>Helix P0 A main</userName>
+    </turnout>
+    <turnout systemName="CT116" userName="Helix P0 A side 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT116</systemName>
+      <userName>Helix P0 A side 1</userName>
+    </turnout>
+    <turnout systemName="CT117" userName="Helix P0 L1 C" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT117</systemName>
+      <userName>Helix P0 L1 C</userName>
+    </turnout>
+    <turnout systemName="CT118" userName="Helix P0 CTC control" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT118</systemName>
+      <userName>Helix P0 CTC control</userName>
+    </turnout>
+    <turnout systemName="CT119" userName="Helix P0 L1 T" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT119</systemName>
+      <userName>Helix P0 L1 T</userName>
+    </turnout>
+    <turnout systemName="CT120" userName="Helix P0 Local Control" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT120</systemName>
+      <userName>Helix P0 Local Control</userName>
+    </turnout>
+    <turnout systemName="CT121" userName="Helix P0 L3 T1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT121</systemName>
+      <userName>Helix P0 L3 T1</userName>
+    </turnout>
+    <turnout systemName="CT122" userName="Helix P0 L3 C1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT122</systemName>
+      <userName>Helix P0 L3 C1</userName>
+    </turnout>
+    <turnout systemName="CT123" userName="Helix P0 L4 C2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT123</systemName>
+      <userName>Helix P0 L4 C2</userName>
+    </turnout>
+    <turnout systemName="CT124" userName="Helix P0 L4 C1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT124</systemName>
+      <userName>Helix P0 L4 C1</userName>
+    </turnout>
+    <turnout systemName="CT125" userName="Helix P0 C side 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT125</systemName>
+      <userName>Helix P0 C side 1</userName>
+    </turnout>
+    <turnout systemName="CT126" userName="Helix P0 C main" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT126</systemName>
+      <userName>Helix P0 C main</userName>
+    </turnout>
+    <turnout systemName="CT127" userName="Helix P0 L4 T2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT127</systemName>
+      <userName>Helix P0 L4 T2</userName>
+    </turnout>
+    <turnout systemName="CT128" userName="Helix P0 C side 2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT128</systemName>
+      <userName>Helix P0 C side 2</userName>
+    </turnout>
+    <turnout systemName="CT129" userName="Helix P1 B main" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT129</systemName>
+      <userName>Helix P1 B main</userName>
+    </turnout>
+    <turnout systemName="CT130" userName="Helix P1 C main" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT130</systemName>
+      <userName>Helix P1 C main</userName>
+    </turnout>
+    <turnout systemName="CT131" userName="Helix P1 C side 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT131</systemName>
+      <userName>Helix P1 C side 1</userName>
+    </turnout>
+    <turnout systemName="CT132" userName="Helix P1 D side 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT132</systemName>
+      <userName>Helix P1 D side 1</userName>
+    </turnout>
+    <turnout systemName="CT133" userName="Helix P1 D side 2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT133</systemName>
+      <userName>Helix P1 D side 2</userName>
+    </turnout>
+    <turnout systemName="CT134" userName="Helix P1 A side 2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT134</systemName>
+      <userName>Helix P1 A side 2</userName>
+    </turnout>
+    <turnout systemName="CT135" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT135</systemName>
+    </turnout>
+    <turnout systemName="CT136" userName="Helix P1 Local Control" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT136</systemName>
+      <userName>Helix P1 Local Control</userName>
+    </turnout>
+    <turnout systemName="CT137" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT137</systemName>
+    </turnout>
+    <turnout systemName="CT138" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT138</systemName>
+    </turnout>
+    <turnout systemName="CT139" userName="Helix P1 A main" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT139</systemName>
+      <userName>Helix P1 A main</userName>
+    </turnout>
+    <turnout systemName="CT140" userName="Helix P1 D main" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT140</systemName>
+      <userName>Helix P1 D main</userName>
+    </turnout>
+    <turnout systemName="CT141" userName="Helix P1 A side 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT141</systemName>
+      <userName>Helix P1 A side 1</userName>
+    </turnout>
+    <turnout systemName="CT142" userName="Helix P1 C side 2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT142</systemName>
+      <userName>Helix P1 C side 2</userName>
+    </turnout>
+    <turnout systemName="CT143" userName="Helix P1 B side 1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT143</systemName>
+      <userName>Helix P1 B side 1</userName>
+    </turnout>
+    <turnout systemName="CT144" userName="Helix P1 B side 2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT144</systemName>
+      <userName>Helix P1 B side 2</userName>
+    </turnout>
+    <turnout systemName="CT145" userName="Helix P1 L3 T1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT145</systemName>
+      <userName>Helix P1 L3 T1</userName>
+    </turnout>
+    <turnout systemName="CT146" userName="Helix P1 L3 T2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT146</systemName>
+      <userName>Helix P1 L3 T2</userName>
+    </turnout>
+    <turnout systemName="CT147" userName="Helix P1 L5 T" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT147</systemName>
+      <userName>Helix P1 L5 T</userName>
+    </turnout>
+    <turnout systemName="CT148" userName="Helix P1 L1 C" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT148</systemName>
+      <userName>Helix P1 L1 C</userName>
+    </turnout>
+    <turnout systemName="CT149" userName="Helix P1 L4 T1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT149</systemName>
+      <userName>Helix P1 L4 T1</userName>
+    </turnout>
+    <turnout systemName="CT150" userName="Helix P1 L3 C1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT150</systemName>
+      <userName>Helix P1 L3 C1</userName>
+    </turnout>
+    <turnout systemName="CT151" userName="Helix P1 L2 C1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT151</systemName>
+      <userName>Helix P1 L2 C1</userName>
+    </turnout>
+    <turnout systemName="CT152" userName="Helix P1 L5 C" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT152</systemName>
+      <userName>Helix P1 L5 C</userName>
+    </turnout>
+    <turnout systemName="CT153" userName="Helix P1 L1 T" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT153</systemName>
+      <userName>Helix P1 L1 T</userName>
+    </turnout>
+    <turnout systemName="CT154" userName="Helix P1 L3 C2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT154</systemName>
+      <userName>Helix P1 L3 C2</userName>
+    </turnout>
+    <turnout systemName="CT155" userName="Helix P1 L4 C1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT155</systemName>
+      <userName>Helix P1 L4 C1</userName>
+    </turnout>
+    <turnout systemName="CT156" userName="Helix P1 L4 C2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT156</systemName>
+      <userName>Helix P1 L4 C2</userName>
+    </turnout>
+    <turnout systemName="CT157" userName="Helix P1 L4 T2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT157</systemName>
+      <userName>Helix P1 L4 T2</userName>
+    </turnout>
+    <turnout systemName="CT158" userName="Helix P1 L2 C2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT158</systemName>
+      <userName>Helix P1 L2 C2</userName>
+    </turnout>
+    <turnout systemName="CT159" userName="Helix P1 L2 T2" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT159</systemName>
+      <userName>Helix P1 L2 T2</userName>
+    </turnout>
+    <turnout systemName="CT160" userName="Helix P1 L2 T1" feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT160</systemName>
+      <userName>Helix P1 L2 T1</userName>
+    </turnout>
+
+
     <turnout systemName="CT1001" userName="Weed Staging TO 1" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1001</systemName>
       <userName>Weed Staging TO 1</userName>
@@ -64,10 +625,6 @@
       <systemName>CT1009</systemName>
       <userName>MC 42</userName>
       <comment>Black Butte phone booth</comment>
-    </turnout>
-    <turnout systemName="CT101" userName="Helix P0 L2 C2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT101</systemName>
-      <userName>Helix P0 L2 C2</userName>
     </turnout>
     <turnout systemName="CT1010" userName="MC 36" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1010</systemName>
@@ -131,10 +688,6 @@
       <systemName>CT1024</systemName>
       <userName>CH011 Y</userName>
     </turnout>
-    <turnout systemName="CT102" userName="Helix P0 L2 C1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT102</systemName>
-      <userName>Helix P0 L2 C1</userName>
-    </turnout>
     <turnout systemName="CT1025" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1025</systemName>
     </turnout>
@@ -152,10 +705,6 @@
     </turnout>
     <turnout systemName="CT1030" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1030</systemName>
-    </turnout>
-    <turnout systemName="CT103" userName="Helix P0 L3 T2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT103</systemName>
-      <userName>Helix P0 L3 T2</userName>
     </turnout>
     <turnout systemName="CT1031" userName="32 Upper G" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT1031</systemName>
@@ -193,10 +742,6 @@
       <systemName>CT1039</systemName>
       <userName>TO 35A</userName>
       <comment>Azalea Upper OS (was TO 37; includes both)</comment>
-    </turnout>
-    <turnout systemName="CT104" userName="Helix P0 L3 C2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT104</systemName>
-      <userName>Helix P0 L3 C2</userName>
     </turnout>
     <turnout systemName="CT1040" userName="TO 39A" feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT1040</systemName>
@@ -237,272 +782,8 @@
       <systemName>CT1046</systemName>
       <userName>40R LOW R</userName>
     </turnout>
-    <turnout systemName="CT105" userName="Helix P0 D side 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT105</systemName>
-      <userName>Helix P0 D side 1</userName>
-      <comment>May be CT110, not opp</comment>
-    </turnout>
-    <turnout systemName="CT106" userName="Helix P0 L4 T1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT106</systemName>
-      <userName>Helix P0 L4 T1</userName>
-    </turnout>
-    <turnout systemName="CT107" userName="Helix P0 D main" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT107</systemName>
-      <userName>Helix P0 D main</userName>
-    </turnout>
-    <turnout systemName="CT109" userName="Helix P0 D side 2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT109</systemName>
-      <userName>Helix P0 D side 2</userName>
-    </turnout>
-    <turnout systemName="CT11" userName="Redding Staging TO 11" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT11</systemName>
-      <userName>Redding Staging TO 11</userName>
-    </turnout>
-    <turnout systemName="CT110" userName="Helix P0 extra 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT110</systemName>
-      <userName>Helix P0 extra 1</userName>
-      <comment>May be CT108, not opp</comment>
-    </turnout>
-    <turnout systemName="CT111" userName="Helix P0 L5 T" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT111</systemName>
-      <userName>Helix P0 L5 T</userName>
-    </turnout>
-    <turnout systemName="CT112" userName="Helix P0 L5 C" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT112</systemName>
-      <userName>Helix P0 L5 C</userName>
-    </turnout>
-    <turnout systemName="CT113" userName="Helix P0 L2 T2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT113</systemName>
-      <userName>Helix P0 L2 T2</userName>
-    </turnout>
-    <turnout systemName="CT114" userName="Helix P0 A side 2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT114</systemName>
-      <userName>Helix P0 A side 2</userName>
-    </turnout>
-    <turnout systemName="CT115" userName="Helix P0 A main" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT115</systemName>
-      <userName>Helix P0 A main</userName>
-    </turnout>
-    <turnout systemName="CT116" userName="Helix P0 A side 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT116</systemName>
-      <userName>Helix P0 A side 1</userName>
-    </turnout>
-    <turnout systemName="CT117" userName="Helix P0 L1 C" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT117</systemName>
-      <userName>Helix P0 L1 C</userName>
-    </turnout>
-    <turnout systemName="CT118" userName="Helix P0 CTC control" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT118</systemName>
-      <userName>Helix P0 CTC control</userName>
-    </turnout>
-    <turnout systemName="CT119" userName="Helix P0 L1 T" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT119</systemName>
-      <userName>Helix P0 L1 T</userName>
-    </turnout>
-    <turnout systemName="CT12" userName="Redding Staging TO 12" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT12</systemName>
-      <userName>Redding Staging TO 12</userName>
-    </turnout>
-    <turnout systemName="CT120" userName="Helix P0 Local Control" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT120</systemName>
-      <userName>Helix P0 Local Control</userName>
-    </turnout>
-    <turnout systemName="CT121" userName="Helix P0 L3 T1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT121</systemName>
-      <userName>Helix P0 L3 T1</userName>
-    </turnout>
-    <turnout systemName="CT122" userName="Helix P0 L3 C1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT122</systemName>
-      <userName>Helix P0 L3 C1</userName>
-    </turnout>
-    <turnout systemName="CT123" userName="Helix P0 L4 C2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT123</systemName>
-      <userName>Helix P0 L4 C2</userName>
-    </turnout>
-    <turnout systemName="CT124" userName="Helix P0 L4 C1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT124</systemName>
-      <userName>Helix P0 L4 C1</userName>
-    </turnout>
-    <turnout systemName="CT125" userName="Helix P0 C side 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT125</systemName>
-      <userName>Helix P0 C side 1</userName>
-    </turnout>
-    <turnout systemName="CT126" userName="Helix P0 C main" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT126</systemName>
-      <userName>Helix P0 C main</userName>
-    </turnout>
-    <turnout systemName="CT127" userName="Helix P0 L4 T2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT127</systemName>
-      <userName>Helix P0 L4 T2</userName>
-    </turnout>
-    <turnout systemName="CT128" userName="Helix P0 C side 2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT128</systemName>
-      <userName>Helix P0 C side 2</userName>
-    </turnout>
-    <turnout systemName="CT129" userName="Helix P1 B main" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT129</systemName>
-      <userName>Helix P1 B main</userName>
-    </turnout>
-    <turnout systemName="CT13" userName="Redding Entrance Turnout" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT13</systemName>
-      <userName>Redding Entrance Turnout</userName>
-      <comment>Redding Entrance Turnout (A/D select)</comment>
-    </turnout>
-    <turnout systemName="CT130" userName="Helix P1 C main" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT130</systemName>
-      <userName>Helix P1 C main</userName>
-    </turnout>
-    <turnout systemName="CT131" userName="Helix P1 C side 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT131</systemName>
-      <userName>Helix P1 C side 1</userName>
-    </turnout>
-    <turnout systemName="CT132" userName="Helix P1 D side 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT132</systemName>
-      <userName>Helix P1 D side 1</userName>
-    </turnout>
-    <turnout systemName="CT133" userName="Helix P1 D side 2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT133</systemName>
-      <userName>Helix P1 D side 2</userName>
-    </turnout>
-    <turnout systemName="CT134" userName="Helix P1 A side 2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT134</systemName>
-      <userName>Helix P1 A side 2</userName>
-    </turnout>
-    <turnout systemName="CT135" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT135</systemName>
-    </turnout>
-    <turnout systemName="CT136" userName="Helix P1 Local Control" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT136</systemName>
-      <userName>Helix P1 Local Control</userName>
-    </turnout>
-    <turnout systemName="CT137" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT137</systemName>
-    </turnout>
-    <turnout systemName="CT138" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT138</systemName>
-    </turnout>
-    <turnout systemName="CT139" userName="Helix P1 A main" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT139</systemName>
-      <userName>Helix P1 A main</userName>
-    </turnout>
-    <turnout systemName="CT14" userName="TO 07" feedback="DELAYED" inverted="false" automate="Default">
-      <systemName>CT14</systemName>
-      <userName>TO 07</userName>
-      <comment>Sims, Jn with helix and Redding Staging</comment>
-    </turnout>
-    <turnout systemName="CT140" userName="Helix P1 D main" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT140</systemName>
-      <userName>Helix P1 D main</userName>
-    </turnout>
-    <turnout systemName="CT141" userName="Helix P1 A side 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT141</systemName>
-      <userName>Helix P1 A side 1</userName>
-    </turnout>
-    <turnout systemName="CT142" userName="Helix P1 C side 2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT142</systemName>
-      <userName>Helix P1 C side 2</userName>
-    </turnout>
-    <turnout systemName="CT143" userName="Helix P1 B side 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT143</systemName>
-      <userName>Helix P1 B side 1</userName>
-    </turnout>
-    <turnout systemName="CT144" userName="Helix P1 B side 2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT144</systemName>
-      <userName>Helix P1 B side 2</userName>
-    </turnout>
-    <turnout systemName="CT145" userName="Helix P1 L3 T1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT145</systemName>
-      <userName>Helix P1 L3 T1</userName>
-    </turnout>
-    <turnout systemName="CT146" userName="Helix P1 L3 T2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT146</systemName>
-      <userName>Helix P1 L3 T2</userName>
-    </turnout>
-    <turnout systemName="CT147" userName="Helix P1 L5 T" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT147</systemName>
-      <userName>Helix P1 L5 T</userName>
-    </turnout>
-    <turnout systemName="CT148" userName="Helix P1 L1 C" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT148</systemName>
-      <userName>Helix P1 L1 C</userName>
-    </turnout>
-    <turnout systemName="CT149" userName="Helix P1 L4 T1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT149</systemName>
-      <userName>Helix P1 L4 T1</userName>
-    </turnout>
-    <turnout systemName="CT15" userName="TO 09" feedback="DELAYED" inverted="true" automate="Default">
-      <systemName>CT15</systemName>
-      <userName>TO 09</userName>
-      <comment>Dunsmuir West (Lower) End</comment>
-    </turnout>
-    <turnout systemName="CT150" userName="Helix P1 L3 C1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT150</systemName>
-      <userName>Helix P1 L3 C1</userName>
-    </turnout>
-    <turnout systemName="CT151" userName="Helix P1 L2 C1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT151</systemName>
-      <userName>Helix P1 L2 C1</userName>
-    </turnout>
-    <turnout systemName="CT152" userName="Helix P1 L5 C" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT152</systemName>
-      <userName>Helix P1 L5 C</userName>
-    </turnout>
-    <turnout systemName="CT153" userName="Helix P1 L1 T" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT153</systemName>
-      <userName>Helix P1 L1 T</userName>
-    </turnout>
-    <turnout systemName="CT154" userName="Helix P1 L3 C2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT154</systemName>
-      <userName>Helix P1 L3 C2</userName>
-    </turnout>
-    <turnout systemName="CT155" userName="Helix P1 L4 C1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT155</systemName>
-      <userName>Helix P1 L4 C1</userName>
-    </turnout>
-    <turnout systemName="CT156" userName="Helix P1 L4 C2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT156</systemName>
-      <userName>Helix P1 L4 C2</userName>
-    </turnout>
-    <turnout systemName="CT157" userName="Helix P1 L4 T2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT157</systemName>
-      <userName>Helix P1 L4 T2</userName>
-    </turnout>
-    <turnout systemName="CT158" userName="Helix P1 L2 C2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT158</systemName>
-      <userName>Helix P1 L2 C2</userName>
-    </turnout>
-    <turnout systemName="CT159" userName="Helix P1 L2 T2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT159</systemName>
-      <userName>Helix P1 L2 T2</userName>
-    </turnout>
-    <turnout systemName="CT16" userName="Dorris West" feedback="DIRECT" inverted="true" automate="Default">
-      <systemName>CT16</systemName>
-      <userName>Dorris West</userName>
-    </turnout>
-    <turnout systemName="CT160" userName="Helix P1 L2 T1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT160</systemName>
-      <userName>Helix P1 L2 T1</userName>
-    </turnout>
-    <turnout systemName="CT17" userName="Dorris East" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT17</systemName>
-      <userName>Dorris East</userName>
-    </turnout>
-    <turnout systemName="CT18" userName="K Falls Helix Y" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT18</systemName>
-      <userName>K Falls Helix Y</userName>
-    </turnout>
-    <turnout systemName="CT19" userName="K Falls Arrive/Depart" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT19</systemName>
-      <userName>K Falls Arrive/Depart</userName>
-    </turnout>
-    <turnout systemName="CT2" userName="Redding Staging TO 2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT2</systemName>
-      <userName>Redding Staging TO 2</userName>
-    </turnout>
-    <turnout systemName="CT20" userName="K Falls Arrival 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT20</systemName>
-      <userName>K Falls Arrival 1</userName>
-    </turnout>
+    
+    
     <turnout systemName="CT2001" userName="Dunsmuir Upper TO 2 G" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2001</systemName>
       <userName>Dunsmuir Upper TO 2 G</userName>
@@ -695,50 +976,9 @@
       <systemName>CT2056</systemName>
       <userName>Dunsmuir Upper TO 1 R</userName>
     </turnout>
-    <turnout systemName="CT21" userName="K Falls Arrival 2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT21</systemName>
-      <userName>K Falls Arrival 2</userName>
-    </turnout>
-    <turnout systemName="CT22" userName="K Falls Arrival 3" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT22</systemName>
-      <userName>K Falls Arrival 3</userName>
-    </turnout>
-    <turnout systemName="CT23" userName="K Falls Arrival 4" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT23</systemName>
-      <userName>K Falls Arrival 4</userName>
-    </turnout>
-    <turnout systemName="CT24" userName="K Falls Arrival 5" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT24</systemName>
-      <userName>K Falls Arrival 5</userName>
-    </turnout>
-    <turnout systemName="CT25" userName="K Falls Arrival 6" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT25</systemName>
-      <userName>K Falls Arrival 6</userName>
-    </turnout>
-    <turnout systemName="CT26" userName="K Falls Depart 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT26</systemName>
-      <userName>K Falls Depart 1</userName>
-    </turnout>
-    <turnout systemName="CT27" userName="K Falls Depart 2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT27</systemName>
-      <userName>K Falls Depart 2</userName>
-    </turnout>
-    <turnout systemName="CT28" userName="K Falls Depart 3" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT28</systemName>
-      <userName>K Falls Depart 3</userName>
-    </turnout>
-    <turnout systemName="CT29" userName="K Falls Depart 4" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT29</systemName>
-      <userName>K Falls Depart 4</userName>
-    </turnout>
-    <turnout systemName="CT3" userName="Redding Staging TO 3" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT3</systemName>
-      <userName>Redding Staging TO 3</userName>
-    </turnout>
-    <turnout systemName="CT30" userName="K Falls Depart 5" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT30</systemName>
-      <userName>K Falls Depart 5</userName>
-    </turnout>
+    
+    <!-- CT2057 to CT2064 are in APB.xml -->
+    
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2065</systemName>
     </turnout>
@@ -881,52 +1121,6 @@
       <userName>20 R Upper R</userName>
     </turnout>
     
-    
-    <turnout systemName="CT31" userName="K Falls Depart 6" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT31</systemName>
-      <userName>K Falls Depart 6</userName>
-    </turnout>
-    <turnout systemName="CT32" userName="MC 6" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT32</systemName>
-      <userName>MC 6</userName>
-      <comment>Redding Operator buzzer</comment>
-    </turnout>
-    <turnout systemName="CT33" userName="CH33 R" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT33</systemName>
-      <userName>CH33 R</userName>
-    </turnout>
-    <turnout systemName="CT34" userName="CH33 G" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT34</systemName>
-      <userName>CH33 G</userName>
-    </turnout>
-    <turnout systemName="CT35" userName="CH35 R" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT35</systemName>
-      <userName>CH35 R</userName>
-    </turnout>
-    <turnout systemName="CT36" userName="CH35 G" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT36</systemName>
-      <userName>CH35 G</userName>
-    </turnout>
-    <turnout systemName="CT37" userName="CH37 R" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT37</systemName>
-      <userName>CH37 R</userName>
-    </turnout>
-    <turnout systemName="CT38" userName="CH37 G" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT38</systemName>
-      <userName>CH37 G</userName>
-    </turnout>
-    <turnout systemName="CT39" userName="CH39 R" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT39</systemName>
-      <userName>CH39 R</userName>
-    </turnout>
-    <turnout systemName="CT4" userName="Redding Staging TO 4" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT4</systemName>
-      <userName>Redding Staging TO 4</userName>
-    </turnout>
-    <turnout systemName="CT40" userName="CH39 G" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT40</systemName>
-      <userName>CH39 G</userName>
-    </turnout>
     <turnout systemName="CT4001" userName="Leaf East OS TO" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4001</systemName>
       <userName>Leaf East OS TO</userName>
@@ -943,50 +1137,7 @@
       <systemName>CT4004</systemName>
       <userName>Leaf West OS TO</userName>
     </turnout>
-    <turnout systemName="CT41" userName="CH41 R" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT41</systemName>
-      <userName>CH41 R</userName>
-    </turnout>
-    <turnout systemName="CT42" userName="CH41 G" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT42</systemName>
-      <userName>CH41 G</userName>
-    </turnout>
-    <turnout systemName="CT43" userName="CH43 R" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT43</systemName>
-      <userName>CH43 R</userName>
-    </turnout>
-    <turnout systemName="CT44" userName="CH43 G" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT44</systemName>
-      <userName>CH43 G</userName>
-    </turnout>
-    <turnout systemName="CT45" userName="CH45 R" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT45</systemName>
-      <userName>CH45 R</userName>
-    </turnout>
-    <turnout systemName="CT46" userName="CH45 G" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT46</systemName>
-      <userName>CH45 G</userName>
-    </turnout>
-    <turnout systemName="CT47" userName="CH47 R" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT47</systemName>
-      <userName>CH47 R</userName>
-    </turnout>
-    <turnout systemName="CT48" userName="CH47 G" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT48</systemName>
-      <userName>CH47 G</userName>
-    </turnout>
-    <turnout systemName="CT49" userName="CH49 R" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT49</systemName>
-      <userName>CH49 R</userName>
-    </turnout>
-    <turnout systemName="CT5" userName="Redding Staging TO 5" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT5</systemName>
-      <userName>Redding Staging TO 5</userName>
-    </turnout>
-    <turnout systemName="CT50" userName="CH49 G" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT50</systemName>
-      <userName>CH49 G</userName>
-    </turnout>
+
     <turnout systemName="CT5001" userName="BB East Upper Green" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5001</systemName>
       <userName>BB East Upper Green</userName>
@@ -1168,50 +1319,6 @@
       <systemName>CT5046</systemName>
       <userName>CH5012 R</userName>
       <comment>Black Butte 40 from Weed dwarf red</comment>
-    </turnout>
-    <turnout systemName="CT51" userName="CH51 R" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT51</systemName>
-      <userName>CH51 R</userName>
-    </turnout>
-    <turnout systemName="CT52" userName="CH51 G" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT52</systemName>
-      <userName>CH51 G</userName>
-    </turnout>
-    <turnout systemName="CT53" userName="CH53 R" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT53</systemName>
-      <userName>CH53 R</userName>
-    </turnout>
-    <turnout systemName="CT54" userName="CH53 G" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT54</systemName>
-      <userName>CH53 G</userName>
-    </turnout>
-    <turnout systemName="CT55" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT55</systemName>
-      <comment>Not used, not wired</comment>
-    </turnout>
-    <turnout systemName="CT56" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT56</systemName>
-      <comment>Not used, not wired</comment>
-    </turnout>
-    <turnout systemName="CT57" userName="Helix Level 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT57</systemName>
-      <userName>Helix Level 1</userName>
-    </turnout>
-    <turnout systemName="CT58" userName="Helix Level 2 A" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT58</systemName>
-      <userName>Helix Level 2 A</userName>
-    </turnout>
-    <turnout systemName="CT59" userName="Helix Level 2 B" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT59</systemName>
-      <userName>Helix Level 2 B</userName>
-    </turnout>
-    <turnout systemName="CT6" userName="Redding Staging TO 6" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT6</systemName>
-      <userName>Redding Staging TO 6</userName>
-    </turnout>
-    <turnout systemName="CT60" userName="Helix Level 3 A" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT60</systemName>
-      <userName>Helix Level 3 A</userName>
     </turnout>
     <turnout systemName="CT6001" userName="CTC 18 R" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT6001</systemName>
@@ -1590,10 +1697,6 @@
     <turnout systemName="CT6099" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT6099</systemName>
     </turnout>
-    <turnout systemName="CT61" userName="Helix Level 3 B" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT61</systemName>
-      <userName>Helix Level 3 B</userName>
-    </turnout>
     <turnout systemName="CT6100" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT6100</systemName>
     </turnout>
@@ -1959,10 +2062,6 @@
       <systemName>CT6199</systemName>
       <userName>CTC TC 37</userName>
     </turnout>
-    <turnout systemName="CT62" userName="Helix Level 4 A" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT62</systemName>
-      <userName>Helix Level 4 A</userName>
-    </turnout>
     <turnout systemName="CT6200" userName="CTC TC 36" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT6200</systemName>
       <userName>CTC TC 36</userName>
@@ -2130,42 +2229,6 @@
       <userName>CTC TC 61</userName>
       <comment>TO 67 (right CTC)</comment>
     </turnout>
-    <turnout systemName="CT63" userName="Helix Level 4 B" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT63</systemName>
-      <userName>Helix Level 4 B</userName>
-    </turnout>
-    <turnout systemName="CT64" userName="Helix Level 5" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT64</systemName>
-      <userName>Helix Level 5</userName>
-    </turnout>
-    <turnout systemName="CT65" userName="LED KFalls Depart 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT65</systemName>
-      <userName>LED KFalls Depart 1</userName>
-    </turnout>
-    <turnout systemName="CT66" userName="LED KFalls Depart 2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT66</systemName>
-      <userName>LED KFalls Depart 2</userName>
-    </turnout>
-    <turnout systemName="CT67" userName="LED KFalls Depart 3" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT67</systemName>
-      <userName>LED KFalls Depart 3</userName>
-    </turnout>
-    <turnout systemName="CT68" userName="LED KFalls Depart 4" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT68</systemName>
-      <userName>LED KFalls Depart 4</userName>
-    </turnout>
-    <turnout systemName="CT69" userName="LED KFalls Depart 5" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT69</systemName>
-      <userName>LED KFalls Depart 5</userName>
-    </turnout>
-    <turnout systemName="CT7" userName="Redding Staging TO 7" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT7</systemName>
-      <userName>Redding Staging TO 7</userName>
-    </turnout>
-    <turnout systemName="CT70" userName="LED KFalls Depart 6" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT70</systemName>
-      <userName>LED KFalls Depart 6</userName>
-    </turnout>
     <turnout systemName="CT7001" userName="TO BB W 19" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT7001</systemName>
       <userName>TO BB W 19</userName>
@@ -2265,61 +2328,7 @@
       <systemName>CT7025</systemName>
       <userName>TO DR E Det</userName>
     </turnout>
-    <turnout systemName="CT71" userName="LED KFalls Depart 7" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT71</systemName>
-      <userName>LED KFalls Depart 7</userName>
-    </turnout>
-    <turnout systemName="CT72" userName="LED KFalls Arrival 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT72</systemName>
-      <userName>LED KFalls Arrival 1</userName>
-    </turnout>
-    <turnout systemName="CT73" userName="LED KFalls Arrival 2" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT73</systemName>
-      <userName>LED KFalls Arrival 2</userName>
-    </turnout>
-    <turnout systemName="CT74" userName="LED KFalls Arrival 3" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT74</systemName>
-      <userName>LED KFalls Arrival 3</userName>
-    </turnout>
-    <turnout systemName="CT75" userName="LED KFalls Arrival 4" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT75</systemName>
-      <userName>LED KFalls Arrival 4</userName>
-    </turnout>
-    <turnout systemName="CT76" userName="LED KFalls Arrival 5" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT76</systemName>
-      <userName>LED KFalls Arrival 5</userName>
-    </turnout>
-    <turnout systemName="CT77" userName="LED KFalls Arrival 6" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT77</systemName>
-      <userName>LED KFalls Arrival 6</userName>
-    </turnout>
-    <turnout systemName="CT78" userName="LED KFalls Arrival 7" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT78</systemName>
-      <userName>LED KFalls Arrival 7</userName>
-    </turnout>
-    <turnout systemName="CT79" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT79</systemName>
-    </turnout>
-    <turnout systemName="CT8" userName="Redding Staging TO 8" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8</systemName>
-      <userName>Redding Staging TO 8</userName>
-    </turnout>
-    <turnout systemName="CT9" userName="Redding Staging TO 9" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT9</systemName>
-      <userName>Redding Staging TO 9</userName>
-    </turnout>
-    <turnout systemName="CT97" userName="Helix P0 L2 T1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT97</systemName>
-      <userName>Helix P0 L2 T1</userName>
-    </turnout>
-    <turnout systemName="CT98" userName="Helix P0 B main" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT98</systemName>
-      <userName>Helix P0 B main</userName>
-    </turnout>
-    <turnout systemName="CT99" userName="Helix P0 B side 1" feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT99</systemName>
-      <userName>Helix P0 B side 1</userName>
-    </turnout>
+
     <turnout feedback="DIRECT" inverted="true" automate="Default">
       <systemName>CT8001</systemName>
       <userName>GLY TO Wye Back</userName>
@@ -2363,35 +2372,8 @@
       <userName>GLW TO Main/Siding</userName>
     </turnout>
 
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8017</systemName>
-      <userName>MP 333.8 - Mt Shasta E Eb Red</userName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8018</systemName>
-      <userName>MP 333.8 - Mt Shasta E Eb Green</userName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8019</systemName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8020</systemName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8021</systemName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8022</systemName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8023</systemName>
-      <userName>MP 335.3 - Grass Lake W Eb Green</userName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8024</systemName>
-      <userName>MP 335.3 - Grass Lake W Eb Red</userName>
-    </turnout>
-
+    <!-- CT8017 to CT8024 are in APB.xml -->
+    
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8025</systemName>
     </turnout>
