@@ -34,6 +34,39 @@
       <systemName>CT2064</systemName>
       <userName>APB 333.8 E Green</userName>
     </turnout>
+
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8017</systemName>
+      <userName>MP 333.8 - Mt Shasta E Eb Red</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8018</systemName>
+      <userName>MP 333.8 - Mt Shasta E Eb Green</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8019</systemName>
+      <userName>MP 333.8 - Mt Shasta E Wb Red</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8020</systemName>
+      <userName>MP 333.8 - Mt Shasta E Wb Green</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8021</systemName>
+      <userName>MP 335.3 - Grass Lake W Wb Green</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8022</systemName>
+      <userName>MP 335.3 - Grass Lake W Wb Red</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8023</systemName>
+      <userName>MP 335.3 - Grass Lake W Eb Green</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8024</systemName>
+      <userName>MP 335.3 - Grass Lake W Eb Red</userName>
+    </turnout>
   </turnouts>
 
   <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
