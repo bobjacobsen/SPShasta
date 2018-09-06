@@ -981,33 +981,41 @@
     
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2065</systemName>
+      <comment>UTP to 16 repeater signal board</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2066</systemName>
+      <comment>UTP to 16 repeater signal board</comment>
     </turnout>
     <turnout systemName="CT2067" userName="16 R Siding Rpt Y" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2067</systemName>
       <userName>16 R Siding Rpt Y</userName>
+      <comment>UTP</comment>
     </turnout>
     <turnout systemName="CT2068" userName="16 R Siding Rpt G" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2068</systemName>
       <userName>16 R Siding Rpt G</userName>
+      <comment>UTP</comment>
     </turnout>
     <turnout systemName="CT2069" userName="16 R Siding Rpt R" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2069</systemName>
       <userName>16 R Siding Rpt R</userName>
+      <comment>UTP</comment>
     </turnout>
     <turnout systemName="CT2070" userName="14 R Main Rpt R" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2070</systemName>
       <userName>14 R Main Rpt R</userName>
+      <comment>UTP</comment>
     </turnout>
     <turnout systemName="CT2071" userName="14 R Main Rpt Y" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2071</systemName>
       <userName>14 R Main Rpt Y</userName>
+      <comment>UTP</comment>
     </turnout>
     <turnout systemName="CT2072" userName="14 R Main Rpt G" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2072</systemName>
       <userName>14 R Main Rpt G</userName>
+      <comment>UTP</comment>
     </turnout>
 
     <turnout feedback="DIRECT" inverted="false" automate="Default">
