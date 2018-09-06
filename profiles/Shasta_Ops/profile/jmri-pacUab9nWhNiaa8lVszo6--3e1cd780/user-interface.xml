@@ -18,6 +18,7 @@
     </classPreferences>
     <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
         <comboBox xmlns="" lastSelected="Serial" name="NCE"/>
+        <comboBox xmlns="" lastSelected="C/MRI" name="jmri.jmrit.beantable.SensorTableAction.SystemSelected"/>
         <comboBox xmlns="" lastSelected="19,200 baud" name="jmri.jmrix.cmri.serial.serialdriver.SerialDriverAdapter.baud"/>
         <comboBox xmlns="" lastSelected="Serial" name="C/MRI"/>
         <comboBox xmlns="" lastSelected="C/MRI" name="jmri.jmrit.beantable.TurnoutTableAction.SystemSelected"/>
@@ -153,28 +154,32 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="Mount Shasta Crossing Control" height="176.0" locX="300.0" locY="500.0" width="325.0"/>
         <window xmlns="" class="Left Wing Panel" height="507.0" locX="20.0" locY="22.0" width="1202.0"/>
-        <window xmlns="" class="CTC Panel Image" height="720.0" locX="20.0" locY="20.0" width="1024.0"/>
-        <window xmlns="" class="APB Panel " height="341.0" locX="489.0" locY="575.0" width="419.0"/>
         <window xmlns="" class="Operator Controls" height="216.0" locX="332.0" locY="7.0" width="390.0"/>
-        <window xmlns="" class="Outside Signal Controls" height="209.0" locX="439.0" locY="610.0" width="458.0"/>
-        <window xmlns="" class="Grass Lake West panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
-        <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard" locX="570.0" locY="20.0"/>
+        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:SignalHead" height="467.0" locX="573.0" locY="613.0" width="320.0"/>
         <window xmlns="" class="Grass Lake Wye panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="1080.0" locX="0.0" locY="0.0" width="1332.0"/>
-        <window xmlns="" class="Grass Lake East panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
         <window xmlns="" class="CMRI Node Status" height="420.0" locX="100.0" locY="520.0" width="360.0"/>
+        <window xmlns="" class="Add New Sensor" height="178.0" locX="31.0" locY="31.0" width="622.0"/>
         <window xmlns="" class="Helix Inner Panel" height="238.0" locX="1214.0" locY="298.0" width="550.0"/>
-        <window xmlns="" class="Switchboard" height="330.0" locX="32.0" locY="173.0" width="550.0"/>
-        <window xmlns="" class="Helix Outer Panel" height="247.0" locX="960.0" locY="791.0" width="675.0"/>
+        <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="459.0" locX="0.0" locY="0.0" width="853.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Heads" height="1080.0" locX="480.0" locY="0.0" width="1332.0"/>
         <window xmlns="" class="Middle Panel" height="507.0" locX="20.0" locY="22.0" width="1202.0"/>
-        <window xmlns="" class="jmri.jmrix.cmri.serial.serialmon.SerialMonFrame" height="354.0" locX="9.0" locY="389.0" width="1624.0"/>
         <window xmlns="" class="Add New Turnout" locX="31.0" locY="31.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="CTC Mode Control" height="150.0" locX="20.0" locY="20.0" width="300.0"/>
-        <window xmlns="" class="PanelPro" height="263.0" locX="736.0" locY="408.0" width="448.0"/>
         <window xmlns="" class="Turntable Control" height="580.0" locX="20.0" locY="22.0" width="420.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="1080.0" locX="434.0" locY="3.0" width="1332.0"/>
+        <window xmlns="" class="Script Entry" height="294.0" locX="158.0" locY="334.0" width="503.0"/>
+        <window xmlns="" class="Mount Shasta Crossing Control" height="176.0" locX="300.0" locY="500.0" width="325.0"/>
+        <window xmlns="" class="CTC Panel Image" height="720.0" locX="20.0" locY="20.0" width="1024.0"/>
+        <window xmlns="" class="APB Panel " height="279.0" locX="489.0" locY="575.0" width="456.0"/>
+        <window xmlns="" class="JMRI System console" height="1075.0" locX="835.0" locY="11.0" width="993.0"/>
+        <window xmlns="" class="Outside Signal Controls" height="209.0" locX="439.0" locY="610.0" width="458.0"/>
+        <window xmlns="" class="Grass Lake West panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
+        <window xmlns="" class="Grass Lake East panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
+        <window xmlns="" class="Script Output" height="294.0" locX="362.0" locY="738.0" width="625.0"/>
+        <window xmlns="" class="Helix Outer Panel" height="247.0" locX="960.0" locY="791.0" width="675.0"/>
+        <window xmlns="" class="PanelPro" height="263.0" locX="736.0" locY="408.0" width="448.0"/>
+        <window xmlns="" class="CTC Mode Control" height="150.0" locX="20.0" locY="20.0" width="300.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="1080.0" locX="395.0" locY="0.0" width="1332.0"/>
     </windowDetails>
 </auxiliary-configuration>
