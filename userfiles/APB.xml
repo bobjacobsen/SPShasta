@@ -29,19 +29,19 @@
 
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8017</systemName>
-      <userName>MP 333.8 - Mt Shasta E Eb Red</userName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8018</systemName>
-      <userName>MP 333.8 - Mt Shasta E Eb Green</userName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8019</systemName>
       <userName>MP 333.8 - Mt Shasta E Wb Red</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8020</systemName>
+      <systemName>CT8018</systemName>
       <userName>MP 333.8 - Mt Shasta E Wb Green</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8019</systemName>
+      <userName>MP 333.8 - Mt Shasta E Eb Red</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8020</systemName>
+      <userName>MP 333.8 - Mt Shasta E Eb Green</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8021</systemName>
@@ -89,21 +89,21 @@
   </signalheads>
   
   <signalelements class="jmri.jmrit.blockboss.configurexml.BlockBossLogicXml">
-    <signalelement signal="APB 335.3 E" mode="1" watchedsignal1="APB 333.8 E" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="APB 335.3 W" mode="1" watchedsignal1="APB 333.8 W" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Shasta - Grass Lake Main</sensorname>
       <comment>APB</comment>
     </signalelement>
-    <signalelement signal="APB 333.8 E" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="APB 333.8 W" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Shasta TC Main Left Approach</sensorname>
       <sensorname>Shasta TC Main Island</sensorname>
       <sensorname>Shasta TC Main Right Approach</sensorname>
       <comment>APB - just the main so far</comment>
     </signalelement>
-    <signalelement signal="APB 333.8 W" mode="1" watchedsignal1="APB 335.3 W" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="APB 333.8 E" mode="1" watchedsignal1="APB 335.3 E" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Shasta - Grass Lake Main</sensorname>
       <comment />
     </signalelement>
-    <signalelement signal="APB 335.3 W" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="APB 335.3 E" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Grass Lake Occ OS West</sensorname>
       <sensorname>Grass Lake Main</sensorname>
       <comment />
