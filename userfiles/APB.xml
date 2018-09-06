@@ -4,52 +4,52 @@
   <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT2057</systemName>
-      <userName>APB 335.3 W Red</userName>
+      <userName>xAPB 335.3 W Red</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT2058</systemName>
-      <userName>APB 335.3 W Green</userName>
+      <userName>xAPB 335.3 W Green</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT2059</systemName>
-      <userName>APB 335.3 E Red</userName>
+      <userName>xAPB 335.3 E Red</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT2060</systemName>
-      <userName>APB 335.3 E Green</userName>
+      <userName>xAPB 335.3 E Green</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT2061</systemName>
-      <userName>APB 333.8 W Red</userName>
+      <userName>xAPB 333.8 W Red</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT2062</systemName>
-      <userName>APB 333.8 W Green</userName>
+      <userName>xAPB 333.8 W Green</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT2063</systemName>
-      <userName>APB 333.8 E Red</userName>
+      <userName>xAPB 333.8 E Red</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT2064</systemName>
-      <userName>APB 333.8 E Green</userName>
+      <userName>xAPB 333.8 E Green</userName>
     </turnout>
 
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8017</systemName>
-      <userName>MP 333.8 - Mt Shasta E Eb Red</userName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8018</systemName>
-      <userName>MP 333.8 - Mt Shasta E Eb Green</userName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8019</systemName>
       <userName>MP 333.8 - Mt Shasta E Wb Red</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT8020</systemName>
+      <systemName>CT8018</systemName>
       <userName>MP 333.8 - Mt Shasta E Wb Green</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8019</systemName>
+      <userName>MP 333.8 - Mt Shasta E Eb Red</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8020</systemName>
+      <userName>MP 333.8 - Mt Shasta E Eb Green</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8021</systemName>
@@ -73,26 +73,26 @@
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>CH2020</systemName>
       <userName>APB 335.3 W</userName>
-      <turnoutname defines="green">APB 335.3 W Green</turnoutname>
-      <turnoutname defines="red">APB 335.3 W Red</turnoutname>
+      <turnoutname defines="green">MP 333.8 - Mt Shasta E Wb Green</turnoutname>
+      <turnoutname defines="red">MP 333.8 - Mt Shasta E Wb Red</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>CH2021</systemName>
       <userName>APB 335.3 E</userName>
-      <turnoutname defines="green">APB 335.3 E Green</turnoutname>
-      <turnoutname defines="red">APB 335.3 E Red</turnoutname>
+      <turnoutname defines="green">MP 333.8 - Mt Shasta E Eb Green</turnoutname>
+      <turnoutname defines="red">MP 333.8 - Mt Shasta E Eb Red</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>CH2022</systemName>
       <userName>APB 333.8 W</userName>
-      <turnoutname defines="green">APB 333.8 W Green</turnoutname>
-      <turnoutname defines="red">APB 333.8 W Red</turnoutname>
+      <turnoutname defines="green">MP 335.3 - Grass Lake W Wb Green</turnoutname>
+      <turnoutname defines="red">MP 335.3 - Grass Lake W Wb Red</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>CH2023</systemName>
       <userName>APB 333.8 E</userName>
-      <turnoutname defines="green">APB 333.8 E Green</turnoutname>
-      <turnoutname defines="red">APB 333.8 E Red</turnoutname>
+      <turnoutname defines="green">MP 335.3 - Grass Lake W Eb Green</turnoutname>
+      <turnoutname defines="red">MP 335.3 - Grass Lake W Eb Green</turnoutname>
     </signalhead>
   </signalheads>
   
