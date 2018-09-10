@@ -4,9 +4,9 @@ Configuration information for the [SP Shasta model railroad](http://www.spshasta
 The railroad uses [JMRI](http://jmri.org) for controls, see their [SP Shasta page](http://jmri.org/community/examples/SPShasta.shtml).
 
 ## Files
+profiles - profiles for various startup conditions
 
-PanelProConfig2.xml - The SP Shasta uses PanelPro extensively; this loads the full default configuration.
-(Note that there are Shasta XML start up files in preferences for debugging use)
+userfiles/shasta_common_startup.py - controls all the program configuration
 
 BasicConfig.xml - configuration information, but not panels, for the control system
 
