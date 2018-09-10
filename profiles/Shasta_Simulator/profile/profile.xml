@@ -111,8 +111,5 @@
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
         <perform xmlns="" class="apps.configurexml.PerformScriptModelXml" name="preference:shasta_common_startup.py" type="ScriptFile"/>
         <perform xmlns="" class="apps.configurexml.PerformScriptModelXml" name="preference:CtcDebugInit.py" type="ScriptFile"/>
-        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmrix.nce.clockmon.ClockMonPanel$Default" type="Action">
-            <property name="systemPrefix" value=""/>
-        </perform>
     </startup>
 </auxiliary-configuration>
