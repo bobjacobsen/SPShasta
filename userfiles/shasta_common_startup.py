@@ -41,7 +41,8 @@ cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:GLEpanel
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:LeftPanel.xml")))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:MidPanel.xml")))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:BWpanel.xml")))
-cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CtcModeControl.xml")))
+
+# cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CtcModeControl.xml"))) # Not doing anything now
 
 # Show configuration not complete in status memory on panels
 memories.getMemory("IMUSS CTC:CODELINE:1:LOG").setValue('Configuration still running')
