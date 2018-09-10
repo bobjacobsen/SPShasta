@@ -69,6 +69,10 @@ execfile(jmri.util.FileUtil.getExternalFilename("preference:ConfigureLayoutLogic
 # add the APB signals
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:APB.xml")))
 
+# open the clock control windows
+jmri.jmrit.simpleclock.SimpleClockAction().actionPerformed(None)
+jmri.jmrix.nce.clockmon.ClockMonPanel.Default().actionPerformed(None)
+
 # start web server
 jmri.web.server.WebServerAction().actionPerformed(None)
 
