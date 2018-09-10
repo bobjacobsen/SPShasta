@@ -54,6 +54,9 @@ cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:HelixPan
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:HelixInnerPanel.xml")))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:HelixOuterPanel.xml")))
 
+# Weed staging control
+cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:WeedStagingThroat.xml")))
+
 # C/MRI controls
 execfile(jmri.util.FileUtil.getExternalFilename("program:jython/CmriNodeTool.py"))
 cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CmriNodeStatus.xml")))
