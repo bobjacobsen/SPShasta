@@ -1133,63 +1133,63 @@
       <userName>20 R Upper R</userName>
     </turnout>
     
-    <turnout systemName="CT4001" userName="Leaf East OS TO" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4001</systemName>
       <userName>Leaf East OS TO</userName>
     </turnout>
-    <turnout systemName="CT4002" userName="Leaf East Industry TO" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4002</systemName>
       <userName>Leaf East Industry TO</userName>
     </turnout>
-    <turnout systemName="CT4003" userName="Leaf West Industry TO" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4003</systemName>
       <userName>Leaf West Industry TO</userName>
     </turnout>
-    <turnout systemName="CT4004" userName="Leaf West OS TO" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4004</systemName>
       <userName>Leaf West OS TO</userName>
     </turnout>
 
-    <turnout systemName="CT5001" userName="BB East Upper Green" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5001</systemName>
       <userName>BB East Upper Green</userName>
     </turnout>
-    <turnout systemName="CT5002" userName="BB East Upper Red" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5002</systemName>
       <userName>BB East Upper Red</userName>
     </turnout>
-    <turnout systemName="CT5003" userName="BB East Lower Red" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5003</systemName>
       <userName>BB East Lower Red</userName>
     </turnout>
-    <turnout systemName="CT5004" userName="BB East Lower Green" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5004</systemName>
       <userName>BB East Lower Green</userName>
     </turnout>
-    <turnout systemName="CT5005" userName="TO 39B" feedback="DELAYED" inverted="false" automate="Default">
+    <turnout feedback="DELAYED" inverted="false" automate="Default">
       <systemName>CT5005</systemName>
       <userName>TO 39B</userName>
       <comment>New Black Butte bypass TO</comment>
     </turnout>
-    <turnout systemName="CT5006" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5006</systemName>
     </turnout>
-    <turnout systemName="CT5007" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5007</systemName>
     </turnout>
-    <turnout systemName="CT5008" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5008</systemName>
     </turnout>
-    <turnout systemName="CT5009" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5009</systemName>
     </turnout>
-    <turnout systemName="CT5010" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5010</systemName>
     </turnout>
-    <turnout systemName="CT5011" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5011</systemName>
     </turnout>
-    <turnout systemName="CT5012" feedback="DIRECT" inverted="false" automate="Default">
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT5012</systemName>
     </turnout>
     <turnout systemName="CT5013" feedback="DIRECT" inverted="false" automate="Default">
@@ -3326,6 +3326,22 @@
     <sensor inverted="false">
       <systemName>CS4008</systemName>
       <userName>Grass Lake Main</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4009</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4010</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4011</systemName>
+      <userName>Leaf Main Occ</userName>
+      <comment>4th DCCOD from right</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4012</systemName>
+      <userName>Leaf Siding Occ</userName>
+      <comment>3rd DCCOD from right</comment>
     </sensor>
     
     <sensor systemName="CS5001" inverted="true" userName="37 Azalea East Fascia">
