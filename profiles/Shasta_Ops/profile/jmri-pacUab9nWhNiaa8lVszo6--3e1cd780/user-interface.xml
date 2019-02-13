@@ -60,7 +60,7 @@
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:All">
             <columns>
-                <column hidden="false" name="Comment" order="3" width="126"/>
+                <column hidden="false" name="Comment" order="3" width="207"/>
                 <column hidden="true" name="Automation" order="12" width="75"/>
                 <column hidden="true" name="Lock Mode" order="14" width="75"/>
                 <column hidden="true" name="Thrown Speed" order="17" width="75"/>
