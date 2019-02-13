@@ -4119,10 +4119,12 @@
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8031</systemName>
+      <userName>MP 336.5 - Grass Lake E Wb Yellow</userName>
       <comment>GL East from Leaf Yellow</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8032</systemName>
+      <userName>MP 336.5 - Grass Lake E Wb Red</userName>
       <comment>GL East from Leaf Red</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
@@ -4264,35 +4266,33 @@
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4009</systemName>
-      <userName>MP 336.5 - Grass Lake E Eb Red</userName>
+      <userName>MP 338.3 - Leaf E Wb Red</userName>
       <comment>338.3 Leaf West from Grass Lake Red</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4010</systemName>
-      <userName>MP 336.5 - Grass Lake E Eb Green</userName>
+      <userName>MP 338.3 - Leaf E Wb Yellow</userName>
       <comment>Leaf West from grass laske Yellow</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4013</systemName>
-      <userName>MP 338.3 - Leaf E Wb Green</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4014</systemName>
-      <userName>MP 338.3 - Leaf E Wb Red</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4015</systemName>
-      <userName>MP 338.3 - Leaf E Eb Green</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4016</systemName>
-      <userName>MP 338.3 - Leaf E Eb Red</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT4011</systemName>
+      <userName>MP 338.3 - Leaf E Eb Yellow</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT4012</systemName>
+      <userName>MP 338.3 - Leaf E Eb Red</userName>
     </turnout>
   </turnouts>
   <turnouts class="jmri.jmrix.internal.configurexml.InternalTurnoutManagerXml">
@@ -7429,9 +7429,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Feb 12 22:04:39 PST 2019</date>
+      <date>Tue Feb 12 22:25:18 PST 2019</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.13.2+R8a2b21d on Tue Feb 12 22:04:39 PST 2019-->
+  <!--Written by JMRI version 4.13.2+R8a2b21d on Tue Feb 12 22:25:18 PST 2019-->
 </layout-config>
