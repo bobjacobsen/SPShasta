@@ -43,6 +43,7 @@
       <systemName>CT8020</systemName>
       <userName>MP 333.8 - Mt Shasta E Eb Green</userName>
     </turnout>
+    
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8021</systemName>
       <userName>MP 335.3 - Grass Lake W Wb Green</userName>
@@ -60,40 +61,40 @@
       <userName>MP 335.3 - Grass Lake W Eb Red</userName>
     </turnout>
 
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8029</systemName>
+      <userName>MP 336.5 - Grass Lake E Eb Red</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8030</systemName>
+      <userName>MP 336.5 - Grass Lake E Eb Yellow</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8031</systemName>
+      <userName>MP 336.5 - Grass Lake E Wb Red</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT8032</systemName>
+      <userName>MP 336.5 - Grass Lake E Wb Green</userName>
+    </turnout>
 
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4009</systemName>
-      <userName>MP 336.5 - Grass Lake E Eb Red</userName>
+      <userName>MP 338.3 - Leaf W Eb Red</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4010</systemName>
-      <userName>MP 336.5 - Grass Lake E Eb Green</userName>
+      <userName>MP 338.3 - Leaf W Eb Yellow</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4011</systemName>
-      <userName>MP 336.5 - Grass Lake E Eb Red</userName>
+      <userName>MP 338.3 - Leaf W Wb Red</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4012</systemName>
-      <userName>MP 336.5 - Grass Lake E Eb Green</userName>
+      <userName>MP 338.3 - Leaf W Wb Green</userName>
     </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT4013</systemName>
-      <userName>MP 338.3 - Leaf E Wb Green</userName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT4014</systemName>
-      <userName>MP 338.3 - Leaf E Wb Red</userName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT4015</systemName>
-      <userName>MP 338.3 - Leaf E Eb Green</userName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Default">
-      <systemName>CT4016</systemName>
-      <userName>MP 338.3 - Leaf E Eb Red</userName>
-    </turnout>
-
+    
   </turnouts>
 
   <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
