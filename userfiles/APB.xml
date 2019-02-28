@@ -67,7 +67,7 @@
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8030</systemName>
-      <userName>MP 336.5 - Grass Lake E Eb Yellow</userName>
+      <userName>MP 336.5 - Grass Lake E Eb Green</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8031</systemName>
@@ -138,7 +138,7 @@
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>CH2025</systemName>
       <userName>APB 336.5 Eb</userName>
-      <turnoutname defines="green">MP 336.5 - Grass Lake E Eb Yellow</turnoutname>
+      <turnoutname defines="green">MP 336.5 - Grass Lake E Eb Green</turnoutname>
       <turnoutname defines="red">MP 336.5 - Grass Lake E Eb Red</turnoutname>
       <comment>Grass Lake East Eastbound</comment>
     </signalhead>
