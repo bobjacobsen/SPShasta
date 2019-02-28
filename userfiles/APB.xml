@@ -100,54 +100,103 @@
   <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>CH2022</systemName>
-      <userName>APB 333.8 W</userName>
+      <userName>APB 333.8 Wb</userName>
       <turnoutname defines="green">MP 333.8 - Mt Shasta E Wb Green</turnoutname>
       <turnoutname defines="red">MP 333.8 - Mt Shasta E Wb Red</turnoutname>
+      <comment>Mt Shasta East Westbound</comment>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>CH2023</systemName>
-      <userName>APB 333.8 E</userName>
+      <userName>APB 333.8 Eb</userName>
       <turnoutname defines="green">MP 333.8 - Mt Shasta E Eb Green</turnoutname>
       <turnoutname defines="red">MP 333.8 - Mt Shasta E Eb Red</turnoutname>
+      <comment>Mt Shasta East Eastbound</comment>
     </signalhead>
+
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>CH2020</systemName>
-      <userName>APB 335.3 W</userName>
+      <userName>APB 335.3 Wb</userName>
       <turnoutname defines="green">MP 335.3 - Grass Lake W Wb Green</turnoutname>
       <turnoutname defines="red">MP 335.3 - Grass Lake W Wb Red</turnoutname>
+      <comment>Grass Lake West Westbound</comment>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>CH2021</systemName>
-      <userName>APB 335.3 E</userName>
+      <userName>APB 335.3 Eb</userName>
       <turnoutname defines="green">MP 335.3 - Grass Lake W Eb Green</turnoutname>
       <turnoutname defines="red">MP 335.3 - Grass Lake W Eb Red</turnoutname>
+      <comment>Grass Lake West Eastbound</comment>
     </signalhead>
+
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH2024</systemName>
+      <userName>APB 336.5 Wb</userName>
+      <turnoutname defines="green">MP 336.5 - Grass Lake E Wb Green</turnoutname>
+      <turnoutname defines="red">MP 336.5 - Grass Lake E Wb Red</turnoutname>
+      <comment>Grass Lake East Westbound</comment>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH2025</systemName>
+      <userName>APB 336.5 Eb</userName>
+      <turnoutname defines="green">MP 336.5 - Grass Lake E Eb Yellow</turnoutname>
+      <turnoutname defines="red">MP 336.5 - Grass Lake E Eb Red</turnoutname>
+      <comment>Grass Lake East Eastbound</comment>
+    </signalhead>
+
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH2026</systemName>
+      <userName>APB 338.3 Wb</userName>
+      <turnoutname defines="green">MP 338.3 - Leaf W Wb Green</turnoutname>
+      <turnoutname defines="red">MP 338.3 - Leaf W Wb Red</turnoutname>
+      <comment>Leaf West Westbound</comment>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH2027</systemName>
+      <userName>APB 338.3 Eb</userName>
+      <turnoutname defines="green">MP 338.3 - Leaf W Eb Yellow</turnoutname>
+      <turnoutname defines="red">MP 338.3 - Leaf W Eb Red</turnoutname>
+      <comment>Leaf West Eastbound</comment>
+    </signalhead>
+
   </signalheads>
   
   <signalelements class="jmri.jmrit.blockboss.configurexml.BlockBossLogicXml">
-    <signalelement signal="APB 335.3 W" mode="1" watchedsignal1="APB 333.8 W" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
-      <sensorname>Shasta - Grass Lake Main</sensorname>
-      <comment>APB</comment>
-    </signalelement>
-    <signalelement signal="APB 333.8 W" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="APB 333.8 Wb" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Shasta TC Main Left Approach</sensorname>
       <sensorname>Shasta TC Main Island</sensorname>
       <sensorname>Shasta TC Main Right Approach</sensorname>
       <comment>APB - just the main so far</comment>
     </signalelement>
-    <signalelement signal="APB 333.8 E" mode="1" watchedsignal1="APB 335.3 E" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="APB 333.8 Eb" mode="1" watchedsignal1="APB 335.3 Eb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Shasta - Grass Lake Main</sensorname>
       <comment />
     </signalelement>
-    <signalelement signal="APB 335.3 E" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="APB 335.3 Wb" mode="1" watchedsignal1="APB 333.8 Wb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>Shasta - Grass Lake Main</sensorname>
+      <comment>APB</comment>
+    </signalelement>
+    <signalelement signal="APB 335.3 Eb" mode="1" watchedsignal1="APB 336.5 Eb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Grass Lake Occ OS West</sensorname>
       <sensorname>Grass Lake Main</sensorname>
+      <comment />
+    </signalelement>
+
+    <signalelement signal="APB 336.5 Wb" mode="1" watchedsignal1="APB 333.8 Wb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <comment />
+    </signalelement>
+    <signalelement signal="APB 336.5 Eb" mode="1" watchedsignal1="APB 338.3 Eb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <comment />
+    </signalelement>
+    <signalelement signal="APB 338.3 Wb" mode="1" watchedsignal1="APB 336.5 Eb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <comment />
+    </signalelement>
+    <signalelement signal="APB 338.3 Eb" mode="1" watchedsignal1="APB 335.3 Eb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <comment />
     </signalelement>
   </signalelements>
 
   <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="APB Panel " x="489" y="575" height="279" width="456" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
-    <signalheadicon signalhead="APB 333.8 W" x="221" y="91" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="APB 333.8 Wb" x="221" y="91" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>APB 333.8 W</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
@@ -177,7 +226,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="APB 333.8 E" x="221" y="51" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="APB 333.8 Eb" x="221" y="51" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>APB 333.8 E</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
@@ -207,7 +256,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="APB 335.3 W" x="146" y="91" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="APB 335.3 Wb" x="146" y="91" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>APB 335.3 W</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
@@ -237,7 +286,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="APB 335.3 E" x="146" y="51" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="APB 335.3 Eb" x="146" y="51" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>APB 335.3 E</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
