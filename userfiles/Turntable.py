@@ -13,7 +13,9 @@ import jarray
 import jmri
 
 import java
+import java.awt
 import javax
+import javax.swing
 
 def moveZeroCCW(offset) :
     for name in TrackPositions.keys() :

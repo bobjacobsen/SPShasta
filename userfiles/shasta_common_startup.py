@@ -4,6 +4,9 @@
 # Here instead of preferences to make it easier to maintain
 #
 
+import java
+import java.io
+
 import jmri
 cm = jmri.InstanceManager.getDefault(jmri.ConfigureManager)
 
