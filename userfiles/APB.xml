@@ -181,18 +181,22 @@
       <comment />
     </signalelement>
 
-    <signalelement signal="APB 336.5 Wb" mode="1" watchedsignal1="APB 333.8 Wb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="APB 338.3 Eb" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>Leaf Main Occ</sensorname>
       <comment />
     </signalelement>
     <signalelement signal="APB 336.5 Eb" mode="1" watchedsignal1="APB 338.3 Eb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <comment />
     </signalelement>
-    <signalelement signal="APB 338.3 Wb" mode="1" watchedsignal1="APB 336.5 Eb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="APB 338.3 Wb" mode="1" watchedsignal1="APB 336.5 Wb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <comment />
     </signalelement>
-    <signalelement signal="APB 338.3 Eb" mode="1" watchedsignal1="APB 335.3 Eb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="APB 336.5 Wb" mode="1" watchedsignal1="APB 335.3 Wb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>Grass Lake Occ OS East</sensorname>
+      <sensorname>Grass Lake Main</sensorname>
       <comment />
     </signalelement>
+
   </signalelements>
 
   <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="APB Panel " x="489" y="575" height="417" width="476" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
