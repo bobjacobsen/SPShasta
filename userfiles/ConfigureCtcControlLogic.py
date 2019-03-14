@@ -418,23 +418,9 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
     ForceRestrictingWhenCallOn().set("Call On Mode 40",["40 L Weed","40 L Siding"])
 
     # ===== Final Items =====
-    
-    # set timings, done last so earlier parts can go faster
-    jmri.implementation.AbstractTurnout.DELAYED_FEEDBACK_INTERVAL = 10000  # turnout throw time
-    print "Turnout throw delay: ", jmri.implementation.AbstractTurnout.DELAYED_FEEDBACK_INTERVAL
-    
-    jmri.jmrit.ussctc.CodeLine.CODE_SEND_DELAY = 3000
-    print "Code send delay: ", jmri.jmrit.ussctc.CodeLine.CODE_SEND_DELAY
-    
-    # jmri.jmrit.ussctc.CodeLine.START_PULSE_LENGTH left alone at 500 msec
-    # jmri.jmrit.ussctc.CodeLine.INTER_INDICATION_DELAY left alone at 500 msec
-    
-    jmri.jmrit.ussctc.SignalHeadSection.MOVEMENT_DELAY = 5000 
-    print"Signal movement delay: ", jmri.jmrit.ussctc.SignalHeadSection.MOVEMENT_DELAY
 
-    jmri.jmrit.ussctc.SignalHeadSection.DEFAULT_RUN_TIME_LENGTH = 30000
-    memories.getMemory("IMUSS CTC:SIGNALHEADSECTION:1:TIME").setValue(jmri.jmrit.ussctc.SignalHeadSection.DEFAULT_RUN_TIME_LENGTH)
-    print "Running time for", jmri.jmrit.ussctc.SignalHeadSection.DEFAULT_RUN_TIME_LENGTH/1000, "seconds"
+    # set the device timings
+    execfile(jmri.util.FileUtil.getExternalFilename("preference:SetDurations.py"))
     
     memories.getMemory("IMUSS CTC:CODELINE:1:LOG").setValue('Configuration Done')
     print "ConfigureCtcControlLogic done"
