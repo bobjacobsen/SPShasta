@@ -84,7 +84,7 @@
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4010</systemName>
-      <userName>MP 338.3 - Leaf W Eb Yellow</userName>
+      <userName>MP 338.3 - Leaf W Eb Green</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4011</systemName>
@@ -153,7 +153,7 @@
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>CH2027</systemName>
       <userName>APB 338.3 Eb</userName>
-      <turnoutname defines="green">MP 338.3 - Leaf W Eb Yellow</turnoutname>
+      <turnoutname defines="green">MP 338.3 - Leaf W Eb Green</turnoutname>
       <turnoutname defines="red">MP 338.3 - Leaf W Eb Red</turnoutname>
       <comment>Leaf West Eastbound</comment>
     </signalhead>
