@@ -1,8 +1,11 @@
-// UDrive the SP Shasta code line
+// Drive the SP Shasta code line
 
-int startpin = 7;  // 0 bit / 0v makes sound
+int longstartpin = 7;  // 0 bit / 0v makes sound
+int shortstartpin = 6;  // 0 bit / 0v makes sound
 int button = 8;  // pressed / 0v makes sound
-int buzzerpin = 13; // 1 bit / 5V makes sound
+int buzzerpin = 13; // 1 bit / 5V makes drives line and Code led
+
+int inputActive = 0; // 0 is active input
 
 // inputs 6 - 0 are available 
 //
@@ -18,7 +21,8 @@ int buzzerpin = 13; // 1 bit / 5V makes sound
 // last is always long
 
 void setup() {
-    pinMode(startpin, INPUT_PULLUP);
+    pinMode(longstartpin, INPUT_PULLUP);
+    pinMode(shortstartpin, INPUT_PULLUP);
     pinMode(button, INPUT_PULLUP);
     pinMode(buzzerpin, OUTPUT);
     
@@ -27,44 +31,57 @@ void setup() {
 
 int shortTime = 100;
 int longTime = 330;
+int debounceTime = 10;
 
-void setLine(int val, int time) {
+// set output
+void setLine(int val) {
       digitalWrite(buzzerpin, val);
-      digitalWrite(13, val); // LED follows output
+} 
+
+// set output and wait
+void setLine(int val, int time) {
+      setLine(val);
       delay(time);
 }
 
-int counter = 0;
+// Drive machine through short (xmt) sequence
+void driveShortSequence() {
+    setLine(1, shortTime);
+    setLine(0, 5*longTime);
+    setLine(1, shortTime);
+}
+
+// Drive machine through long (rcv) sequence
+void driveLongSequence() {
+    setLine(1, longTime);
+}
+
+boolean anyInputsAreActive() {
+  return (digitalRead(longstartpin) == inputActive || digitalRead(shortstartpin) == inputActive || digitalRead(button) == inputActive);
+}
 
 void loop() {
-    
-    // wait for start
-    if (digitalRead(startpin) == 0  || digitalRead(button) == 0) {
-      // check for real input
-      delay(50);
-      if (digitalRead(startpin) != 0  && digitalRead(button) != 0) return;
-     
-      counter++;
-      
+      // we run the sequence on first power up, putting control check at end
+           
       // proceed to send
-      setLine(1, longTime); 
-    
-      setLine(0, (  counter & 1) ? shortTime : longTime);
-      setLine(1, (! counter & 1) ? shortTime : longTime);
-      setLine(0, (  counter & 2) ? shortTime : longTime);
-      setLine(1, (! counter & 2) ? shortTime : longTime);
-      setLine(0, (  counter & 4) ? shortTime : longTime);
-      setLine(1, (! counter & 4) ? shortTime : longTime);
-      setLine(0, (  counter & 8) ? shortTime : longTime);
-      setLine(1, (! counter & 8) ? shortTime : longTime);
-        
-      setLine(0, longTime); // clears the line
-      
-      # total time should be 50+6*longTime+4*shortTime = 2430
+      if (digitalRead(longstartpin) == inputActive) driveLongSequence();
+      else driveShortSequence();
+     
+      setLine(0); // clears the line
 
-      // wait for idle input, to keep from repeating if something gets stuck
-      while (digitalRead(startpin) == 0  || digitalRead(button) == 0) {
-        delay(10);
+      // spin-wait for idle input, to keep from repeating if something gets stuck
+      while (anyInputsAreActive()) {
+        delay(debounceTime);
       }
-    }
+
+      // at this point both are inactive
+      
+      // spin-wait for start
+      while (true) {
+        if  (anyInputsAreActive()) {
+          // check for real input by waiting
+          delay(debounceTime);
+          if (anyInputsAreActive()) break; // send again if still active
+        }
+      }
 }
