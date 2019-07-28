@@ -1486,10 +1486,11 @@
     </turnout>
     <turnout systemName="CT6041" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT6041</systemName>
-      <userName>CTC Code Line Driver</userName>
+      <userName>CTC Code Send Driver</userName>
     </turnout>
     <turnout systemName="CT6042" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT6042</systemName>
+      <userName>CTC Code Indication Driver</userName>
     </turnout>
     <turnout systemName="CT6043" userName="CTC 21 R" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT6043</systemName>

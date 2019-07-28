@@ -58,7 +58,7 @@ class ConfigureCtcControlLogic(jmri.jmrit.automat.AbstractAutomaton) :
 
     # The code line is shared by all Stations
 
-    codeline = CodeLine("CTC Code Line Driver", "IT CODE MOD 1", "IT CODE MOD 2", "IT CODE MOD 3", "IT CODE MOD 4")
+    codeline = CodeLine("CTC Code Indication Driver", "CTC Code Send Driver", "IT CODE MOD 1", "IT CODE MOD 2", "IT CODE MOD 3", "IT CODE MOD 4")
     bell = PhysicalBell("CTC Bell")
     vbell = VetoedBell("CTC Bell Cutout", bell)
 
