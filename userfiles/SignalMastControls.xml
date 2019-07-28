@@ -38,22 +38,6 @@
       <systemName>CT9004</systemName>
     </turnout>
   </turnouts>
-  <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
-    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml" systemName="CH5009" userName="Mt Shasta West Upper">
-      <systemName>CH5009</systemName>
-      <userName>Mt Shasta West Upper</userName>
-      <comment>Mt Shasta end of BB/Mt Shasta</comment>
-      <turnoutname defines="green">BB/MtShasta Route Sig 1</turnoutname>
-      <turnoutname defines="red">BB/MtShasta Route Sig 3</turnoutname>
-    </signalhead>
-    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml" systemName="CH5010" userName="Mt Shasta West Lower">
-      <systemName>CH5010</systemName>
-      <userName>Mt Shasta West Lower</userName>
-      <comment>Mt Shasta end of BB/Mt Shasta</comment>
-      <turnoutname defines="green">BB/MtShasta Route Sig 4</turnoutname>
-      <turnoutname defines="red">BB/MtShasta Route Sig 2</turnoutname>
-    </signalhead>
-  </signalheads>
 
   <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
     <sensor systemName="CS9001" inverted="false">
