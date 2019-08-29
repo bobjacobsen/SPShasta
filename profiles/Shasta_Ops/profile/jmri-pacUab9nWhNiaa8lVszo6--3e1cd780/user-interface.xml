@@ -3,6 +3,7 @@
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
         <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
         <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
@@ -160,7 +161,19 @@
             </sortOrder>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SignalHeadTableAction:Signal Heads">
-            <columns/>
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="126"/>
+                <column hidden="false" name="User Name" order="1" width="126"/>
+                <column hidden="false" name="Column7" order="7" width="62"/>
+                <column hidden="false" name="Lit" order="5" width="38"/>
+                <column hidden="false" name="Held" order="6" width="38"/>
+                <column hidden="false" name="Column4" order="4" width="67"/>
+                <column hidden="false" name="System Name" order="0" width="46"/>
+                <column hidden="false" name="Appearance" order="2" width="67"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="DESCENDING"/>
+            </sortOrder>
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
@@ -176,7 +189,7 @@
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Heads" height="1080.0" locX="475.0" locY="0.0" width="1332.0"/>
         <window xmlns="" class="jmri.jmrit.simpleclock.SimpleClockFrame" height="476.0" locX="55.0" locY="600.0" width="297.0"/>
         <window xmlns="" class="Middle Panel" height="507.0" locX="20.0" locY="22.0" width="1202.0"/>
-        <window xmlns="" class="jmri.jmrix.cmri.serial.serialmon.SerialMonFrame" height="354.0" locX="0.0" locY="0.0" width="1624.0"/>
+        <window xmlns="" class="jmri.jmrix.cmri.serial.serialmon.SerialMonFrame" height="708.0" locX="865.0" locY="35.0" width="931.0"/>
         <window xmlns="" class="Add New Turnout" locX="31.0" locY="31.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="Turntable Control" height="580.0" locX="20.0" locY="22.0" width="420.0"/>
@@ -196,9 +209,11 @@
                 </property>
             </properties>
         </window>
+        <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame" height="550.0" locX="20.0" locY="40.0" width="950.0"/>
         <window xmlns="" class="Grass Lake East panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
         <window xmlns="" class="Script Output" height="294.0" locX="362.0" locY="738.0" width="625.0"/>
         <window xmlns="" class="Helix Outer Panel" height="247.0" locX="960.0" locY="791.0" width="675.0"/>
+        <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame:1" height="636.0" locX="200.0" locY="200.0" width="362.0"/>
         <window xmlns="" class="PanelPro" height="263.0" locX="736.0" locY="408.0" width="448.0"/>
         <window xmlns="" class="CTC Mode Control" height="150.0" locX="20.0" locY="20.0" width="300.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="1080.0" locX="475.0" locY="0.0" width="1332.0"/>
