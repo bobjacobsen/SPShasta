@@ -214,7 +214,7 @@
         <window xmlns="" class="Script Output" height="294.0" locX="362.0" locY="738.0" width="625.0"/>
         <window xmlns="" class="Helix Outer Panel" height="247.0" locX="960.0" locY="791.0" width="675.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame:1" height="636.0" locX="200.0" locY="200.0" width="362.0"/>
-        <window xmlns="" class="PanelPro" height="263.0" locX="736.0" locY="408.0" width="448.0"/>
+        <window xmlns="" class="PanelPro" height="263.0" locX="1361.0" locY="770.0" width="448.0"/>
         <window xmlns="" class="CTC Mode Control" height="150.0" locX="20.0" locY="20.0" width="300.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="1080.0" locX="332.0" locY="2.0" width="1332.0"/>
     </windowDetails>

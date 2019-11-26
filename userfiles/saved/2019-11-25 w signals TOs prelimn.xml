@@ -4434,6 +4434,7 @@
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT164</systemName>
+      <userName>343.4 Dorris E Eb Red</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>CT165</systemName>
@@ -7676,9 +7677,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Nov 25 21:06:01 PST 2019</date>
+      <date>Mon Nov 25 21:47:11 PST 2019</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.13.2+R8a2b21d on Mon Nov 25 21:06:01 PST 2019-->
+  <!--Written by JMRI version 4.13.2+R8a2b21d on Mon Nov 25 21:47:11 PST 2019-->
 </layout-config>
