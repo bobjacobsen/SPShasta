@@ -287,7 +287,7 @@
 
   </signalelements>
 
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="APB Panel " x="489" y="575" height="417" width="476" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="APB Panel " x="489" y="575" height="781" width="479" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <signalheadicon signalhead="MP 333.8 Wb APB" x="221" y="91" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>APB 333.8 W</tooltip>
       <icons>
@@ -826,6 +826,193 @@
     <positionablelabel x="141" y="230" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
+    <positionablelabel x="218" y="481" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="338.9" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="221" y="377" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="E Eb" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="219" y="458" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="E Wb" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="131" y="461" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="W Wb" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="134" y="376" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="W Eb" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="49" y="459" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt;-- East" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="297" y="462" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="West --&gt;" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="130" y="482" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="339.7" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="222" y="623" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="343.4" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="301" y="374" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Leaf" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="58" y="375" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Dorris" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="292" y="552" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Dorris" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="291" y="624" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="West --&gt;" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <signalheadicon signalhead="MP 343.4 Wb APB" x="223" y="595" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <icons>
+        <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </held>
+        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </dark>
+        <red url="program:resources/icons/smallschematics/searchlights/left-red-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </red>
+        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </yellow>
+        <green url="program:resources/icons/smallschematics/searchlights/left-green-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </green>
+        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </flashred>
+        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </flashyellow>
+        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </flashgreen>
+      </icons>
+      <iconmaps />
+    </signalheadicon>
+    <signalheadicon signalhead="MP 343.4 Eb APB" x="226" y="565" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <icons>
+        <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </held>
+        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </dark>
+        <red url="program:resources/icons/smallschematics/searchlights/left-red-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </red>
+        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </yellow>
+        <green url="program:resources/icons/smallschematics/searchlights/left-green-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </green>
+        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashred>
+        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashyellow>
+        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashgreen>
+      </icons>
+      <iconmaps />
+    </signalheadicon>
+    <signalheadicon signalhead="MP 339.7 Wb APB" x="130" y="435" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <icons>
+        <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </held>
+        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </dark>
+        <red url="program:resources/icons/smallschematics/searchlights/left-red-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </red>
+        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </yellow>
+        <green url="program:resources/icons/smallschematics/searchlights/left-green-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </green>
+        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </flashred>
+        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </flashyellow>
+        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </flashgreen>
+      </icons>
+      <iconmaps />
+    </signalheadicon>
+    <signalheadicon signalhead="MP 339.7 Eb APB" x="134" y="407" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <icons>
+        <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </held>
+        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </dark>
+        <red url="program:resources/icons/smallschematics/searchlights/left-red-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </red>
+        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </yellow>
+        <green url="program:resources/icons/smallschematics/searchlights/left-green-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </green>
+        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashred>
+        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashyellow>
+        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashgreen>
+      </icons>
+      <iconmaps />
+    </signalheadicon>
+    <signalheadicon signalhead="MP 338.9 Wb APB" x="219" y="434" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <icons>
+        <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </held>
+        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </dark>
+        <red url="program:resources/icons/smallschematics/searchlights/left-red-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </red>
+        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </yellow>
+        <green url="program:resources/icons/smallschematics/searchlights/left-green-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </green>
+        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </flashred>
+        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </flashyellow>
+        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-marker.gif" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </flashgreen>
+      </icons>
+      <iconmaps />
+    </signalheadicon>
+    <signalheadicon signalhead="MP 338.9 Eb APB" x="218" y="405" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <icons>
+        <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </held>
+        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </dark>
+        <red url="program:resources/icons/smallschematics/searchlights/left-red-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </red>
+        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </yellow>
+        <green url="program:resources/icons/smallschematics/searchlights/left-green-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </green>
+        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashred>
+        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashyellow>
+        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-marker.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashgreen>
+      </icons>
+      <iconmaps />
+    </signalheadicon>
   </paneleditor>
   
   <!--Written by JMRI version 4.13.1ish+jake+20180717T1348Z+R66375f2b98 on Tue Jul 17 08:22:40 PDT 2018-->
