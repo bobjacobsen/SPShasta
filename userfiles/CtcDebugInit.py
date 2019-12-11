@@ -9,8 +9,6 @@
 #
 # Author: Bob Jacobsen, copyright 2008
 #
-# The next line is maintained by CVS, please don't change it
-# $Revision: 1.5 $
 #
 
 import jmri
@@ -24,16 +22,12 @@ class setDebugStartup(jmri.jmrit.automat.AbstractAutomaton) :
     print "CtcDebugInit starts"
 
     # sent all C/MRI sensors default INACTIVE
-    list = sensors.getSystemNameList()
-    for i in range(list.size()) :
-        if (list.get(i)[0] == 'C') : 
-            sensors.getSensor(list.get(i)).setState(INACTIVE)
+    for sensor in sensors.getNamedBeanSet() :
+        sensor.setState(INACTIVE)
 
     # sent all C/MRI turnouts default CLOSED
-    list = turnouts.getSystemNameList()
-    for i in range(list.size()) :
-        if (list.get(i)[0] == 'C') : 
-            turnouts.getTurnout(list.get(i)).setState(CLOSED)
+    for turnout in turnouts.getNamedBeanSet() :
+        turnout.setState(CLOSED)
 
 
     # set the CTC inputs as if machine is present
@@ -158,6 +152,10 @@ class setDebugStartup(jmri.jmrit.automat.AbstractAutomaton) :
     sensors.getSensor("CTC 42 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 42 C").setState(ACTIVE)
     sensors.getSensor("CTC 42 R").setState(INACTIVE)
+    
+    # redo all the signal computations because we reset Turnouts above
+    for logic in jmri.jmrit.blockboss.BlockBossLogic.entries() :
+        logic.setOutput()
     
     print "CtcDebugInit done"
     
