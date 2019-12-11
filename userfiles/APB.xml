@@ -2,30 +2,6 @@
 <?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
   <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT2057</systemName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT2058</systemName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT2059</systemName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT2060</systemName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT2061</systemName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT2062</systemName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT2063</systemName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>CT2064</systemName>
-    </turnout>
 
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8017</systemName>
@@ -95,103 +71,215 @@
       <userName>MP 338.3 - Leaf W Wb Green</userName>
     </turnout>
     
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT4013</systemName>
+      <userName>MP 338.9 - Leaf E Wb Green</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT4014</systemName>
+      <userName>MP 338.9 - Leaf E Wb Red</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT4015</systemName>
+      <userName>MP 338.9 - Leaf E Eb Green</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT4016</systemName>
+      <userName>MP 338.9 - Leaf E Eb Red</userName>
+    </turnout>
+    
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT173</systemName>
+      <userName>MP 339.7 - Dorris W Eb Green</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT174</systemName>
+      <userName>MP 339.7 - Dorris W Eb Red</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT175</systemName>
+      <userName>MP 339.7 - Dorris W Wb Green</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT176</systemName>
+      <userName>MP 339.7 - Dorris W Wb Red</userName>
+    </turnout>
+    
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT161</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT162</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT163</systemName>
+      <userName>MP 343.4 - Dorris E Eb Green</userName>
+      <comment>Unconfirmed</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT164</systemName>
+      <userName>MP 343.4 - Dorris E Eb Red</userName>
+      <comment>Unconfirmed</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT165</systemName>
+      <userName>MP 343.4 - Dorris E Wb Green</userName>
+      <comment>Unconfirmed</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT166</systemName>
+      <userName>MP 343.4 - Dorris E Wb Red</userName>
+      <comment>Unconfirmed</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT167</systemName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Default">
+      <systemName>CT168</systemName>
+    </turnout>
+    
   </turnouts>
 
   <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
-      <systemName>CH2022</systemName>
-      <userName>APB 333.8 Wb</userName>
+      <systemName>CH4011</systemName>
+      <userName>MP 333.8 Wb APB</userName>
       <turnoutname defines="green">MP 333.8 - Mt Shasta E Wb Green</turnoutname>
       <turnoutname defines="red">MP 333.8 - Mt Shasta E Wb Red</turnoutname>
       <comment>Mt Shasta East Westbound</comment>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
-      <systemName>CH2023</systemName>
-      <userName>APB 333.8 Eb</userName>
+      <systemName>CH4012</systemName>
+      <userName>MP 333.8 Eb APB</userName>
       <turnoutname defines="green">MP 333.8 - Mt Shasta E Eb Green</turnoutname>
       <turnoutname defines="red">MP 333.8 - Mt Shasta E Eb Red</turnoutname>
       <comment>Mt Shasta East Eastbound</comment>
     </signalhead>
 
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
-      <systemName>CH2020</systemName>
-      <userName>APB 335.3 Wb</userName>
+      <systemName>CH4021</systemName>
+      <userName>MP 335.3 Wb APB</userName>
       <turnoutname defines="green">MP 335.3 - Grass Lake W Wb Green</turnoutname>
       <turnoutname defines="red">MP 335.3 - Grass Lake W Wb Red</turnoutname>
       <comment>Grass Lake West Westbound</comment>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
-      <systemName>CH2021</systemName>
-      <userName>APB 335.3 Eb</userName>
+      <systemName>CH4022</systemName>
+      <userName>MP 335.3 Eb APB</userName>
       <turnoutname defines="green">MP 335.3 - Grass Lake W Eb Green</turnoutname>
       <turnoutname defines="red">MP 335.3 - Grass Lake W Eb Red</turnoutname>
       <comment>Grass Lake West Eastbound</comment>
     </signalhead>
 
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
-      <systemName>CH2024</systemName>
-      <userName>APB 336.5 Wb</userName>
+      <systemName>CH4031</systemName>
+      <userName>MP 336.5 Wb APB</userName>
       <turnoutname defines="green">MP 336.5 - Grass Lake E Wb Green</turnoutname>
       <turnoutname defines="red">MP 336.5 - Grass Lake E Wb Red</turnoutname>
       <comment>Grass Lake East Westbound</comment>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
-      <systemName>CH2025</systemName>
-      <userName>APB 336.5 Eb</userName>
+      <systemName>CH4032</systemName>
+      <userName>MP 336.5 Eb APB</userName>
       <turnoutname defines="green">MP 336.5 - Grass Lake E Eb Green</turnoutname>
       <turnoutname defines="red">MP 336.5 - Grass Lake E Eb Red</turnoutname>
       <comment>Grass Lake East Eastbound</comment>
     </signalhead>
 
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
-      <systemName>CH2026</systemName>
-      <userName>APB 338.3 Wb</userName>
+      <systemName>CH4041</systemName>
+      <userName>MP 338.3 Wb APB</userName>
       <turnoutname defines="green">MP 338.3 - Leaf W Wb Green</turnoutname>
       <turnoutname defines="red">MP 338.3 - Leaf W Wb Red</turnoutname>
       <comment>Leaf West Westbound</comment>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
-      <systemName>CH2027</systemName>
-      <userName>APB 338.3 Eb</userName>
+      <systemName>CH4042</systemName>
+      <userName>MP 338.3 Eb APB</userName>
       <turnoutname defines="green">MP 338.3 - Leaf W Eb Green</turnoutname>
       <turnoutname defines="red">MP 338.3 - Leaf W Eb Red</turnoutname>
       <comment>Leaf West Eastbound</comment>
     </signalhead>
 
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH4051</systemName>
+      <userName>MP 338.9 Wb APB</userName>
+      <turnoutname defines="green">MP 338.9 - Leaf E Wb Green</turnoutname>
+      <turnoutname defines="red">MP 338.9 - Leaf E Wb Red</turnoutname>
+      <comment>Leaf East Westbound</comment>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH4052</systemName>
+      <userName>MP 338.9 Eb APB</userName>
+      <turnoutname defines="green">MP 338.9 - Leaf E Eb Green</turnoutname>
+      <turnoutname defines="red">MP 338.9 - Leaf E Eb Red</turnoutname>
+      <comment>Leaf East Eastbound</comment>
+    </signalhead>
+
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH4061</systemName>
+      <userName>MP 339.7 Wb APB</userName>
+      <turnoutname defines="green">MP 339.7 - Dorris W Wb Green</turnoutname>
+      <turnoutname defines="red">MP 339.7 - Dorris W Wb Red</turnoutname>
+      <comment>Dorris West Westbound</comment>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH4062</systemName>
+      <userName>MP 339.7 Eb APB</userName>
+      <turnoutname defines="green">MP 339.7 - Dorris W Eb Green</turnoutname>
+      <turnoutname defines="red">MP 339.7 - Dorris W Eb Red</turnoutname>
+      <comment>Dorris West Eastbound</comment>
+    </signalhead>
+
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH4071</systemName>
+      <userName>MP 343.4 Wb APB</userName>
+      <turnoutname defines="green">MP 343.4 - Dorris E Wb Green</turnoutname>
+      <turnoutname defines="red">MP 343.4 - Dorris E Wb Red</turnoutname>
+      <comment>Dorris East Westbound</comment>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH4072</systemName>
+      <userName>MP 343.4 Eb APB</userName>
+      <turnoutname defines="green">MP 343.4 - Dorris E Eb Green</turnoutname>
+      <turnoutname defines="red">MP 343.4 - Dorris E Eb Red</turnoutname>
+      <comment>Dorris East Eastbound</comment>
+    </signalhead>
+
   </signalheads>
   
   <signalelements class="jmri.jmrit.blockboss.configurexml.BlockBossLogicXml">
-    <signalelement signal="APB 333.8 Wb" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="MP 333.8 Wb APB" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Shasta TC Main Left Approach</sensorname>
       <sensorname>Shasta TC Main Island</sensorname>
       <sensorname>Shasta TC Main Right Approach</sensorname>
       <comment>APB - just the main so far</comment>
     </signalelement>
-    <signalelement signal="APB 333.8 Eb" mode="1" watchedsignal1="APB 335.3 Eb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="MP 333.8 Eb APB" mode="1" watchedsignal1="MP 335.3 Eb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Shasta - Grass Lake Main</sensorname>
       <comment />
     </signalelement>
-    <signalelement signal="APB 335.3 Wb" mode="1" watchedsignal1="APB 333.8 Wb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="MP 335.3 Wb APB" mode="1" watchedsignal1="MP 333.8 Wb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Shasta - Grass Lake Main</sensorname>
       <comment>APB</comment>
     </signalelement>
-    <signalelement signal="APB 335.3 Eb" mode="1" watchedsignal1="APB 336.5 Eb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="MP 335.3 Eb APB" mode="1" watchedsignal1="MP 336.5 Eb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Grass Lake Occ OS West</sensorname>
       <sensorname>Grass Lake Main</sensorname>
       <comment />
     </signalelement>
 
-    <signalelement signal="APB 338.3 Eb" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="MP 338.3 Eb APB" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Leaf Main Occ</sensorname>
       <comment />
     </signalelement>
-    <signalelement signal="APB 336.5 Eb" mode="1" watchedsignal1="APB 338.3 Eb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="MP 336.5 Eb APB" mode="1" watchedsignal1="MP 338.3 Eb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <comment />
     </signalelement>
-    <signalelement signal="APB 338.3 Wb" mode="1" watchedsignal1="APB 336.5 Wb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="MP 338.3 Wb APB" mode="1" watchedsignal1="MP 336.5 Wb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <comment />
     </signalelement>
-    <signalelement signal="APB 336.5 Wb" mode="1" watchedsignal1="APB 335.3 Wb" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="MP 336.5 Wb APB" mode="1" watchedsignal1="MP 335.3 Wb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Grass Lake Occ OS East</sensorname>
       <sensorname>Grass Lake Main</sensorname>
       <comment />
@@ -200,7 +288,7 @@
   </signalelements>
 
   <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="APB Panel " x="489" y="575" height="417" width="476" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
-    <signalheadicon signalhead="APB 333.8 Wb" x="221" y="91" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="MP 333.8 Wb APB" x="221" y="91" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>APB 333.8 W</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
@@ -230,7 +318,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="APB 333.8 Eb" x="221" y="51" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="MP 333.8 Eb APB" x="221" y="51" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>APB 333.8 E</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
@@ -260,7 +348,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="APB 335.3 Wb" x="146" y="91" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="MP 335.3 Wb APB" x="146" y="91" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>APB 335.3 W</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
@@ -290,7 +378,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="APB 335.3 Eb" x="146" y="51" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="MP 335.3 Eb APB" x="146" y="51" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>APB 335.3 E</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
@@ -494,8 +582,8 @@
     <positionablelabel x="295" y="194" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Grass Lake" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <signalheadicon signalhead="APB 336.5 Wb" x="225" y="275" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
-      <tooltip>APB 336.5 Wb</tooltip>
+    <signalheadicon signalhead="MP 336.5 Wb APB" x="225" y="275" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <tooltip>MP 336.5 Wb APB</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
           <rotation>2</rotation>
@@ -524,8 +612,8 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="APB 336.5 Eb" x="225" y="209" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
-      <tooltip>APB 336.5 Eb</tooltip>
+    <signalheadicon signalhead="MP 336.5 Eb APB" x="225" y="209" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <tooltip>MP 336.5 Eb APB</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -554,8 +642,8 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="APB 338.3 Wb" x="136" y="274" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
-      <tooltip>APB 338.3 Wb</tooltip>
+    <signalheadicon signalhead="MP 338.3 Wb APB" x="136" y="274" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <tooltip>MP 338.3 Wb APB</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
           <rotation>2</rotation>
@@ -584,8 +672,8 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="APB 338.3 Eb" x="135" y="210" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
-      <tooltip>APB 338.3 Eb</tooltip>
+    <signalheadicon signalhead="MP 338.3 Eb APB" x="135" y="210" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <tooltip>MP 338.3 Eb APB</tooltip>
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-marker.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
