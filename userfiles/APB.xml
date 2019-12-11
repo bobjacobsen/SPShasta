@@ -259,6 +259,7 @@
       <sensorname>Shasta - Grass Lake Main</sensorname>
       <comment />
     </signalelement>
+    
     <signalelement signal="MP 335.3 Wb APB" mode="1" watchedsignal1="MP 333.8 Wb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Shasta - Grass Lake Main</sensorname>
       <comment>APB</comment>
@@ -269,22 +270,43 @@
       <comment />
     </signalelement>
 
-    <signalelement signal="MP 338.3 Eb APB" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
-      <sensorname>Leaf Main Occ</sensorname>
-      <comment />
-    </signalelement>
-    <signalelement signal="MP 336.5 Eb APB" mode="1" watchedsignal1="MP 338.3 Eb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
-      <comment />
-    </signalelement>
-    <signalelement signal="MP 338.3 Wb APB" mode="1" watchedsignal1="MP 336.5 Wb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
-      <comment />
-    </signalelement>
     <signalelement signal="MP 336.5 Wb APB" mode="1" watchedsignal1="MP 335.3 Wb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Grass Lake Occ OS East</sensorname>
       <sensorname>Grass Lake Main</sensorname>
       <comment />
     </signalelement>
+    <signalelement signal="MP 336.5 Eb APB" mode="1" watchedsignal1="MP 338.3 Eb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <comment />
+    </signalelement>
 
+    <signalelement signal="MP 339.7 Wb APB" mode="1" watchedsignal1="MP 338.9 Wb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <comment />
+    </signalelement>
+    <signalelement signal="MP 339.7 Eb APB" mode="1" watchedsignal1="MP 343.4 Eb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <comment />
+    </signalelement>
+
+    <signalelement signal="MP 338.9 Wb APB" mode="1" watchedsignal1="MP 338.3 Wb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <comment />
+    </signalelement>
+    <signalelement signal="MP 338.9 Eb APB" mode="1" watchedsignal1="MP 339.7 Eb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <comment />
+    </signalelement>
+
+    <signalelement signal="MP 338.3 Wb APB" mode="1" watchedsignal1="MP 336.5 Wb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <comment />
+    </signalelement>
+    <signalelement signal="MP 338.3 Eb APB" mode="1" watchedsignal1="MP 338.9 Eb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>Leaf Main Occ</sensorname>
+      <comment />
+    </signalelement>
+
+    <signalelement signal="MP 343.4 Wb APB" mode="1" watchedsignal1="MP 339.7 Wb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <comment />
+    </signalelement>
+    <signalelement signal="MP 343.4 Eb APB" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <comment />
+    </signalelement>
   </signalelements>
 
   <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="APB Panel " x="489" y="575" height="781" width="479" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
