@@ -114,22 +114,18 @@
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT163</systemName>
       <userName>MP 343.4 - Dorris E Eb Green</userName>
-      <comment>Unconfirmed</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT164</systemName>
       <userName>MP 343.4 - Dorris E Eb Red</userName>
-      <comment>Unconfirmed</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT165</systemName>
       <userName>MP 343.4 - Dorris E Wb Green</userName>
-      <comment>Unconfirmed</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT166</systemName>
       <userName>MP 343.4 - Dorris E Wb Red</userName>
-      <comment>Unconfirmed</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT167</systemName>
