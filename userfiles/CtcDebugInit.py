@@ -154,6 +154,7 @@ class setDebugStartup(jmri.jmrit.automat.AbstractAutomaton) :
     sensors.getSensor("CTC 42 R").setState(INACTIVE)
     
     # redo all the signal computations because we reset Turnouts above
+    self.waitMsec(3000)
     for logic in jmri.jmrit.blockboss.BlockBossLogic.entries() :
         logic.setOutput()
     
