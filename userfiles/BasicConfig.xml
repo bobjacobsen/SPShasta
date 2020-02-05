@@ -6138,7 +6138,8 @@
       <sensorname>1024</sensorname>
       <comment />
     </signalelement>
-    <signalelement signal="CH5010" mode="3" watchedturnout="CT5044" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false">
+    <signalelement signal="Mt Shasta West Lower" mode="3" watchedturnout="BB/Mt Shasta TO" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false">
+      <sensorname>TC 42</sensorname>
       <comment />
     </signalelement>
     <signalelement signal="CH2009" mode="3" watchedturnout="TO 25" watchedsignal1="CH2007" watchedsignal1alt="CH2008" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
@@ -6223,7 +6224,8 @@
       <sensorname>CS10</sensorname>
       <comment />
     </signalelement>
-    <signalelement signal="CH5009" mode="2" watchedturnout="CT5044" limitspeed1="true" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="Mt Shasta West Upper" mode="2" watchedturnout="BB/Mt Shasta TO" limitspeed1="true" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>TC 41</sensorname>
       <comment />
     </signalelement>
     <signalelement signal="CH5008" mode="3" watchedturnout="CT5044" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false">
