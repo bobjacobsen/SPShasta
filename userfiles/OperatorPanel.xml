@@ -2,8 +2,8 @@
 <?xml-stylesheet type="text/xsl" href="http://www.jmri.org/xml/XSLT/panelfile.xsl"?>
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
 
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Operator Controls" x="332" y="7" height="216" width="390" editable="no" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none">
-    <turnouticon turnout="TO Signal BB Westbound" x="36" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Operator Controls" x="332" y="7" height="236" width="390" editable="no" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none">
+    <turnouticon turnout="TO Signal BB Westbound" x="36" y="112" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <toolTip>TO Signal BB Westbound (CT5022)</toolTip>
       <icons>
         <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
@@ -21,7 +21,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="TO Signal BB Eastbound" x="76" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="TO Signal BB Eastbound" x="76" y="112" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <toolTip>TO Signal BB Eastbound (CT5021)</toolTip>
       <icons>
         <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
@@ -39,7 +39,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="TO Signal GL Westbound" x="150" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="TO Signal GL Westbound" x="150" y="112" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <toolTip>TO Signal GL Westbound (CT5019)</toolTip>
       <icons>
         <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
@@ -57,7 +57,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="TO Signal GL Eastbound" x="190" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="TO Signal GL Eastbound" x="190" y="112" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <toolTip>TO Signal GL Eastbound (CT5020)</toolTip>
       <icons>
         <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
@@ -75,7 +75,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="TO Signal DR Westbound" x="258" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="TO Signal DR Westbound" x="258" y="112" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <toolTip>TO Signal Dorris Westbound (CT5023)</toolTip>
       <icons>
         <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
@@ -93,7 +93,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="TO Signal DR Eastbound" x="298" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="TO Signal DR Eastbound" x="298" y="112" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <toolTip>TO Signal Dorris Eastbound (CT5024)</toolTip>
       <icons>
         <closed url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
@@ -111,31 +111,80 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <positionablelabel x="45" y="28" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Black Butte" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+
+    <sensoricon sensor="CS5006" x="40" y="10" level="10" forcecontroloff="false" momentary="false" icon="yes" active="program:resources/icons/USSpanels/Lamps/lamp-w.gif" inactive="program:resources/icons/USSpanels/Lamps/lamp-dw.gif" unknown="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" inconsistent="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" rotate="0" degrees="0" scale="1.0" />
+      <inactive url="program:resources/icons/USSpanels/Lamps/lamp-dy.gif" rotate="0" degrees="0" scale="1.0" />
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+    </sensoricon>
+    <sensoricon sensor="CS5021" x="40" y="30" level="10" forcecontroloff="false" momentary="false" icon="yes" active="program:resources/icons/USSpanels/Lamps/lamp-w.gif" inactive="program:resources/icons/USSpanels/Lamps/lamp-dw.gif" unknown="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" inconsistent="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" rotate="0" degrees="0" scale="1.0" />
+      <inactive url="program:resources/icons/USSpanels/Lamps/lamp-dy.gif" rotate="0" degrees="0" scale="1.0" />
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+    </sensoricon>
+    
+<!-- // wrong sensor
+    <sensoricon sensor="CS50" x="80" y="30" level="10" forcecontroloff="false" momentary="false" icon="yes" active="program:resources/icons/USSpanels/Lamps/lamp-w.gif" inactive="program:resources/icons/USSpanels/Lamps/lamp-dw.gif" unknown="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" inconsistent="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" rotate="0" degrees="0" scale="1.0" />
+      <inactive url="program:resources/icons/USSpanels/Lamps/lamp-dy.gif" rotate="0" degrees="0" scale="1.0" />
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+    </sensoricon>
+ -->
+    
+    <sensoricon sensor="CS4006" x="154" y="30" level="10" forcecontroloff="false" momentary="false" icon="yes" active="program:resources/icons/USSpanels/Lamps/lamp-w.gif" inactive="program:resources/icons/USSpanels/Lamps/lamp-dw.gif" unknown="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" inconsistent="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" rotate="0" degrees="0" scale="1.0" />
+      <inactive url="program:resources/icons/USSpanels/Lamps/lamp-dy.gif" rotate="0" degrees="0" scale="1.0" />
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+    </sensoricon>
+    <sensoricon sensor="CS4005" x="194" y="30" level="10" forcecontroloff="false" momentary="false" icon="yes" active="program:resources/icons/USSpanels/Lamps/lamp-w.gif" inactive="program:resources/icons/USSpanels/Lamps/lamp-dw.gif" unknown="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" inconsistent="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" rotate="0" degrees="0" scale="1.0" />
+      <inactive url="program:resources/icons/USSpanels/Lamps/lamp-dy.gif" rotate="0" degrees="0" scale="1.0" />
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+    </sensoricon>
+
+    <sensoricon sensor="CS62" x="262" y="30" level="10" forcecontroloff="false" momentary="false" icon="yes" active="program:resources/icons/USSpanels/Lamps/lamp-w.gif" inactive="program:resources/icons/USSpanels/Lamps/lamp-dw.gif" unknown="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" inconsistent="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" rotate="0" degrees="0" scale="1.0" />
+      <inactive url="program:resources/icons/USSpanels/Lamps/lamp-dy.gif" rotate="0" degrees="0" scale="1.0" />
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+    </sensoricon>
+    <sensoricon sensor="CS63" x="300" y="30" level="10" forcecontroloff="false" momentary="false" icon="yes" active="program:resources/icons/USSpanels/Lamps/lamp-w.gif" inactive="program:resources/icons/USSpanels/Lamps/lamp-dw.gif" unknown="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" inconsistent="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" rotate="0" degrees="0" scale="1.0" />
+      <inactive url="program:resources/icons/USSpanels/Lamps/lamp-dy.gif" rotate="0" degrees="0" scale="1.0" />
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" rotate="0" degrees="0" scale="1.0" />
+    </sensoricon>
+
+    <positionablelabel x="45" y="88" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Black Butte" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <toolTip>Text Label</toolTip>
     </positionablelabel>
-    <positionablelabel x="160" y="28" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Grass Lake" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="160" y="88" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Grass Lake" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <toolTip>Text Label</toolTip>
     </positionablelabel>
-    <positionablelabel x="274" y="28" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Dorris" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="274" y="88" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Dorris" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <toolTip>Text Label</toolTip>
     </positionablelabel>
-    <positionablelabel x="44" y="94" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="W" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="44" y="154" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="W" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <toolTip>Text Label</toolTip>
     </positionablelabel>
-    <positionablelabel x="156" y="94" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="W" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="156" y="154" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="W" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <toolTip>Text Label</toolTip>
     </positionablelabel>
-    <positionablelabel x="265" y="94" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="W" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="265" y="154" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="W" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <toolTip>Text Label</toolTip>
     </positionablelabel>
-    <positionablelabel x="87" y="94" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="E" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="87" y="154" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="E" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <toolTip>Text Label</toolTip>
     </positionablelabel>
-    <positionablelabel x="202" y="94" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="E" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="202" y="154" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="E" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <toolTip>Text Label</toolTip>
     </positionablelabel>
-    <positionablelabel x="307" y="94" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="E" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="307" y="154" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="E" size="11" style="0" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <toolTip>Text Label</toolTip>
     </positionablelabel>
   </paneleditor>
