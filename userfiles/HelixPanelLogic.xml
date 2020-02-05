@@ -6,8 +6,8 @@
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
 
   <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
-    <route systemName="IR HELIX LEVEL 1 C" userName="Helix Level 1 Closed">
-      <systemName>IR HELIX LEVEL 1 C</systemName>
+    <route userName="Helix Level 1 Closed">
+      <systemName>IO HELIX LEVEL 1 C</systemName>
       <userName>Helix Level 1 Closed</userName>
       <routeOutputTurnout systemName="Helix Level 1" state="CLOSED" />
       <routeOutputTurnout systemName="Helix P0 L1 C" state="THROWN" />
@@ -17,8 +17,8 @@
       <routeSensor systemName="PB helix panel 1 level 1 closed" mode="onActive" />
       <routeSensor systemName="PB helix panel 2 level 1 closed" mode="onActive" />
     </route>
-    <route systemName="IR HELIX LEVEL 1 T" userName="Helix Level 1 Thrown">
-      <systemName>IR HELIX LEVEL 1 T</systemName>
+    <route userName="Helix Level 1 Thrown">
+      <systemName>IO HELIX LEVEL 1 T</systemName>
       <userName>Helix Level 1 Thrown</userName>
       <routeOutputTurnout systemName="Helix Level 1" state="THROWN" />
       <routeOutputTurnout systemName="Helix P0 L1 C" state="CLOSED" />
@@ -28,8 +28,8 @@
       <routeSensor systemName="PB helix panel 1 level 1 thrown" mode="onActive" />
       <routeSensor systemName="PB helix panel 2 level 1 thrown" mode="onActive" />
     </route>
-    <route systemName="IR HELIX LEVEL 2 C" userName="Helix Level 2 Closed">
-      <systemName>IR HELIX LEVEL 2 C</systemName>
+    <route userName="Helix Level 2 Closed">
+      <systemName>IO HELIX LEVEL 2 C</systemName>
       <userName>Helix Level 2 Closed</userName>
       <routeOutputTurnout systemName="Helix Level 2 A" state="CLOSED" />
       <routeOutputTurnout systemName="Helix Level 2 B" state="CLOSED" />
@@ -41,12 +41,12 @@
       <routeOutputTurnout systemName="CT158" state="THROWN" />
       <routeOutputTurnout systemName="CT160" state="CLOSED" />
       <routeOutputTurnout systemName="CT159" state="CLOSED" />
-      <routeSensor systemName="CS24" mode="onInactive" /> <!-- old panel -->
+      <routeSensor systemName="CS24" mode="onInactive" />
       <routeSensor systemName="CS75" mode="onActive" />
       <routeSensor systemName="CS90" mode="onActive" />
     </route>
-    <route systemName="IR HELIX LEVEL 2 T" userName="Helix Level 2 Thrown">
-      <systemName>IR HELIX LEVEL 2 T</systemName>
+    <route userName="Helix Level 2 Thrown">
+      <systemName>IO HELIX LEVEL 2 T</systemName>
       <userName>Helix Level 2 Thrown</userName>
       <routeOutputTurnout systemName="Helix Level 2 A" state="THROWN" />
       <routeOutputTurnout systemName="Helix Level 2 B" state="THROWN" />
@@ -58,14 +58,14 @@
       <routeOutputTurnout systemName="CT158" state="CLOSED" />
       <routeOutputTurnout systemName="CT160" state="THROWN" />
       <routeOutputTurnout systemName="CT159" state="THROWN" />
-      <routeSensor systemName="CS24" mode="onActive" /> <!-- old panel -->
+      <routeSensor systemName="CS24" mode="onActive" />
       <routeSensor systemName="CS76" mode="onActive" />
       <routeSensor systemName="CS82" mode="onActive" />
       <routeSensor systemName="CS78" mode="onActive" />
       <routeSensor systemName="CS87" mode="onActive" />
     </route>
-    <route systemName="IR HELIX LEVEL 3 C" userName="Helix Level 3 Closed">
-      <systemName>IR HELIX LEVEL 3 C</systemName>
+    <route userName="Helix Level 3 Closed">
+      <systemName>IO HELIX LEVEL 3 C</systemName>
       <userName>Helix Level 3 Closed</userName>
       <routeOutputTurnout systemName="Helix Level 3 A" state="CLOSED" />
       <routeOutputTurnout systemName="Helix Level 3 B" state="CLOSED" />
@@ -77,12 +77,12 @@
       <routeOutputTurnout systemName="CT154" state="THROWN" />
       <routeOutputTurnout systemName="CT145" state="CLOSED" />
       <routeOutputTurnout systemName="CT146" state="CLOSED" />
-      <routeSensor systemName="CS25" mode="onInactive" /> <!-- old panel -->
+      <routeSensor systemName="CS25" mode="onInactive" />
       <routeSensor systemName="CS68" mode="onActive" />
       <routeSensor systemName="CS88" mode="onActive" />
     </route>
-    <route systemName="IR HELIX LEVEL 3 T" userName="Helix Level 3 Thrown">
-      <systemName>IR HELIX LEVEL 3 T</systemName>
+    <route userName="Helix Level 3 Thrown">
+      <systemName>IO HELIX LEVEL 3 T</systemName>
       <userName>Helix Level 3 Thrown</userName>
       <routeOutputTurnout systemName="Helix Level 3 A" state="THROWN" />
       <routeOutputTurnout systemName="Helix Level 3 B" state="THROWN" />
@@ -94,14 +94,14 @@
       <routeOutputTurnout systemName="CT154" state="CLOSED" />
       <routeOutputTurnout systemName="CT145" state="THROWN" />
       <routeOutputTurnout systemName="CT146" state="THROWN" />
-      <routeSensor systemName="CS25" mode="onActive" /> <!-- old panel -->
+      <routeSensor systemName="CS25" mode="onActive" />
       <routeSensor systemName="CS70" mode="onActive" />
       <routeSensor systemName="CS84" mode="onActive" />
       <routeSensor systemName="CS65" mode="onActive" />
       <routeSensor systemName="CS83" mode="onActive" />
     </route>
-    <route systemName="IR HELIX LEVEL 4 C" userName="Helix Level 4 Closed">
-      <systemName>IR HELIX LEVEL 4 C</systemName>
+    <route userName="Helix Level 4 Closed">
+      <systemName>IO HELIX LEVEL 4 C</systemName>
       <userName>Helix Level 4 Closed</userName>
       <routeOutputTurnout systemName="Helix Level 4 A" state="CLOSED" />
       <routeOutputTurnout systemName="Helix Level 4 B" state="CLOSED" />
@@ -113,12 +113,12 @@
       <routeOutputTurnout systemName="CT156" state="THROWN" />
       <routeOutputTurnout systemName="CT149" state="CLOSED" />
       <routeOutputTurnout systemName="CT157" state="CLOSED" />
-      <routeSensor systemName="Helix Level 4 Fascia" mode="onInactive" /> <!-- old panel -->
+      <routeSensor systemName="Helix Level 4 Fascia" mode="onInactive" />
       <routeSensor systemName="PB helix panel 1 level 4 closed" mode="onActive" />
       <routeSensor systemName="PB helix panel 2 level 4 closed" mode="onActive" />
     </route>
-    <route systemName="IR HELIX LEVEL 4 T" userName="Helix Level 4 Thrown">
-      <systemName>IR HELIX LEVEL 4 T</systemName>
+    <route userName="Helix Level 4 Thrown">
+      <systemName>IO HELIX LEVEL 4 T</systemName>
       <userName>Helix Level 4 Thrown</userName>
       <routeOutputTurnout systemName="Helix Level 4 A" state="THROWN" />
       <routeOutputTurnout systemName="Helix Level 4 B" state="THROWN" />
@@ -130,33 +130,33 @@
       <routeOutputTurnout systemName="CT156" state="CLOSED" />
       <routeOutputTurnout systemName="CT149" state="THROWN" />
       <routeOutputTurnout systemName="CT157" state="THROWN" />
-      <routeSensor systemName="Helix Level 4 Fascia" mode="onActive" /> <!-- old panel -->
+      <routeSensor systemName="Helix Level 4 Fascia" mode="onActive" />
       <routeSensor systemName="PB helix panel 1 level 4 thrown 1" mode="onActive" />
       <routeSensor systemName="PB helix panel 2 level 4 thrown 1" mode="onActive" />
       <routeSensor systemName="PB helix panel 1 level 4 thrown 2" mode="onActive" />
       <routeSensor systemName="PB helix panel 2 level 4 thrown 2" mode="onActive" />
     </route>
-    <route systemName="IR HELIX LEVEL 5 C" userName="Helix Level 5 Closed">
-      <systemName>IR HELIX LEVEL 5 C</systemName>
+    <route userName="Helix Level 5 Closed">
+      <systemName>IO HELIX LEVEL 5 C</systemName>
       <userName>Helix Level 5 Closed</userName>
       <routeOutputTurnout systemName="Helix Level 5" state="CLOSED" />
       <routeOutputTurnout systemName="CT112" state="THROWN" />
       <routeOutputTurnout systemName="CT111" state="CLOSED" />
       <routeOutputTurnout systemName="CT152" state="THROWN" />
       <routeOutputTurnout systemName="CT147" state="CLOSED" />
-      <routeSensor systemName="Helix Level 5 Fascia" mode="onActive" /> <!-- old panel -->
+      <routeSensor systemName="Helix Level 5 Fascia" mode="onActive" />
       <routeSensor systemName="PB helix panel 1 level 5 closed" mode="onActive" />
       <routeSensor systemName="PB helix panel 2 level 5 closed" mode="onActive" />
     </route>
-    <route systemName="IR HELIX LEVEL 5 T" userName="Helix Level 5 Thrown">
-      <systemName>IR HELIX LEVEL 5 T</systemName>
+    <route userName="Helix Level 5 Thrown">
+      <systemName>IO HELIX LEVEL 5 T</systemName>
       <userName>Helix Level 5 Thrown</userName>
       <routeOutputTurnout systemName="Helix Level 5" state="THROWN" />
       <routeOutputTurnout systemName="CT112" state="CLOSED" />
       <routeOutputTurnout systemName="CT111" state="THROWN" />
       <routeOutputTurnout systemName="CT152" state="CLOSED" />
       <routeOutputTurnout systemName="CT147" state="THROWN" />
-      <routeSensor systemName="Helix Level 5 Fascia" mode="onInactive" /> <!-- old panel -->
+      <routeSensor systemName="Helix Level 5 Fascia" mode="onInactive" />
       <routeSensor systemName="PB helix panel 1 level 5 thrown" mode="onActive" />
       <routeSensor systemName="PB helix panel 2 level 5 thrown" mode="onActive" />
     </route>

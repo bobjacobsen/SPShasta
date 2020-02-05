@@ -4960,8 +4960,8 @@
     </memory>
   </memories>
   <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
-    <route systemName="IR REDDING 01" userName="Redding Staging Trk 1">
-      <systemName>IR REDDING 01</systemName>
+    <route userName="Redding Staging Trk 1">
+      <systemName>IO REDDING 01</systemName>
       <userName>Redding Staging Trk 1</userName>
       <routeOutputTurnout systemName="CT1" state="THROWN" />
       <routeOutputTurnout systemName="CT3" state="THROWN" />
@@ -4971,8 +4971,8 @@
       <routeOutputTurnout systemName="CT9" state="CLOSED" />
       <routeSensor systemName="CS1" mode="onActive" />
     </route>
-    <route systemName="IR REDDING 02" userName="Redding Staging Trk 2">
-      <systemName>IR REDDING 02</systemName>
+    <route userName="Redding Staging Trk 2">
+      <systemName>IO REDDING 02</systemName>
       <userName>Redding Staging Trk 2</userName>
       <routeOutputTurnout systemName="CT1" state="THROWN" />
       <routeOutputTurnout systemName="CT12" state="CLOSED" />
@@ -4983,8 +4983,8 @@
       <routeOutputTurnout systemName="CT9" state="THROWN" />
       <routeSensor systemName="CS2" mode="onActive" />
     </route>
-    <route systemName="IR REDDING 03" userName="Redding Staging Trk 3">
-      <systemName>IR REDDING 03</systemName>
+    <route userName="Redding Staging Trk 3">
+      <systemName>IO REDDING 03</systemName>
       <userName>Redding Staging Trk 3</userName>
       <routeOutputTurnout systemName="CT1" state="THROWN" />
       <routeOutputTurnout systemName="CT12" state="THROWN" />
@@ -4994,8 +4994,8 @@
       <routeOutputTurnout systemName="CT9" state="THROWN" />
       <routeSensor systemName="CS3" mode="onActive" />
     </route>
-    <route systemName="IR REDDING 04" userName="Redding Staging Trk 4">
-      <systemName>IR REDDING 04</systemName>
+    <route userName="Redding Staging Trk 4">
+      <systemName>IO REDDING 04</systemName>
       <userName>Redding Staging Trk 4</userName>
       <routeOutputTurnout systemName="CT1" state="THROWN" />
       <routeOutputTurnout systemName="CT11" state="CLOSED" />
@@ -5004,8 +5004,8 @@
       <routeOutputTurnout systemName="CT8" state="CLOSED" />
       <routeSensor systemName="CS4" mode="onActive" />
     </route>
-    <route systemName="IR REDDING 05" userName="Redding Staging Trk 5">
-      <systemName>IR REDDING 05</systemName>
+    <route userName="Redding Staging Trk 5">
+      <systemName>IO REDDING 05</systemName>
       <userName>Redding Staging Trk 5</userName>
       <routeOutputTurnout systemName="CT1" state="CLOSED" />
       <routeOutputTurnout systemName="CT11" state="THROWN" />
@@ -5014,8 +5014,8 @@
       <routeOutputTurnout systemName="CT8" state="CLOSED" />
       <routeSensor systemName="CS5" mode="onActive" />
     </route>
-    <route systemName="IR REDDING 06" userName="Redding Staging Trk 6">
-      <systemName>IR REDDING 06</systemName>
+    <route userName="Redding Staging Trk 6">
+      <systemName>IO REDDING 06</systemName>
       <userName>Redding Staging Trk 6</userName>
       <routeOutputTurnout systemName="CT1" state="CLOSED" />
       <routeOutputTurnout systemName="CT10" state="CLOSED" />
@@ -5025,8 +5025,8 @@
       <routeOutputTurnout systemName="CT8" state="THROWN" />
       <routeSensor systemName="CS6" mode="onActive" />
     </route>
-    <route systemName="IR REDDING 07" userName="Redding Staging Trk 7">
-      <systemName>IR REDDING 07</systemName>
+    <route userName="Redding Staging Trk 7">
+      <systemName>IO REDDING 07</systemName>
       <userName>Redding Staging Trk 7</userName>
       <routeOutputTurnout systemName="CT1" state="CLOSED" />
       <routeOutputTurnout systemName="CT10" state="THROWN" />
@@ -5036,34 +5036,34 @@
       <routeOutputTurnout systemName="CT8" state="THROWN" />
       <routeSensor systemName="CS7" mode="onActive" />
     </route>
-    <route systemName="IR TO 39 C" userName="TO 39 Closed">
-      <systemName>IR TO 39 C</systemName>
+    <route userName="TO 39 Closed">
+      <systemName>IO TO 39 C</systemName>
       <userName>TO 39 Closed</userName>
       <routeOutputTurnout systemName="CT1040" state="CLOSED" />
       <routeOutputTurnout systemName="CT5005" state="CLOSED" />
       <routeSensor systemName="CS5002" mode="onInactive" />
     </route>
-    <route systemName="IR TO 39 T" userName="TO 39 Thrown">
-      <systemName>IR TO 39 T</systemName>
+    <route userName="TO 39 Thrown">
+      <systemName>IO TO 39 T</systemName>
       <userName>TO 39 Thrown</userName>
       <routeOutputTurnout systemName="CT1040" state="THROWN" />
       <routeOutputTurnout systemName="CT5005" state="THROWN" />
       <routeSensor systemName="CS5002" mode="onActive" />
     </route>
-    <route systemName="IR TO 41 C" userName="TO 41 Closed">
-      <systemName>IR TO 41 C</systemName>
+    <route userName="TO 41 Closed">
+      <systemName>IO TO 41 C</systemName>
       <userName>TO 41 Closed</userName>
       <routeOutputTurnout systemName="CT1008" state="CLOSED" />
       <routeSensor systemName="CS5003" mode="onInactive" />
     </route>
-    <route systemName="IR TO 41 T" userName="TO 41 Thrown">
-      <systemName>IR TO 41 T</systemName>
+    <route userName="TO 41 Thrown">
+      <systemName>IO TO 41 T</systemName>
       <userName>TO 41 Thrown</userName>
       <routeOutputTurnout systemName="CT1008" state="THROWN" />
       <routeSensor systemName="CS5003" mode="onActive" />
     </route>
-    <route systemName="IR WEED 01" userName="Weed Staging Trk 1">
-      <systemName>IR WEED 01</systemName>
+    <route userName="Weed Staging Trk 1">
+      <systemName>IO WEED 01</systemName>
       <userName>Weed Staging Trk 1</userName>
       <routeOutputTurnout systemName="CT1001" state="CLOSED" />
       <routeOutputTurnout systemName="CT1002" state="CLOSED" />
@@ -5078,8 +5078,8 @@
       <routeOutputTurnout systemName="IT_WEED_TRK_1_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1001" mode="onActive" />
     </route>
-    <route systemName="IR WEED 02" userName="Weed Staging Trk 2">
-      <systemName>IR WEED 02</systemName>
+    <route userName="Weed Staging Trk 2">
+      <systemName>IO WEED 02</systemName>
       <userName>Weed Staging Trk 2</userName>
       <routeOutputTurnout systemName="CT1001" state="CLOSED" />
       <routeOutputTurnout systemName="CT1002" state="CLOSED" />
@@ -5094,8 +5094,8 @@
       <routeOutputTurnout systemName="IT_WEED_TRK_2_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1002" mode="onActive" />
     </route>
-    <route systemName="IR WEED 03" userName="Weed Staging Trk 3">
-      <systemName>IR WEED 03</systemName>
+    <route userName="Weed Staging Trk 3">
+      <systemName>IO WEED 03</systemName>
       <userName>Weed Staging Trk 3</userName>
       <routeOutputTurnout systemName="CT1001" state="CLOSED" />
       <routeOutputTurnout systemName="CT1002" state="THROWN" />
@@ -5110,8 +5110,8 @@
       <routeOutputTurnout systemName="IT_WEED_TRK_3_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1003" mode="onActive" />
     </route>
-    <route systemName="IR WEED 04" userName="Weed Staging Trk 4">
-      <systemName>IR WEED 04</systemName>
+    <route userName="Weed Staging Trk 4">
+      <systemName>IO WEED 04</systemName>
       <userName>Weed Staging Trk 4</userName>
       <routeOutputTurnout systemName="CT1001" state="CLOSED" />
       <routeOutputTurnout systemName="CT1002" state="THROWN" />
@@ -5126,8 +5126,8 @@
       <routeOutputTurnout systemName="IT_WEED_TRK_4_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1004" mode="onActive" />
     </route>
-    <route systemName="IR WEED 05" userName="Weed Staging Trk 5">
-      <systemName>IR WEED 05</systemName>
+    <route userName="Weed Staging Trk 5">
+      <systemName>IO WEED 05</systemName>
       <userName>Weed Staging Trk 5</userName>
       <routeOutputTurnout systemName="CT1001" state="THROWN" />
       <routeOutputTurnout systemName="CT1003" state="CLOSED" />
@@ -5142,8 +5142,8 @@
       <routeOutputTurnout systemName="IT_WEED_TRK_5_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1005" mode="onActive" />
     </route>
-    <route systemName="IR WEED 06" userName="Weed Staging Trk 6">
-      <systemName>IR WEED 06</systemName>
+    <route userName="Weed Staging Trk 6">
+      <systemName>IO WEED 06</systemName>
       <userName>Weed Staging Trk 6</userName>
       <routeOutputTurnout systemName="CT1001" state="THROWN" />
       <routeOutputTurnout systemName="CT1003" state="CLOSED" />
@@ -5158,8 +5158,8 @@
       <routeOutputTurnout systemName="IT_WEED_TRK_6_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1006" mode="onActive" />
     </route>
-    <route systemName="IR WEED 07" userName="Weed Staging Trk 7">
-      <systemName>IR WEED 07</systemName>
+    <route userName="Weed Staging Trk 7">
+      <systemName>IO WEED 07</systemName>
       <userName>Weed Staging Trk 7</userName>
       <routeOutputTurnout systemName="CT1001" state="THROWN" />
       <routeOutputTurnout systemName="CT1003" state="THROWN" />
@@ -5174,8 +5174,8 @@
       <routeOutputTurnout systemName="IT_WEED_TRK_7_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1007" mode="onActive" />
     </route>
-    <route systemName="IR WEED 08" userName="Weed Staging Trk 8">
-      <systemName>IR WEED 08</systemName>
+    <route userName="Weed Staging Trk 8">
+      <systemName>IO WEED 08</systemName>
       <userName>Weed Staging Trk 8</userName>
       <routeOutputTurnout systemName="CT1001" state="THROWN" />
       <routeOutputTurnout systemName="CT1003" state="THROWN" />
@@ -5190,166 +5190,116 @@
       <routeOutputTurnout systemName="IT_WEED_TRK_8_ALIGNED" state="THROWN" />
       <routeSensor systemName="CS1008" mode="onActive" />
     </route>
-    <route systemName="IR100" userName="Mott-Azalea Crossover (TO 33, 35) Thrown">
-      <systemName>IR100</systemName>
-      <userName>Mott-Azalea Crossover (TO 33, 35) Thrown</userName>
-      <routeOutputTurnout systemName="TO 31A" state="THROWN" />
-      <routeOutputTurnout systemName="CT5037" state="THROWN" />
-      <routeSensor systemName="Mott-Azalea Crossover Fascia" mode="onActive" />
-    </route>
-    <route systemName="IR108" userName="East Azalea Closed">
-      <systemName>IR108</systemName>
-      <userName>East Azalea Closed</userName>
-      <routeOutputTurnout systemName="CT1039" state="CLOSED" />
-      <routeSensor systemName="CS5001" mode="onInactive" />
-    </route>
-    <route systemName="IR109" userName="East Azalea Thrown">
-      <systemName>IR109</systemName>
-      <userName>East Azalea Thrown</userName>
-      <routeOutputTurnout systemName="CT1039" state="THROWN" />
-      <routeSensor systemName="CS5001" mode="onActive" />
-    </route>
-    <route systemName="IR110" userName="Dunsmuir Lower XO (13) Closed">
-      <systemName>IR110</systemName>
-      <userName>Dunsmuir Lower XO (13) Closed</userName>
-      <routeOutputTurnout systemName="TO 13" state="CLOSED" />
-      <routeSensor systemName="Dunsmuir Lower XO Fascia" mode="onInactive" />
-    </route>
-    <route systemName="IR111" userName="Dunsmuir Lower XO (13) Thrown">
-      <systemName>IR111</systemName>
-      <userName>Dunsmuir Lower XO (13) Thrown</userName>
-      <routeOutputTurnout systemName="TO 13" state="THROWN" />
-      <routeSensor systemName="Dunsmuir Lower XO Fascia" mode="onActive" />
-    </route>
-    <route systemName="IR112" userName="Dunsmuir Team XO (17) Closed">
-      <systemName>IR112</systemName>
-      <userName>Dunsmuir Team XO (17) Closed</userName>
-      <routeOutputTurnout systemName="TO 17" state="CLOSED" />
-      <routeSensor systemName="Dunsmuir Team XO Fascia" mode="onInactive" />
-    </route>
-    <route systemName="IR113" userName="Dunsmuir Team XO Thrown">
-      <systemName>IR113</systemName>
-      <userName>Dunsmuir Team XO Thrown</userName>
-      <routeOutputTurnout systemName="TO 17" state="THROWN" />
-      <routeSensor systemName="Dunsmuir Team XO Fascia" mode="onActive" />
-    </route>
-    <route systemName="IR115" userName="BB/Mt Shasta crossover fascia controls">
-      <systemName>IR115</systemName>
-      <userName>BB/Mt Shasta crossover fascia controls</userName>
-      <routeOutputTurnout systemName="CT5044" state="TOGGLE" />
-      <routeSensor systemName="CS5017" mode="onChange" />
-      <routeSensor systemName="CS5018" mode="onChange" />
-    </route>
-    <route systemName="IR19" userName="Redding Entrance Thrown">
-      <systemName>IR19</systemName>
+    <route userName="Redding Entrance Thrown">
+      <systemName>IO19</systemName>
       <userName>Redding Entrance Thrown</userName>
       <routeOutputTurnout systemName="CT13" state="THROWN" />
       <routeSensor systemName="CS20" mode="onActive" />
     </route>
-    <route systemName="IR20" userName="Redding Entrance Closed">
-      <systemName>IR20</systemName>
+    <route userName="Redding Entrance Closed">
+      <systemName>IO20</systemName>
       <userName>Redding Entrance Closed</userName>
       <routeOutputTurnout systemName="CT13" state="CLOSED" />
       <routeSensor systemName="CS20" mode="onInactive" />
     </route>
-    <route systemName="IR21" userName="Sims Thrown">
-      <systemName>IR21</systemName>
+    <route userName="Sims Thrown">
+      <systemName>IO21</systemName>
       <userName>Sims Thrown</userName>
       <routeOutputTurnout systemName="CT14" state="THROWN" />
       <routeSensor systemName="CS21" mode="onActive" />
     </route>
-    <route systemName="IR22" userName="Sims Closed">
-      <systemName>IR22</systemName>
+    <route userName="Sims Closed">
+      <systemName>IO22</systemName>
       <userName>Sims Closed</userName>
       <routeOutputTurnout systemName="CT14" state="CLOSED" />
       <routeSensor systemName="CS21" mode="onInactive" />
     </route>
-    <route systemName="IR23" userName="Dunsmuir West Switch Thrown">
-      <systemName>IR23</systemName>
+    <route userName="Dunsmuir West Switch Thrown">
+      <systemName>IO23</systemName>
       <userName>Dunsmuir West Switch Thrown</userName>
       <routeOutputTurnout systemName="CT15" state="THROWN" />
       <routeSensor systemName="CS22" mode="onActive" />
     </route>
-    <route systemName="IR24" userName="Dunsmuir West Switch Closed">
-      <systemName>IR24</systemName>
+    <route userName="Dunsmuir West Switch Closed">
+      <systemName>IO24</systemName>
       <userName>Dunsmuir West Switch Closed</userName>
       <routeOutputTurnout systemName="CT15" state="CLOSED" />
       <routeSensor systemName="CS22" mode="onInactive" />
     </route>
-    <route systemName="IR46" userName="DD TO Closed">
-      <systemName>IR46</systemName>
+    <route userName="DD TO Closed">
+      <systemName>IO46</systemName>
       <userName>DD TO Closed</userName>
       <routeOutputTurnout systemName="DD TO" state="CLOSED" />
       <routeSensor systemName="DD Fascia" mode="onInactive" />
     </route>
-    <route systemName="IR47" userName="DD TO Thrown">
-      <systemName>IR47</systemName>
+    <route userName="DD TO Thrown">
+      <systemName>IO47</systemName>
       <userName>DD TO Thrown</userName>
       <routeOutputTurnout systemName="DD TO" state="THROWN" />
       <routeSensor systemName="DD Fascia" mode="onActive" />
     </route>
-    <route systemName="IR48" userName="Upper XO TO (88) Closed">
-      <systemName>IR48</systemName>
+    <route userName="Upper XO TO (88) Closed">
+      <systemName>IO48</systemName>
       <userName>Upper XO TO (88) Closed</userName>
       <routeOutputTurnout systemName="TO 88" state="CLOSED" />
       <routeSensor systemName="TO 88 Fascia" mode="onInactive" />
     </route>
-    <route systemName="IR49" userName="Upper XO TO (88) Thrown">
-      <systemName>IR49</systemName>
+    <route userName="Upper XO TO (88) Thrown">
+      <systemName>IO49</systemName>
       <userName>Upper XO TO (88) Thrown</userName>
       <routeOutputTurnout systemName="TO 88" state="THROWN" />
       <routeSensor systemName="TO 88 Fascia" mode="onActive" />
     </route>
-    <route systemName="IR50" userName="Dunsmuir East TO Closed">
-      <systemName>IR50</systemName>
+    <route userName="Dunsmuir East TO Closed">
+      <systemName>IO50</systemName>
       <userName>Dunsmuir East TO Closed</userName>
       <routeOutputTurnout systemName="TO 21" state="CLOSED" />
       <routeSensor systemName="Dunsmuir East Fascia" mode="onInactive" />
     </route>
-    <route systemName="IR51" userName="Dunsmuir East TO Thrown">
-      <systemName>IR51</systemName>
+    <route userName="Dunsmuir East TO Thrown">
+      <systemName>IO51</systemName>
       <userName>Dunsmuir East TO Thrown</userName>
       <routeOutputTurnout systemName="TO 21" state="THROWN" />
       <routeSensor systemName="Dunsmuir East Fascia" mode="onActive" />
     </route>
-    <route systemName="IR52" userName="Dorris West Closed">
-      <systemName>IR52</systemName>
+    <route userName="Dorris West Closed">
+      <systemName>IO52</systemName>
       <userName>Dorris West Closed</userName>
       <routeOutputTurnout systemName="CT16" state="CLOSED" />
       <routeSensor systemName="CS28" mode="onInactive" />
     </route>
-    <route systemName="IR53" userName="Dorris West Thrown">
-      <systemName>IR53</systemName>
+    <route userName="Dorris West Thrown">
+      <systemName>IO53</systemName>
       <userName>Dorris West Thrown</userName>
       <routeOutputTurnout systemName="CT16" state="THROWN" />
       <routeSensor systemName="CS28" mode="onActive" />
     </route>
-    <route systemName="IR54" userName="Dorris East Thrown">
-      <systemName>IR54</systemName>
+    <route userName="Dorris East Thrown">
+      <systemName>IO54</systemName>
       <userName>Dorris East Thrown</userName>
       <routeOutputTurnout systemName="CT17" state="THROWN" />
       <routeSensor systemName="CS32" mode="onActive" />
     </route>
-    <route systemName="IR55" userName="Dorris East Closed">
-      <systemName>IR55</systemName>
+    <route userName="Dorris East Closed">
+      <systemName>IO55</systemName>
       <userName>Dorris East Closed</userName>
       <routeOutputTurnout systemName="CT17" state="CLOSED" />
       <routeSensor systemName="CS32" mode="onInactive" />
     </route>
-    <route systemName="IR56" userName="K Falls Helix Y Closed">
-      <systemName>IR56</systemName>
+    <route userName="K Falls Helix Y Closed">
+      <systemName>IO56</systemName>
       <userName>K Falls Helix Y Closed</userName>
       <routeOutputTurnout systemName="CT18" state="CLOSED" />
       <routeSensor systemName="CS47" mode="onInactive" />
     </route>
-    <route systemName="IR57" userName="K Falls Helix Y Thown">
-      <systemName>IR57</systemName>
+    <route userName="K Falls Helix Y Thown">
+      <systemName>IO57</systemName>
       <userName>K Falls Helix Y Thown</userName>
       <routeOutputTurnout systemName="CT18" state="THROWN" />
       <routeSensor systemName="CS47" mode="onActive" />
     </route>
-    <route systemName="IR61" userName="K Falls Arrival 1">
-      <systemName>IR61</systemName>
+    <route userName="K Falls Arrival 1">
+      <systemName>IO61</systemName>
       <userName>K Falls Arrival 1</userName>
       <routeOutputTurnout systemName="CT19" state="THROWN" />
       <routeOutputTurnout systemName="CT20" state="THROWN" />
@@ -5376,8 +5326,8 @@
       <routeOutputTurnout systemName="CT78" state="CLOSED" />
       <routeSensor systemName="CS33" mode="onActive" />
     </route>
-    <route systemName="IR62" userName="K Falls Arrival 2">
-      <systemName>IR62</systemName>
+    <route userName="K Falls Arrival 2">
+      <systemName>IO62</systemName>
       <userName>K Falls Arrival 2</userName>
       <routeOutputTurnout systemName="CT19" state="THROWN" />
       <routeOutputTurnout systemName="CT20" state="THROWN" />
@@ -5404,8 +5354,8 @@
       <routeOutputTurnout systemName="CT78" state="CLOSED" />
       <routeSensor systemName="CS34" mode="onActive" />
     </route>
-    <route systemName="IR63" userName="K Falls Arrival 3">
-      <systemName>IR63</systemName>
+    <route userName="K Falls Arrival 3">
+      <systemName>IO63</systemName>
       <userName>K Falls Arrival 3</userName>
       <routeOutputTurnout systemName="CT19" state="THROWN" />
       <routeOutputTurnout systemName="CT20" state="THROWN" />
@@ -5430,8 +5380,8 @@
       <routeOutputTurnout systemName="CT78" state="CLOSED" />
       <routeSensor systemName="CS35" mode="onActive" />
     </route>
-    <route systemName="IR64" userName="K Falls Arrival 4">
-      <systemName>IR64</systemName>
+    <route userName="K Falls Arrival 4">
+      <systemName>IO64</systemName>
       <userName>K Falls Arrival 4</userName>
       <routeOutputTurnout systemName="CT19" state="THROWN" />
       <routeOutputTurnout systemName="CT20" state="THROWN" />
@@ -5457,8 +5407,8 @@
       <routeOutputTurnout systemName="CT78" state="CLOSED" />
       <routeSensor systemName="CS36" mode="onActive" />
     </route>
-    <route systemName="IR65" userName="K Falls Arrival 5">
-      <systemName>IR65</systemName>
+    <route userName="K Falls Arrival 5">
+      <systemName>IO65</systemName>
       <userName>K Falls Arrival 5</userName>
       <routeOutputTurnout systemName="CT19" state="THROWN" />
       <routeOutputTurnout systemName="CT20" state="THROWN" />
@@ -5483,8 +5433,8 @@
       <routeOutputTurnout systemName="CT78" state="CLOSED" />
       <routeSensor systemName="CS37" mode="onActive" />
     </route>
-    <route systemName="IR66" userName="K Falls Arrival 6">
-      <systemName>IR66</systemName>
+    <route userName="K Falls Arrival 6">
+      <systemName>IO66</systemName>
       <userName>K Falls Arrival 6</userName>
       <routeOutputTurnout systemName="CT19" state="THROWN" />
       <routeOutputTurnout systemName="CT20" state="CLOSED" />
@@ -5508,8 +5458,8 @@
       <routeOutputTurnout systemName="CT78" state="CLOSED" />
       <routeSensor systemName="CS38" mode="onActive" />
     </route>
-    <route systemName="IR67" userName="K Falls Arrival 7">
-      <systemName>IR67</systemName>
+    <route userName="K Falls Arrival 7">
+      <systemName>IO67</systemName>
       <userName>K Falls Arrival 7</userName>
       <routeOutputTurnout systemName="CT19" state="THROWN" />
       <routeOutputTurnout systemName="CT20" state="CLOSED" />
@@ -5532,8 +5482,8 @@
       <routeOutputTurnout systemName="CT78" state="THROWN" />
       <routeSensor systemName="CS39" mode="onActive" />
     </route>
-    <route systemName="IR71" userName="K Falls Depart 1">
-      <systemName>IR71</systemName>
+    <route userName="K Falls Depart 1">
+      <systemName>IO71</systemName>
       <userName>K Falls Depart 1</userName>
       <routeOutputTurnout systemName="CT19" state="CLOSED" />
       <routeOutputTurnout systemName="CT20" state="THROWN" />
@@ -5560,8 +5510,8 @@
       <routeOutputTurnout systemName="CT78" state="CLOSED" />
       <routeSensor systemName="CS40" mode="onActive" />
     </route>
-    <route systemName="IR72" userName="K Falls Depart 2">
-      <systemName>IR72</systemName>
+    <route userName="K Falls Depart 2">
+      <systemName>IO72</systemName>
       <userName>K Falls Depart 2</userName>
       <routeOutputTurnout systemName="CT19" state="CLOSED" />
       <routeOutputTurnout systemName="CT20" state="THROWN" />
@@ -5588,8 +5538,8 @@
       <routeOutputTurnout systemName="CT78" state="CLOSED" />
       <routeSensor systemName="CS41" mode="onActive" />
     </route>
-    <route systemName="IR73" userName="K Falls Depart 3">
-      <systemName>IR73</systemName>
+    <route userName="K Falls Depart 3">
+      <systemName>IO73</systemName>
       <userName>K Falls Depart 3</userName>
       <routeOutputTurnout systemName="CT19" state="CLOSED" />
       <routeOutputTurnout systemName="CT20" state="THROWN" />
@@ -5614,8 +5564,8 @@
       <routeOutputTurnout systemName="CT78" state="CLOSED" />
       <routeSensor systemName="CS42" mode="onActive" />
     </route>
-    <route systemName="IR74" userName="K Falls Depart 4">
-      <systemName>IR74</systemName>
+    <route userName="K Falls Depart 4">
+      <systemName>IO74</systemName>
       <userName>K Falls Depart 4</userName>
       <routeOutputTurnout systemName="CT19" state="CLOSED" />
       <routeOutputTurnout systemName="CT20" state="THROWN" />
@@ -5641,8 +5591,8 @@
       <routeOutputTurnout systemName="CT78" state="CLOSED" />
       <routeSensor systemName="CS43" mode="onActive" />
     </route>
-    <route systemName="IR75" userName="K Falls Depart 5">
-      <systemName>IR75</systemName>
+    <route userName="K Falls Depart 5">
+      <systemName>IO75</systemName>
       <userName>K Falls Depart 5</userName>
       <routeOutputTurnout systemName="CT19" state="CLOSED" />
       <routeOutputTurnout systemName="CT20" state="THROWN" />
@@ -5667,8 +5617,8 @@
       <routeOutputTurnout systemName="CT78" state="CLOSED" />
       <routeSensor systemName="CS44" mode="onActive" />
     </route>
-    <route systemName="IR76" userName="K Falls Depart 6">
-      <systemName>IR76</systemName>
+    <route userName="K Falls Depart 6">
+      <systemName>IO76</systemName>
       <userName>K Falls Depart 6</userName>
       <routeOutputTurnout systemName="CT19" state="CLOSED" />
       <routeOutputTurnout systemName="CT20" state="CLOSED" />
@@ -5692,8 +5642,8 @@
       <routeOutputTurnout systemName="CT78" state="CLOSED" />
       <routeSensor systemName="CS45" mode="onActive" />
     </route>
-    <route systemName="IR77" userName="K Falls Depart 7">
-      <systemName>IR77</systemName>
+    <route userName="K Falls Depart 7">
+      <systemName>IO77</systemName>
       <userName>K Falls Depart 7</userName>
       <routeOutputTurnout systemName="CT19" state="CLOSED" />
       <routeOutputTurnout systemName="CT20" state="CLOSED" />
@@ -5716,188 +5666,235 @@
       <routeOutputTurnout systemName="CT78" state="CLOSED" />
       <routeSensor systemName="CS46" mode="onActive" />
     </route>
-    <route systemName="IR81" userName="OS East Leaf closed">
-      <systemName>IR81</systemName>
+    <route userName="OS East Leaf closed">
+      <systemName>IO81</systemName>
       <userName>OS East Leaf closed</userName>
       <routeOutputTurnout systemName="CT4001" state="CLOSED" />
       <routeSensor systemName="CS4001" mode="onInactive" />
     </route>
-    <route systemName="IR82" userName="OS East Leaf thrown">
-      <systemName>IR82</systemName>
+    <route userName="OS East Leaf thrown">
+      <systemName>IO82</systemName>
       <userName>OS East Leaf thrown</userName>
       <routeOutputTurnout systemName="CT4001" state="THROWN" />
       <routeSensor systemName="CS4001" mode="onActive" />
     </route>
-    <route systemName="IR83" userName="Leaf siding work east closed">
-      <systemName>IR83</systemName>
+    <route userName="Leaf siding work east closed">
+      <systemName>IO83</systemName>
       <userName>Leaf siding work east closed</userName>
       <routeOutputTurnout systemName="CT4002" state="CLOSED" />
       <routeSensor systemName="CS4002" mode="onInactive" />
     </route>
-    <route systemName="IR84" userName="Leaf siding work east thrown">
-      <systemName>IR84</systemName>
+    <route userName="Leaf siding work east thrown">
+      <systemName>IO84</systemName>
       <userName>Leaf siding work east thrown</userName>
       <routeOutputTurnout systemName="CT4002" state="THROWN" />
       <routeSensor systemName="CS4002" mode="onActive" />
     </route>
-    <route systemName="IR85" userName="Leaf siding work west closed">
-      <systemName>IR85</systemName>
+    <route userName="Leaf siding work west closed">
+      <systemName>IO85</systemName>
       <userName>Leaf siding work west closed</userName>
       <routeOutputTurnout systemName="CT4003" state="CLOSED" />
       <routeSensor systemName="CS4003" mode="onInactive" />
     </route>
-    <route systemName="IR86" userName="Leaf siding work west thrown">
-      <systemName>IR86</systemName>
+    <route userName="Leaf siding work west thrown">
+      <systemName>IO86</systemName>
       <userName>Leaf siding work west thrown</userName>
       <routeOutputTurnout systemName="CT4003" state="THROWN" />
       <routeSensor systemName="CS4003" mode="onActive" />
     </route>
-    <route systemName="IR87" userName="OS West Leaf Closed">
-      <systemName>IR87</systemName>
+    <route userName="OS West Leaf Closed">
+      <systemName>IO87</systemName>
       <userName>OS West Leaf Closed</userName>
       <routeOutputTurnout systemName="CT4004" state="CLOSED" />
       <routeSensor systemName="CS4004" mode="onInactive" />
     </route>
-    <route systemName="IR88" userName="OS West Leaf Thrown">
-      <systemName>IR88</systemName>
+    <route userName="OS West Leaf Thrown">
+      <systemName>IO88</systemName>
       <userName>OS West Leaf Thrown</userName>
       <routeOutputTurnout systemName="CT4004" state="THROWN" />
       <routeSensor systemName="CS4004" mode="onActive" />
     </route>
-    <route systemName="IR89" userName="OS West Grass Lake closed">
-      <systemName>IR89</systemName>
+    <route userName="OS West Grass Lake closed">
+      <systemName>IO89</systemName>
       <userName>OS West Grass Lake closed</userName>
       <routeOutputTurnout systemName="Grass Lake West OS" state="CLOSED" />
       <routeSensor systemName="Grass Lake OS West Fascia" mode="onInactive" />
     </route>
-    <route systemName="IR90" userName="OS West Grass Lake thrown">
-      <systemName>IR90</systemName>
+    <route userName="OS West Grass Lake thrown">
+      <systemName>IO90</systemName>
       <userName>OS West Grass Lake thrown</userName>
       <routeOutputTurnout systemName="Grass Lake West OS" state="THROWN" />
       <routeSensor systemName="Grass Lake OS West Fascia" mode="onActive" />
     </route>
-    <route systemName="IR91" userName="Shasta Spring Closed">
-      <systemName>IR91</systemName>
+    <route userName="Shasta Spring Closed">
+      <systemName>IO91</systemName>
       <userName>Shasta Spring Closed</userName>
       <routeOutputTurnout systemName="TO 92" state="CLOSED" />
       <routeSensor systemName="Shasta Spring Fascia" mode="onInactive" />
     </route>
-    <route systemName="IR92" userName="Shasta Spring Thrown">
-      <systemName>IR92</systemName>
+    <route userName="Shasta Spring Thrown">
+      <systemName>IO92</systemName>
       <userName>Shasta Spring Thrown</userName>
       <routeOutputTurnout systemName="TO 92" state="THROWN" />
       <routeSensor systemName="Shasta Spring Fascia" mode="onActive" />
     </route>
-    <route systemName="IR93" userName="West Small Closed">
-      <systemName>IR93</systemName>
+    <route userName="West Small Closed">
+      <systemName>IO93</systemName>
       <userName>West Small Closed</userName>
       <routeOutputTurnout systemName="TO 25" state="CLOSED" />
       <routeSensor systemName="West Small Fascia" mode="onInactive" />
     </route>
-    <route systemName="IR94" userName="West Small Thrown">
-      <systemName>IR94</systemName>
+    <route userName="West Small Thrown">
+      <systemName>IO94</systemName>
       <userName>West Small Thrown</userName>
       <routeOutputTurnout systemName="TO 25" state="THROWN" />
       <routeSensor systemName="West Small Fascia" mode="onActive" />
     </route>
-    <route systemName="IR95" userName="East Small Closed">
-      <systemName>IR95</systemName>
+    <route userName="East Small Closed">
+      <systemName>IO95</systemName>
       <userName>East Small Closed</userName>
       <routeOutputTurnout systemName="TO 27" state="CLOSED" />
       <routeSensor systemName="East Small Fascia" mode="onInactive" />
     </route>
-    <route systemName="IR96" userName="East Small Thrown">
-      <systemName>IR96</systemName>
+    <route userName="East Small Thrown">
+      <systemName>IO96</systemName>
       <userName>East Small Thrown</userName>
       <routeOutputTurnout systemName="TO 27" state="THROWN" />
       <routeSensor systemName="East Small Fascia" mode="onActive" />
     </route>
-    <route systemName="IR97" userName="West Mott Closed">
-      <systemName>IR97</systemName>
+    <route userName="West Mott Closed">
+      <systemName>IO97</systemName>
       <userName>West Mott Closed</userName>
       <routeOutputTurnout systemName="TO 29" state="CLOSED" />
       <routeSensor systemName="West Mott Fascia" mode="onInactive" />
     </route>
-    <route systemName="IR98" userName="West Mott Thrown">
-      <systemName>IR98</systemName>
+    <route userName="West Mott Thrown">
+      <systemName>IO98</systemName>
       <userName>West Mott Thrown</userName>
       <routeOutputTurnout systemName="TO 29" state="THROWN" />
       <routeSensor systemName="West Mott Fascia" mode="onActive" />
     </route>
-    <route systemName="IR99" userName="Mott-Azalea Crossover (TO 33, 35) Closed">
-      <systemName>IR99</systemName>
+    <route userName="Mott-Azalea Crossover (TO 33, 35) Closed">
+      <systemName>IO99</systemName>
       <userName>Mott-Azalea Crossover (TO 33, 35) Closed</userName>
       <routeOutputTurnout systemName="TO 31A" state="CLOSED" />
       <routeOutputTurnout systemName="CT5037" state="CLOSED" />
       <routeSensor systemName="Mott-Azalea Crossover Fascia" mode="onInactive" />
+    </route>    
+    <route userName="Mott-Azalea Crossover (TO 33, 35) Thrown">
+      <systemName>IO100</systemName>
+      <userName>Mott-Azalea Crossover (TO 33, 35) Thrown</userName>
+      <routeOutputTurnout systemName="TO 31A" state="THROWN" />
+      <routeOutputTurnout systemName="CT5037" state="THROWN" />
+      <routeSensor systemName="Mott-Azalea Crossover Fascia" mode="onActive" />
     </route>
-    
-    <route systemName="IR:AUTO:0001" userName="Grass Lake Occ East Active">
-      <systemName>IR:AUTO:0001</systemName>
+    <route userName="East Azalea Closed">
+      <systemName>IO108</systemName>
+      <userName>East Azalea Closed</userName>
+      <routeOutputTurnout systemName="CT1039" state="CLOSED" />
+      <routeSensor systemName="CS5001" mode="onInactive" />
+    </route>
+    <route userName="East Azalea Thrown">
+      <systemName>IO109</systemName>
+      <userName>East Azalea Thrown</userName>
+      <routeOutputTurnout systemName="CT1039" state="THROWN" />
+      <routeSensor systemName="CS5001" mode="onActive" />
+    </route>
+    <route userName="Dunsmuir Lower XO (13) Closed">
+      <systemName>IO110</systemName>
+      <userName>Dunsmuir Lower XO (13) Closed</userName>
+      <routeOutputTurnout systemName="TO 13" state="CLOSED" />
+      <routeSensor systemName="Dunsmuir Lower XO Fascia" mode="onInactive" />
+    </route>
+    <route userName="Dunsmuir Lower XO (13) Thrown">
+      <systemName>IO111</systemName>
+      <userName>Dunsmuir Lower XO (13) Thrown</userName>
+      <routeOutputTurnout systemName="TO 13" state="THROWN" />
+      <routeSensor systemName="Dunsmuir Lower XO Fascia" mode="onActive" />
+    </route>
+    <route userName="Dunsmuir Team XO (17) Closed">
+      <systemName>IO112</systemName>
+      <userName>Dunsmuir Team XO (17) Closed</userName>
+      <routeOutputTurnout systemName="TO 17" state="CLOSED" />
+      <routeSensor systemName="Dunsmuir Team XO Fascia" mode="onInactive" />
+    </route>
+    <route userName="Dunsmuir Team XO Thrown">
+      <systemName>IO113</systemName>
+      <userName>Dunsmuir Team XO Thrown</userName>
+      <routeOutputTurnout systemName="TO 17" state="THROWN" />
+      <routeSensor systemName="Dunsmuir Team XO Fascia" mode="onActive" />
+    </route>
+    <route userName="BB/Mt Shasta crossover fascia controls">
+      <systemName>IO115</systemName>
+      <userName>BB/Mt Shasta crossover fascia controls</userName>
+      <routeOutputTurnout systemName="CT5044" state="TOGGLE" />
+      <routeSensor systemName="CS5017" mode="onChange" />
+      <routeSensor systemName="CS5018" mode="onChange" />
+    </route>
+    <route userName="Grass Lake Occ East Active">
+      <systemName>IO:AUTO:0001</systemName>
       <userName>Grass Lake Occ East Active</userName>
       <routeOutputTurnout systemName="CT7023" state="THROWN" />
       <routeSensor systemName="CS4005" mode="onActive" />
       <routeSoundFile name="program:resources/sounds/Bell.wav" />
     </route>
-    <route systemName="IR:AUTO:0002" userName="Grass Lake Occ East Inactive">
-      <systemName>IR:AUTO:0002</systemName>
+    <route userName="Grass Lake Occ East Inactive">
+      <systemName>IO:AUTO:0002</systemName>
       <userName>Grass Lake Occ East Inactive</userName>
       <routeOutputTurnout systemName="CT7023" state="CLOSED" />
       <routeSensor systemName="CS4005" mode="onInactive" />
       <routeSoundFile name="program:resources/sounds/Bell.wav" />
     </route>
-    <route systemName="IR:AUTO:0003" userName="Grass Lake Occ West Active">
-      <systemName>IR:AUTO:0003</systemName>
+    <route userName="Grass Lake Occ West Active">
+      <systemName>IO:AUTO:0003</systemName>
       <userName>Grass Lake Occ West Active</userName>
       <routeOutputTurnout systemName="CT7004" state="THROWN" />
       <routeSensor systemName="CS4006" mode="onActive" />
       <routeSoundFile name="program:resources/sounds/Bell.wav" />
     </route>
-    <route systemName="IR:AUTO:0004" userName="Grass Lake Occ West Inactive">
-      <systemName>IR:AUTO:0004</systemName>
+    <route userName="Grass Lake Occ West Inactive">
+      <systemName>IO:AUTO:0004</systemName>
       <userName>Grass Lake Occ West Inactive</userName>
       <routeOutputTurnout systemName="CT7004" state="CLOSED" />
       <routeSensor systemName="CS4006" mode="onInactive" />
       <routeSoundFile name="program:resources/sounds/Bell.wav" />
     </route>
-    
-    <route systemName="IR:AUTO:0005" userName="Dorris Occ East Active">
-      <systemName>IR:AUTO:0005</systemName>
+    <route userName="Dorris Occ East Active">
+      <systemName>IO:AUTO:0005</systemName>
       <userName>Dorris Occ East Active</userName>
       <routeOutputTurnout systemName="CT7025" state="THROWN" />
       <routeSensor systemName="CS63" mode="onActive" />
       <routeSoundFile name="program:resources/sounds/Bell.wav" />
     </route>
-    <route systemName="IR:AUTO:0006" userName="Dorris Occ East Inactive">
-      <systemName>IR:AUTO:0006</systemName>
+    <route userName="Dorris Occ East Inactive">
+      <systemName>IO:AUTO:0006</systemName>
       <userName>Dorris Occ East Inactive</userName>
       <routeOutputTurnout systemName="CT7025" state="CLOSED" />
       <routeSensor systemName="CS63" mode="onInactive" />
       <routeSoundFile name="program:resources/sounds/Bell.wav" />
     </route>
-    <route systemName="IR:AUTO:0007" userName="Dorris Occ West Active">
-      <systemName>IR:AUTO:0007</systemName>
+    <route userName="Dorris Occ West Active">
+      <systemName>IO:AUTO:0007</systemName>
       <userName>Dorris Occ West Active</userName>
       <routeOutputTurnout systemName="CT7022" state="THROWN" />
       <routeSensor systemName="CS62" mode="onActive" />
       <routeSoundFile name="program:resources/sounds/Bell.wav" />
     </route>
-    <route systemName="IR:AUTO:0008" userName="Dorris Occ West Inactive">
-      <systemName>IR:AUTO:0008</systemName>
+    <route userName="Dorris Occ West Inactive">
+      <systemName>IO:AUTO:0008</systemName>
       <userName>Dorris Occ West Inactive</userName>
       <routeOutputTurnout systemName="CT7022" state="CLOSED" />
       <routeSensor systemName="CS62" mode="onInactive" />
       <routeSoundFile name="program:resources/sounds/Bell.wav" />
     </route>
-    
-    <route systemName="IR:AUTO:0009" userName="K Falls Depart Active">
-      <systemName>IR:AUTO:0009</systemName>
+    <route userName="K Falls Depart Active">
+      <systemName>IO:AUTO:0009</systemName>
       <userName>K Falls Depart Active</userName>
       <routeSensor systemName="CS64" mode="onActive" />
       <routeSoundFile name="program:resources/sounds/bell_stroke.wav" />
     </route>
-    <route systemName="IR:AUTO:0010" userName="K Falls Depart Inactive">
-      <systemName>IR:AUTO:0010</systemName>
+    <route userName="K Falls Depart Inactive">
+      <systemName>IO:AUTO:0010</systemName>
       <userName>K Falls Depart Inactive</userName>
       <routeSensor systemName="CS64" mode="onInactive" />
       <routeSoundFile name="program:resources/sounds/bell_stroke.wav" />
