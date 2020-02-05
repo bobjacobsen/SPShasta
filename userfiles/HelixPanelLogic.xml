@@ -163,37 +163,37 @@
   </routes>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
 
-    <logix systemName="USS CTC:OSINDICATOR:1:CTC TC 01" enabled="yes">
-      <systemName>USS CTC:OSINDICATOR:1:CTC TC 01</systemName>
-      <logixConditional systemName="USS CTC:OSINDICATOR:1:CTC TC 01C1" order="0" />
+    <logix systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 01" enabled="yes">
+      <systemName>IX:USS CTC:OSINDICATOR:1:CTC TC 01</systemName>
+      <logixConditional systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 01C1" order="0" />
     </logix>
-    <logix systemName="USS CTC:OSINDICATOR:1:CTC TC 02" enabled="yes">
-      <systemName>USS CTC:OSINDICATOR:1:CTC TC 02</systemName>
-      <logixConditional systemName="USS CTC:OSINDICATOR:1:CTC TC 02C1" order="0" />
+    <logix systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 02" enabled="yes">
+      <systemName>IX:USS CTC:OSINDICATOR:1:CTC TC 02</systemName>
+      <logixConditional systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 02C1" order="0" />
     </logix>
-    <logix systemName="USS CTC:OSINDICATOR:1:CTC TC 03" enabled="yes">
-      <systemName>USS CTC:OSINDICATOR:1:CTC TC 03</systemName>
-      <logixConditional systemName="USS CTC:OSINDICATOR:1:CTC TC 03C1" order="0" />
+    <logix systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 03" enabled="yes">
+      <systemName>IX:USS CTC:OSINDICATOR:1:CTC TC 03</systemName>
+      <logixConditional systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 03C1" order="0" />
     </logix>
-    <logix systemName="USS CTC:OSINDICATOR:1:CTC TC 04" enabled="yes">
-      <systemName>USS CTC:OSINDICATOR:1:CTC TC 04</systemName>
-      <logixConditional systemName="USS CTC:OSINDICATOR:1:CTC TC 04C1" order="0" />
+    <logix systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 04" enabled="yes">
+      <systemName>IX:USS CTC:OSINDICATOR:1:CTC TC 04</systemName>
+      <logixConditional systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 04C1" order="0" />
     </logix>
-    <logix systemName="USS CTC:OSINDICATOR:1:CTC TC 05" enabled="yes">
-      <systemName>USS CTC:OSINDICATOR:1:CTC TC 05</systemName>
-      <logixConditional systemName="USS CTC:OSINDICATOR:1:CTC TC 05C1" order="0" />
+    <logix systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 05" enabled="yes">
+      <systemName>IX:USS CTC:OSINDICATOR:1:CTC TC 05</systemName>
+      <logixConditional systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 05C1" order="0" />
     </logix>
-    <logix systemName="USS CTC:OSINDICATOR:1:CTC TC 06" enabled="yes">
-      <systemName>USS CTC:OSINDICATOR:1:CTC TC 06</systemName>
-      <logixConditional systemName="USS CTC:OSINDICATOR:1:CTC TC 06C1" order="0" />
+    <logix systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 06" enabled="yes">
+      <systemName>IX:USS CTC:OSINDICATOR:1:CTC TC 06</systemName>
+      <logixConditional systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 06C1" order="0" />
     </logix>
 
   </logixs>
 
   <conditionals class="jmri.managers.configurexml.DefaultConditionalManagerXml">
 
-    <conditional systemName="USS CTC:OSINDICATOR:1:CTC TC 01C1" antecedent="" logicType="1">
-      <systemName>USS CTC:OSINDICATOR:1:CTC TC 01C1</systemName>
+    <conditional systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 01C1" antecedent="" logicType="1">
+      <systemName>IX:USS CTC:OSINDICATOR:1:CTC TC 01C1</systemName>
       <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS16" dataString="N/A" num1="0" num2="0" triggersCalc="yes" />
 <!-- 
       <conditionalAction option="1" type="2" systemName="CTC TC 01" data="2" delay="0" string="0" />
@@ -204,8 +204,8 @@
       <conditionalAction option="1" type="2" systemName="Helix P1 B main" data="2" delay="0" string="0" />
       <conditionalAction option="2" type="2" systemName="Helix P1 B main" data="4" delay="0" string="0" />
     </conditional>
-    <conditional systemName="USS CTC:OSINDICATOR:1:CTC TC 02C1" antecedent="" logicType="1">
-      <systemName>USS CTC:OSINDICATOR:1:CTC TC 02C1</systemName>
+    <conditional systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 02C1" antecedent="" logicType="1">
+      <systemName>IX:USS CTC:OSINDICATOR:1:CTC TC 02C1</systemName>
       <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS15" dataString="N/A" num1="0" num2="0" triggersCalc="yes" />
 <!-- 
       <conditionalAction option="1" type="2" systemName="CTC TC 02A" data="2" delay="0" string="0" />
@@ -216,24 +216,24 @@
       <conditionalAction option="1" type="2" systemName="Helix P1 B side 1" data="2" delay="0" string="0" />
       <conditionalAction option="2" type="2" systemName="Helix P1 B side 1" data="4" delay="0" string="0" />
     </conditional>
-    <conditional systemName="USS CTC:OSINDICATOR:1:CTC TC 03C1" antecedent="" logicType="1">
-      <systemName>USS CTC:OSINDICATOR:1:CTC TC 03C1</systemName>
+    <conditional systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 03C1" antecedent="" logicType="1">
+      <systemName>IX:USS CTC:OSINDICATOR:1:CTC TC 03C1</systemName>
       <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS50" dataString="N/A" num1="0" num2="0" triggersCalc="yes" />
 <!-- 
       <conditionalAction option="1" type="2" systemName="CTC TC 03" data="2" delay="0" string="0" />
       <conditionalAction option="2" type="2" systemName="CTC TC 03" data="4" delay="0" string="0" />
  -->
     </conditional>
-    <conditional systemName="USS CTC:OSINDICATOR:1:CTC TC 04C1" antecedent="" logicType="1">
-      <systemName>USS CTC:OSINDICATOR:1:CTC TC 04C1</systemName>
+    <conditional systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 04C1" antecedent="" logicType="1">
+      <systemName>IX:USS CTC:OSINDICATOR:1:CTC TC 04C1</systemName>
       <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS49" dataString="N/A" num1="0" num2="0" triggersCalc="yes" />
 <!-- 
       <conditionalAction option="1" type="2" systemName="CTC TC 04" data="2" delay="0" string="0" />
       <conditionalAction option="2" type="2" systemName="CTC TC 04" data="4" delay="0" string="0" />
  -->
     </conditional>
-    <conditional systemName="USS CTC:OSINDICATOR:1:CTC TC 05C1" antecedent="" logicType="1">
-      <systemName>USS CTC:OSINDICATOR:1:CTC TC 05C1</systemName>
+    <conditional systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 05C1" antecedent="" logicType="1">
+      <systemName>IX:USS CTC:OSINDICATOR:1:CTC TC 05C1</systemName>
       <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS14" dataString="N/A" num1="0" num2="0" triggersCalc="yes" />
 <!-- 
       <conditionalAction option="1" type="2" systemName="CTC TC 05" data="2" delay="0" string="0" />
@@ -244,8 +244,8 @@
       <conditionalAction option="1" type="2" systemName="Helix P1 A side 1" data="2" delay="0" string="0" />
       <conditionalAction option="2" type="2" systemName="Helix P1 A side 1" data="4" delay="0" string="0" />
     </conditional>
-    <conditional systemName="USS CTC:OSINDICATOR:1:CTC TC 06C1" antecedent="" logicType="1">
-      <systemName>USS CTC:OSINDICATOR:1:CTC TC 06C1</systemName>
+    <conditional systemName="IX:USS CTC:OSINDICATOR:1:CTC TC 06C1" antecedent="" logicType="1">
+      <systemName>IX:USS CTC:OSINDICATOR:1:CTC TC 06C1</systemName>
       <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS13" dataString="N/A" num1="0" num2="0" triggersCalc="yes" />
 <!-- 
       <conditionalAction option="1" type="2" systemName="CTC TC 06" data="2" delay="0" string="0" />
