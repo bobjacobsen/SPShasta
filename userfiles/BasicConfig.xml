@@ -3330,9 +3330,13 @@
     </sensor>
     <sensor inverted="false">
       <systemName>CS4009</systemName>
+      <userName>Leaf West Occ</userName>
+      <comment>6th DCCOD from right - confirm</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>CS4010</systemName>
+      <userName>Leaf East Occ</userName>
+      <comment>2nd DCCOD from right - confirm</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>CS4011</systemName>
@@ -3343,6 +3347,25 @@
       <systemName>CS4012</systemName>
       <userName>Leaf Siding Occ</userName>
       <comment>3rd DCCOD from right</comment>
+      
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4013</systemName>
+      <userName>Leaf-Dorris Main Occ</userName>
+      <comment>1st DCCOD from right - not yet wired, confirm</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4014</systemName>
+      <userName>Leaf - Grass Lake Main Occ</userName>
+      <comment>Maybe under node 4</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4015</systemName>
+      <userName>Grass Lake Siding Occ</userName>
+     <comment>Perhaps 7th from left on Node 4?</comment>
+     </sensor>
+    <sensor inverted="false">
+      <systemName>CS4016</systemName>
     </sensor>
     
     <sensor systemName="CS5001" inverted="true" userName="37 Azalea East Fascia">
