@@ -509,7 +509,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="400" y="110" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="400" y="112" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <sensoricon sensor="Shasta TC Siding Island" x="150" y="120" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
@@ -810,7 +810,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="621" y="110" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="621" y="112" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="919" y="172" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="338.9" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -1003,15 +1003,15 @@
     <positionablelabel x="1173" y="225" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="East --&gt;" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="481" y="92" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Siding" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1134" y="92" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Siding" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="684" y="114" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Main" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="998" y="111" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Main" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1140" y="114" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Main" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="247" y="110" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="684" y="132" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Main" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="998" y="112" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Main" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1140" y="112" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Main" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="247" y="112" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
 
-    <positionablelabel x="752" y="110" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="970" y="110" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="752" y="112" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="970" y="112" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
 
-    <positionablelabel x="1060" y="110" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1060" y="112" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="CS62" x="1049" y="103" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Dorris West Occ (CS62)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
@@ -1028,7 +1028,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1244" y="110" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1244" y="112" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="CS63" x="1253" y="103" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Dorris East Occ (CS63)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
