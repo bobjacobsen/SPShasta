@@ -2678,6 +2678,16 @@
       <userName>Dorris West fascia</userName>
     </sensor>
     <sensor inverted="false">
+      <systemName>CS30</systemName>
+      <userName>Dorris Siding Occ</userName>
+      <comment>Confirm</comment>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS31</systemName>
+      <userName>Dorris Main Occ</userName>
+      <comment>Confirm</comment>
+    </sensor>
+    <sensor inverted="false">
       <systemName>CS32</systemName>
       <userName>Dorris East Fascia</userName>
     </sensor>
