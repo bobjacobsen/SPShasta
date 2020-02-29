@@ -3325,57 +3325,61 @@
     <sensor inverted="false">
       <systemName>CS4005</systemName>
       <userName>Grass Lake Occ OS East</userName>
+      <comment>DCCOD 5th from left, wire "5 GrLk OS W"</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>CS4006</systemName>
       <userName>Grass Lake Occ OS West</userName>
+      <comment>DCCOD 2nd from left, wire "2 OS west"</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>CS4007</systemName>
       <userName>Shasta - Grass Lake Main</userName>
+      <comment>DCCOD 1st from left, wire "1 single"</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>CS4008</systemName>
       <userName>Grass Lake Main</userName>
+      <comment>DCCOD 3rd from left, wire "3 GL main"</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>CS4009</systemName>
       <userName>Leaf West Occ</userName>
-      <comment>6th DCCOD from right - confirm</comment>
+      <comment>DCCOD 7th from left, wire "7 GrLk - Wd"</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>CS4010</systemName>
       <userName>Leaf East Occ</userName>
-      <comment>2nd DCCOD from right - confirm</comment>
+      <comment>DCCOD 11th from left, wire "LF-11"</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>CS4011</systemName>
       <userName>Leaf Main Occ</userName>
-      <comment>4th DCCOD from right</comment>
+      <comment>DCCOD 9th from left, wire "LF-9"</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>CS4012</systemName>
       <userName>Leaf Siding Occ</userName>
-      <comment>3rd DCCOD from right</comment>
-      
+      <comment>DCCOD 10th from left, wire "LF-10"</comment>      
     </sensor>
     <sensor inverted="false">
       <systemName>CS4013</systemName>
       <userName>Leaf-Dorris Main Occ</userName>
-      <comment>1st DCCOD from right - not yet wired, confirm</comment>
+      <comment>DCCOD 12th from left, wire "LF-12"</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>CS4014</systemName>
       <userName>Leaf - Grass Lake Main Occ</userName>
-      <comment>Maybe under node 4</comment>
+      <comment>DCCOD 4th from left, wire "GL-4"</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>CS4015</systemName>
       <userName>Grass Lake Siding Occ</userName>
-     <comment>Perhaps 7th from left on Node 4?</comment>
+      <comment>DCCOD 6th from left, wire "6 GrLk - Wd"</comment>
      </sensor>
     <sensor inverted="false">
       <systemName>CS4016</systemName>
+      <comment>Unused</comment>
     </sensor>
     
     <sensor systemName="CS5001" inverted="true" userName="37 Azalea East Fascia">
