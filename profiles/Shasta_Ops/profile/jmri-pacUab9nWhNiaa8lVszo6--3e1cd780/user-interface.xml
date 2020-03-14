@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
     </classPreferences>
     <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
         <comboBox xmlns="" lastSelected="Serial" name="NCE"/>
@@ -232,6 +246,7 @@
         <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:SignalHead" height="467.0" locX="573.0" locY="613.0" width="320.0"/>
         <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="475.0" locX="31.0" locY="31.0" width="853.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Routes:1" height="1080.0" locX="31.0" locY="0.0" width="1332.0"/>
+        <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard" locX="570.0" locY="20.0"/>
         <window xmlns="" class="Grass Lake Wye panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="1080.0" locX="31.0" locY="0.0" width="1332.0"/>
         <window xmlns="" class="JMRI System Console" height="832.0" locX="31.0" locY="31.0" width="1347.0"/>
@@ -251,12 +266,14 @@
         <window xmlns="" class="Turntable Control" height="580.0" locX="20.0" locY="22.0" width="420.0"/>
         <window xmlns="" class="Weed Staging" height="420.0" locX="100.0" locY="520.0" width="360.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Routes" height="1080.0" locX="31.0" locY="0.0" width="1332.0"/>
+        <window xmlns="" class="CTC Controls" height="341.0" locX="1465.0" locY="699.0" width="419.0"/>
         <window xmlns="" class="Script Entry" height="294.0" locX="158.0" locY="334.0" width="503.0"/>
         <window xmlns="" class="Mount Shasta Crossing Control" height="176.0" locX="300.0" locY="500.0" width="325.0"/>
         <window xmlns="" class="CTC Panel Image" height="720.0" locX="20.0" locY="20.0" width="1024.0"/>
         <window xmlns="" class="jmri.jmrix.nce.clockmon.ClockMonPanel" height="524.0" locX="0.0" locY="0.0" width="518.0"/>
-        <window xmlns="" class="APB Panel " height="362.0" locX="206.0" locY="630.0" width="1348.0"/>
+        <window xmlns="" class="APB Panel " height="362.0" locX="567.0" locY="45.0" width="1348.0"/>
         <window xmlns="" class="JMRI System console" height="1075.0" locX="819.0" locY="5.0" width="993.0"/>
+        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:Mount Shasta Crossing Control" locX="0.0" locY="0.0"/>
         <window xmlns="" class="Outside Signal Controls" height="209.0" locX="439.0" locY="610.0" width="458.0"/>
         <window xmlns="" class="Grass Lake West panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
         <window xmlns="" class="Add/Edit Route" locX="100.0" locY="30.0"/>
@@ -271,9 +288,10 @@
         <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame" height="550.0" locX="20.0" locY="40.0" width="950.0"/>
         <window xmlns="" class="Grass Lake East panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
         <window xmlns="" class="Script Output" height="294.0" locX="362.0" locY="738.0" width="625.0"/>
+        <window xmlns="" class="Switchboard" height="330.0" locX="506.0" locY="473.0" width="550.0"/>
         <window xmlns="" class="Helix Outer Panel" height="247.0" locX="960.0" locY="791.0" width="675.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame:1" height="636.0" locX="200.0" locY="200.0" width="362.0"/>
-        <window xmlns="" class="PanelPro" height="263.0" locX="697.0" locY="405.0" width="448.0"/>
+        <window xmlns="" class="PanelPro" height="262.0" locX="697.0" locY="405.0" width="619.0"/>
         <window xmlns="" class="CTC Mode Control" height="150.0" locX="20.0" locY="20.0" width="300.0"/>
         <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:CMRI Node Status" locX="0.0" locY="0.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="1080.0" locX="31.0" locY="0.0" width="1332.0"/>

@@ -11,9 +11,9 @@
                 <parameter name="num2lsearchlights">0</parameter>
                 <parameter name="pulsewidth">500</parameter>
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
-                <parameter name="cardtypelocation">1122221112200000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cardtypelocation">1122221112220000000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cmrinetoptions">1000000000000000</parameter>
-                <parameter name="cmrinodedesc">3 input, 6 output installed</parameter>
+                <parameter name="cmrinodedesc">Only 4 input, 6 output actually installed</parameter>
             </node>
             <node name="1">
                 <parameter name="nodetype">1</parameter>

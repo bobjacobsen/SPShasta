@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/consistRoster.xsl" type="text/xsl"?>
 <!DOCTYPE consist-roster-config SYSTEM "/xml/DTD/consist-roster-config.dtd">
 <consist-roster-config>
-  <!--Written by JMRI version 4.13.2+R8a2b21d on Wed Mar 13 20:41:29 PDT 2019-->
+  <!--Written by JMRI version 4.19.3ish+jenkins+20200206T0539Z+R1415a92a01 on Fri Mar 13 21:07:46 PDT 2020-->
   <roster>
     <consist id="5(S)" consistNumber="5" longAddress="no" type="DAC">
       <loco dccLocoAddress="6005" longAddress="yes" locoDir="normal" locoName="lead" />
@@ -10,8 +10,6 @@
     </consist>
     <consist id="7(S)" consistNumber="7" longAddress="no" type="DAC">
       <loco dccLocoAddress="6007" longAddress="yes" locoDir="normal" locoName="lead" />
-      <loco dccLocoAddress="5911" longAddress="yes" locoDir="normal" locoName="rear" />
-      <loco dccLocoAddress="6005" longAddress="yes" locoDir="normal" locoName="mid" locoMidNumber="2" />
     </consist>
     <consist id="40(S)" consistNumber="40" longAddress="no" type="DAC">
       <loco dccLocoAddress="6440" longAddress="yes" locoDir="normal" locoName="lead" />
@@ -59,7 +57,9 @@
       <loco dccLocoAddress="15872" longAddress="yes" locoDir="normal" locoName="lead" />
     </consist>
     <consist id="127(S)" consistNumber="127" longAddress="no" type="DAC">
-      <loco dccLocoAddress="6005" longAddress="yes" locoDir="normal" locoName="lead" />
+      <loco dccLocoAddress="6007" longAddress="yes" locoDir="normal" locoName="lead" />
+      <loco dccLocoAddress="6005" longAddress="yes" locoDir="normal" locoName="rear" />
+      <loco dccLocoAddress="5911" longAddress="yes" locoDir="normal" locoName="mid" locoMidNumber="2" />
     </consist>
   </roster>
 </consist-roster-config>
