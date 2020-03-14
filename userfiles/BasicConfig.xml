@@ -4085,22 +4085,6 @@
     <sensor systemName="CS6160" inverted="false">
       <systemName>CS6160</systemName>
     </sensor>
-    <sensor systemName="CS6161" inverted="false" userName="CTC Reset">
-      <systemName>CS6161</systemName>
-      <userName>CTC Reset</userName>
-      <comment>Reset momentary button, push active</comment>
-    </sensor>
-    <sensor systemName="CS6162" inverted="false">
-      <systemName>CS6162</systemName>
-    </sensor>
-    <sensor systemName="CS6163" inverted="false">
-      <systemName>CS6163</systemName>
-    </sensor>
-    <sensor systemName="CS6164" inverted="false" userName="CTC Recall">
-      <systemName>CS6164</systemName>
-      <userName>CTC Recall</userName>
-      <comment>Recall momentary button, push active</comment>
-    </sensor>
 
     <sensor systemName="CS7001" inverted="false" userName="TO BB E 31">
       <systemName>CS7001</systemName>
