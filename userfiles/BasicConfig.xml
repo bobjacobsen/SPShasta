@@ -3893,25 +3893,29 @@
     </sensor>
     <sensor systemName="CS6105" inverted="false">
       <systemName>CS6105</systemName>
+      <userName>CTC Recall</userName>
+      <comment>Recall momentary switch</comment>
     </sensor>
     <sensor systemName="CS6106" inverted="false">
       <systemName>CS6106</systemName>
+      <userName>CTC Reset</userName>
+      <comment>Reset momentary switch</comment>
     </sensor>
-    <sensor systemName="CS6107" inverted="false" userName="CTC Mode">
+    <sensor systemName="CS6107" inverted="false">
       <systemName>CS6107</systemName>
       <userName>CTC Mode</userName>
       <comment>Field Stations Disconnect switch; in/active for CTC, out/inactive for ABS</comment>
     </sensor>
-    <sensor systemName="CS6108" inverted="true" userName="CTC Bell Cutout">
+    <sensor systemName="CS6108" inverted="true">
       <systemName>CS6108</systemName>
       <userName>CTC Bell Cutout</userName>
-      <comment>OS bell cutout switch; out for active</comment>
+      <comment>OS Bell Cutout switch; in for all bells, out (Active) for only arrival</comment>
     </sensor>
-    <sensor systemName="CS6109" inverted="false" userName="CTC 41 R">
+    <sensor systemName="CS6109" inverted="false" >
       <systemName>CS6109</systemName>
       <userName>CTC 41 R</userName>
     </sensor>
-    <sensor systemName="CS6110" inverted="false" userName="CTC 41 N">
+    <sensor systemName="CS6110" inverted="false">
       <systemName>CS6110</systemName>
       <userName>CTC 41 N</userName>
     </sensor>
