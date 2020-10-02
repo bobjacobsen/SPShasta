@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.cmri.serial.sim.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="(none selected)" speed="9,600 baud" systemPrefix="C" userName="C/MRI">
+        <connection xmlns="" class="jmri.jmrix.cmri.serial.sim.configurexml.ConnectionConfigXml" disabled="no" manufacturer="C/MRI" port="" speed="9600" systemPrefix="C" userName="C/MRI">
             <options/>
+            <polllist pollseq="0,1,2,4,5,6,7,8,9"/>
             <node name="0">
                 <parameter name="nodetype">2</parameter>
                 <parameter name="bitspercard">32</parameter>
@@ -10,7 +11,9 @@
                 <parameter name="num2lsearchlights">0</parameter>
                 <parameter name="pulsewidth">500</parameter>
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
-                <parameter name="cardtypelocation">1122221112000000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cardtypelocation">1122221112200000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cmrinetoptions">1000000000000000</parameter>
+                <parameter name="cmrinodedesc">3 input, 6 output installed</parameter>
             </node>
             <node name="1">
                 <parameter name="nodetype">1</parameter>
@@ -20,6 +23,8 @@
                 <parameter name="pulsewidth">500</parameter>
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cmrinetoptions">1000000000000000</parameter>
+                <parameter name="cmrinodedesc"/>
             </node>
             <node name="2">
                 <parameter name="nodetype">2</parameter>
@@ -29,6 +34,8 @@
                 <parameter name="pulsewidth">500</parameter>
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cardtypelocation">2212210000000000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cmrinetoptions">1000000000000000</parameter>
+                <parameter name="cmrinodedesc"/>
             </node>
             <node name="4">
                 <parameter name="nodetype">1</parameter>
@@ -38,6 +45,8 @@
                 <parameter name="pulsewidth">500</parameter>
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cmrinetoptions">1000000000000000</parameter>
+                <parameter name="cmrinodedesc"/>
             </node>
             <node name="5">
                 <parameter name="nodetype">1</parameter>
@@ -47,6 +56,8 @@
                 <parameter name="pulsewidth">500</parameter>
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cmrinetoptions">1000000000000000</parameter>
+                <parameter name="cmrinodedesc"/>
             </node>
             <node name="6">
                 <parameter name="nodetype">2</parameter>
@@ -56,6 +67,8 @@
                 <parameter name="pulsewidth">500</parameter>
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cardtypelocation">1122221112222112222200000000000000000000000000000000000000000000</parameter>
+                <parameter name="cmrinetoptions">1000000000000000</parameter>
+                <parameter name="cmrinodedesc"/>
             </node>
             <node name="7">
                 <parameter name="nodetype">1</parameter>
@@ -65,6 +78,8 @@
                 <parameter name="pulsewidth">500</parameter>
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cmrinetoptions">1000000000000000</parameter>
+                <parameter name="cmrinodedesc"/>
             </node>
             <node name="8">
                 <parameter name="nodetype">1</parameter>
@@ -74,6 +89,8 @@
                 <parameter name="pulsewidth">500</parameter>
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cmrinetoptions">1000000000000000</parameter>
+                <parameter name="cmrinodedesc"/>
             </node>
             <node name="9">
                 <parameter name="nodetype">1</parameter>
@@ -83,7 +100,12 @@
                 <parameter name="pulsewidth">500</parameter>
                 <parameter name="locsearchlightbits">000000000000000000000000000000000000000000000000</parameter>
                 <parameter name="cardtypelocation">2210000000000000000000000000000000000000000000000000000000000000</parameter>
+                <parameter name="cmrinetoptions">1000000000000000</parameter>
+                <parameter name="cmrinodedesc"/>
             </node>
+        </connection>
+        <connection xmlns="" class="jmri.jmrix.nce.simulator.configurexml.ConnectionConfigXml" disabled="no" manufacturer="NCE" port="" speed="" systemPrefix="N" userName="NCE">
+            <options/>
         </connection>
     </connections>
 </auxiliary-configuration>
