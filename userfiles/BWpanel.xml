@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="http://www.jmri.org/xml/XSLT/panelfile.xsl"?>
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="CTC Panel Image" x="20" y="20" height="720" width="1024" editable="yes" positionable="no" showcoordinates="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="none">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="CTC Panel Image" x="20" y="20" height="760" width="1250" editable="yes" positionable="no" showcoordinates="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="none">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" fixed="true" showtooltip="false" size="13" style="0" icon="preference:resources/InitialCTConThreeRows.gif" rotate="0" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/InitialCTConThreeRows.gif" rotate="0" degrees="0" scale="1.0" />
     </positionablelabel>
@@ -1262,65 +1262,463 @@
     <positionablelabel x="500" y="440" level="5" forcecontroloff="false" fixed="false" showtooltip="true" text="Occ ind also on main" size="10" style="1" red="51" green="51" blue="51" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="650" y="440" level="5" forcecontroloff="false" fixed="false" showtooltip="true" text="Occ ind also on main" size="10" style="1" red="51" green="51" blue="51" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
 
-    <sensoricon sensor="TC 02" x="960" y="639" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="TC 02" x="1165" y="669" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>TC 02 (CS15)</tooltip>
-      <active url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+      <unknown url="program:resources/icons/smallschematics/LEDs/yellow.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </unknown>
-      <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/red.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="TC 01" x="987" y="604" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="TC 01" x="1192" y="584" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>TC 01 (CS16)</tooltip>
-      <active url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+      <unknown url="program:resources/icons/smallschematics/LEDs/yellow.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </unknown>
-      <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/red.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
     </sensoricon>
 
-    <memoryInputIcon colWidth="25" memory="IMUSS CTC:SIGNALHEADSECTION:1:LOG" x="50" y="560" level="5" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" size="14" style="0" red="51" green="51" blue="51" redBack="255" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.MemoryInputIconXml">
+
+    <turnouticon turnout="CT6320" x="1188" y="602" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6319" x="1161" y="639" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6318" x="1133" y="606" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6317" x="1094" y="606" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6315" x="1039" y="571" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6316" x="1039" y="608" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6314" x="982" y="609" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6313" x="945" y="608" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6296" x="844" y="367" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6295" x="884" y="366" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6293" x="942" y="366" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6292" x="992" y="367" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6294" x="917" y="400" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+
+    <turnouticon turnout="CT6291" x="1046" y="368" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+
+    <turnouticon turnout="CT6289" x="1141" y="408" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+
+    <turnouticon turnout="CT6297" x="338" y="607" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6298" x="377" y="607" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6300" x="419" y="607" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6215" x="378" y="648" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+
+    <turnouticon turnout="CT6301" x="483" y="607" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+
+    <turnouticon turnout="CT6302" x="531" y="607" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6303" x="574" y="573" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="CT6304" x="577" y="607" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USSpanels/Lamps/lamp-d.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USSpanels/Lamps/lamp-w.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USSpanels/Lamps/lamp-y.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USSpanels/Lamps/lamp-r.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+
+    <memoryInputIcon colWidth="25" memory="IMUSS CTC:SIGNALHEADSECTION:1:LOG" x="10" y="660" level="5" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" size="14" style="0" red="51" green="51" blue="51" redBack="255" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.MemoryInputIconXml">
         <tooltip>SignalHead log</tooltip>
     </memoryInputIcon>
-    <memoryInputIcon colWidth="25" memory="IMUSS CTC:CODELINE:1:LOG" x="50" y="585" level="5" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" size="14" style="0" red="51" green="51" blue="51" redBack="255" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.MemoryInputIconXml">
+    <memoryInputIcon colWidth="25" memory="IMUSS CTC:CODELINE:1:LOG" x="10" y="685" level="5" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" size="14" style="0" red="51" green="51" blue="51" redBack="255" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.MemoryInputIconXml">
         <tooltip>CodeLine log</tooltip>
     </memoryInputIcon>
-    <memoryInputIcon colWidth="25" memory="IMUSS CTC:LOCK:1:LOG" x="50" y="610" level="5" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" size="14" style="0" red="51" green="51" blue="51" redBack="255" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.MemoryInputIconXml">
+    <memoryInputIcon colWidth="25" memory="IMUSS CTC:LOCK:1:LOG" x="10" y="710" level="5" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" size="14" style="0" red="51" green="51" blue="51" redBack="255" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.MemoryInputIconXml">
         <tooltip>Lock log</tooltip>
     </memoryInputIcon>
 
-    <turnouticon turnout="CTC Code Send Driver" x="182" y="530" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
-    <positionablelabel x="180" y="550" level="5" forcecontroloff="false" fixed="false" showtooltip="true" text="Send" size="10" style="1" red="51" green="51" blue="51" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <turnouticon turnout="CTC Code Send Driver" x="142" y="630" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
+    <positionablelabel x="140" y="650" level="5" forcecontroloff="false" fixed="false" showtooltip="true" text="Send" size="10" style="1" red="51" green="51" blue="51" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
 
-    <turnouticon turnout="CTC Code Indication Driver" x="232" y="530" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
-    <positionablelabel x="220" y="550" level="5" forcecontroloff="false" fixed="false" showtooltip="true" text="Indication" size="10" style="1" red="51" green="51" blue="51" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <turnouticon turnout="CTC Code Indication Driver" x="182" y="630" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
+    <positionablelabel x="180" y="650" level="5" forcecontroloff="false" fixed="false" showtooltip="true" text="Indication" size="10" style="1" red="51" green="51" blue="51" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     
-    <turnouticon turnout="CTC Bell" x="443" y="530" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
-    <positionablelabel x="444" y="550" level="5" forcecontroloff="false" fixed="false" showtooltip="true" text="Bell" size="10" style="1" red="51" green="51" blue="51" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <turnouticon turnout="CTC Bell" x="443" y="675" level="7" closed="resources/icons/USSpanels/Lamps/lamp-dw.gif" thrown="resources/icons/USSpanels/Lamps/lamp-w.gif" unknown="resources/icons/USSpanels/Lamps/lamp-r.gif" inconsistent="resources/icons/USSpanels/Lamps/lamp-r.gif" rotate="0" forcecontroloff="false" tristate="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml" />
+    <positionablelabel x="444" y="700" level="5" forcecontroloff="false" fixed="false" showtooltip="true" text="Bell" size="10" style="1" red="51" green="51" blue="51" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
 
-    <sensoricon sensor="CTC Bell Cutout" x="440" y="564" level="10" forcecontroloff="false" momentary="false" icon="yes" active="program:resources/icons/USS/plate/levers/switch-on.gif" inactive="program:resources/icons/USS/plate/levers/switch-off.gif" unknown="program:resources/icons/USS/plate/levers/switch-unknown.gif" inconsistent="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" rotate="0" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="CTC Bell Cutout" x="482" y="670" level="10" forcecontroloff="false" momentary="false" icon="yes" active="program:resources/icons/USS/plate/levers/switch-on.gif" inactive="program:resources/icons/USS/plate/levers/switch-off.gif" unknown="program:resources/icons/USS/plate/levers/switch-unknown.gif" inconsistent="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" rotate="0" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/switch-on.gif" rotate="0" degrees="0" scale="1.0" />
       <inactive url="program:resources/icons/USS/plate/levers/switch-off.gif" rotate="0" degrees="0" scale="1.0" />
       <unknown url="program:resources/icons/USS/plate/levers/switch-unknown.gif" rotate="0" degrees="0" scale="1.0" />
       <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" rotate="0" degrees="0" scale="1.0" />
     </sensoricon>
-    <positionablelabel x="422" y="600" level="5" forcecontroloff="false" fixed="false" showtooltip="true" text="Bell Cutout" size="10" style="1" red="51" green="51" blue="51" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="480" y="700" level="5" forcecontroloff="false" fixed="false" showtooltip="true" text="Bell Cutout" size="10" style="1" red="51" green="51" blue="51" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
 
   </paneleditor>
   <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="CTC Controls" x="1465" y="699" height="341" width="419" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
