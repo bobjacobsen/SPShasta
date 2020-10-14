@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="http://jmri.sourceforge.net/xml/XSLT/panelfile.xsl" type="text/xsl"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile.xsl" type="text/xsl"?>
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
   <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="CTC Mode Control" x="20" y="20" height="150" width="300" editable="yes" positionable="yes" showcoordinates="no" controlling="yes" hide="yes" panelmenu="yes">
     <sensoricon sensor="CTC Mode" x="14" y="14" level="10" active="resources/icons/USS/plate/levers/l-left.gif" inactive="resources/icons/USS/plate/levers/l-right.gif" unknown="resources/icons/USS/plate/levers/l-vertical.gif" inconsistent="resources/icons/USS/plate/levers/l-vertical.gif" rotate="0" forcecontroloff="false" momentary="false" class="jmri.jmrit.display.configurexml.SensorIconXml" />
