@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-4-19-2.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-4-19-2.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>23</minor>
+    <test>1</test>
+    <modifier>ish</modifier>
+  </jmriversion>
+
+  <switchboardeditor class="jmri.jmrit.display.switchboardEditor.configurexml.SwitchboardEditorXml" name="Switchboard" editable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="none" hideunconnected="no" autoitemrange="yes" rangemin="6290" rangemax="6320" type="T" connection="C" shape="button" rows="0" total="31" showusername="yes" iconscale="100" defaulttextcolor="black" activecolor="red" inactivecolor="green" redBackground="255" greenBackground="255" blueBackground="255" />
+
+  <!--Written by JMRI version 4.23.1ish+jake+20210302T2037Z+Rad0591eeb6 on Tue Mar 02 12:38:43 PST 2021-->
+</layout-config>
