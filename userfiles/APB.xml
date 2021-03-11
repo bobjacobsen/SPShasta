@@ -1273,5 +1273,192 @@
     </sensoricon>
   </paneleditor>
   
+  <!-- USS followers for the APB section -->
+  <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6175</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6175C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6215</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6215C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6297</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6297C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6298</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6298C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6300</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6300C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6301</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6301C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6302</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6302C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6303</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6303C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6304</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6304C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6035</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6035C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6306</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6306C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6212</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6212C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6213</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6213C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6289</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6289C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6290</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6290C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6291</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6291C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6319</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6319C1" order="0" />
+    </logix>
+    <logix enabled="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6320</systemName>
+      <logixConditional systemName="IX:USS CTC:OsIndicator:1:CT6320C1" order="0" />
+    </logix>
+  </logixs>
+  <conditionals class="jmri.managers.configurexml.DefaultConditionalManagerXml">
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6175C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6175C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4014" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6175" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6175" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6215C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6215C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4012" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6215" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6215" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6297C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6297C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4009" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6297" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6297" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6298C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6298C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4011" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6298" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6298" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6300C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6300C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4010" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6300" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6300" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6301C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6301C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4013" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6301" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6301" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6302C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6302C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS62" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6302" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6302" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6303C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6303C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS30" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6303" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6303" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6304C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6304C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS31" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6304" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6304" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6035C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6035C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS63" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6035" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6035" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6306C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6306C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS63" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6306" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6306" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6212C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6212C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4015" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6212" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6212" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6213C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6213C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4005" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6213" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6213" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6289C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6289C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4008" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6289" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6289" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6290C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6290C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4006" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6290" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6290" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6291C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6291C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4007" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6291" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6291" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6319C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6319C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS15" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6319" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6319" data="4" delay="0" string=" " />
+    </conditional>
+    <conditional systemName="IX:USS CTC:OsIndicator:1:CT6320C1" antecedent="" logicType="1" triggerOnChange="yes">
+      <systemName>IX:USS CTC:OsIndicator:1:CT6320C1</systemName>
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS16" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="2" systemName="CT6320" data="2" delay="0" string=" " />
+      <conditionalAction option="2" type="2" systemName="CT6320" data="4" delay="0" string=" " />
+    </conditional>
+  </conditionals>
+    
+
   <!--Written by JMRI version 4.13.1ish+jake+20180717T1348Z+R66375f2b98 on Tue Jul 17 08:22:40 PDT 2018-->
 </layout-config>
