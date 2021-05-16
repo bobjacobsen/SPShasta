@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
     </classPreferences>
     <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
         <comboBox xmlns="" lastSelected="Signal Head Controlled Mast" name="jmri.jmrit.beantable.signalmast.AddSignalMastPanel.SignallingDriverSelected"/>
+        <comboBox xmlns="" lastSelected="MXULF" name="Zimo"/>
         <comboBox xmlns="" lastSelected="AAR 1946" name="jmri.jmrit.beantable.signalmast.AddSignalMastPanel.SignallingSystemSelected"/>
         <comboBox xmlns="" lastSelected="python" name="jmri.jmrit.jython.InputWindow.language"/>
-        <comboBox xmlns="" lastSelected="Internal" name="jmri.jmrit.beantable.TurnoutTableAction.SystemSelected"/>
+        <comboBox xmlns="" lastSelected="C/MRI" name="jmri.jmrit.beantable.TurnoutTableAction.SystemSelected"/>
         <comboBox xmlns="" lastSelected="Double position light high signal" name="jmri.jmrit.beantable.signalmast.AddSignalMastPanel.SignallingMastSelected:AAR 1946"/>
     </comboBoxLastValue>
     <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
@@ -356,13 +370,13 @@
         <window xmlns="" class="Operator Controls" height="216.0" locX="599.0" locY="914.0" width="390.0"/>
         <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:SignalHead" height="533.0" locX="27.0" locY="403.0" width="388.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Lights" height="1394.0" locX="22.0" locY="23.0" width="1997.0"/>
-        <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard" locX="624.0" locY="23.0"/>
+        <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard" locX="22.0" locY="24.0"/>
         <window xmlns="" class="Grass Lake Wye panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.nodeiolist.NodeIOListFrame" height="782.0" locX="100.0" locY="100.0" width="662.0"/>
         <window xmlns="" class="JMRI System Console" height="365.0" locX="22.0" locY="24.0" width="859.0"/>
         <window xmlns="" class="CMRI Node Status" height="420.0" locX="100.0" locY="520.0" width="360.0"/>
-        <window xmlns="" class="Helix Inner Panel" height="238.0" locX="1214.0" locY="298.0" width="550.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="1394.0" locX="0.0" locY="23.0" width="2560.0"/>
+        <window xmlns="" class="Helix Inner Panel" height="238.0" locX="67.0" locY="516.0" width="550.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="1372.0" locX="0.0" locY="23.0" width="2538.0"/>
         <window xmlns="" class="jmri.jmrit.simpleclock.SimpleClockFrame" height="487.0" locX="0.0" locY="23.0" width="370.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts:1" height="1394.0" locX="22.0" locY="23.0" width="1941.0"/>
         <window xmlns="" class="Middle Panel" height="507.0" locX="20.0" locY="23.0" width="1202.0"/>
@@ -391,27 +405,28 @@
         <window xmlns="" class="jmri.jmrit.blockboss.BlockBossFrame:Simple Signal Logic:2" locX="0.0" locY="23.0"/>
         <window xmlns="" class="jmri.jmrit.blockboss.BlockBossFrame:Simple Signal Logic:1" locX="0.0" locY="23.0"/>
         <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:Panel " locX="20.0" locY="23.0"/>
-        <window xmlns="" class="Panel " height="341.0" locX="1465.0" locY="699.0" width="419.0"/>
+        <window xmlns="" class="Panel " height="603.0" locX="711.0" locY="543.0" width="1650.0"/>
         <window xmlns="" class="jmri.jmrit.blockboss.BlockBossFrame:Simple Signal Logic:4" locX="0.0" locY="23.0"/>
-        <window xmlns="" class="Helix Outer Panel" height="247.0" locX="960.0" locY="791.0" width="675.0"/>
+        <window xmlns="" class="Helix Outer Panel" height="247.0" locX="0.0" locY="268.0" width="675.0"/>
         <window xmlns="" class="jmri.jmrit.blockboss.BlockBossFrame:Simple Signal Logic:3" locX="0.0" locY="23.0"/>
         <window xmlns="" class="jmri.jmrit.blockboss.BlockBossFrame:Simple Signal Logic:5" locX="0.0" locY="23.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.diagnostic.DiagnosticFrame" height="491.0" locX="1026.0" locY="207.0" width="719.0"/>
-        <window xmlns="" class="PanelPro" height="231.0" locX="856.0" locY="493.0" width="698.0"/>
+        <window xmlns="" class="PanelPro" height="231.0" locX="48.0" locY="889.0" width="698.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.cmrinetmanager.CMRInetManagerFrame" height="500.0" locX="20.0" locY="40.0" width="750.0"/>
         <window xmlns="" class="Left Wing Panel" height="507.0" locX="20.0" locY="23.0" width="1202.0"/>
         <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="377.0" locX="538.0" locY="412.0" width="1115.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="1394.0" locX="22.0" locY="23.0" width="1997.0"/>
         <window xmlns="" class="jmri.jmrit.blockboss.BlockBossFrame:Simple Signal Logic" locX="22.0" locY="24.0"/>
+        <window xmlns="" class="jmri.jmrit.ussctc.OsIndicatorFrame" height="140.0" locX="50.0" locY="734.0" width="392.0"/>
         <window xmlns="" class="Add New Signal Head" locX="22.0" locY="24.0"/>
-        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:RightTurnout" height="790.0" locX="20.0" locY="23.0" width="438.0"/>
+        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:RightTurnout" height="790.0" locX="0.0" locY="23.0" width="438.0"/>
         <window xmlns="" class="jmri.jmrit.mailreport.ReportFrame:4" locX="22.0" locY="24.0"/>
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="472.0" width="937.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.cmrinetmanager.CMRInetMetricsFrame" height="400.0" locX="22.0" locY="24.0" width="845.0"/>
         <window xmlns="" class="jmri.jmrit.mailreport.ReportFrame:5" locX="22.0" locY="24.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Signal Heads" height="1394.0" locX="314.0" locY="23.0" width="1941.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.serialmon.SerialMonFrame" height="402.0" locX="22.0" locY="24.0" width="2414.0"/>
-        <window xmlns="" class="Add New Turnout" locX="22.0" locY="23.0"/>
+        <window xmlns="" class="Add New Turnout" locX="22.0" locY="24.0"/>
         <window xmlns="" class="Add New Light Controller" locX="120.0" locY="23.0"/>
         <window xmlns="" class="Turntable Control" height="580.0" locX="20.0" locY="23.0" width="420.0"/>
         <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Sensor" height="428.0" locX="281.0" locY="23.0" width="356.0"/>
@@ -419,9 +434,9 @@
         <window xmlns="" class="jmri.jmrit.mailreport.ReportFrame:2" locX="22.0" locY="24.0"/>
         <window xmlns="" class="jmri.jmrit.mailreport.ReportFrame:3" locX="22.0" locY="24.0"/>
         <window xmlns="" class="Mount Shasta Crossing Control" height="176.0" locX="300.0" locY="500.0" width="325.0"/>
-        <window xmlns="" class="CTC Panel Image" height="720.0" locX="387.0" locY="612.0" width="1024.0"/>
+        <window xmlns="" class="CTC Panel Image" height="773.0" locX="515.0" locY="342.0" width="1270.0"/>
         <window xmlns="" class="jmri.jmrix.nce.clockmon.ClockMonPanel" height="540.0" locX="22.0" locY="23.0" width="742.0"/>
-        <window xmlns="" class="APB Panel " height="336.0" locX="797.0" locY="784.0" width="1341.0"/>
+        <window xmlns="" class="APB Panel " height="377.0" locX="331.0" locY="23.0" width="1461.0"/>
         <window xmlns="" class="Outside Signal Controls" height="209.0" locX="439.0" locY="610.0" width="458.0"/>
         <window xmlns="" class="Grass Lake West panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
         <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Memory" height="396.0" locX="0.0" locY="23.0" width="705.0"/>
@@ -430,8 +445,8 @@
         <window xmlns="" class="JMRI Context" height="1393.0" locX="22.0" locY="23.0" width="1444.0"/>
         <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Memory:1" height="347.0" locX="1130.0" locY="702.0" width="366.0"/>
         <window xmlns="" class="Edit Signal Head" locX="22.0" locY="24.0"/>
-        <window xmlns="" class="Switchboard" height="409.0" locX="22.0" locY="24.0" width="601.0"/>
+        <window xmlns="" class="Switchboard" height="325.0" locX="22.0" locY="24.0" width="865.0"/>
         <window xmlns="" class="jmri.jmrix.cmri.serial.nodeconfigmanager.NodeConfigManagerFrame:1" height="622.0" locX="200.0" locY="200.0" width="490.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="884.0" locX="-42.0" locY="23.0" width="1703.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="884.0" locX="0.0" locY="23.0" width="1703.0"/>
     </windowDetails>
 </auxiliary-configuration>
