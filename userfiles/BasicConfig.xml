@@ -782,8 +782,8 @@
       <systemName>CT1046</systemName>
       <userName>40R LOW R</userName>
     </turnout>
-    
-    
+
+
     <turnout systemName="CT2001" userName="Dunsmuir Upper TO 2 G" feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2001</systemName>
       <userName>Dunsmuir Upper TO 2 G</userName>
@@ -976,9 +976,9 @@
       <systemName>CT2056</systemName>
       <userName>Dunsmuir Upper TO 1 R</userName>
     </turnout>
-    
+
     <!-- CT2057 to CT2064 are in APB.xml -->
-    
+
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT2065</systemName>
       <comment>UTP to 16 repeater signal board</comment>
@@ -1132,7 +1132,7 @@
       <systemName>CT2116</systemName>
       <userName>20 R Upper R</userName>
     </turnout>
-    
+
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4001</systemName>
       <userName>Leaf East OS TO</userName>
@@ -2483,7 +2483,7 @@
     </turnout>
 
     <!-- CT8017 to CT8024 are in APB.xml -->
-    
+
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8025</systemName>
     </turnout>
@@ -2551,7 +2551,7 @@
       <systemName>CT8041</systemName>
       <userName>GLY LED Right Main Track</userName>
     </turnout>
-    
+
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8048</systemName>
       <userName>GLY LED Lower Left Wye</userName>
@@ -2560,7 +2560,7 @@
       <systemName>CT8045</systemName>
       <userName>GLY LED Upper Left Wye</userName>
     </turnout>
-    
+
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8042</systemName>
       <userName>GLY LED Lower Right Wye</userName>
@@ -3402,7 +3402,7 @@
       <systemName>CS2064</systemName>
       <comment>Spare in Mt Shasta DCCOD cable</comment>
     </sensor>
-    
+
     <sensor inverted="true">
       <systemName>CS4001</systemName>
       <userName>Leaf East OS Fascia</userName>
@@ -3457,7 +3457,7 @@
     <sensor inverted="false">
       <systemName>CS4012</systemName>
       <userName>Leaf Siding Occ</userName>
-      <comment>DCCOD 10th from left, wire "LF-10"</comment>      
+      <comment>DCCOD 10th from left, wire "LF-10"</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>CS4013</systemName>
@@ -3466,19 +3466,19 @@
     </sensor>
     <sensor inverted="false">
       <systemName>CS4014</systemName>
-      <userName>Leaf - Grass Lake Main Occ</userName>
+      <userName>Grass Lake Siding Occ</userName>
       <comment>DCCOD 4th from left, wire "GL-4"</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>CS4015</systemName>
-      <userName>Grass Lake Siding Occ</userName>
+      <userName>Leaf - Grass Lake Main Occ</userName>
       <comment>DCCOD 6th from left, wire "6 GrLk - Wd"</comment>
      </sensor>
     <sensor inverted="false">
       <systemName>CS4016</systemName>
       <comment>Unused</comment>
     </sensor>
-    
+
     <sensor systemName="CS5001" inverted="true" userName="37 Azalea East Fascia">
       <systemName>CS5001</systemName>
       <userName>37 Azalea East Fascia</userName>
@@ -5902,7 +5902,7 @@
       <routeOutputTurnout systemName="TO 31A" state="CLOSED" />
       <routeOutputTurnout systemName="CT5037" state="CLOSED" />
       <routeSensor systemName="Mott-Azalea Crossover Fascia" mode="onInactive" />
-    </route>    
+    </route>
     <route userName="Mott-Azalea Crossover (TO 33, 35) Thrown">
       <systemName>IO100</systemName>
       <userName>Mott-Azalea Crossover (TO 33, 35) Thrown</userName>
@@ -7005,7 +7005,7 @@
     </conditional>
 
   </conditionals>
-  
+
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Sep 09 01:00:00 PDT 1952" rate="3.0" run="no" master="yes" sync="yes" correct="no" display="no" startstopped="no" startsettime="no" startclockoption="0" showbutton="no" />
 
   <!--Written by JMRI version 2.9.6Build 201005222027 jake on Tue Oct 05 22:05:31 PDT 2010 $Id: XmlFile.java,v 1.53 2010/02/14 03:23:48 jacobsen Exp $-->
