@@ -775,7 +775,7 @@
     <positionablelabel x="140" y="75" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Main" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <sensoricon sensor="Grass Lake Main" x="527" y="120" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Grass Lake Main" x="527" y="96" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Grass Lake Main (CS4008)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -791,7 +791,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="490" y="113" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Main" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="490" y="92" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Main" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <sensoricon sensor="Grass Lake Occ OS East" x="575" y="105" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
@@ -1001,7 +1001,7 @@
     <positionablelabel x="1232" y="47" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="E Wb" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="33" y="203" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt;-- West" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1173" y="225" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="East --&gt;" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="481" y="92" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Siding" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="481" y="116" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Siding" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1130" y="92" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Siding" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="679" y="117" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Main" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1003" y="120" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Main" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -1161,7 +1161,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <sensoricon sensor="Grass Lake Siding Occ" x="526" y="96" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Grass Lake Siding Occ" x="527" y="120" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
