@@ -5,13 +5,13 @@
 
 import jmri
 
-class ConfigureLayoutLogic(jmri.jmrit.automat.AbstractAutomaton) :      
+class ConfigureLayoutLogic(jmri.jmrit.automat.AbstractAutomaton) :
   def init(self):
     return
   def handle(self):
     # delay long enough for debug init to run if present and polling to start if not
     self.waitMsec(8000)         # time is in milliseconds
-    
+
     print "ConfigureLayoutLogic starts"
 
     # start signal followers
@@ -75,16 +75,32 @@ class ConfigureLayoutLogic(jmri.jmrit.automat.AbstractAutomaton) :
     sensors.provideSensor("GLE PB Main Track").setState(INACTIVE)
     sensors.provideSensor("GLW PB Main Track").setState(INACTIVE)
     sensors.provideSensor("GLY PB Main").setState(INACTIVE)
-    
+
+    # init CTC outputs on helix
+    turnouts.provideTurnout("CT6305").setState(CLOSED)
+    turnouts.provideTurnout("CT6306").setState(CLOSED) # not needed?
+    turnouts.provideTurnout("CT6307").setState(CLOSED)
+    turnouts.provideTurnout("CT6308").setState(CLOSED)
+    turnouts.provideTurnout("CT6309").setState(CLOSED)
+    turnouts.provideTurnout("CT6310").setState(CLOSED)
+    turnouts.provideTurnout("CT6311").setState(CLOSED)
+    turnouts.provideTurnout("CT6312").setState(CLOSED)
+    turnouts.provideTurnout("CT6313").setState(CLOSED)
+    turnouts.provideTurnout("CT6314").setState(CLOSED)
+    turnouts.provideTurnout("CT6315").setState(CLOSED)
+    turnouts.provideTurnout("CT6316").setState(CLOSED)
+    turnouts.provideTurnout("CT6317").setState(CLOSED)
+    turnouts.provideTurnout("CT6318").setState(CLOSED)
+
     # set up the outside signal mast
     turnouts.getTurnout("CT9001").setState(THROWN)
     turnouts.getTurnout("CT9002").setState(THROWN)
     turnouts.getTurnout("CT9003").setState(THROWN)
     turnouts.getTurnout("CT9004").setState(THROWN)
     turnouts.getTurnout("ITSIGNALMASTAUTO").setState(CLOSED)
-    
+
     print "ConfigureLayoutLogic done"
-    
+
     return False              # all done, don't repeat again
 
 ConfigureLayoutLogic().start()          # create one of these, and start it running
