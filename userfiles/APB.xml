@@ -19,7 +19,7 @@
       <systemName>CT8020</systemName>
       <userName>MP 333.8 - Mt Shasta E Eb Green</userName>
     </turnout>
-    
+
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT8021</systemName>
       <userName>MP 335.3 - Grass Lake W Wb Green</userName>
@@ -70,7 +70,7 @@
       <systemName>CT4012</systemName>
       <userName>MP 338.3 - Leaf W Wb Green</userName>
     </turnout>
-    
+
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT4013</systemName>
       <userName>MP 338.9 - Leaf E Wb Green</userName>
@@ -87,7 +87,7 @@
       <systemName>CT4016</systemName>
       <userName>MP 338.9 - Leaf E Eb Red</userName>
     </turnout>
-    
+
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT173</systemName>
       <userName>MP 339.7 - Dorris W Eb Green</userName>
@@ -104,7 +104,7 @@
       <systemName>CT176</systemName>
       <userName>MP 339.7 - Dorris W Wb Red</userName>
     </turnout>
-    
+
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT161</systemName>
     </turnout>
@@ -133,7 +133,7 @@
     <turnout feedback="DIRECT" inverted="false" automate="Default">
       <systemName>CT168</systemName>
     </turnout>
-    
+
   </turnouts>
 
   <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
@@ -243,7 +243,7 @@
     </signalhead>
 
   </signalheads>
-  
+
   <signalelements class="jmri.jmrit.blockboss.configurexml.BlockBossLogicXml">
     <signalelement signal="MP 333.8 Wb APB" mode="1" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Shasta TC Main Left Approach</sensorname>
@@ -255,7 +255,7 @@
       <sensorname>Shasta - Grass Lake Main</sensorname>
       <comment />
     </signalelement>
-    
+
     <signalelement signal="MP 335.3 Wb APB" mode="1" watchedsignal1="MP 333.8 Wb APB" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Shasta - Grass Lake Main</sensorname>
       <comment>APB</comment>
@@ -1272,7 +1272,7 @@
       <iconmaps />
     </sensoricon>
   </paneleditor>
-  
+
   <!-- USS followers for the APB section -->
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
     <logix enabled="yes">
@@ -1417,7 +1417,7 @@
     </conditional>
     <conditional systemName="IX:USS CTC:OsIndicator:1:CT6212C1" antecedent="" logicType="1" triggerOnChange="yes">
       <systemName>IX:USS CTC:OsIndicator:1:CT6212C1</systemName>
-      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4015" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4008" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="2" systemName="CT6212" data="2" delay="0" string=" " />
       <conditionalAction option="2" type="2" systemName="CT6212" data="4" delay="0" string=" " />
     </conditional>
@@ -1429,7 +1429,7 @@
     </conditional>
     <conditional systemName="IX:USS CTC:OsIndicator:1:CT6289C1" antecedent="" logicType="1" triggerOnChange="yes">
       <systemName>IX:USS CTC:OsIndicator:1:CT6289C1</systemName>
-      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4008" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4015`" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="2" systemName="CT6289" data="2" delay="0" string=" " />
       <conditionalAction option="2" type="2" systemName="CT6289" data="4" delay="0" string=" " />
     </conditional>
@@ -1458,7 +1458,7 @@
       <conditionalAction option="2" type="2" systemName="CT6320" data="4" delay="0" string=" " />
     </conditional>
   </conditionals>
-    
+
 
   <!--Written by JMRI version 4.13.1ish+jake+20180717T1348Z+R66375f2b98 on Tue Jul 17 08:22:40 PDT 2018-->
 </layout-config>
