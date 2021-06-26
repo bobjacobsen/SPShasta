@@ -125,7 +125,25 @@
             <columns/>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:All">
-            <columns/>
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="252"/>
+                <column hidden="false" name="User Name" order="1" width="154"/>
+                <column hidden="false" name="ForgetState" order="11" width="69"/>
+                <column hidden="false" name="Delay to Active" order="8" width="70"/>
+                <column hidden="false" name="Column4" order="4" width="67"/>
+                <column hidden="false" name="QueryState" order="12" width="67"/>
+                <column hidden="false" name="Pull-Up/Down" order="10" width="70"/>
+                <column hidden="false" name="Delay to Inactive" order="9" width="70"/>
+                <column hidden="false" name="Use Global Delays" order="7" width="70"/>
+                <column hidden="false" name="Column6" order="6" width="55"/>
+                <column hidden="false" name="State" order="2" width="95"/>
+                <column hidden="false" name="Inverted" order="5" width="38"/>
+                <column hidden="false" name="System Name" order="0" width="46"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SignalHeadTableAction:Signal Heads">
             <columns/>
@@ -136,6 +154,7 @@
         <window xmlns="" class="Operator Controls" height="236.0" locX="949.0" locY="443.0" width="390.0"/>
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard" locX="0.0" locY="0.0"/>
         <window xmlns="" class="Grass Lake Wye panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="1080.0" locX="31.0" locY="0.0" width="1187.0"/>
         <window xmlns="" class="JMRI System Console" height="439.0" locX="31.0" locY="31.0" width="879.0"/>
         <window xmlns="" class="CMRI Node Status" height="420.0" locX="100.0" locY="520.0" width="360.0"/>
         <window xmlns="" class="Helix Inner Panel" height="238.0" locX="1214.0" locY="298.0" width="550.0"/>
@@ -147,9 +166,9 @@
         <window xmlns="" class="CTC Controls" height="341.0" locX="1465.0" locY="699.0" width="419.0"/>
         <window xmlns="" class="Weed Staging" height="420.0" locX="100.0" locY="520.0" width="360.0"/>
         <window xmlns="" class="Mount Shasta Crossing Control" height="176.0" locX="300.0" locY="500.0" width="325.0"/>
-        <window xmlns="" class="CTC Panel Image" height="720.0" locX="200.0" locY="999.0" width="1047.0"/>
+        <window xmlns="" class="CTC Panel Image" height="789.0" locX="-1.0" locY="85.0" width="1270.0"/>
         <window xmlns="" class="jmri.jmrix.nce.clockmon.ClockMonPanel" height="524.0" locX="1222.0" locY="56.0" width="518.0"/>
-        <window xmlns="" class="APB Panel " height="344.0" locX="292.0" locY="735.0" width="1350.0"/>
+        <window xmlns="" class="APB Panel " height="298.0" locX="658.0" locY="82.0" width="1350.0"/>
         <window xmlns="" class="Switchboard:1" height="939.0" locX="443.0" locY="106.0" width="1352.0"/>
         <window xmlns="" class="Outside Signal Controls" height="209.0" locX="439.0" locY="610.0" width="458.0"/>
         <window xmlns="" class="Grass Lake West panel" height="341.0" locX="722.0" locY="461.0" width="419.0"/>
@@ -160,7 +179,7 @@
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard:1" locX="570.0" locY="20.0"/>
         <window xmlns="" class="Helix Outer Panel" height="247.0" locX="960.0" locY="791.0" width="675.0"/>
         <window xmlns="" class="jmri.jmrit.display.switchboardEditor.SwitchboardEditor:Switchboard:2" locX="1404.0" locY="353.0"/>
-        <window xmlns="" class="PanelPro" height="263.0" locX="654.0" locY="408.0" width="612.0"/>
+        <window xmlns="" class="PanelPro" height="263.0" locX="947.0" locY="793.0" width="612.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="1080.0" locX="0.0" locY="0.0" width="1332.0"/>
         <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:Grass Lake East panel" locX="0.0" locY="0.0"/>
     </windowDetails>
