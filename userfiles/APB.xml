@@ -1429,7 +1429,7 @@
     </conditional>
     <conditional systemName="IX:USS CTC:OsIndicator:1:CT6289C1" antecedent="" logicType="1" triggerOnChange="yes">
       <systemName>IX:USS CTC:OsIndicator:1:CT6289C1</systemName>
-      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4015`" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalStateVariable operator="4" negated="no" type="2" systemName="CS4015" dataString="" num1="0" num2="0" triggersCalc="yes" />
       <conditionalAction option="1" type="2" systemName="CT6289" data="2" delay="0" string=" " />
       <conditionalAction option="2" type="2" systemName="CT6289" data="4" delay="0" string=" " />
     </conditional>
