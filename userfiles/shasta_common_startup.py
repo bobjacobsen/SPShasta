@@ -1,4 +1,4 @@
-# 
+#
 # Common startup sequence for SP Shasta
 #
 # Here instead of preferences to make it easier to maintain
@@ -86,8 +86,8 @@ jmri.web.server.WebServerAction().actionPerformed(None)
 # new CTC controls, done last so that turnouts are in final state  - this delays before operating
 execfile(jmri.util.FileUtil.getExternalFilename("preference:ConfigureCtcControlLogic.py"))
 
-# add a diagnostic switchboard
-cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CTC_switchpanel.xml")))
+# add a diagnostic switchboard - comment out most of the time, just for diagnostics
+# cm.load(java.io.File(jmri.util.FileUtil.getExternalFilename("preference:CTC_switchpanel.xml")))
 
 
 print "shasta_common_startup done"
