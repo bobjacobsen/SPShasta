@@ -13,12 +13,12 @@
 
 import jmri
 
-class setDebugStartup(jmri.jmrit.automat.AbstractAutomaton) :      
+class setDebugStartup(jmri.jmrit.automat.AbstractAutomaton) :
   def init(self):
     return
   def handle(self):
     self.waitMsec(1000)
-    
+
     print "CtcDebugInit starts"
 
     # sent all C/MRI sensors default INACTIVE
@@ -34,96 +34,96 @@ class setDebugStartup(jmri.jmrit.automat.AbstractAutomaton) :
     # and levers are set to default positions
     sensors.getSensor("CTC 01 N").setState(ACTIVE)
     sensors.getSensor("CTC 01 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 02 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 02 C").setState(ACTIVE)
     sensors.getSensor("CTC 02 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 03 N").setState(ACTIVE)
     sensors.getSensor("CTC 03 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 04 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 04 C").setState(ACTIVE)
     sensors.getSensor("CTC 04 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 05 N").setState(ACTIVE)
     sensors.getSensor("CTC 05 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 06 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 06 C").setState(ACTIVE)
     sensors.getSensor("CTC 06 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 07 N").setState(ACTIVE)
     sensors.getSensor("CTC 07 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 08 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 08 C").setState(ACTIVE)
     sensors.getSensor("CTC 08 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 09 N").setState(ACTIVE)
     sensors.getSensor("CTC 09 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 10 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 10 C").setState(ACTIVE)
     sensors.getSensor("CTC 10 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 13 N").setState(ACTIVE)
     sensors.getSensor("CTC 13 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 14 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 14 C").setState(ACTIVE)
     sensors.getSensor("CTC 14 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 16 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 16 C").setState(ACTIVE)
     sensors.getSensor("CTC 16 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 17 N").setState(ACTIVE)
     sensors.getSensor("CTC 17 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 18 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 18 C").setState(ACTIVE)
     sensors.getSensor("CTC 18 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 20 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 20 C").setState(ACTIVE)
     sensors.getSensor("CTC 20 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 21 N").setState(ACTIVE)
     sensors.getSensor("CTC 21 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 22 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 22 C").setState(ACTIVE)
     sensors.getSensor("CTC 22 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 25 N").setState(ACTIVE)
     sensors.getSensor("CTC 25 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 26 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 26 C").setState(ACTIVE)
     sensors.getSensor("CTC 26 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 27 N").setState(ACTIVE)
     sensors.getSensor("CTC 27 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 28 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 28 C").setState(ACTIVE)
     sensors.getSensor("CTC 28 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 29 N").setState(ACTIVE)
     sensors.getSensor("CTC 29 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 30 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 30 C").setState(ACTIVE)
     sensors.getSensor("CTC 30 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 31 N").setState(ACTIVE)
     sensors.getSensor("CTC 31 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 32 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 32 C").setState(ACTIVE)
     sensors.getSensor("CTC 32 R").setState(INACTIVE)
-    
+
     sensors.getSensor("CTC 34 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 34 C").setState(ACTIVE)
     sensors.getSensor("CTC 34 R").setState(INACTIVE)
@@ -152,14 +152,14 @@ class setDebugStartup(jmri.jmrit.automat.AbstractAutomaton) :
     sensors.getSensor("CTC 42 L").setState(INACTIVE)
     sensors.getSensor("IS CTC 42 C").setState(ACTIVE)
     sensors.getSensor("CTC 42 R").setState(INACTIVE)
-    
+
     # redo all the signal computations because we reset Turnouts above
     self.waitMsec(3000)
-    for logic in jmri.jmrit.blockboss.BlockBossLogic.entries() :
+    for logic in jmri.InstanceManager.getDefault(jmri.jmrit.blockboss.BlockBossLogicProvider).provideAll() :
         logic.setOutput()
-    
+
     print "CtcDebugInit done"
-    
+
     return False              # all done, don't repeat again
 
 setDebugStartup().start()          # create one of these, and start it running
